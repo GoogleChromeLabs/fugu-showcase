@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node index.mjs",
+    "fix": "npx prettier . --write"
+  },
+  "dependencies": {
+    "capture-website": "^2.3.0",
+    "filenamify-url": "^3.0.0",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}

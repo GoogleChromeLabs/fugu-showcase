@@ -1,0 +1,286 @@
+[
+  {
+    "timestamp": "2022-02-23T11:21:57.000Z",
+    "appURL": "https://editor.bridge-core.app/",
+    "sourceURL": "https://github.com/bridge-core/editor",
+    "usedAPIs": [
+      "Badging",
+      "File Handling",
+      "File System Access",
+      "Launch Handler",
+      "Window Controls Overlay"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T11:55:57.000Z",
+    "appURL": "https://sqliteviewer.app",
+    "sourceURL": null,
+    "usedAPIs": [
+      "File Handling",
+      "File System Access",
+      "Service Worker",
+      "Storage Estimation",
+      "Window Controls Overlay"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T12:26:05.000Z",
+    "appURL": "https://uspeaking.netlify.app/",
+    "sourceURL": "https://github.com/rafaelguinho/u-speaking-react",
+    "usedAPIs": [
+      "Persistent Storage",
+      "Service Worker"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T12:43:26.000Z",
+    "appURL": "https://anaesthetics.app/bluetooth/",
+    "sourceURL": "https://github.com/anaestheticsapp/bluetooth",
+    "usedAPIs": [
+      "Screen Wake Lock",
+      "Service Worker",
+      "WebBluetooth"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T12:45:53.000Z",
+    "appURL": "https://thelogbook.app",
+    "sourceURL": null,
+    "usedAPIs": [
+      "Add to Home Screen",
+      "File Handling",
+      "File System Access",
+      "Persistent Storage",
+      "Service Worker",
+      "Web Share",
+      "Window Controls Overlay"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T13:25:27.000Z",
+    "appURL": "https://md.nico.dev/",
+    "sourceURL": "https://github.com/nico-martin/markdown-editor/",
+    "usedAPIs": [
+      "Add to Home Screen",
+      "File Handling",
+      "File System Access",
+      "Launch Handler",
+      "Local Font Access"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T14:41:34.000Z",
+    "appURL": "https://edit.photostack.app",
+    "sourceURL": "https://github.com/photostack/photostack",
+    "usedAPIs": [
+      "File System Access",
+      "Service Worker",
+      "Web Share (Files)"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T14:44:17.000Z",
+    "appURL": "https://linkcleaner.app/",
+    "sourceURL": "https://github.com/corbindavenport/link-cleaner",
+    "usedAPIs": [
+      "Service Worker",
+      "Web Share",
+      "Web Share Target"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T15:23:21.000Z",
+    "appURL": "https://avg-colour.netlify.app/",
+    "sourceURL": "https://github.com/ThomasRettig/average-color",
+    "usedAPIs": [
+      "Add to Home Screen"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T17:01:10.000Z",
+    "appURL": "https://www.improv-wifi.com/",
+    "sourceURL": "https://github.com/improv-wifi/sdk-js/",
+    "usedAPIs": [
+      "WebBluetooth",
+      "WebSerial"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T17:01:44.000Z",
+    "appURL": "https://esphome.github.io/esp-web-tools/",
+    "sourceURL": "https://github.com/esphome/esp-web-tools",
+    "usedAPIs": [
+      "WebSerial"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T17:02:36.000Z",
+    "appURL": "https://esphome.io/",
+    "sourceURL": "https://github.com/esphome/dashboard/",
+    "usedAPIs": [
+      "WebSerial"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T19:35:14.000Z",
+    "appURL": "https://stackedit.io ",
+    "sourceURL": "https://github.com/benweet/stackedit/",
+    "usedAPIs": [
+      "Add to Home Screen"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T19:37:27.000Z",
+    "appURL": "https://hexed.it",
+    "sourceURL": null,
+    "usedAPIs": [
+      "Cache Storage"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T19:38:16.000Z",
+    "appURL": "https://makecode.com",
+    "sourceURL": null,
+    "usedAPIs": [
+      "WebBluetooth",
+      "WebSerial",
+      "WebUSB"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T20:09:29.000Z",
+    "appURL": "https://dannymoerkerke.github.io/file-tree",
+    "sourceURL": "https://github.com/DannyMoerkerke/file-tree",
+    "usedAPIs": [
+      "File System Access"
+    ]
+  },
+  {
+    "timestamp": "2022-02-23T20:11:46.000Z",
+    "appURL": "https://whatpwacando.today ",
+    "sourceURL": null,
+    "usedAPIs": [
+      "Add to Home Screen",
+      "Cache Storage",
+      "Contact Picker",
+      "File System Access",
+      "Gyroscope",
+      "Linear Acceleration Sensor",
+      "Media Session",
+      "Notification Triggers",
+      "Payment Request",
+      "Relative Orientation Sensor",
+      "Screen Wake Lock",
+      "Service Worker",
+      "Shortcuts",
+      "Web Share (Files)",
+      "Web Share",
+      "Web Share Target (Files)",
+      "Web Share Target",
+      "WebNFC"
+    ]
+  },
+  {
+    "timestamp": "2022-02-24T05:11:50.000Z",
+    "appURL": "https://yakuneba-community.com/welcome/YwAnWZXanuD7QckXWJwd",
+    "sourceURL": null,
+    "usedAPIs": [
+      "Absolute Orientation Sensor",
+      "Add to Home Screen",
+      "Async Clipboard",
+      "Background Fetch",
+      "Badging",
+      "Cache Storage"
+    ]
+  },
+  {
+    "timestamp": "2022-02-24T12:14:05.000Z",
+    "appURL": "https://loilo.github.io/diffr/",
+    "sourceURL": "https://github.com/loilo/diffr",
+    "usedAPIs": [
+      "Service Worker"
+    ]
+  },
+  {
+    "timestamp": "2022-02-25T09:23:57.000Z",
+    "appURL": "https://panel.hostmeapp.com",
+    "sourceURL": null,
+    "usedAPIs": [
+      "Add to Home Screen",
+      "Cache Storage",
+      "getInstalledRelatedApps",
+      "Push",
+      "Service Worker",
+      "Shortcuts"
+    ]
+  },
+  {
+    "timestamp": "2022-02-25T10:14:58.000Z",
+    "appURL": "https://tgstorage.com",
+    "sourceURL": "https://github.com/sh-a-v/tgstorage",
+    "usedAPIs": [
+      "Add to Home Screen",
+      "Cache Storage",
+      "Service Worker",
+      "Web Share (Files)",
+      "Web Share",
+      "Web Share Target (Files)",
+      "Web Share Target"
+    ]
+  },
+  {
+    "timestamp": "2022-02-27T10:48:33.000Z",
+    "appURL": "https://boxy-svg.com/app",
+    "sourceURL": null,
+    "usedAPIs": [
+      "Add to Home Screen",
+      "Async Clipboard",
+      "Cache Storage",
+      "EyeDropper",
+      "File System Access",
+      "Local Font Access",
+      "Service Worker"
+    ]
+  },
+  {
+    "timestamp": "2022-03-01T09:29:47.000Z",
+    "appURL": "https://mconverter.eu/",
+    "sourceURL": null,
+    "usedAPIs": [
+      "Add to Home Screen",
+      "Async Clipboard (Images)",
+      "Async Clipboard",
+      "Cache Storage",
+      "Digital Goods",
+      "getInstalledRelatedApps",
+      "Service Worker",
+      "Shortcuts",
+      "Web Share (Files)",
+      "Web Share Target (Files)"
+    ]
+  },
+  {
+    "timestamp": "2022-03-01T09:40:08.000Z",
+    "appURL": "https://tidepool.org/uploader",
+    "sourceURL": "https://github.com/tidepool-org/uploader",
+    "usedAPIs": [
+      "WebBluetooth",
+      "WebHID",
+      "WebSerial",
+      "WebUSB"
+    ]
+  },
+  {
+    "timestamp": "2022-03-31T12:04:37.000Z",
+    "appURL": "https://web.telegram.org/z/",
+    "sourceURL": "https://github.com/Ajaxy/telegram-tt",
+    "usedAPIs": [
+      "Async Clipboard (Images)",
+      "Async Clipboard",
+      "Badging",
+      "Cache Storage",
+      "Media Session",
+      "Service Worker"
+    ]
+  }
+]
