@@ -6,7 +6,8 @@
   "dependencies": {
     "capture-website": "^2.3.0",
     "filenamify-url": "^3.0.0",
-    "node-fetch": "^3.2.3"
+    "node-fetch": "^3.2.3",
+    "ogp-parser": "^0.6.0"
   },
   "devDependencies": {
     "prettier": "^2.6.2"
