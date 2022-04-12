@@ -102,8 +102,10 @@ const createHTML = async (data) => {
           <body>
             <main>
               <h1>
-                <img class="logo" src="${fuguSVG}" alt="Project Fugu blowfish logo" width="128" height="128">
-                Project Fugu API Showcase
+                <a href="./index.html">
+                  <img class="logo" src="${fuguSVG}" alt="Project Fugu blowfish logo" width="128" height="128">
+                  Project Fugu API Showcase
+                </a>
               </h1>
               <p>
                 This showcase of <a target="_blank" rel="noopener" href="https://web.dev/fugu-status/">Project Fugu APIs</a>

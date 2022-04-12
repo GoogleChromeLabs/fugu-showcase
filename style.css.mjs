@@ -24,7 +24,7 @@ export default `
     align-items: center;
   }
   main {
-    max-width: 100ch;
+    max-width: 95ch;
   }
   h1 {
     color: var(--accent-color);
@@ -67,6 +67,7 @@ export default `
     margin: 0;
     padding: 1rem;
   }
+  h1 > a,
   h2 > a {
     text-decoration: none;
     color: inherit;
