@@ -7,12 +7,13 @@ export default `
 
     --background-color: #eee;
     --foreground-color: #000;
-    --accent-color: deeppink;
+    --accent-color: #e60073;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --foreground-color: #fff;
       --background-color: #222;
+      --accent-color: deeppink;
     }
   }
   :target {

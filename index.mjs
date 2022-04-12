@@ -15,6 +15,7 @@ const SPREADSHEET_URL =
 const SCREENSHOT_OPTIONS = {
   width: 1280,
   height: 800,
+  overwrite: true,
 };
 
 const CANONICAL_URL = 'https://tomayac.github.io/fugu-showcase/data/';
@@ -41,7 +42,7 @@ const createRawData = async () => {
     path.resolve('data', 'data.json'),
     JSON.stringify(data, null, 2),
   );
-  console.log('Successfully wrote `data.json`.');
+  console.log('Successfully created `data.json`.');
   return data;
 };
 
@@ -49,15 +50,16 @@ const createScreenshots = async (data) => {
   const items = data.map((item) => [item.appURL, item.screenshot]);
   const tasks = items.map(([url, filename], i) => {
     data[i].screenshot = filename;
-    return () =>
-      captureWebsite.file(
+    return async () => {
+      await captureWebsite.file(
         url,
         path.resolve('data', filename),
         SCREENSHOT_OPTIONS,
       );
+      console.log(`Successfully created ${filename}.`);
+    };
   });
   await limit(tasks, 5);
-  console.log('Successfully wrote screenshots.');
 };
 
 const createHTML = async (data) => {
@@ -154,8 +156,8 @@ const createHTML = async (data) => {
             return `
             <article id="${anchor}" class="${classes.join(' ')}">
               <h2><a target="_blank" rel="noopener" href="${item.appURL}">${
-                item.title
-              }</a></h2>
+              item.title
+            }</a></h2>
               <figure>
                 <a target="_blank" rel="noopener" href="${item.appURL}">
                   <img src="${item.screenshot}" width="${
@@ -285,15 +287,17 @@ const createHTML = async (data) => {
 
   const html = `${header}${form}${datalist}${div}${footer}`;
   await writeFile(path.resolve('data', 'index.html'), html);
-  console.log('Successfully wrote `index.html`.');
+  console.log('Successfully created `index.html`.');
 };
 
 (async () => {
   const data = await createRawData();
   // await createScreenshots(data);
-  await createScreenshots([{
-    appURL: CANONICAL_URL,
-    screenshot: `${filenamifyUrl(CANONICAL_URL)
-  }.png`,}])
+  await createScreenshots([
+    {
+      appURL: CANONICAL_URL,
+      screenshot: `${filenamifyUrl(CANONICAL_URL)}.png`,
+    },
+  ]);
   await createHTML(data);
 })();
