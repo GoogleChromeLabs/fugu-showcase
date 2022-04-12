@@ -4,6 +4,7 @@ import { writeFile } from 'fs/promises';
 import captureWebsite from 'capture-website';
 import filenamifyUrl from 'filenamify-url';
 import ogp from 'ogp-parser';
+import sharp from 'sharp';
 
 import limit from './utils.mjs';
 import fuguSVG from './fugu.svg.mjs';
@@ -16,6 +17,7 @@ const SCREENSHOT_OPTIONS = {
   width: 1280,
   height: 800,
   overwrite: true,
+  type: 'webp',
 };
 
 const CANONICAL_URL = 'https://tomayac.github.io/fugu-showcase/data/';
@@ -35,7 +37,7 @@ const createRawData = async () => {
           url: api.replace(/.*?\((https.*)\)/g, '$1'),
         };
       }),
-      screenshot: `${filenamifyUrl(row[1])}.png`,
+      screenshot: `${filenamifyUrl(row[1])}.${SCREENSHOT_OPTIONS.type}`,
     };
   });
   await writeFile(
@@ -46,17 +48,31 @@ const createRawData = async () => {
   return data;
 };
 
-const createScreenshots = async (data) => {
+const createScreenshots = async (data, overrideType = null) => {
   const items = data.map((item) => [item.appURL, item.screenshot]);
   const tasks = items.map(([url, filename], i) => {
     data[i].screenshot = filename;
-    return async () => {
-      await captureWebsite.file(
-        url,
-        path.resolve('data', filename),
-        SCREENSHOT_OPTIONS,
-      );
-      console.log(`Successfully created ${filename}.`);
+    return () => {
+      SCREENSHOT_OPTIONS.type = overrideType || SCREENSHOT_OPTIONS.type;
+      return captureWebsite
+        .buffer(url, path.resolve('data', filename), SCREENSHOT_OPTIONS)
+        .then((buffer) => {
+          if (!overrideType) {
+            return sharp(buffer)
+              .resize({
+                width: SCREENSHOT_OPTIONS.width / 4,
+                height: SCREENSHOT_OPTIONS.height / 4,
+              })
+              .toBuffer()
+              .then((data) => {
+                console.log(`Successfully created ${filename}.`);
+                return writeFile(path.resolve('data', filename), data);
+              })
+              .catch((err) => console.log(err));
+          }
+          console.log(`Successfully created ${filename}.`);
+          return writeFile(path.resolve('data', filename), buffer);
+        });
     };
   });
   await limit(tasks, 5);
@@ -152,7 +168,7 @@ const createHTML = async (data) => {
                   .replace(/-*$/g, ''),
               );
             });
-            const anchor = item.screenshot.replace('.png', '');
+            const anchor = item.screenshot.replace(SCREENSHOT_OPTIONS.type, '');
             return `
             <article id="${anchor}" class="${classes.join(' ')}">
               <h2><a target="_blank" rel="noopener" href="${item.appURL}">${
@@ -292,12 +308,15 @@ const createHTML = async (data) => {
 
 (async () => {
   const data = await createRawData();
-  // await createScreenshots(data);
-  await createScreenshots([
-    {
-      appURL: CANONICAL_URL,
-      screenshot: `${filenamifyUrl(CANONICAL_URL)}.png`,
-    },
-  ]);
+  await createScreenshots(data);
+  await createScreenshots(
+    [
+      {
+        appURL: CANONICAL_URL,
+        screenshot: `${filenamifyUrl(CANONICAL_URL)}.png`,
+      },
+    ],
+    'png',
+  );
   await createHTML(data);
 })();

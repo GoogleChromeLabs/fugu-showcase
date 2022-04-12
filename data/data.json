@@ -25,7 +25,7 @@
         "url": "https://web.dev/window-controls-overlay/"
       }
     ],
-    "screenshot": "editor.bridge-core.app.png"
+    "screenshot": "editor.bridge-core.app.webp"
   },
   {
     "timestamp": "2022-02-23T11:55:57.000Z",
@@ -53,7 +53,7 @@
         "url": "https://web.dev/window-controls-overlay/"
       }
     ],
-    "screenshot": "sqliteviewer.app.png"
+    "screenshot": "sqliteviewer.app.webp"
   },
   {
     "timestamp": "2022-02-23T12:26:05.000Z",
@@ -69,7 +69,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
       }
     ],
-    "screenshot": "uspeaking.netlify.app.png"
+    "screenshot": "uspeaking.netlify.app.webp"
   },
   {
     "timestamp": "2022-02-23T12:43:26.000Z",
@@ -89,7 +89,7 @@
         "url": "https://web.dev/bluetooth/"
       }
     ],
-    "screenshot": "anaesthetics.app!bluetooth.png"
+    "screenshot": "anaesthetics.app!bluetooth.webp"
   },
   {
     "timestamp": "2022-02-23T12:45:53.000Z",
@@ -125,7 +125,7 @@
         "url": "https://web.dev/window-controls-overlay/"
       }
     ],
-    "screenshot": "thelogbook.app.png"
+    "screenshot": "thelogbook.app.webp"
   },
   {
     "timestamp": "2022-02-23T13:25:27.000Z",
@@ -153,7 +153,7 @@
         "url": "https://web.dev/local-fonts/"
       }
     ],
-    "screenshot": "md.nico.dev.png"
+    "screenshot": "md.nico.dev.webp"
   },
   {
     "timestamp": "2022-02-23T14:41:34.000Z",
@@ -173,7 +173,7 @@
         "url": "https://web.dev/web-share/"
       }
     ],
-    "screenshot": "edit.photostack.app.png"
+    "screenshot": "edit.photostack.app.webp"
   },
   {
     "timestamp": "2022-02-23T14:44:17.000Z",
@@ -193,7 +193,7 @@
         "url": "https://web.dev/web-share-target/"
       }
     ],
-    "screenshot": "linkcleaner.app.png"
+    "screenshot": "linkcleaner.app.webp"
   },
   {
     "timestamp": "2022-02-23T15:23:21.000Z",
@@ -205,7 +205,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
       }
     ],
-    "screenshot": "avg-colour.netlify.app.png"
+    "screenshot": "avg-colour.netlify.app.webp"
   },
   {
     "timestamp": "2022-02-23T17:01:10.000Z",
@@ -221,7 +221,7 @@
         "url": "https://web.dev/serial/"
       }
     ],
-    "screenshot": "improv-wifi.com.png"
+    "screenshot": "improv-wifi.com.webp"
   },
   {
     "timestamp": "2022-02-23T17:01:44.000Z",
@@ -233,7 +233,7 @@
         "url": "https://web.dev/serial/"
       }
     ],
-    "screenshot": "esphome.github.io!esp-web-tools.png"
+    "screenshot": "esphome.github.io!esp-web-tools.webp"
   },
   {
     "timestamp": "2022-02-23T17:02:36.000Z",
@@ -245,7 +245,7 @@
         "url": "https://web.dev/serial/"
       }
     ],
-    "screenshot": "esphome.io.png"
+    "screenshot": "esphome.io.webp"
   },
   {
     "timestamp": "2022-02-23T19:35:14.000Z",
@@ -257,7 +257,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
       }
     ],
-    "screenshot": "stackedit.io.png"
+    "screenshot": "stackedit.io.webp"
   },
   {
     "timestamp": "2022-02-23T19:37:27.000Z",
@@ -269,7 +269,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
       }
     ],
-    "screenshot": "hexed.it.png"
+    "screenshot": "hexed.it.webp"
   },
   {
     "timestamp": "2022-02-23T19:38:16.000Z",
@@ -289,7 +289,7 @@
         "url": "https://web.dev/usb/"
       }
     ],
-    "screenshot": "makecode.com.png"
+    "screenshot": "makecode.com.webp"
   },
   {
     "timestamp": "2022-02-23T20:09:29.000Z",
@@ -301,7 +301,7 @@
         "url": "https://web.dev/file-system-access/"
       }
     ],
-    "screenshot": "dannymoerkerke.github.io!file-tree.png"
+    "screenshot": "dannymoerkerke.github.io!file-tree.webp"
   },
   {
     "timestamp": "2022-02-23T20:11:46.000Z",
@@ -381,7 +381,7 @@
         "url": "https://web.dev/nfc/"
       }
     ],
-    "screenshot": "whatpwacando.today.png"
+    "screenshot": "whatpwacando.today.webp"
   },
   {
     "timestamp": "2022-02-24T05:11:50.000Z",
@@ -413,7 +413,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
       }
     ],
-    "screenshot": "yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.png"
+    "screenshot": "yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp"
   },
   {
     "timestamp": "2022-02-24T12:14:05.000Z",
@@ -425,7 +425,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
       }
     ],
-    "screenshot": "loilo.github.io!diffr.png"
+    "screenshot": "loilo.github.io!diffr.webp"
   },
   {
     "timestamp": "2022-02-25T09:23:57.000Z",
@@ -457,7 +457,7 @@
         "url": "https://web.dev/app-shortcuts/"
       }
     ],
-    "screenshot": "panel.hostmeapp.com.png"
+    "screenshot": "panel.hostmeapp.com.webp"
   },
   {
     "timestamp": "2022-02-25T10:14:58.000Z",
@@ -493,7 +493,7 @@
         "url": "https://web.dev/web-share-target/"
       }
     ],
-    "screenshot": "tgstorage.com.png"
+    "screenshot": "tgstorage.com.webp"
   },
   {
     "timestamp": "2022-02-27T10:48:33.000Z",
@@ -529,7 +529,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
       }
     ],
-    "screenshot": "boxy-svg.com!app.png"
+    "screenshot": "boxy-svg.com!app.webp"
   },
   {
     "timestamp": "2022-03-01T09:29:47.000Z",
@@ -577,7 +577,7 @@
         "url": "https://web.dev/web-share-target/"
       }
     ],
-    "screenshot": "mconverter.eu.png"
+    "screenshot": "mconverter.eu.webp"
   },
   {
     "timestamp": "2022-03-01T09:40:08.000Z",
@@ -601,7 +601,7 @@
         "url": "https://web.dev/usb/"
       }
     ],
-    "screenshot": "tidepool.org!uploader.png"
+    "screenshot": "tidepool.org!uploader.webp"
   },
   {
     "timestamp": "2022-03-31T12:04:37.000Z",
@@ -633,7 +633,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
       }
     ],
-    "screenshot": "web.telegram.org!z.png"
+    "screenshot": "web.telegram.org!z.webp"
   },
   {
     "timestamp": "2022-04-11T09:35:10.000Z",
@@ -673,6 +673,6 @@
         "url": "https://web.dev/window-controls-overlay/"
       }
     ],
-    "screenshot": "svgco.de.png"
+    "screenshot": "svgco.de.webp"
   }
 ]

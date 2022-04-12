@@ -10,6 +10,7 @@
     "ogp-parser": "^0.6.0"
   },
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "sharp": "^0.30.3"
   }
 }
