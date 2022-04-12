@@ -88,7 +88,7 @@ const createHTML = async (data) => {
           <head>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Fugu API Showcase</title>
+            <title>Project Fugu API Showcase</title>
             <link rel="icon" href="${fuguSVG}" />
             ${style}
             <noscript>
@@ -106,8 +106,10 @@ const createHTML = async (data) => {
                 Project Fugu API Showcase
               </h1>
               <p>
-                This showcase is sourced by community submissions. You can propose missing apps by submitting them via this
+                This showcase of <a target="_blank" rel="noopener" href="https://web.dev/fugu-status/">Project Fugu APIs</a>
+                is sourced by community submissions. You can propose missing apps by submitting them via this
                 <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform">form</a>.
+                Submissions are reviewed on a regular basis and the site will be updated accordingly.
               </p>`;
 
   const form = `
