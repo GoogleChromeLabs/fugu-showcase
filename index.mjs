@@ -17,6 +17,8 @@ const SCREENSHOT_OPTIONS = {
   height: 800,
 };
 
+const CANONICAL_URL = 'https://tomayac.github.io/fugu-showcase/data/';
+
 const createRawData = async () => {
   const response = await fetch(SPREADSHEET_URL);
   const json = await response.json();
@@ -88,8 +90,15 @@ const createHTML = async (data) => {
           <head>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="description" content="A showcase of Project Fugu APIs sourced by community submissions." />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="Project Fugu API Showcase" />
+            <meta property="og:description" content="A showcase of Project Fugu APIs sourced by community submissions." />
+            <meta property="og:url" content="${CANONICAL_URL}" />
+            <meta property="og:image" content="${CANONICAL_URL}tomayac.github.io!fugu-showcase!data.png" />
             <title>Project Fugu API Showcase</title>
             <link rel="icon" href="${fuguSVG}" />
+            <link ref="canonical" href="${CANONICAL_URL}" />
             ${style}
             <noscript>
               <style>
@@ -282,5 +291,9 @@ const createHTML = async (data) => {
 (async () => {
   const data = await createRawData();
   // await createScreenshots(data);
+  await createScreenshots([{
+    appURL: CANONICAL_URL,
+    screenshot: `${filenamifyUrl(CANONICAL_URL)
+  }.png`,}])
   await createHTML(data);
 })();
