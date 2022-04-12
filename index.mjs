@@ -268,6 +268,7 @@ const createHTML = async (data) => {
               Made by <a target="_blank" rel="noopener" href="https://twitter.com/tomayac">@tomayac</a>.
               You can propose missing apps by submitting them via this
               <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform">form</a>.
+              Source code on <a target="_blank" rel="noopener" href="https://github.com/tomayac/fugu-showcase">GitHub</a>.
             </footer>
           </main>
         </body>
