@@ -6,7 +6,7 @@ import filenamifyUrl from 'filenamify-url';
 import ogp from 'ogp-parser';
 
 import limit from './utils.mjs';
-import fuguSVG  from './fugu.svg.mjs';
+import fuguSVG from './fugu.svg.mjs';
 import style from './style.css.mjs';
 
 const SPREADSHEET_URL =
@@ -61,9 +61,23 @@ const createScreenshots = async (data) => {
 const createHTML = async (data) => {
   await Promise.all(
     data.map(async (item) => {
-      return ogp(item.appURL, { skipOembed: true }).then(
-        (meta) => (item.meta = meta),
-      );
+      return ogp(item.appURL, { skipOembed: true }).then((meta) => {
+        item.meta = meta;
+        item.title =
+          item.meta.ogp?.['og:title'] ||
+          item.meta.seo?.title ||
+          item.meta.seo?.['og:title'] ||
+          item.meta.seo?.['twitter:title'] ||
+          item.meta.title ||
+          new URL(item.appURL).hostname;
+        item.description =
+          item.meta.ogp?.['og:description'] ||
+          item.meta.seo?.description ||
+          item.meta.seo?.['og:description'] ||
+          item.meta.seo?.['twitter:description'] ||
+          item.meta.description ||
+          '';
+      });
     }),
   );
   const availableAPIs = new Set();
@@ -77,9 +91,24 @@ const createHTML = async (data) => {
             <title>Fugu API Showcase</title>
             <link rel="icon" href="${fuguSVG}" />
             ${style}
+            <noscript>
+              <style>
+                article {
+                  display: block;
+                }
+              </style>
+            </noscript>
           </head>
           <body>
-            <h1>Fugu API Showcase</h1>`;
+            <main>
+              <h1>
+                <img class="logo" src="${fuguSVG}" alt="Project Fugu blowfish logo" width="128" height="128">
+                Project Fugu API Showcase
+              </h1>
+              <p>
+                This showcase is sourced by community submissions. You can propose missing apps by submitting them via this
+                <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform">form</a>.
+              </p>`;
 
   const form = `
       <form>
@@ -87,67 +116,63 @@ const createHTML = async (data) => {
           Filter used APIs:
           <input list="available-apis" id="search" type="search" />
         </label>
+        <button type="reset">Clear</button>
       </form>`;
 
   const div = `
       <div class=container>
         ${data
+          .sort((a, b) =>
+            a.title[0].toLowerCase().localeCompare(b.title[0].toLowerCase()),
+          )
           .map((item) => {
-            const title =
-              item.meta.ogp?.['og:title'] ||
-              item.meta.seo?.title ||
-              item.meta.seo?.['og:title'] ||
-              item.meta.seo?.['twitter:title'] ||
-              item.meta.title ||
-              new URL(item.appURL).hostname;
-            const description =
-              item.meta.ogp?.['og:description'] ||
-              item.meta.seo?.description ||
-              item.meta.seo?.['og:description'] ||
-              item.meta.seo?.['twitter:description'] ||
-              item.meta.description ||
-              '';
             const classes = [];
             item.usedAPIs.forEach((usedAPI) => {
               availableAPIs.add(usedAPI.name);
               classes.push(
-                usedAPI.name.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '')
+                usedAPI.name
+                  .toLowerCase()
+                  .replace(/[^a-z0-9]/gi, '-')
+                  .replace(/-+/g, '-')
+                  .replace(/-*$/g, ''),
               );
             });
+            const anchor = item.screenshot.replace('.png', '');
             return `
-            <article class="${classes.join(' ')}">
-              <h2><a target="_blank" rel="noopener" href="${
-                item.appURL
-              }">${title}</a></h2>
+            <article id="${anchor}" class="${classes.join(' ')}">
+              <h2><a target="_blank" rel="noopener" href="${item.appURL}">${
+                item.title
+              }</a></h2>
               <figure>
                 <a target="_blank" rel="noopener" href="${item.appURL}">
                   <img src="${item.screenshot}" width="${
               SCREENSHOT_OPTIONS.width
-            }" height="${
-              SCREENSHOT_OPTIONS.height
-            }" alt="Screenshot of ${title}" />
+            }" height="${SCREENSHOT_OPTIONS.height}" alt="Screenshot of ${
+              item.title
+            }">
                 </a>
                 ${
-                  description
-                    ? `<figcaption class="description">${description}</figcaption>`
+                  item.description
+                    ? `<figcaption class="description">${item.description}</figcaption>`
                     : ''
                 }
               </figure>
               ${
                 item.sourceURL
-                  ? `<span class="source"><a target="_blank" rel="noopener" href="${item.sourceURL}">Source</a></span>`
+                  ? `<span class="source"><a target="_blank" rel="noopener" href="${item.sourceURL}">Source code</a></span>`
                   : ''
               }
               <span class="launch"><a target="_blank" rel="noopener" href="${
                 item.appURL
-              }">Launch</a></span>
-              <p>Used APIs:</p>
+              }">Launch app</a></span>
+              <h3>Used APIs:</h3>
               <ul>${item.usedAPIs
                 .map(
                   (usedAPI) =>
                     `<li><a target="_blank" rel="noopener" href="${usedAPI.url}">${usedAPI.name}</a></li>`,
                 )
                 .join('')}</ul>
+              <a class="anchor" href="#${anchor}">#</a>
             </article>
           `;
           })
@@ -156,6 +181,7 @@ const createHTML = async (data) => {
       <script>
         const articles = document.querySelectorAll('article');
         const options = document.querySelectorAll('option');
+        const button = document.querySelector('button');
         const input = document.querySelector('input');
         const form = document.querySelector('form');
 
@@ -169,14 +195,18 @@ const createHTML = async (data) => {
           .join(', ')
           .toLowerCase()}].map(slugify);
 
+        button.addEventListener('click', () => {
+          input.value = '';
+          input.dispatchEvent(new Event('input'));
+        });
+
         form.addEventListener('submit', (e) => {
           e.preventDefault();
         });
 
         options.forEach((option) => {
           option.addEventListener('click', (e) => {
-            const value = slugify(option.value);
-            input.value = value;
+            input.value = option.value;
             input.dispatchEvent(new Event('input'));
           });
         });
@@ -206,7 +236,12 @@ const createHTML = async (data) => {
           const url = new URL(window.location);
           const api = url.searchParams.get('api');
           if (api && availableAPIs.includes(api)) {
-            input.value = api;
+            for (const option of options) {
+              if (slugify(option.value) === api) {
+                input.value = option.value;
+                break;
+              }
+            }
           } else {
             url.searchParams.delete('api');
             window.history.pushState({}, '', url);
@@ -224,7 +259,15 @@ const createHTML = async (data) => {
       )
       .join('')}</datalist>`;
 
-  const footer = `</body></html>`;
+  const footer = `
+            <footer>
+              Made by <a target="_blank" rel="noopener" href="https://twitter.com/tomayac">@tomayac</a>.
+              You can propose missing apps by submitting them via this
+              <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform">form</a>.
+            </footer>
+          </main>
+        </body>
+      </html>`;
 
   const html = `${header}${form}${datalist}${div}${footer}`;
   await writeFile(path.resolve('data', 'index.html'), html);
@@ -233,6 +276,6 @@ const createHTML = async (data) => {
 
 (async () => {
   const data = await createRawData();
-  await createScreenshots(data);
+  // await createScreenshots(data);
   await createHTML(data);
 })();

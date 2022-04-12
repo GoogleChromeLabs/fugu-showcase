@@ -3,6 +3,7 @@ export default `
   :root {
     color-scheme: dark light;
     font-family: system-ui, sans-serif;
+    scroll-padding-top: 1rem;
 
     --background-color: #eee;
     --foreground-color: #000;
@@ -14,15 +15,31 @@ export default `
       --background-color: #222;
     }
   }
+  :target {
+    outline: 0.25rem solid var(--accent-color);
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    max-width: 100ch;
+  }
   h1 {
     color: var(--accent-color);
+  }
+  .logo {
+    width: 2.5rem;
+    height: auto;
+    vertical-align: bottom;
   }
   img {
     max-width: 100%;
     height: auto;
     filter: none;
   }
-  img:hover {
+  img:not(.logo):hover {
     filter: contrast(1.2);
   }
   input {
@@ -34,6 +51,15 @@ export default `
     background-color: var(--background-color);
     border-radius: 0.5rem;
     border: solid .25rem var(--background-color);
+    position: relative;
+  }
+  p,
+  form {
+    border-radius: 0.5rem;
+    border: solid .25rem var(--background-color);
+    margin-block: 1rem;
+    padding: 0.5rem;
+    background-color: var(--background-color);
   }
   article > h2 {
     background-color: var(--background-color);
@@ -45,6 +71,14 @@ export default `
     text-decoration: none;
     color: inherit;
   }
+  h3 {
+    padding-inline: 1rem;
+  }
+  .anchor {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
   figure {
     margin: 0;
   }
@@ -53,9 +87,6 @@ export default `
   }
   a {
     color: var(--accent-color);
-  }
-  p {
-    padding-inline: 1rem;
   }
   ul {
     padding-inline: 1rem;
@@ -112,5 +143,11 @@ export default `
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-}
+  }
+  footer {
+    padding: 0.5rem;
+    border-top: solid 0.25rem var(--background-color);
+    margin-block: 2rem;
+    font-size: 0.8rem;
+  }
 </style>`;
