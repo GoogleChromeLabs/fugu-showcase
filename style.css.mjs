@@ -139,6 +139,9 @@ export default `
       filter: invert(1);
     }
   }
+  .share {
+    display: none;
+  }
   .container {
     margin-block-start: 1rem;
     display: grid;

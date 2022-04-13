@@ -10,6 +10,8 @@ import limit from './utils.mjs';
 import fuguSVG from './fugu.svg.mjs';
 import style from './style.css.mjs';
 
+const SKIP_SCREENSHOTS = true;
+
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
 
@@ -69,6 +71,9 @@ const createScreenshots = async (data, overrideType = null) => {
         data[i].screenshot = filename;
       } else {
         data[i - length].screenshotDark = filename;
+      }
+      if (SKIP_SCREENSHOTS) {
+        return;
       }
       return captureWebsite.buffer(url, SCREENSHOT_OPTIONS).then((buffer) => {
         if (!overrideType) {
@@ -193,8 +198,12 @@ const createHTML = async (data) => {
               <figure>
                 <a target="_blank" rel="noopener" href="${item.appURL}">
                   <picture>
-                    <source srcset="${item.screenshotDark}" media="(prefers-color-scheme: dark)" />
-                    <source srcset="${item.screenshot}" media="(prefers-color-scheme: light)" />
+                    <source srcset="${
+                      item.screenshotDark
+                    }" media="(prefers-color-scheme: dark)" />
+                    <source srcset="${
+                      item.screenshot
+                    }" media="(prefers-color-scheme: light)" />
                     <img src="${item.screenshot}"
                         width="${SCREENSHOT_OPTIONS.width}"
                         height="${SCREENSHOT_OPTIONS.height}"
@@ -215,6 +224,7 @@ const createHTML = async (data) => {
               <span class="launch"><a target="_blank" rel="noopener" href="${
                 item.appURL
               }">Launch app</a></span>
+              <button type="button" class="share">Share app</button>
               <h3>Used APIs:</h3>
               <ul>${item.usedAPIs
                 .map(
@@ -231,9 +241,10 @@ const createHTML = async (data) => {
       <script>
         const articles = document.querySelectorAll('article');
         const options = document.querySelectorAll('option');
-        const button = document.querySelector('button');
+        const button = document.querySelector('button[type="reset"]');
         const input = document.querySelector('input');
         const form = document.querySelector('form');
+        const shareButtons = document.querySelectorAll('.share');
 
         const slugify = (string) => {
           return string.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '');
@@ -298,6 +309,31 @@ const createHTML = async (data) => {
           }
           input.dispatchEvent(new Event('input'));
         });
+
+        if ('share' in navigator && 'canShare' in navigator) {
+          shareButtons.forEach((button) => {
+            button.style.display = 'block';
+            button.addEventListener('click', async (e) => {
+              const article = e.target.closest('article');
+              const img = article.querySelector('img');
+              const blob = await fetch(img.currentSrc).then((res) => res.blob());
+              const file = new File([blob], img.getAttribute('src'), { type: blob.type });
+              const data = {
+                text: \`👀 I just found the app “\${article.querySelector('h2').textContent}”: \${article.querySelector('a').href}.\n\nAmong others, it uses these cool Project Fugu APIs:\n\n\${Array.from(article.querySelectorAll('li')).slice(0, 3).map(li => \`👉 \${li.textContent}\`).join('\\n')}\n\n(via the 🐡 \${document.title}: ${CANONICAL_URL})\`.trim(),
+                files: [file],
+              }
+              if (navigator.canShare(data)) {
+                try {
+                  await navigator.share(data);
+                } catch (err) {
+                  if (err.name !== 'AbortError') {
+                    console.error(err.name, err.message);
+                  }
+                }
+              }
+            });
+          });
+        }
       </script>`;
 
   const datalist = `
