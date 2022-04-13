@@ -674,5 +674,25 @@
       }
     ],
     "screenshot": "svgco.de.webp"
+  },
+  {
+    "timestamp": "2022-04-13T10:31:31.000Z",
+    "appURL": "https://tomayac.github.io/fugu-showcase/data/",
+    "sourceURL": "https://github.com/tomayac/fugu-showcase",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share (Files)",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "screenshot": "tomayac.github.io!fugu-showcase!data.webp"
   }
 ]

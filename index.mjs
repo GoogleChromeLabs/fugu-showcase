@@ -9,8 +9,10 @@ import sharp from 'sharp';
 import limit from './utils.mjs';
 import fuguSVG from './fugu.svg.mjs';
 import style from './style.css.mjs';
+import sw from './sw.mjs';
+import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = true;
+const SKIP_SCREENSHOTS = false;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
@@ -138,6 +140,7 @@ const createHTML = async (data) => {
             <title>Project Fugu API Showcase</title>
             <link rel="icon" href="${fuguSVG}" />
             <link ref="canonical" href="${CANONICAL_URL}" />
+            <link rel="manifest" href="manifest.webmanifest" />
             ${style}
             <noscript>
               <style>
@@ -339,6 +342,12 @@ const createHTML = async (data) => {
             });
           });
         }
+
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js');
+          });
+        }
       </script>`;
 
   const datalist = `
@@ -366,6 +375,26 @@ const createHTML = async (data) => {
   console.log('Successfully created `index.html`.');
 };
 
+const createServiceWorker = async (data) => {
+  const serviceWorker = sw
+    .replace(
+      /\s*\/\* Screenshots \*\//,
+      data
+        .map(
+          (item) => `    '${item.screenshot}',\n    '${item.screenshotDark}'`,
+        )
+        .join(',\n'),
+    )
+    .replaceAll('RANDOM', Math.random().toString().substring(2));
+  await writeFile(path.resolve('data', 'sw.js'), serviceWorker);
+  console.log('Successfully created `sw.js`.');
+};
+
+const createWebManifest = async () => {
+  await writeFile(path.resolve('data', 'manifest.webmanifest'), manifest);
+  console.log('Successfully created `manifest.webmanifest`.');
+};
+
 (async () => {
   const data = await createRawData();
   await createScreenshots(data);
@@ -378,5 +407,7 @@ const createHTML = async (data) => {
     ],
     'png',
   );
-  await createHTML(data);
+  createHTML(data);
+  createServiceWorker(data);
+  createWebManifest();
 })();
