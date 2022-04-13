@@ -976,7 +976,7 @@ ${Array.from(article.querySelectorAll('li')).slice(0, 3).map(li => `👉 ${li.te
 
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js');
+            navigator.serviceWorker.register('sw.js');
           });
         }
       </script>

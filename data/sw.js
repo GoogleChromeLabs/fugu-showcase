@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-7299821948498713';
-  const MEDIA_CACHE = 'media-7299821948498713';
+  const APP_SHELL_CACHE = 'app-shell-8679936743367271';
+  const MEDIA_CACHE = 'media-8679936743367271';
 
   const APP_SHELL_FILES = [
     './',
