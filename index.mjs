@@ -17,6 +17,7 @@ const SCREENSHOT_OPTIONS = {
   width: 1280,
   height: 800,
   overwrite: true,
+  delay: 2,
   type: 'webp',
 };
 
@@ -49,30 +50,45 @@ const createRawData = async () => {
 };
 
 const createScreenshots = async (data, overrideType = null) => {
-  const items = data.map((item) => [item.appURL, item.screenshot]);
+  let items = data.map((item) => [item.appURL, item.screenshot]);
+  const length = items.length;
+  if (!overrideType) {
+    items = items.concat(items);
+  }
   const tasks = items.map(([url, filename], i) => {
-    data[i].screenshot = filename;
     return () => {
       SCREENSHOT_OPTIONS.type = overrideType || SCREENSHOT_OPTIONS.type;
-      return captureWebsite
-        .buffer(url, path.resolve('data', filename), SCREENSHOT_OPTIONS)
-        .then((buffer) => {
-          if (!overrideType) {
-            return sharp(buffer)
-              .resize({
-                width: SCREENSHOT_OPTIONS.width / 4,
-                height: SCREENSHOT_OPTIONS.height / 4,
-              })
-              .toBuffer()
-              .then((data) => {
-                console.log(`Successfully created ${filename}.`);
-                return writeFile(path.resolve('data', filename), data);
-              })
-              .catch((err) => console.log(err));
-          }
-          console.log(`Successfully created ${filename}.`);
-          return writeFile(path.resolve('data', filename), buffer);
-        });
+      SCREENSHOT_OPTIONS.darkMode = i >= length;
+      filename = SCREENSHOT_OPTIONS.darkMode
+        ? filename.replace(
+            new RegExp(`(.${SCREENSHOT_OPTIONS.type}$)`),
+            '-dark$1',
+          )
+        : filename;
+      if (!SCREENSHOT_OPTIONS.darkMode) {
+        data[i].screenshot = filename;
+      } else {
+        data[i - length].screenshotDark = filename;
+      }
+      return captureWebsite.buffer(url, SCREENSHOT_OPTIONS).then((buffer) => {
+        if (!overrideType) {
+          return sharp(buffer)
+            .resize({
+              width: SCREENSHOT_OPTIONS.width / 4,
+              height: SCREENSHOT_OPTIONS.height / 4,
+            })
+            .toBuffer()
+            .then((data) => {
+              return writeFile(path.resolve('data', filename), data).then(() =>
+                console.log(`Successfully created \`${filename}\`.`),
+              );
+            })
+            .catch((err) => console.log(err));
+        }
+        return writeFile(path.resolve('data', filename), buffer).then(() =>
+          console.log(`Successfully created \`${filename}\`.`),
+        );
+      });
     };
   });
   await limit(tasks, 5);
@@ -176,11 +192,14 @@ const createHTML = async (data) => {
             }</a></h2>
               <figure>
                 <a target="_blank" rel="noopener" href="${item.appURL}">
-                  <img src="${item.screenshot}" width="${
-              SCREENSHOT_OPTIONS.width
-            }" height="${SCREENSHOT_OPTIONS.height}" alt="Screenshot of ${
-              item.title
-            }">
+                  <picture>
+                    <source srcset="${item.screenshotDark}" media="(prefers-color-scheme: dark)" />
+                    <source srcset="${item.screenshot}" media="(prefers-color-scheme: light)" />
+                    <img src="${item.screenshot}"
+                        width="${SCREENSHOT_OPTIONS.width}"
+                        height="${SCREENSHOT_OPTIONS.height}"
+                        alt="Screenshot of ${item.title}">
+                  </picture>
                 </a>
                 ${
                   item.description

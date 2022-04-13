@@ -13,7 +13,7 @@ export default `
     :root {
       --foreground-color: #fff;
       --background-color: #222;
-      --accent-color: deeppink;
+      --accent-color: hotpink;
     }
   }
   :target {
@@ -71,7 +71,6 @@ export default `
   h1 > a,
   h2 > a {
     text-decoration: none;
-    color: inherit;
   }
   h3 {
     padding-inline: 1rem;
