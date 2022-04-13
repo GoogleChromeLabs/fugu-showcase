@@ -10,6 +10,7 @@
     "ogp-parser": "^0.6.0"
   },
   "devDependencies": {
+    "@minify-html/js": "^0.8.0",
     "prettier": "^2.6.2",
     "sharp": "^0.30.3"
   }

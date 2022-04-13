@@ -6,13 +6,18 @@ import filenamifyUrl from 'filenamify-url';
 import ogp from 'ogp-parser';
 import sharp from 'sharp';
 
+// https://github.com/wilsonzlin/minify-html/issues/65
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const minifyHtml = require('@minify-html/js');
+
 import limit from './utils.mjs';
 import fuguSVG from './fugu.svg.mjs';
 import style from './style.css.mjs';
 import sw from './sw.mjs';
 import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = false;
+const SKIP_SCREENSHOTS = true;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
@@ -371,7 +376,14 @@ const createHTML = async (data) => {
       </html>`;
 
   const html = `${header}${form}${datalist}${div}${footer}`;
-  await writeFile(path.resolve('data', 'index.html'), html);
+  const minified = minifyHtml.minify(
+    html,
+    minifyHtml.createConfiguration({
+      minify_js: true,
+      minify_css: true,
+    }),
+  );
+  await writeFile(path.resolve('data', 'index.html'), minified);
   console.log('Successfully created `index.html`.');
 };
 

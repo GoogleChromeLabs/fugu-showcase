@@ -43,6 +43,10 @@ export default `
   img:not(.logo):hover {
     filter: contrast(1.2);
   }
+  button[type="reset"] {
+    font-size: inherit;
+    margin-inline-start: 0.5rem;
+  }
   input {
     font-size: inherit;
     width: 30ch;
