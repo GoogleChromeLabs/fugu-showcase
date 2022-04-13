@@ -1,217 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A showcase of Project Fugu APIs sourced by community submissions."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Project Fugu API Showcase" />
+    <meta
+      property="og:description"
+      content="A showcase of Project Fugu APIs sourced by community submissions."
+    />
+    <meta
+      property="og:url"
+      content="https://tomayac.github.io/fugu-showcase/data/"
+    />
+    <meta
+      property="og:image"
+      content="https://tomayac.github.io/fugu-showcase/data/tomayac.github.io!fugu-showcase!data.png"
+    />
+    <title>Project Fugu API Showcase</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg viewBox='0 0 128 128' xmlns='http://www.w3.org/2000/svg'%3E%3ClinearGradient id='a' x1='83.1' x2='105.3' y1='36.6' y2='36.6' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238D6E63' offset='0'/%3E%3Cstop stop-color='%2376594F' offset='.4'/%3E%3Cstop stop-color='%234E342E' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M89.2 43.2a25 25 0 0 1-6.1-5.8 76.6 76.6 0 0 1 21.4-7.4c.4.1.7.3.8 1.3 0 2.9-3.2 7.4-4.6 8l-1.2.5c-2.7 1-8.3 3.4-10.2 3.4h-.1z' fill='url(%23a)'/%3E%3Cpath d='M103.8 31.4c0 1.7-2.4 5.8-3.6 6.4l-1.3.6c-1.9.8-7.6 3.1-9.4 3.3-.7-.5-2.3-2-4-3.9 5-2.3 14.6-6.4 18.3-6.4m0-3c-6.2 0-23 8.3-23 8.5 0 0 6 7.6 8.2 7.8h.3c2.6 0 9.3-3 12-4 2.9-1.2 8.3-10.5 3.8-12.1a4 4 0 0 0-1.3-.2z' fill='%235D4037'/%3E%3Cpath fill='%238D6E63' d='m30.3 103.4.9 5 6.8-1.8'/%3E%3Cpath fill='%23A1887F' d='m47 108 3.7 3.1 4.6-2.7'/%3E%3Cpath fill='%23BCAAA4' d='m70.5 105.8 6.4 2.1 1.3-5.3'/%3E%3Cpath fill='%238D6E63' d='m84.2 96.2 6.7-.8-.8-5.4'/%3E%3ClinearGradient id='b' x1='90.8' x2='108.3' y1='79.1' y2='79.1' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238D6E63' offset='0'/%3E%3Cstop stop-color='%2376594F' offset='.4'/%3E%3Cstop stop-color='%234E342E' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M97 83.6c-2.7 0-4.9-.3-6.2-.6l2.3-8.3h3.1c5.2 0 9 1 10.6 2.9 1.2 1.3 1.7 2.5 1.5 3.1-.2.5-1.2 1.8-6.5 2.6a35 35 0 0 1-4.8.3z' fill='url(%23b)'/%3E%3Cpath d='M96.2 76.1c4.6 0 8.1 1 9.5 2.5.7.8 1 1.4 1 1.6-.3.3-1.5 1-5.2 1.6a31.7 31.7 0 0 1-8.9 0l1.7-5.6h2m0-3-4.3.1-3.1 10.8s3.3 1 8.1 1c1.6 0 3.2-.1 5-.4 7.2-1 10-3.4 6-8.1-2.6-3-8-3.5-11.8-3.5z' fill='%235D4037'/%3E%3ClinearGradient id='c' x1='64.2' x2='64.2' y1='27.6' y2='107.9' gradientTransform='rotate(-1.1 64.3 64.3)' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%235D2813' offset='.2'/%3E%3Cstop stop-color='%236A3A27' offset='.2'/%3E%3Cstop stop-color='%238D6859' offset='.4'/%3E%3Cstop stop-color='%23C5B2AA' offset='.6'/%3E%3Cstop stop-color='%23fff' offset='.8'/%3E%3C/linearGradient%3E%3Cpath d='M52.5 107.2c-37.8-.6-45-29.2-46.3-41.5-.6-5.6-.5-10.6-.5-13.8V48l1.2-.4c1.3-.3 3-.7 3.1-2.4.2-1.6-1.2-2.5-2.4-3.2l-.5-.4c3.7-3.4 20-14.5 46.6-14.5h.7a44.6 44.6 0 0 1 41.9 26 7 7 0 0 0 5.8 2.8h.6l.5-.1 13.3-5.9 1.6-.2c1.2 0 4 0 4.2 7.3.4 8.4-2.8 8.7-4 8.8h-.1c-1.5 0-4.4-.8-7.3-1.6-3.8-1-7.7-2-10.3-2a5.9 5.9 0 0 0-6 6c-.1 2.2-1.5 39-41 39h-1z' fill='url(%23c)'/%3E%3Cpath d='M53.8 28.6h.6c11.3.1 21 3.4 28.7 10 6.3 5.2 9.5 11 11 13.8l1 1.6a8.6 8.6 0 0 0 7 3.4h.8l.9-.3 13.2-5.7a6 6 0 0 1 1.1-.2c.8 0 2.5 0 2.7 5.8.3 7-1.8 7.2-2.5 7.2h-.1c-1.2 0-4.3-.8-7-1.5-3.8-1-7.8-2-10.6-2a7.4 7.4 0 0 0-7.6 7.5c0 1-.4 10-5.2 19-6.6 12.2-18.1 18.5-34.2 18.5h-1C15.8 105 9 77.3 7.6 65.4 7.1 60 7.2 55.1 7.2 52v-2.8c1.4-.3 4.1-1 4.4-3.8.1-1.7-.9-2.9-2-3.7 5.1-3.9 19.7-13 44.2-13m0-3C22.7 25.6 6.3 40 5.3 41.3c-1 1.2 3.3 2.4 3.2 3.8s-4.7.9-4.4 2.8-.4 9 .6 18c.6 5.7 4.7 42.1 47.8 42.8h1c42 0 42.6-40.5 42.6-40.5s-.2-3.1 3-4.3l1.5-.2c4.6 0 14.1 3.6 17.6 3.6h.3c4.2-.3 5.6-4 5.4-10.4-.3-5.4-1.9-8.7-5.8-8.7-.6 0-1.3 0-2 .3l-13.5 5.9h-.5c-1 0-3.2-.2-4.5-2.2-1.8-2.5-11.7-26.4-43.2-26.6h-.6z' fill='%236D4C41'/%3E%3ClinearGradient id='d' x1='37.7' x2='63.2' y1='49.1' y2='49.1' gradientTransform='rotate(-1.1 64.3 64.3)' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%235D4037' offset='0'/%3E%3Cstop stop-color='%23462D28' offset='.8'/%3E%3Cstop stop-color='%233E2723' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M37.3 43.7s4.1 2.4 1.8 7.3 6 8.2 12.4 8.3 11.6-10.9 11.2-16c-.3-5-15.2-5.7-25.4.4z' fill='url(%23d)'/%3E%3Cpath fill='%23BCAAA4' d='m26.8 89.9 2.1 5.9 5.6-2.7M42.3 96.6l3.3 5 4.6-3.9'/%3E%3Cpath fill='%23D7CCC8' d='m16.3 86.7-.9 9.7 8.6-.9'/%3E%3Cpath fill='%23BCAAA4' d='m62.3 97.5 4.6 3.8 3.3-5.3M55.1 104.3l4.6 3.7 3.4-5.2'/%3E%3Cpath fill='%23D7CCC8' d='m76.5 94.5 6.4 1.7-.2-6.5'/%3E%3Cpath fill='%236D4C41' d='m37.8 80 2.5 5.7 4.2-4.1M52.5 87.7l4.4 4.2 2.3-5.6'/%3E%3Cpath fill='%238D6E63' d='m53.9 70.2 3.6 5.3 2.8-5.8M67.5 67.5l5.4 3.1.1-6.5M81.1 71.9l5.5 3.1.1-6.5'/%3E%3Cpath fill='%235D4037' d='m71.8 82.9 5.2 3.5.6-6.4'/%3E%3Cpath fill='%233E2723' d='m86.9 58.2 1.3-7.9-8.2 1.1M77.5 45.4l-1-8-7.5 3.7'/%3E%3Cpath fill='%234E342E' d='m83.7 38.3-1.2-9.4-8.8 4.3'/%3E%3Cpath fill='%233E2723' d='m77.2 31.7-2.6-9.1-8.1 5.7'/%3E%3Cpath fill='%234E342E' stroke='%233E2723' stroke-miterlimit='10' stroke-width='.8' d='m44.4 29.1-8-6.4-4.1 9.6'/%3E%3Cpath fill='%233E2723' d='m63 34.1-4.3-11.6-7.8 9.6'/%3E%3Cpath fill='%233E2723' d='M55.1 28.1 49 19.8l-6.2 8.1M30 30.6l-8.6-5.3-2.8 10'/%3E%3Cpath fill='%234E342E' d='m71.2 31-3.8-9.7-8 6.1'/%3E%3Cpath fill='%236D4C41' d='m20.6 72.2.5 5.7L26 75'/%3E%3Cpath fill='%23BCAAA4' d='m12.6 75.1-5.6 7h7.4'/%3E%3Cpath fill='%236D4C41' d='m16.2 57-3.9 5.4 6.4 1.7'/%3E%3Cpath fill='%238D6E63' d='m34.3 66.5.8 6.5 5.1-3.7'/%3E%3Cpath d='M33.7 39.3c-.2 5-4.2 9-9 9s-8.5-4.5-8.4-9.5 4.2-9 9-9 8.5 4.5 8.4 9.5z' fill='%23fff'/%3E%3Cpath d='M28.2 42.6a4.4 4.4 0 0 1-6.5-.2c-1.8-2-1.7-5 .1-6.9s4.8-1.7 6.5.2a5 5 0 0 1-.1 6.9z'/%3E%3C/svg%3E"
+    />
+    <link
+      ref="canonical"
+      href="https://tomayac.github.io/fugu-showcase/data/"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
 
-      <!DOCTYPE html>
-        <html lang="en">
-          <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <meta name="description" content="A showcase of Project Fugu APIs sourced by community submissions." />
-            <meta property="og:type" content="website" />
-            <meta property="og:title" content="Project Fugu API Showcase" />
-            <meta property="og:description" content="A showcase of Project Fugu APIs sourced by community submissions." />
-            <meta property="og:url" content="https://tomayac.github.io/fugu-showcase/data/" />
-            <meta property="og:image" content="https://tomayac.github.io/fugu-showcase/data/tomayac.github.io!fugu-showcase!data.png" />
-            <title>Project Fugu API Showcase</title>
-            <link rel="icon" href="data:image/svg+xml,%3Csvg viewBox='0 0 128 128' xmlns='http://www.w3.org/2000/svg'%3E%3ClinearGradient id='a' x1='83.1' x2='105.3' y1='36.6' y2='36.6' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238D6E63' offset='0'/%3E%3Cstop stop-color='%2376594F' offset='.4'/%3E%3Cstop stop-color='%234E342E' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M89.2 43.2a25 25 0 0 1-6.1-5.8 76.6 76.6 0 0 1 21.4-7.4c.4.1.7.3.8 1.3 0 2.9-3.2 7.4-4.6 8l-1.2.5c-2.7 1-8.3 3.4-10.2 3.4h-.1z' fill='url(%23a)'/%3E%3Cpath d='M103.8 31.4c0 1.7-2.4 5.8-3.6 6.4l-1.3.6c-1.9.8-7.6 3.1-9.4 3.3-.7-.5-2.3-2-4-3.9 5-2.3 14.6-6.4 18.3-6.4m0-3c-6.2 0-23 8.3-23 8.5 0 0 6 7.6 8.2 7.8h.3c2.6 0 9.3-3 12-4 2.9-1.2 8.3-10.5 3.8-12.1a4 4 0 0 0-1.3-.2z' fill='%235D4037'/%3E%3Cpath fill='%238D6E63' d='m30.3 103.4.9 5 6.8-1.8'/%3E%3Cpath fill='%23A1887F' d='m47 108 3.7 3.1 4.6-2.7'/%3E%3Cpath fill='%23BCAAA4' d='m70.5 105.8 6.4 2.1 1.3-5.3'/%3E%3Cpath fill='%238D6E63' d='m84.2 96.2 6.7-.8-.8-5.4'/%3E%3ClinearGradient id='b' x1='90.8' x2='108.3' y1='79.1' y2='79.1' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238D6E63' offset='0'/%3E%3Cstop stop-color='%2376594F' offset='.4'/%3E%3Cstop stop-color='%234E342E' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M97 83.6c-2.7 0-4.9-.3-6.2-.6l2.3-8.3h3.1c5.2 0 9 1 10.6 2.9 1.2 1.3 1.7 2.5 1.5 3.1-.2.5-1.2 1.8-6.5 2.6a35 35 0 0 1-4.8.3z' fill='url(%23b)'/%3E%3Cpath d='M96.2 76.1c4.6 0 8.1 1 9.5 2.5.7.8 1 1.4 1 1.6-.3.3-1.5 1-5.2 1.6a31.7 31.7 0 0 1-8.9 0l1.7-5.6h2m0-3-4.3.1-3.1 10.8s3.3 1 8.1 1c1.6 0 3.2-.1 5-.4 7.2-1 10-3.4 6-8.1-2.6-3-8-3.5-11.8-3.5z' fill='%235D4037'/%3E%3ClinearGradient id='c' x1='64.2' x2='64.2' y1='27.6' y2='107.9' gradientTransform='rotate(-1.1 64.3 64.3)' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%235D2813' offset='.2'/%3E%3Cstop stop-color='%236A3A27' offset='.2'/%3E%3Cstop stop-color='%238D6859' offset='.4'/%3E%3Cstop stop-color='%23C5B2AA' offset='.6'/%3E%3Cstop stop-color='%23fff' offset='.8'/%3E%3C/linearGradient%3E%3Cpath d='M52.5 107.2c-37.8-.6-45-29.2-46.3-41.5-.6-5.6-.5-10.6-.5-13.8V48l1.2-.4c1.3-.3 3-.7 3.1-2.4.2-1.6-1.2-2.5-2.4-3.2l-.5-.4c3.7-3.4 20-14.5 46.6-14.5h.7a44.6 44.6 0 0 1 41.9 26 7 7 0 0 0 5.8 2.8h.6l.5-.1 13.3-5.9 1.6-.2c1.2 0 4 0 4.2 7.3.4 8.4-2.8 8.7-4 8.8h-.1c-1.5 0-4.4-.8-7.3-1.6-3.8-1-7.7-2-10.3-2a5.9 5.9 0 0 0-6 6c-.1 2.2-1.5 39-41 39h-1z' fill='url(%23c)'/%3E%3Cpath d='M53.8 28.6h.6c11.3.1 21 3.4 28.7 10 6.3 5.2 9.5 11 11 13.8l1 1.6a8.6 8.6 0 0 0 7 3.4h.8l.9-.3 13.2-5.7a6 6 0 0 1 1.1-.2c.8 0 2.5 0 2.7 5.8.3 7-1.8 7.2-2.5 7.2h-.1c-1.2 0-4.3-.8-7-1.5-3.8-1-7.8-2-10.6-2a7.4 7.4 0 0 0-7.6 7.5c0 1-.4 10-5.2 19-6.6 12.2-18.1 18.5-34.2 18.5h-1C15.8 105 9 77.3 7.6 65.4 7.1 60 7.2 55.1 7.2 52v-2.8c1.4-.3 4.1-1 4.4-3.8.1-1.7-.9-2.9-2-3.7 5.1-3.9 19.7-13 44.2-13m0-3C22.7 25.6 6.3 40 5.3 41.3c-1 1.2 3.3 2.4 3.2 3.8s-4.7.9-4.4 2.8-.4 9 .6 18c.6 5.7 4.7 42.1 47.8 42.8h1c42 0 42.6-40.5 42.6-40.5s-.2-3.1 3-4.3l1.5-.2c4.6 0 14.1 3.6 17.6 3.6h.3c4.2-.3 5.6-4 5.4-10.4-.3-5.4-1.9-8.7-5.8-8.7-.6 0-1.3 0-2 .3l-13.5 5.9h-.5c-1 0-3.2-.2-4.5-2.2-1.8-2.5-11.7-26.4-43.2-26.6h-.6z' fill='%236D4C41'/%3E%3ClinearGradient id='d' x1='37.7' x2='63.2' y1='49.1' y2='49.1' gradientTransform='rotate(-1.1 64.3 64.3)' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%235D4037' offset='0'/%3E%3Cstop stop-color='%23462D28' offset='.8'/%3E%3Cstop stop-color='%233E2723' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M37.3 43.7s4.1 2.4 1.8 7.3 6 8.2 12.4 8.3 11.6-10.9 11.2-16c-.3-5-15.2-5.7-25.4.4z' fill='url(%23d)'/%3E%3Cpath fill='%23BCAAA4' d='m26.8 89.9 2.1 5.9 5.6-2.7M42.3 96.6l3.3 5 4.6-3.9'/%3E%3Cpath fill='%23D7CCC8' d='m16.3 86.7-.9 9.7 8.6-.9'/%3E%3Cpath fill='%23BCAAA4' d='m62.3 97.5 4.6 3.8 3.3-5.3M55.1 104.3l4.6 3.7 3.4-5.2'/%3E%3Cpath fill='%23D7CCC8' d='m76.5 94.5 6.4 1.7-.2-6.5'/%3E%3Cpath fill='%236D4C41' d='m37.8 80 2.5 5.7 4.2-4.1M52.5 87.7l4.4 4.2 2.3-5.6'/%3E%3Cpath fill='%238D6E63' d='m53.9 70.2 3.6 5.3 2.8-5.8M67.5 67.5l5.4 3.1.1-6.5M81.1 71.9l5.5 3.1.1-6.5'/%3E%3Cpath fill='%235D4037' d='m71.8 82.9 5.2 3.5.6-6.4'/%3E%3Cpath fill='%233E2723' d='m86.9 58.2 1.3-7.9-8.2 1.1M77.5 45.4l-1-8-7.5 3.7'/%3E%3Cpath fill='%234E342E' d='m83.7 38.3-1.2-9.4-8.8 4.3'/%3E%3Cpath fill='%233E2723' d='m77.2 31.7-2.6-9.1-8.1 5.7'/%3E%3Cpath fill='%234E342E' stroke='%233E2723' stroke-miterlimit='10' stroke-width='.8' d='m44.4 29.1-8-6.4-4.1 9.6'/%3E%3Cpath fill='%233E2723' d='m63 34.1-4.3-11.6-7.8 9.6'/%3E%3Cpath fill='%233E2723' d='M55.1 28.1 49 19.8l-6.2 8.1M30 30.6l-8.6-5.3-2.8 10'/%3E%3Cpath fill='%234E342E' d='m71.2 31-3.8-9.7-8 6.1'/%3E%3Cpath fill='%236D4C41' d='m20.6 72.2.5 5.7L26 75'/%3E%3Cpath fill='%23BCAAA4' d='m12.6 75.1-5.6 7h7.4'/%3E%3Cpath fill='%236D4C41' d='m16.2 57-3.9 5.4 6.4 1.7'/%3E%3Cpath fill='%238D6E63' d='m34.3 66.5.8 6.5 5.1-3.7'/%3E%3Cpath d='M33.7 39.3c-.2 5-4.2 9-9 9s-8.5-4.5-8.4-9.5 4.2-9 9-9 8.5 4.5 8.4 9.5z' fill='%23fff'/%3E%3Cpath d='M28.2 42.6a4.4 4.4 0 0 1-6.5-.2c-1.8-2-1.7-5 .1-6.9s4.8-1.7 6.5.2a5 5 0 0 1-.1 6.9z'/%3E%3C/svg%3E" />
-            <link ref="canonical" href="https://tomayac.github.io/fugu-showcase/data/" />
-            <link rel="manifest" href="manifest.webmanifest" />
-            
-<style>
-  :root {
-    color-scheme: dark light;
-    font-family: system-ui, sans-serif;
-    scroll-padding-top: 1rem;
+    <style>
+      :root {
+        color-scheme: dark light;
+        font-family: system-ui, sans-serif;
+        scroll-padding-top: 1rem;
 
-    --background-color: #eee;
-    --foreground-color: #000;
-    --accent-color: #e60073;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --foreground-color: #fff;
-      --background-color: #222;
-      --accent-color: hotpink;
-    }
-  }
-  :target {
-    outline: 0.25rem solid var(--accent-color);
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main {
-    max-width: 95ch;
-  }
-  h1 {
-    color: var(--accent-color);
-  }
-  .logo {
-    width: 2.5rem;
-    height: auto;
-    vertical-align: bottom;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-    filter: none;
-  }
-  img:not(.logo):hover {
-    filter: contrast(1.2);
-  }
-  input {
-    font-size: inherit;
-    width: 30ch;
-  }
-  article {
-    display: none;
-    background-color: var(--background-color);
-    border-radius: 0.5rem;
-    border: solid .25rem var(--background-color);
-    position: relative;
-  }
-  p,
-  form {
-    border-radius: 0.5rem;
-    border: solid .25rem var(--background-color);
-    margin-block: 1rem;
-    padding: 0.5rem;
-    background-color: var(--background-color);
-  }
-  article > h2 {
-    background-color: var(--background-color);
-    color: var(--foreground-color);
-    margin: 0;
-    padding: 1rem;
-  }
-  h1 > a,
-  h2 > a {
-    text-decoration: none;
-  }
-  h3 {
-    padding-inline: 1rem;
-  }
-  .anchor {
-    position: absolute;
-    right: 0.5rem;
-    bottom: 0.5rem;
-  }
-  figure {
-    margin: 0;
-  }
-  figcaption {
-    padding: 1rem;
-  }
-  a {
-    color: var(--accent-color);
-  }
-  ul {
-    padding-inline: 1rem;
-  }
-  li,
-  option {
-    font-size: 0.9rem;
-    display: inline-block;
-    color: #fff;
-    background-color: blue;
-    border-radius: 0.25rem;
-    padding: 0.25rem;
-    margin-inline-end: 0.5rem;
-    margin-block-end: 0.5rem;
-    cursor: pointer;
-  }
-  li > a {
-    color: inherit;
-    text-decoration: none;
-  }
-  datalist {
-    margin-block-start: 1rem;
-    display: inline-block;
-  }
-  .source,
-  .launch {
-    padding-block-start: 0.5rem;
-    padding-inline: 1rem;
-    display: block;
-  }
-  .source::before,
-  .launch::before,
-  .share::before {
-    content: '';
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    margin-inline-end: 1ex;
-    vertical-align: middle;
-    background-size: 1rem;
-  }
-  .source::before {
-    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg'%0Aaria-label='GitHub' role='img'%0AviewBox='0 0 512 512'%3E%3Crect%0Awidth='512' height='512'%0Arx='15%25'%0Afill='%23181717'/%3E%3Cpath fill='%23fff' d='M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-44c-71 16-86-34-86-34-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z'/%3E%3C/svg%3E");
-  }
-  .launch::before {
-    filter: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -256 1850 1850'%3E%3Cpath d='M1408 608V288q0-119-84.5-203.5T1120 0H288Q169 0 84.5 84.5T0 288v832q0 119 84.5 203.5T288 1408h704q14 0 23-9t9-23v-64q0-14-9-23t-23-9H288q-66 0-113-47t-47-113V288q0-66 47-113t113-47h832q66 0 113 47t47 113v320q0 14 9 23t23 9h64q14 0 23-9t9-23zm384 864V960q0-26-19-45t-45-19q-26 0-45 19l-176 176-652-652q-10-10-23-10t-23 10L695 553q-10 10-10 23t10 23l652 652-176 176q-19 19-19 45t19 45q19 19 45 19h512q26 0 45-19t19-45z' fill='currentColor' transform='matrix(1 0 0 -1 30.4 1427)'/%3E%3C/svg%3E");
-  }
-  .share {
-    display: none;
-    appearance: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: inherit;
-    padding-block-start: 0.5rem;
-    padding-inline: 1rem;
-    text-decoration: underline;
-    color: var(--accent-color);
-  }
-  .share::before {
-    filter: none;
-    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z'/%3E%3C/svg%3E");
-  }
-  .share.mac::before {
-    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2z'/%3E%3C/svg%3E");
-  }
-  @media (prefers-color-scheme: dark) {
-    .launch::before,
-    .share::before {
-      filter: invert(1);
-    }
-  }
-  .container {
-    margin-block-start: 1rem;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-  }
-  footer {
-    padding: 0.5rem;
-    border-top: solid 0.25rem var(--background-color);
-    margin-block: 2rem;
-    font-size: 0.8rem;
-  }
-</style>
-            <noscript>
-              <style>
-                article {
-                  display: block;
-                }
-              </style>
-            </noscript>
-          </head>
-          <body>
-            <main>
-              <h1>
-                <a href="./index.html">
-                  <img class="logo" src="data:image/svg+xml,%3Csvg viewBox='0 0 128 128' xmlns='http://www.w3.org/2000/svg'%3E%3ClinearGradient id='a' x1='83.1' x2='105.3' y1='36.6' y2='36.6' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238D6E63' offset='0'/%3E%3Cstop stop-color='%2376594F' offset='.4'/%3E%3Cstop stop-color='%234E342E' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M89.2 43.2a25 25 0 0 1-6.1-5.8 76.6 76.6 0 0 1 21.4-7.4c.4.1.7.3.8 1.3 0 2.9-3.2 7.4-4.6 8l-1.2.5c-2.7 1-8.3 3.4-10.2 3.4h-.1z' fill='url(%23a)'/%3E%3Cpath d='M103.8 31.4c0 1.7-2.4 5.8-3.6 6.4l-1.3.6c-1.9.8-7.6 3.1-9.4 3.3-.7-.5-2.3-2-4-3.9 5-2.3 14.6-6.4 18.3-6.4m0-3c-6.2 0-23 8.3-23 8.5 0 0 6 7.6 8.2 7.8h.3c2.6 0 9.3-3 12-4 2.9-1.2 8.3-10.5 3.8-12.1a4 4 0 0 0-1.3-.2z' fill='%235D4037'/%3E%3Cpath fill='%238D6E63' d='m30.3 103.4.9 5 6.8-1.8'/%3E%3Cpath fill='%23A1887F' d='m47 108 3.7 3.1 4.6-2.7'/%3E%3Cpath fill='%23BCAAA4' d='m70.5 105.8 6.4 2.1 1.3-5.3'/%3E%3Cpath fill='%238D6E63' d='m84.2 96.2 6.7-.8-.8-5.4'/%3E%3ClinearGradient id='b' x1='90.8' x2='108.3' y1='79.1' y2='79.1' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238D6E63' offset='0'/%3E%3Cstop stop-color='%2376594F' offset='.4'/%3E%3Cstop stop-color='%234E342E' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M97 83.6c-2.7 0-4.9-.3-6.2-.6l2.3-8.3h3.1c5.2 0 9 1 10.6 2.9 1.2 1.3 1.7 2.5 1.5 3.1-.2.5-1.2 1.8-6.5 2.6a35 35 0 0 1-4.8.3z' fill='url(%23b)'/%3E%3Cpath d='M96.2 76.1c4.6 0 8.1 1 9.5 2.5.7.8 1 1.4 1 1.6-.3.3-1.5 1-5.2 1.6a31.7 31.7 0 0 1-8.9 0l1.7-5.6h2m0-3-4.3.1-3.1 10.8s3.3 1 8.1 1c1.6 0 3.2-.1 5-.4 7.2-1 10-3.4 6-8.1-2.6-3-8-3.5-11.8-3.5z' fill='%235D4037'/%3E%3ClinearGradient id='c' x1='64.2' x2='64.2' y1='27.6' y2='107.9' gradientTransform='rotate(-1.1 64.3 64.3)' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%235D2813' offset='.2'/%3E%3Cstop stop-color='%236A3A27' offset='.2'/%3E%3Cstop stop-color='%238D6859' offset='.4'/%3E%3Cstop stop-color='%23C5B2AA' offset='.6'/%3E%3Cstop stop-color='%23fff' offset='.8'/%3E%3C/linearGradient%3E%3Cpath d='M52.5 107.2c-37.8-.6-45-29.2-46.3-41.5-.6-5.6-.5-10.6-.5-13.8V48l1.2-.4c1.3-.3 3-.7 3.1-2.4.2-1.6-1.2-2.5-2.4-3.2l-.5-.4c3.7-3.4 20-14.5 46.6-14.5h.7a44.6 44.6 0 0 1 41.9 26 7 7 0 0 0 5.8 2.8h.6l.5-.1 13.3-5.9 1.6-.2c1.2 0 4 0 4.2 7.3.4 8.4-2.8 8.7-4 8.8h-.1c-1.5 0-4.4-.8-7.3-1.6-3.8-1-7.7-2-10.3-2a5.9 5.9 0 0 0-6 6c-.1 2.2-1.5 39-41 39h-1z' fill='url(%23c)'/%3E%3Cpath d='M53.8 28.6h.6c11.3.1 21 3.4 28.7 10 6.3 5.2 9.5 11 11 13.8l1 1.6a8.6 8.6 0 0 0 7 3.4h.8l.9-.3 13.2-5.7a6 6 0 0 1 1.1-.2c.8 0 2.5 0 2.7 5.8.3 7-1.8 7.2-2.5 7.2h-.1c-1.2 0-4.3-.8-7-1.5-3.8-1-7.8-2-10.6-2a7.4 7.4 0 0 0-7.6 7.5c0 1-.4 10-5.2 19-6.6 12.2-18.1 18.5-34.2 18.5h-1C15.8 105 9 77.3 7.6 65.4 7.1 60 7.2 55.1 7.2 52v-2.8c1.4-.3 4.1-1 4.4-3.8.1-1.7-.9-2.9-2-3.7 5.1-3.9 19.7-13 44.2-13m0-3C22.7 25.6 6.3 40 5.3 41.3c-1 1.2 3.3 2.4 3.2 3.8s-4.7.9-4.4 2.8-.4 9 .6 18c.6 5.7 4.7 42.1 47.8 42.8h1c42 0 42.6-40.5 42.6-40.5s-.2-3.1 3-4.3l1.5-.2c4.6 0 14.1 3.6 17.6 3.6h.3c4.2-.3 5.6-4 5.4-10.4-.3-5.4-1.9-8.7-5.8-8.7-.6 0-1.3 0-2 .3l-13.5 5.9h-.5c-1 0-3.2-.2-4.5-2.2-1.8-2.5-11.7-26.4-43.2-26.6h-.6z' fill='%236D4C41'/%3E%3ClinearGradient id='d' x1='37.7' x2='63.2' y1='49.1' y2='49.1' gradientTransform='rotate(-1.1 64.3 64.3)' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%235D4037' offset='0'/%3E%3Cstop stop-color='%23462D28' offset='.8'/%3E%3Cstop stop-color='%233E2723' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M37.3 43.7s4.1 2.4 1.8 7.3 6 8.2 12.4 8.3 11.6-10.9 11.2-16c-.3-5-15.2-5.7-25.4.4z' fill='url(%23d)'/%3E%3Cpath fill='%23BCAAA4' d='m26.8 89.9 2.1 5.9 5.6-2.7M42.3 96.6l3.3 5 4.6-3.9'/%3E%3Cpath fill='%23D7CCC8' d='m16.3 86.7-.9 9.7 8.6-.9'/%3E%3Cpath fill='%23BCAAA4' d='m62.3 97.5 4.6 3.8 3.3-5.3M55.1 104.3l4.6 3.7 3.4-5.2'/%3E%3Cpath fill='%23D7CCC8' d='m76.5 94.5 6.4 1.7-.2-6.5'/%3E%3Cpath fill='%236D4C41' d='m37.8 80 2.5 5.7 4.2-4.1M52.5 87.7l4.4 4.2 2.3-5.6'/%3E%3Cpath fill='%238D6E63' d='m53.9 70.2 3.6 5.3 2.8-5.8M67.5 67.5l5.4 3.1.1-6.5M81.1 71.9l5.5 3.1.1-6.5'/%3E%3Cpath fill='%235D4037' d='m71.8 82.9 5.2 3.5.6-6.4'/%3E%3Cpath fill='%233E2723' d='m86.9 58.2 1.3-7.9-8.2 1.1M77.5 45.4l-1-8-7.5 3.7'/%3E%3Cpath fill='%234E342E' d='m83.7 38.3-1.2-9.4-8.8 4.3'/%3E%3Cpath fill='%233E2723' d='m77.2 31.7-2.6-9.1-8.1 5.7'/%3E%3Cpath fill='%234E342E' stroke='%233E2723' stroke-miterlimit='10' stroke-width='.8' d='m44.4 29.1-8-6.4-4.1 9.6'/%3E%3Cpath fill='%233E2723' d='m63 34.1-4.3-11.6-7.8 9.6'/%3E%3Cpath fill='%233E2723' d='M55.1 28.1 49 19.8l-6.2 8.1M30 30.6l-8.6-5.3-2.8 10'/%3E%3Cpath fill='%234E342E' d='m71.2 31-3.8-9.7-8 6.1'/%3E%3Cpath fill='%236D4C41' d='m20.6 72.2.5 5.7L26 75'/%3E%3Cpath fill='%23BCAAA4' d='m12.6 75.1-5.6 7h7.4'/%3E%3Cpath fill='%236D4C41' d='m16.2 57-3.9 5.4 6.4 1.7'/%3E%3Cpath fill='%238D6E63' d='m34.3 66.5.8 6.5 5.1-3.7'/%3E%3Cpath d='M33.7 39.3c-.2 5-4.2 9-9 9s-8.5-4.5-8.4-9.5 4.2-9 9-9 8.5 4.5 8.4 9.5z' fill='%23fff'/%3E%3Cpath d='M28.2 42.6a4.4 4.4 0 0 1-6.5-.2c-1.8-2-1.7-5 .1-6.9s4.8-1.7 6.5.2a5 5 0 0 1-.1 6.9z'/%3E%3C/svg%3E" alt="Project Fugu blowfish logo" width="128" height="128">
-                  Project Fugu API Showcase
-                </a>
-              </h1>
-              <p>
-                This showcase of <a target="_blank" rel="noopener" href="https://web.dev/fugu-status/">Project Fugu APIs</a>
-                is sourced by community submissions. You can propose missing apps by submitting them via this
-                <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform">form</a>.
-                Submissions are reviewed on a regular basis and the site will be updated accordingly.
-              </p>
+        --background-color: #eee;
+        --foreground-color: #000;
+        --accent-color: #e60073;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --foreground-color: #fff;
+          --background-color: #222;
+          --accent-color: hotpink;
+        }
+      }
+      :target {
+        outline: 0.25rem solid var(--accent-color);
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      main {
+        max-width: 95ch;
+      }
+      h1 {
+        color: var(--accent-color);
+      }
+      .logo {
+        width: 2.5rem;
+        height: auto;
+        vertical-align: bottom;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        filter: none;
+      }
+      img:not(.logo):hover {
+        filter: contrast(1.2);
+      }
+      input {
+        font-size: inherit;
+        width: 30ch;
+      }
+      article {
+        display: none;
+        background-color: var(--background-color);
+        border-radius: 0.5rem;
+        border: solid 0.25rem var(--background-color);
+        position: relative;
+      }
+      p,
+      form {
+        border-radius: 0.5rem;
+        border: solid 0.25rem var(--background-color);
+        margin-block: 1rem;
+        padding: 0.5rem;
+        background-color: var(--background-color);
+      }
+      article > h2 {
+        background-color: var(--background-color);
+        color: var(--foreground-color);
+        margin: 0;
+        padding: 1rem;
+      }
+      h1 > a,
+      h2 > a {
+        text-decoration: none;
+      }
+      h3 {
+        padding-inline: 1rem;
+      }
+      .anchor {
+        position: absolute;
+        right: 0.5rem;
+        bottom: 0.5rem;
+      }
+      figure {
+        margin: 0;
+      }
+      figcaption {
+        padding: 1rem;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      ul {
+        padding-inline: 1rem;
+      }
+      li,
+      option {
+        font-size: 0.9rem;
+        display: inline-block;
+        color: #fff;
+        background-color: blue;
+        border-radius: 0.25rem;
+        padding: 0.25rem;
+        margin-inline-end: 0.5rem;
+        margin-block-end: 0.5rem;
+        cursor: pointer;
+      }
+      li > a {
+        color: inherit;
+        text-decoration: none;
+      }
+      datalist {
+        margin-block-start: 1rem;
+        display: inline-block;
+      }
+      .source,
+      .launch {
+        padding-block-start: 0.5rem;
+        padding-inline: 1rem;
+        display: block;
+      }
+      .source::before,
+      .launch::before,
+      .share::before {
+        content: "";
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        margin-inline-end: 1ex;
+        vertical-align: middle;
+        background-size: 1rem;
+      }
+      .source::before {
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg'%0Aaria-label='GitHub' role='img'%0AviewBox='0 0 512 512'%3E%3Crect%0Awidth='512' height='512'%0Arx='15%25'%0Afill='%23181717'/%3E%3Cpath fill='%23fff' d='M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-44c-71 16-86-34-86-34-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z'/%3E%3C/svg%3E");
+      }
+      .launch::before {
+        filter: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -256 1850 1850'%3E%3Cpath d='M1408 608V288q0-119-84.5-203.5T1120 0H288Q169 0 84.5 84.5T0 288v832q0 119 84.5 203.5T288 1408h704q14 0 23-9t9-23v-64q0-14-9-23t-23-9H288q-66 0-113-47t-47-113V288q0-66 47-113t113-47h832q66 0 113 47t47 113v320q0 14 9 23t23 9h64q14 0 23-9t9-23zm384 864V960q0-26-19-45t-45-19q-26 0-45 19l-176 176-652-652q-10-10-23-10t-23 10L695 553q-10 10-10 23t10 23l652 652-176 176q-19 19-19 45t19 45q19 19 45 19h512q26 0 45-19t19-45z' fill='currentColor' transform='matrix(1 0 0 -1 30.4 1427)'/%3E%3C/svg%3E");
+      }
+      .share {
+        display: none;
+        appearance: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: inherit;
+        padding-block-start: 0.5rem;
+        padding-inline: 1rem;
+        text-decoration: underline;
+        color: var(--accent-color);
+      }
+      .share::before {
+        filter: none;
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z'/%3E%3C/svg%3E");
+      }
+      .share.mac::before {
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2z'/%3E%3C/svg%3E");
+      }
+      @media (prefers-color-scheme: dark) {
+        .launch::before,
+        .share::before {
+          filter: invert(1);
+        }
+      }
+      .container {
+        margin-block-start: 1rem;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+      }
+      footer {
+        padding: 0.5rem;
+        border-top: solid 0.25rem var(--background-color);
+        margin-block: 2rem;
+        font-size: 0.8rem;
+      }
+    </style>
+    <noscript>
+      <style>
+        article {
+          display: block;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <main>
+      <h1>
+        <a href="./index.html">
+          <img
+            class="logo"
+            src="data:image/svg+xml,%3Csvg viewBox='0 0 128 128' xmlns='http://www.w3.org/2000/svg'%3E%3ClinearGradient id='a' x1='83.1' x2='105.3' y1='36.6' y2='36.6' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238D6E63' offset='0'/%3E%3Cstop stop-color='%2376594F' offset='.4'/%3E%3Cstop stop-color='%234E342E' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M89.2 43.2a25 25 0 0 1-6.1-5.8 76.6 76.6 0 0 1 21.4-7.4c.4.1.7.3.8 1.3 0 2.9-3.2 7.4-4.6 8l-1.2.5c-2.7 1-8.3 3.4-10.2 3.4h-.1z' fill='url(%23a)'/%3E%3Cpath d='M103.8 31.4c0 1.7-2.4 5.8-3.6 6.4l-1.3.6c-1.9.8-7.6 3.1-9.4 3.3-.7-.5-2.3-2-4-3.9 5-2.3 14.6-6.4 18.3-6.4m0-3c-6.2 0-23 8.3-23 8.5 0 0 6 7.6 8.2 7.8h.3c2.6 0 9.3-3 12-4 2.9-1.2 8.3-10.5 3.8-12.1a4 4 0 0 0-1.3-.2z' fill='%235D4037'/%3E%3Cpath fill='%238D6E63' d='m30.3 103.4.9 5 6.8-1.8'/%3E%3Cpath fill='%23A1887F' d='m47 108 3.7 3.1 4.6-2.7'/%3E%3Cpath fill='%23BCAAA4' d='m70.5 105.8 6.4 2.1 1.3-5.3'/%3E%3Cpath fill='%238D6E63' d='m84.2 96.2 6.7-.8-.8-5.4'/%3E%3ClinearGradient id='b' x1='90.8' x2='108.3' y1='79.1' y2='79.1' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%238D6E63' offset='0'/%3E%3Cstop stop-color='%2376594F' offset='.4'/%3E%3Cstop stop-color='%234E342E' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M97 83.6c-2.7 0-4.9-.3-6.2-.6l2.3-8.3h3.1c5.2 0 9 1 10.6 2.9 1.2 1.3 1.7 2.5 1.5 3.1-.2.5-1.2 1.8-6.5 2.6a35 35 0 0 1-4.8.3z' fill='url(%23b)'/%3E%3Cpath d='M96.2 76.1c4.6 0 8.1 1 9.5 2.5.7.8 1 1.4 1 1.6-.3.3-1.5 1-5.2 1.6a31.7 31.7 0 0 1-8.9 0l1.7-5.6h2m0-3-4.3.1-3.1 10.8s3.3 1 8.1 1c1.6 0 3.2-.1 5-.4 7.2-1 10-3.4 6-8.1-2.6-3-8-3.5-11.8-3.5z' fill='%235D4037'/%3E%3ClinearGradient id='c' x1='64.2' x2='64.2' y1='27.6' y2='107.9' gradientTransform='rotate(-1.1 64.3 64.3)' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%235D2813' offset='.2'/%3E%3Cstop stop-color='%236A3A27' offset='.2'/%3E%3Cstop stop-color='%238D6859' offset='.4'/%3E%3Cstop stop-color='%23C5B2AA' offset='.6'/%3E%3Cstop stop-color='%23fff' offset='.8'/%3E%3C/linearGradient%3E%3Cpath d='M52.5 107.2c-37.8-.6-45-29.2-46.3-41.5-.6-5.6-.5-10.6-.5-13.8V48l1.2-.4c1.3-.3 3-.7 3.1-2.4.2-1.6-1.2-2.5-2.4-3.2l-.5-.4c3.7-3.4 20-14.5 46.6-14.5h.7a44.6 44.6 0 0 1 41.9 26 7 7 0 0 0 5.8 2.8h.6l.5-.1 13.3-5.9 1.6-.2c1.2 0 4 0 4.2 7.3.4 8.4-2.8 8.7-4 8.8h-.1c-1.5 0-4.4-.8-7.3-1.6-3.8-1-7.7-2-10.3-2a5.9 5.9 0 0 0-6 6c-.1 2.2-1.5 39-41 39h-1z' fill='url(%23c)'/%3E%3Cpath d='M53.8 28.6h.6c11.3.1 21 3.4 28.7 10 6.3 5.2 9.5 11 11 13.8l1 1.6a8.6 8.6 0 0 0 7 3.4h.8l.9-.3 13.2-5.7a6 6 0 0 1 1.1-.2c.8 0 2.5 0 2.7 5.8.3 7-1.8 7.2-2.5 7.2h-.1c-1.2 0-4.3-.8-7-1.5-3.8-1-7.8-2-10.6-2a7.4 7.4 0 0 0-7.6 7.5c0 1-.4 10-5.2 19-6.6 12.2-18.1 18.5-34.2 18.5h-1C15.8 105 9 77.3 7.6 65.4 7.1 60 7.2 55.1 7.2 52v-2.8c1.4-.3 4.1-1 4.4-3.8.1-1.7-.9-2.9-2-3.7 5.1-3.9 19.7-13 44.2-13m0-3C22.7 25.6 6.3 40 5.3 41.3c-1 1.2 3.3 2.4 3.2 3.8s-4.7.9-4.4 2.8-.4 9 .6 18c.6 5.7 4.7 42.1 47.8 42.8h1c42 0 42.6-40.5 42.6-40.5s-.2-3.1 3-4.3l1.5-.2c4.6 0 14.1 3.6 17.6 3.6h.3c4.2-.3 5.6-4 5.4-10.4-.3-5.4-1.9-8.7-5.8-8.7-.6 0-1.3 0-2 .3l-13.5 5.9h-.5c-1 0-3.2-.2-4.5-2.2-1.8-2.5-11.7-26.4-43.2-26.6h-.6z' fill='%236D4C41'/%3E%3ClinearGradient id='d' x1='37.7' x2='63.2' y1='49.1' y2='49.1' gradientTransform='rotate(-1.1 64.3 64.3)' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%235D4037' offset='0'/%3E%3Cstop stop-color='%23462D28' offset='.8'/%3E%3Cstop stop-color='%233E2723' offset='1'/%3E%3C/linearGradient%3E%3Cpath d='M37.3 43.7s4.1 2.4 1.8 7.3 6 8.2 12.4 8.3 11.6-10.9 11.2-16c-.3-5-15.2-5.7-25.4.4z' fill='url(%23d)'/%3E%3Cpath fill='%23BCAAA4' d='m26.8 89.9 2.1 5.9 5.6-2.7M42.3 96.6l3.3 5 4.6-3.9'/%3E%3Cpath fill='%23D7CCC8' d='m16.3 86.7-.9 9.7 8.6-.9'/%3E%3Cpath fill='%23BCAAA4' d='m62.3 97.5 4.6 3.8 3.3-5.3M55.1 104.3l4.6 3.7 3.4-5.2'/%3E%3Cpath fill='%23D7CCC8' d='m76.5 94.5 6.4 1.7-.2-6.5'/%3E%3Cpath fill='%236D4C41' d='m37.8 80 2.5 5.7 4.2-4.1M52.5 87.7l4.4 4.2 2.3-5.6'/%3E%3Cpath fill='%238D6E63' d='m53.9 70.2 3.6 5.3 2.8-5.8M67.5 67.5l5.4 3.1.1-6.5M81.1 71.9l5.5 3.1.1-6.5'/%3E%3Cpath fill='%235D4037' d='m71.8 82.9 5.2 3.5.6-6.4'/%3E%3Cpath fill='%233E2723' d='m86.9 58.2 1.3-7.9-8.2 1.1M77.5 45.4l-1-8-7.5 3.7'/%3E%3Cpath fill='%234E342E' d='m83.7 38.3-1.2-9.4-8.8 4.3'/%3E%3Cpath fill='%233E2723' d='m77.2 31.7-2.6-9.1-8.1 5.7'/%3E%3Cpath fill='%234E342E' stroke='%233E2723' stroke-miterlimit='10' stroke-width='.8' d='m44.4 29.1-8-6.4-4.1 9.6'/%3E%3Cpath fill='%233E2723' d='m63 34.1-4.3-11.6-7.8 9.6'/%3E%3Cpath fill='%233E2723' d='M55.1 28.1 49 19.8l-6.2 8.1M30 30.6l-8.6-5.3-2.8 10'/%3E%3Cpath fill='%234E342E' d='m71.2 31-3.8-9.7-8 6.1'/%3E%3Cpath fill='%236D4C41' d='m20.6 72.2.5 5.7L26 75'/%3E%3Cpath fill='%23BCAAA4' d='m12.6 75.1-5.6 7h7.4'/%3E%3Cpath fill='%236D4C41' d='m16.2 57-3.9 5.4 6.4 1.7'/%3E%3Cpath fill='%238D6E63' d='m34.3 66.5.8 6.5 5.1-3.7'/%3E%3Cpath d='M33.7 39.3c-.2 5-4.2 9-9 9s-8.5-4.5-8.4-9.5 4.2-9 9-9 8.5 4.5 8.4 9.5z' fill='%23fff'/%3E%3Cpath d='M28.2 42.6a4.4 4.4 0 0 1-6.5-.2c-1.8-2-1.7-5 .1-6.9s4.8-1.7 6.5.2a5 5 0 0 1-.1 6.9z'/%3E%3C/svg%3E"
+            alt="Project Fugu blowfish logo"
+            width="128"
+            height="128"
+          />
+          Project Fugu API Showcase
+        </a>
+      </h1>
+      <p>
+        This showcase of
+        <a target="_blank" rel="noopener" href="https://web.dev/fugu-status/"
+          >Project Fugu APIs</a
+        >
+        is sourced by community submissions. You can propose missing apps by
+        submitting them via this
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform"
+          >form</a
+        >. Submissions are reviewed on a regular basis and the site will be
+        updated accordingly.
+      </p>
       <form>
         <label>
           Filter used APIs:
@@ -219,712 +251,2587 @@
         </label>
         <button type="reset">Clear</button>
       </form>
-    <datalist id="available-apis"><option value="Absolute Orientation Sensor">Absolute Orientation Sensor</option><option value="Add to Home Screen">Add to Home Screen</option><option value="Async Clipboard">Async Clipboard</option><option value="Async Clipboard (Images)">Async Clipboard (Images)</option><option value="Background Fetch">Background Fetch</option><option value="Badging">Badging</option><option value="Cache Storage">Cache Storage</option><option value="Contact Picker">Contact Picker</option><option value="Digital Goods">Digital Goods</option><option value="EyeDropper">EyeDropper</option><option value="File Handling">File Handling</option><option value="File System Access">File System Access</option><option value="getInstalledRelatedApps">getInstalledRelatedApps</option><option value="Gyroscope">Gyroscope</option><option value="Launch Handler">Launch Handler</option><option value="Linear Acceleration Sensor">Linear Acceleration Sensor</option><option value="Local Font Access">Local Font Access</option><option value="Media Session">Media Session</option><option value="Notification Triggers">Notification Triggers</option><option value="Payment Request">Payment Request</option><option value="Persistent Storage">Persistent Storage</option><option value="Push">Push</option><option value="Relative Orientation Sensor">Relative Orientation Sensor</option><option value="Screen Wake Lock">Screen Wake Lock</option><option value="Service Worker">Service Worker</option><option value="Shortcuts">Shortcuts</option><option value="Storage Estimation">Storage Estimation</option><option value="Web Share">Web Share</option><option value="Web Share (Files)">Web Share (Files)</option><option value="Web Share Target">Web Share Target</option><option value="Web Share Target (Files)">Web Share Target (Files)</option><option value="WebBluetooth">WebBluetooth</option><option value="WebHID">WebHID</option><option value="WebNFC">WebNFC</option><option value="WebSerial">WebSerial</option><option value="WebUSB">WebUSB</option><option value="Window Controls Overlay">Window Controls Overlay</option></datalist>
-      <div class=container>
-        
-            <article id="md.nico.dev.webp" class="add-to-home-screen file-handling file-system-access launch-handler local-font-access">
-              <h2><a target="_blank" rel="noopener" href="https://md.nico.dev/">[md.edit]</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://md.nico.dev/">
-                  <picture>
-                    <source srcset="md.nico.dev-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="md.nico.dev.webp" media="(prefers-color-scheme: light)" />
-                    <img src="md.nico.dev.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of [md.edit]"
-                        >
-                  </picture>
-                </a>
-                <figcaption class="description">[md.edit] is a web based markdown editor that uses modern progressive web app features to provide a great, cross-platform editing experience.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/nico-martin/markdown-editor/">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://md.nico.dev/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-handling/">File Handling</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/launch-handler/">Launch Handler</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/local-fonts/">Local Font Access</a></li></ul>
-              <a class="anchor" href="#md.nico.dev.webp">#</a>
-            </article>
-          
-            <article id="avg-colour.netlify.app.webp" class="add-to-home-screen">
-              <h2><a target="_blank" rel="noopener" href="https://avg-colour.netlify.app/">Average Colour</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://avg-colour.netlify.app/">
-                  <picture>
-                    <source srcset="avg-colour.netlify.app-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="avg-colour.netlify.app.webp" media="(prefers-color-scheme: light)" />
-                    <img src="avg-colour.netlify.app.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Average Colour"
-                        >
-                  </picture>
-                </a>
-                <figcaption class="description">Average Colour is a tool to find the average colour in an image.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/ThomasRettig/average-color">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://avg-colour.netlify.app/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li></ul>
-              <a class="anchor" href="#avg-colour.netlify.app.webp">#</a>
-            </article>
-          
-            <article id="boxy-svg.com!app.webp" class="add-to-home-screen async-clipboard cache-storage eyedropper file-system-access local-font-access service-worker">
-              <h2><a target="_blank" rel="noopener" href="https://boxy-svg.com/app">Boxy SVG</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://boxy-svg.com/app">
-                  <picture>
-                    <source srcset="boxy-svg.com!app-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="boxy-svg.com!app.webp" media="(prefers-color-scheme: light)" />
-                    <img src="boxy-svg.com!app.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Boxy SVG"
-                        >
-                  </picture>
-                </a>
-                
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://boxy-svg.com/app">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/async-clipboard/">Async Clipboard</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li><li><a target="_blank" rel="noopener" href="https://github.com/WICG/eyedropper-api/blob/main/README.md">EyeDropper</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/local-fonts/">Local Font Access</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li></ul>
-              <a class="anchor" href="#boxy-svg.com!app.webp">#</a>
-            </article>
-          
-            <article id="editor.bridge-core.app.webp" class="badging file-handling file-system-access launch-handler window-controls-overlay">
-              <h2><a target="_blank" rel="noopener" href="https://editor.bridge-core.app/">bridge. v2</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://editor.bridge-core.app/">
-                  <picture>
-                    <source srcset="editor.bridge-core.app-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="editor.bridge-core.app.webp" media="(prefers-color-scheme: light)" />
-                    <img src="editor.bridge-core.app.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of bridge. v2"
-                        >
-                  </picture>
-                </a>
-                <figcaption class="description">bridge. is a light-weight IDE for Minecraft Add-Ons</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/bridge-core/editor">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://editor.bridge-core.app/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/badging-api/">Badging</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-handling/">File Handling</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/launch-handler/">Launch Handler</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/window-controls-overlay/">Window Controls Overlay</a></li></ul>
-              <a class="anchor" href="#editor.bridge-core.app.webp">#</a>
-            </article>
-          
-            <article id="loilo.github.io!diffr.webp" class="service-worker">
-              <h2><a target="_blank" rel="noopener" href="https://loilo.github.io/diffr/">Diffr | The Online Text Diffing Tool</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://loilo.github.io/diffr/">
-                  <picture>
-                    <source srcset="loilo.github.io!diffr-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="loilo.github.io!diffr.webp" media="(prefers-color-scheme: light)" />
-                    <img src="loilo.github.io!diffr.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Diffr | The Online Text Diffing Tool"
-                        >
-                  </picture>
-                </a>
-                <figcaption class="description">Create and share diffs with this privacy focused online text diffing tool.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/loilo/diffr">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://loilo.github.io/diffr/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li></ul>
-              <a class="anchor" href="#loilo.github.io!diffr.webp">#</a>
-            </article>
-          
-            <article id="esphome.io.webp" class="webserial">
-              <h2><a target="_blank" rel="noopener" href="https://esphome.io/">ESPHome — ESPHome</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://esphome.io/">
-                  <picture>
-                    <source srcset="esphome.io-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="esphome.io.webp" media="(prefers-color-scheme: light)" />
-                    <img src="esphome.io.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of ESPHome — ESPHome"
-                        >
-                  </picture>
-                </a>
-                <figcaption class="description">ESPHome Homepage - Reimagining DIY Home Automation. ESPHome is a framework that tries to provide the best possible use experience for using ESP8266 and ESP32 microcontrollers for Home Automation. Just write a simple YAML configuration file and get your own customized firmware.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/esphome/dashboard/">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://esphome.io/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/serial/">WebSerial</a></li></ul>
-              <a class="anchor" href="#esphome.io.webp">#</a>
-            </article>
-          
-            <article id="esphome.github.io!esp-web-tools.webp" class="webserial">
-              <h2><a target="_blank" rel="noopener" href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://esphome.github.io/esp-web-tools/">
-                  <picture>
-                    <source srcset="esphome.github.io!esp-web-tools-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="esphome.github.io!esp-web-tools.webp" media="(prefers-color-scheme: light)" />
-                    <img src="esphome.github.io!esp-web-tools.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of ESP Web Tools"
-                        >
-                  </picture>
-                </a>
-                <figcaption class="description">Easily allow users to flash new firmware for their ESP-devices on the web.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/esphome/esp-web-tools">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://esphome.github.io/esp-web-tools/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/serial/">WebSerial</a></li></ul>
-              <a class="anchor" href="#esphome.github.io!esp-web-tools.webp">#</a>
-            </article>
-          
-            <article id="dannymoerkerke.github.io!file-tree.webp" class="file-system-access">
-              <h2><a target="_blank" rel="noopener" href="https://dannymoerkerke.github.io/file-tree">file-tree Web Component</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://dannymoerkerke.github.io/file-tree">
-                  <picture>
-                    <source srcset="dannymoerkerke.github.io!file-tree-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="dannymoerkerke.github.io!file-tree.webp" media="(prefers-color-scheme: light)" />
-                    <img src="dannymoerkerke.github.io!file-tree.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of file-tree Web Component"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">A file tree web component giving access to a device's file system using the File System Access API</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/DannyMoerkerke/file-tree">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://dannymoerkerke.github.io/file-tree">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li></ul>
-              <a class="anchor" href="#dannymoerkerke.github.io!file-tree.webp">#</a>
-            </article>
-          
-            <article id="panel.hostmeapp.com.webp" class="add-to-home-screen cache-storage getinstalledrelatedapps push service-worker shortcuts">
-              <h2><a target="_blank" rel="noopener" href="https://panel.hostmeapp.com">Hostme</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://panel.hostmeapp.com">
-                  <picture>
-                    <source srcset="panel.hostmeapp.com-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="panel.hostmeapp.com.webp" media="(prefers-color-scheme: light)" />
-                    <img src="panel.hostmeapp.com.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Hostme"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">Hostme is everything you need to successfully run your restaurant business!</figcaption>
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://panel.hostmeapp.com">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/get-installed-related-apps/">getInstalledRelatedApps</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">Push</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/app-shortcuts/">Shortcuts</a></li></ul>
-              <a class="anchor" href="#panel.hostmeapp.com.webp">#</a>
-            </article>
-          
-            <article id="hexed.it.webp" class="cache-storage">
-              <h2><a target="_blank" rel="noopener" href="https://hexed.it">HexEd.it - Browser-based Online and Offline Hex Editing</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://hexed.it">
-                  <picture>
-                    <source srcset="hexed.it-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="hexed.it.webp" media="(prefers-color-scheme: light)" />
-                    <img src="hexed.it.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of HexEd.it - Browser-based Online and Offline Hex Editing"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">HexEd.it is a free hex editor for Windows, MacOS, Linux and all other modern operating systems, which uses HTML5 and JavaScript (JS) technology to enable hexediting online, directly in your browser.</figcaption>
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://hexed.it">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li></ul>
-              <a class="anchor" href="#hexed.it.webp">#</a>
-            </article>
-          
-            <article id="improv-wifi.com.webp" class="webbluetooth webserial">
-              <h2><a target="_blank" rel="noopener" href="https://www.improv-wifi.com/">Improv Wi-Fi: Open standard for setting up Wi-Fi via Bluetooth LE and Serial</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://www.improv-wifi.com/">
-                  <picture>
-                    <source srcset="improv-wifi.com-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="improv-wifi.com.webp" media="(prefers-color-scheme: light)" />
-                    <img src="improv-wifi.com.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Improv Wi-Fi: Open standard for setting up Wi-Fi via Bluetooth LE and Serial"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">Free and open standard with ready-made SDKs that offer a great user experience to configure Wi-Fi on devices.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/improv-wifi/sdk-js/">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://www.improv-wifi.com/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/bluetooth/">WebBluetooth</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/serial/">WebSerial</a></li></ul>
-              <a class="anchor" href="#improv-wifi.com.webp">#</a>
-            </article>
-          
-            <article id="makecode.com.webp" class="webbluetooth webserial webusb">
-              <h2><a target="_blank" rel="noopener" href="https://makecode.com">Informatik-Ausbildung mit Microsoft MakeCode</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://makecode.com">
-                  <picture>
-                    <source srcset="makecode.com-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="makecode.com.webp" media="(prefers-color-scheme: light)" />
-                    <img src="makecode.com.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Informatik-Ausbildung mit Microsoft MakeCode"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">MakeCode vermittelt allen Schülern Informatik mit unterhaltsamen Projekten, sofortigen Ergebnissen sowie Block- und Texteditoren für alle Kenntnisstufen.</figcaption>
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://makecode.com">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/bluetooth/">WebBluetooth</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/serial/">WebSerial</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/usb/">WebUSB</a></li></ul>
-              <a class="anchor" href="#makecode.com.webp">#</a>
-            </article>
-          
-            <article id="thelogbook.app.webp" class="add-to-home-screen file-handling file-system-access persistent-storage service-worker web-share window-controls-overlay">
-              <h2><a target="_blank" rel="noopener" href="https://thelogbook.app">Logbook</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://thelogbook.app">
-                  <picture>
-                    <source srcset="thelogbook.app-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="thelogbook.app.webp" media="(prefers-color-scheme: light)" />
-                    <img src="thelogbook.app.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Logbook"
-                        loading="lazy">
-                  </picture>
-                </a>
-                
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://thelogbook.app">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-handling/">File Handling</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist">Persistent Storage</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/window-controls-overlay/">Window Controls Overlay</a></li></ul>
-              <a class="anchor" href="#thelogbook.app.webp">#</a>
-            </article>
-          
-            <article id="linkcleaner.app.webp" class="service-worker web-share web-share-target">
-              <h2><a target="_blank" rel="noopener" href="https://linkcleaner.app/">Link Cleaner</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://linkcleaner.app/">
-                  <picture>
-                    <source srcset="linkcleaner.app-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="linkcleaner.app.webp" media="(prefers-color-scheme: light)" />
-                    <img src="linkcleaner.app.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Link Cleaner"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">Link Cleaner is a web app that removes extra garbage from links, complete with share/send support on compatible browsers.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/corbindavenport/link-cleaner">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://linkcleaner.app/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share-target/">Web Share Target</a></li></ul>
-              <a class="anchor" href="#linkcleaner.app.webp">#</a>
-            </article>
-          
-            <article id="mconverter.eu.webp" class="add-to-home-screen async-clipboard-images async-clipboard cache-storage digital-goods getinstalledrelatedapps service-worker shortcuts web-share-files web-share-target-files">
-              <h2><a target="_blank" rel="noopener" href="https://mconverter.eu/">MConverter: Easy to Use Online File Converter</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://mconverter.eu/">
-                  <picture>
-                    <source srcset="mconverter.eu-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="mconverter.eu.webp" media="(prefers-color-scheme: light)" />
-                    <img src="mconverter.eu.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of MConverter: Easy to Use Online File Converter"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">Convert securely video, audio, image, e-book, office & archive files. Bulk convert large files up to 1 GB. Free and easy to use converter.</figcaption>
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://mconverter.eu/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/async-clipboard/">Async Clipboard (Images)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/async-clipboard/">Async Clipboard</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li><li><a target="_blank" rel="noopener" href="https://developer.chrome.com/docs/android/trusted-web-activity/receive-payments-play-billing/">Digital Goods</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/get-installed-related-apps/">getInstalledRelatedApps</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/app-shortcuts/">Shortcuts</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share (Files)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share-target/">Web Share Target (Files)</a></li></ul>
-              <a class="anchor" href="#mconverter.eu.webp">#</a>
-            </article>
-          
-            <article id="edit.photostack.app.webp" class="file-system-access service-worker web-share-files">
-              <h2><a target="_blank" rel="noopener" href="https://edit.photostack.app">PhotoStack</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://edit.photostack.app">
-                  <picture>
-                    <source srcset="edit.photostack.app-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="edit.photostack.app.webp" media="(prefers-color-scheme: light)" />
-                    <img src="edit.photostack.app.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of PhotoStack"
-                        loading="lazy">
-                  </picture>
-                </a>
-                
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/photostack/photostack">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://edit.photostack.app">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share (Files)</a></li></ul>
-              <a class="anchor" href="#edit.photostack.app.webp">#</a>
-            </article>
-          
-            <article id="tomayac.github.io!fugu-showcase!data.webp" class="cache-storage service-worker web-share-files">
-              <h2><a target="_blank" rel="noopener" href="https://tomayac.github.io/fugu-showcase/data/">Project Fugu API Showcase</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://tomayac.github.io/fugu-showcase/data/">
-                  <picture>
-                    <source srcset="tomayac.github.io!fugu-showcase!data-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="tomayac.github.io!fugu-showcase!data.webp" media="(prefers-color-scheme: light)" />
-                    <img src="tomayac.github.io!fugu-showcase!data.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Project Fugu API Showcase"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">A showcase of Project Fugu APIs sourced by community submissions.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/tomayac/fugu-showcase">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://tomayac.github.io/fugu-showcase/data/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share (Files)</a></li></ul>
-              <a class="anchor" href="#tomayac.github.io!fugu-showcase!data.webp">#</a>
-            </article>
-          
-            <article id="sqliteviewer.app.webp" class="file-handling file-system-access service-worker storage-estimation window-controls-overlay">
-              <h2><a target="_blank" rel="noopener" href="https://sqliteviewer.app">SQLite Viewer Web App</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://sqliteviewer.app">
-                  <picture>
-                    <source srcset="sqliteviewer.app-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="sqliteviewer.app.webp" media="(prefers-color-scheme: light)" />
-                    <img src="sqliteviewer.app.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of SQLite Viewer Web App"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">A free online SQLite Explorer, inspired by DB Browser for SQLite and Airtable. Use this web-based SQLite Tool to quickly and easily inspect sqlite files on the web.</figcaption>
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://sqliteviewer.app">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/file-handling/">File Handling</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate">Storage Estimation</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/window-controls-overlay/">Window Controls Overlay</a></li></ul>
-              <a class="anchor" href="#sqliteviewer.app.webp">#</a>
-            </article>
-          
-            <article id="stackedit.io.webp" class="add-to-home-screen">
-              <h2><a target="_blank" rel="noopener" href="https://stackedit.io ">StackEdit – In-browser Markdown editor</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://stackedit.io ">
-                  <picture>
-                    <source srcset="stackedit.io-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="stackedit.io.webp" media="(prefers-color-scheme: light)" />
-                    <img src="stackedit.io.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of StackEdit – In-browser Markdown editor"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">Full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/benweet/stackedit/">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://stackedit.io ">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li></ul>
-              <a class="anchor" href="#stackedit.io.webp">#</a>
-            </article>
-          
-            <article id="svgco.de.webp" class="add-to-home-screen async-clipboard-images cache-storage file-handling file-system-access web-share-files web-share-target-files window-controls-overlay">
-              <h2><a target="_blank" rel="noopener" href="https://svgco.de/">SVGcode</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://svgco.de/">
-                  <picture>
-                    <source srcset="svgco.de-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="svgco.de.webp" media="(prefers-color-scheme: light)" />
-                    <img src="svgco.de.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of SVGcode"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">SVGcode is a Progressive Web App that lets you convert raster images like JPG, PNG, GIF, WebP, AVIF, etc. to vector graphics in SVG format.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/tomayac/SVGcode">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://svgco.de/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/async-clipboard/">Async Clipboard (Images)</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-handling/">File Handling</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share (Files)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share-target/">Web Share Target (Files)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/window-controls-overlay/">Window Controls Overlay</a></li></ul>
-              <a class="anchor" href="#svgco.de.webp">#</a>
-            </article>
-          
-            <article id="tidepool.org!uploader.webp" class="webbluetooth webhid webserial webusb">
-              <h2><a target="_blank" rel="noopener" href="https://tidepool.org/uploader">Tidepool</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://tidepool.org/uploader">
-                  <picture>
-                    <source srcset="tidepool.org!uploader-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="tidepool.org!uploader.webp" media="(prefers-color-scheme: light)" />
-                    <img src="tidepool.org!uploader.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Tidepool"
-                        loading="lazy">
-                  </picture>
-                </a>
-                
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/tidepool-org/uploader">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://tidepool.org/uploader">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/bluetooth/">WebBluetooth</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/hid/">WebHID</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/serial/">WebSerial</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/usb/">WebUSB</a></li></ul>
-              <a class="anchor" href="#tidepool.org!uploader.webp">#</a>
-            </article>
-          
-            <article id="web.telegram.org!z.webp" class="async-clipboard-images async-clipboard badging cache-storage media-session service-worker">
-              <h2><a target="_blank" rel="noopener" href="https://web.telegram.org/z/">Telegram Web</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://web.telegram.org/z/">
-                  <picture>
-                    <source srcset="web.telegram.org!z-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="web.telegram.org!z.webp" media="(prefers-color-scheme: light)" />
-                    <img src="web.telegram.org!z.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Telegram Web"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/Ajaxy/telegram-tt">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://web.telegram.org/z/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/async-clipboard/">Async Clipboard (Images)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/async-clipboard/">Async Clipboard</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/badging-api/">Badging</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API">Media Session</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li></ul>
-              <a class="anchor" href="#web.telegram.org!z.webp">#</a>
-            </article>
-          
-            <article id="tgstorage.com.webp" class="add-to-home-screen cache-storage service-worker web-share-files web-share web-share-target-files web-share-target">
-              <h2><a target="_blank" rel="noopener" href="https://tgstorage.com">TgStorage</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://tgstorage.com">
-                  <picture>
-                    <source srcset="tgstorage.com-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="tgstorage.com.webp" media="(prefers-color-scheme: light)" />
-                    <img src="tgstorage.com.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of TgStorage"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">Advanced Saved Messages of the Telegram. Organize your notes, links, checklists, photos and any documents in the free unlimited Telegram Cloud.</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/sh-a-v/tgstorage">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://tgstorage.com">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share (Files)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share-target/">Web Share Target (Files)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share-target/">Web Share Target</a></li></ul>
-              <a class="anchor" href="#tgstorage.com.webp">#</a>
-            </article>
-          
-            <article id="uspeaking.netlify.app.webp" class="persistent-storage service-worker">
-              <h2><a target="_blank" rel="noopener" href="https://uspeaking.netlify.app/">USpeaking</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://uspeaking.netlify.app/">
-                  <picture>
-                    <source srcset="uspeaking.netlify.app-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="uspeaking.netlify.app.webp" media="(prefers-color-scheme: light)" />
-                    <img src="uspeaking.netlify.app.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of USpeaking"
-                        loading="lazy">
-                  </picture>
-                </a>
-                
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/rafaelguinho/u-speaking-react">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://uspeaking.netlify.app/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist">Persistent Storage</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li></ul>
-              <a class="anchor" href="#uspeaking.netlify.app.webp">#</a>
-            </article>
-          
-            <article id="anaesthetics.app!bluetooth.webp" class="screen-wake-lock service-worker webbluetooth">
-              <h2><a target="_blank" rel="noopener" href="https://anaesthetics.app/bluetooth/">Web Bluetooth Demo</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://anaesthetics.app/bluetooth/">
-                  <picture>
-                    <source srcset="anaesthetics.app!bluetooth-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="anaesthetics.app!bluetooth.webp" media="(prefers-color-scheme: light)" />
-                    <img src="anaesthetics.app!bluetooth.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of Web Bluetooth Demo"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">Monitor your oxygen saturation and heart rate with a bluetooth pulse oximeter</figcaption>
-              </figure>
-              <span class="source"><a target="_blank" rel="noopener" href="https://github.com/anaestheticsapp/bluetooth">Source code</a></span>
-              <span class="launch"><a target="_blank" rel="noopener" href="https://anaesthetics.app/bluetooth/">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/wake-lock/">Screen Wake Lock</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/bluetooth/">WebBluetooth</a></li></ul>
-              <a class="anchor" href="#anaesthetics.app!bluetooth.webp">#</a>
-            </article>
-          
-            <article id="whatpwacando.today.webp" class="add-to-home-screen cache-storage contact-picker file-system-access gyroscope linear-acceleration-sensor media-session notification-triggers payment-request relative-orientation-sensor screen-wake-lock service-worker shortcuts web-share-files web-share web-share-target-files web-share-target webnfc">
-              <h2><a target="_blank" rel="noopener" href="https://whatpwacando.today ">What PWA Can Do Today</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://whatpwacando.today ">
-                  <picture>
-                    <source srcset="whatpwacando.today-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="whatpwacando.today.webp" media="(prefers-color-scheme: light)" />
-                    <img src="whatpwacando.today.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of What PWA Can Do Today"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">A showcase of what is possible with Progressive Web Apps today.</figcaption>
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://whatpwacando.today ">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/contact-picker/">Contact Picker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/file-system-access/">File System Access</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/generic-sensor/">Gyroscope</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/generic-sensor/">Linear Acceleration Sensor</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API">Media Session</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/notification-triggers/">Notification Triggers</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API">Payment Request</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/generic-sensor/">Relative Orientation Sensor</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/wake-lock/">Screen Wake Lock</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/app-shortcuts/">Shortcuts</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share (Files)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share/">Web Share</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share-target/">Web Share Target (Files)</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/web-share-target/">Web Share Target</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/nfc/">WebNFC</a></li></ul>
-              <a class="anchor" href="#whatpwacando.today.webp">#</a>
-            </article>
-          
-            <article id="yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp" class="absolute-orientation-sensor add-to-home-screen async-clipboard background-fetch badging cache-storage">
-              <h2><a target="_blank" rel="noopener" href="https://yakuneba-community.com/welcome/YwAnWZXanuD7QckXWJwd">みんなのネバーランド - 約束のネバーランド公式コミュニティ -</a></h2>
-              <figure>
-                <a target="_blank" rel="noopener" href="https://yakuneba-community.com/welcome/YwAnWZXanuD7QckXWJwd">
-                  <picture>
-                    <source srcset="yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd-dark.webp" media="(prefers-color-scheme: dark)" />
-                    <source srcset="yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp" media="(prefers-color-scheme: light)" />
-                    <img src="yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp"
-                        width="1280"
-                        height="800"
-                        alt="Screenshot of みんなのネバーランド - 約束のネバーランド公式コミュニティ -"
-                        loading="lazy">
-                  </picture>
-                </a>
-                <figcaption class="description">みんネバは約束のネバーランド好きが集まる公式コミュニティです。考察やファンアート、約ネバの話題で盛り上がろう！</figcaption>
-              </figure>
-              
-              <span class="launch"><a target="_blank" rel="noopener" href="https://yakuneba-community.com/welcome/YwAnWZXanuD7QckXWJwd">Launch app</a></span>
-              <button type="button" class="share">Share app</button>
-              <h3>Used APIs:</h3>
-              <ul><li><a target="_blank" rel="noopener" href="https://web.dev/generic-sensor/">Absolute Orientation Sensor</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent">Add to Home Screen</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/async-clipboard/">Async Clipboard</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API">Background Fetch</a></li><li><a target="_blank" rel="noopener" href="https://web.dev/badging-api/">Badging</a></li><li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">Cache Storage</a></li></ul>
-              <a class="anchor" href="#yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp">#</a>
-            </article>
-          
+      <datalist id="available-apis">
+        <option value="Absolute Orientation Sensor">
+          Absolute Orientation Sensor
+        </option>
+        <option value="Add to Home Screen">Add to Home Screen</option>
+        <option value="Async Clipboard">Async Clipboard</option>
+        <option value="Async Clipboard (Images)">
+          Async Clipboard (Images)
+        </option>
+        <option value="Background Fetch">Background Fetch</option>
+        <option value="Badging">Badging</option>
+        <option value="Cache Storage">Cache Storage</option>
+        <option value="Contact Picker">Contact Picker</option>
+        <option value="Digital Goods">Digital Goods</option>
+        <option value="EyeDropper">EyeDropper</option>
+        <option value="File Handling">File Handling</option>
+        <option value="File System Access">File System Access</option>
+        <option value="getInstalledRelatedApps">getInstalledRelatedApps</option>
+        <option value="Gyroscope">Gyroscope</option>
+        <option value="Launch Handler">Launch Handler</option>
+        <option value="Linear Acceleration Sensor">
+          Linear Acceleration Sensor
+        </option>
+        <option value="Local Font Access">Local Font Access</option>
+        <option value="Media Session">Media Session</option>
+        <option value="Notification Triggers">Notification Triggers</option>
+        <option value="Payment Request">Payment Request</option>
+        <option value="Persistent Storage">Persistent Storage</option>
+        <option value="Push">Push</option>
+        <option value="Relative Orientation Sensor">
+          Relative Orientation Sensor
+        </option>
+        <option value="Screen Wake Lock">Screen Wake Lock</option>
+        <option value="Service Worker">Service Worker</option>
+        <option value="Shortcuts">Shortcuts</option>
+        <option value="Storage Estimation">Storage Estimation</option>
+        <option value="Web Share">Web Share</option>
+        <option value="Web Share (Files)">Web Share (Files)</option>
+        <option value="Web Share Target">Web Share Target</option>
+        <option value="Web Share Target (Files)">
+          Web Share Target (Files)
+        </option>
+        <option value="WebBluetooth">WebBluetooth</option>
+        <option value="WebHID">WebHID</option>
+        <option value="WebNFC">WebNFC</option>
+        <option value="WebSerial">WebSerial</option>
+        <option value="WebUSB">WebUSB</option>
+        <option value="Window Controls Overlay">Window Controls Overlay</option>
+      </datalist>
+      <div class="container">
+        <article
+          id="md.nico.dev.webp"
+          class="add-to-home-screen file-handling file-system-access launch-handler local-font-access"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://md.nico.dev/"
+              >[md.edit]</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://md.nico.dev/">
+              <picture>
+                <source
+                  srcset="md.nico.dev-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="md.nico.dev.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="md.nico.dev.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of [md.edit]"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              [md.edit] is a web based markdown editor that uses modern
+              progressive web app features to provide a great, cross-platform
+              editing experience.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/nico-martin/markdown-editor/"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://md.nico.dev/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-handling/"
+                >File Handling</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/launch-handler/"
+                >Launch Handler</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/local-fonts/"
+                >Local Font Access</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#md.nico.dev.webp">#</a>
+        </article>
+
+        <article id="avg-colour.netlify.app.webp" class="add-to-home-screen">
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://avg-colour.netlify.app/"
+              >Average Colour</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://avg-colour.netlify.app/"
+            >
+              <picture>
+                <source
+                  srcset="avg-colour.netlify.app-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="avg-colour.netlify.app.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="avg-colour.netlify.app.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Average Colour"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Average Colour is a tool to find the average colour in an image.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/ThomasRettig/average-color"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://avg-colour.netlify.app/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#avg-colour.netlify.app.webp">#</a>
+        </article>
+
+        <article
+          id="boxy-svg.com!app.webp"
+          class="add-to-home-screen async-clipboard cache-storage eyedropper file-system-access local-font-access service-worker"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://boxy-svg.com/app"
+              >Boxy SVG</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://boxy-svg.com/app">
+              <picture>
+                <source
+                  srcset="boxy-svg.com!app-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="boxy-svg.com!app.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="boxy-svg.com!app.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Boxy SVG"
+                />
+              </picture>
+            </a>
+          </figure>
+
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://boxy-svg.com/app"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/async-clipboard/"
+                >Async Clipboard</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://github.com/WICG/eyedropper-api/blob/main/README.md"
+                >EyeDropper</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/local-fonts/"
+                >Local Font Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#boxy-svg.com!app.webp">#</a>
+        </article>
+
+        <article
+          id="editor.bridge-core.app.webp"
+          class="badging file-handling file-system-access launch-handler window-controls-overlay"
+        >
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://editor.bridge-core.app/"
+              >bridge. v2</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://editor.bridge-core.app/"
+            >
+              <picture>
+                <source
+                  srcset="editor.bridge-core.app-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="editor.bridge-core.app.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="editor.bridge-core.app.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of bridge. v2"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              bridge. is a light-weight IDE for Minecraft Add-Ons
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/bridge-core/editor"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://editor.bridge-core.app/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/badging-api/"
+                >Badging</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-handling/"
+                >File Handling</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/launch-handler/"
+                >Launch Handler</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/window-controls-overlay/"
+                >Window Controls Overlay</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#editor.bridge-core.app.webp">#</a>
+        </article>
+
+        <article id="loilo.github.io!diffr.webp" class="service-worker">
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://loilo.github.io/diffr/"
+              >Diffr | The Online Text Diffing Tool</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://loilo.github.io/diffr/"
+            >
+              <picture>
+                <source
+                  srcset="loilo.github.io!diffr-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="loilo.github.io!diffr.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="loilo.github.io!diffr.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Diffr | The Online Text Diffing Tool"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Create and share diffs with this privacy focused online text
+              diffing tool.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/loilo/diffr"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://loilo.github.io/diffr/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#loilo.github.io!diffr.webp">#</a>
+        </article>
+
+        <article id="esphome.io.webp" class="webserial">
+          <h2>
+            <a target="_blank" rel="noopener" href="https://esphome.io/"
+              >ESPHome — ESPHome</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://esphome.io/">
+              <picture>
+                <source
+                  srcset="esphome.io-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="esphome.io.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="esphome.io.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of ESPHome — ESPHome"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              ESPHome Homepage - Reimagining DIY Home Automation. ESPHome is a
+              framework that tries to provide the best possible use experience
+              for using ESP8266 and ESP32 microcontrollers for Home Automation.
+              Just write a simple YAML configuration file and get your own
+              customized firmware.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/esphome/dashboard/"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://esphome.io/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/serial/"
+                >WebSerial</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#esphome.io.webp">#</a>
+        </article>
+
+        <article id="esphome.github.io!esp-web-tools.webp" class="webserial">
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://esphome.github.io/esp-web-tools/"
+              >ESP Web Tools</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://esphome.github.io/esp-web-tools/"
+            >
+              <picture>
+                <source
+                  srcset="esphome.github.io!esp-web-tools-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="esphome.github.io!esp-web-tools.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="esphome.github.io!esp-web-tools.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of ESP Web Tools"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Easily allow users to flash new firmware for their ESP-devices on
+              the web.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/esphome/esp-web-tools"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://esphome.github.io/esp-web-tools/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/serial/"
+                >WebSerial</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#esphome.github.io!esp-web-tools.webp">#</a>
+        </article>
+
+        <article
+          id="dannymoerkerke.github.io!file-tree.webp"
+          class="file-system-access"
+        >
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://dannymoerkerke.github.io/file-tree"
+              >file-tree Web Component</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://dannymoerkerke.github.io/file-tree"
+            >
+              <picture>
+                <source
+                  srcset="dannymoerkerke.github.io!file-tree-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="dannymoerkerke.github.io!file-tree.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="dannymoerkerke.github.io!file-tree.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of file-tree Web Component"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              A file tree web component giving access to a device's file system
+              using the File System Access API
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/DannyMoerkerke/file-tree"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://dannymoerkerke.github.io/file-tree"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#dannymoerkerke.github.io!file-tree.webp"
+            >#</a
+          >
+        </article>
+
+        <article
+          id="panel.hostmeapp.com.webp"
+          class="add-to-home-screen cache-storage getinstalledrelatedapps push service-worker shortcuts"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://panel.hostmeapp.com"
+              >Hostme</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://panel.hostmeapp.com"
+            >
+              <picture>
+                <source
+                  srcset="panel.hostmeapp.com-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="panel.hostmeapp.com.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="panel.hostmeapp.com.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Hostme"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Hostme is everything you need to successfully run your restaurant
+              business!
+            </figcaption>
+          </figure>
+
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://panel.hostmeapp.com"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/get-installed-related-apps/"
+                >getInstalledRelatedApps</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+                >Push</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/app-shortcuts/"
+                >Shortcuts</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#panel.hostmeapp.com.webp">#</a>
+        </article>
+
+        <article id="hexed.it.webp" class="cache-storage">
+          <h2>
+            <a target="_blank" rel="noopener" href="https://hexed.it"
+              >HexEd.it - Browser-based Online and Offline Hex Editing</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://hexed.it">
+              <picture>
+                <source
+                  srcset="hexed.it-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="hexed.it.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="hexed.it.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of HexEd.it - Browser-based Online and Offline Hex Editing"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              HexEd.it is a free hex editor for Windows, MacOS, Linux and all
+              other modern operating systems, which uses HTML5 and JavaScript
+              (JS) technology to enable hexediting online, directly in your
+              browser.
+            </figcaption>
+          </figure>
+
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://hexed.it"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#hexed.it.webp">#</a>
+        </article>
+
+        <article id="improv-wifi.com.webp" class="webbluetooth webserial">
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.improv-wifi.com/"
+              >Improv Wi-Fi: Open standard for setting up Wi-Fi via Bluetooth LE
+              and Serial</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.improv-wifi.com/"
+            >
+              <picture>
+                <source
+                  srcset="improv-wifi.com-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="improv-wifi.com.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="improv-wifi.com.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Improv Wi-Fi: Open standard for setting up Wi-Fi via Bluetooth LE and Serial"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Free and open standard with ready-made SDKs that offer a great
+              user experience to configure Wi-Fi on devices.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/improv-wifi/sdk-js/"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://www.improv-wifi.com/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/bluetooth/"
+                >WebBluetooth</a
+              >
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/serial/"
+                >WebSerial</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#improv-wifi.com.webp">#</a>
+        </article>
+
+        <article id="makecode.com.webp" class="webbluetooth webserial webusb">
+          <h2>
+            <a target="_blank" rel="noopener" href="https://makecode.com"
+              >Informatik-Ausbildung mit Microsoft MakeCode</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://makecode.com">
+              <picture>
+                <source
+                  srcset="makecode.com-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="makecode.com.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="makecode.com.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Informatik-Ausbildung mit Microsoft MakeCode"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              MakeCode vermittelt allen Schülern Informatik mit unterhaltsamen
+              Projekten, sofortigen Ergebnissen sowie Block- und Texteditoren
+              für alle Kenntnisstufen.
+            </figcaption>
+          </figure>
+
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://makecode.com"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/bluetooth/"
+                >WebBluetooth</a
+              >
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/serial/"
+                >WebSerial</a
+              >
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/usb/"
+                >WebUSB</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#makecode.com.webp">#</a>
+        </article>
+
+        <article
+          id="thelogbook.app.webp"
+          class="add-to-home-screen file-handling file-system-access persistent-storage service-worker web-share window-controls-overlay"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://thelogbook.app"
+              >Logbook</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://thelogbook.app">
+              <picture>
+                <source
+                  srcset="thelogbook.app-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="thelogbook.app.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="thelogbook.app.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Logbook"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+          </figure>
+
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://thelogbook.app"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-handling/"
+                >File Handling</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
+                >Persistent Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/window-controls-overlay/"
+                >Window Controls Overlay</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#thelogbook.app.webp">#</a>
+        </article>
+
+        <article
+          id="linkcleaner.app.webp"
+          class="service-worker web-share web-share-target"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://linkcleaner.app/"
+              >Link Cleaner</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://linkcleaner.app/">
+              <picture>
+                <source
+                  srcset="linkcleaner.app-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="linkcleaner.app.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="linkcleaner.app.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Link Cleaner"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Link Cleaner is a web app that removes extra garbage from links,
+              complete with share/send support on compatible browsers.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/corbindavenport/link-cleaner"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://linkcleaner.app/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share-target/"
+                >Web Share Target</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#linkcleaner.app.webp">#</a>
+        </article>
+
+        <article
+          id="mconverter.eu.webp"
+          class="add-to-home-screen async-clipboard-images async-clipboard cache-storage digital-goods getinstalledrelatedapps service-worker shortcuts web-share-files web-share-target-files"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://mconverter.eu/"
+              >MConverter: Easy to Use Online File Converter</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://mconverter.eu/">
+              <picture>
+                <source
+                  srcset="mconverter.eu-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="mconverter.eu.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="mconverter.eu.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of MConverter: Easy to Use Online File Converter"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Convert securely video, audio, image, e-book, office & archive
+              files. Bulk convert large files up to 1 GB. Free and easy to use
+              converter.
+            </figcaption>
+          </figure>
+
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://mconverter.eu/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/async-clipboard/"
+                >Async Clipboard (Images)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/async-clipboard/"
+                >Async Clipboard</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.chrome.com/docs/android/trusted-web-activity/receive-payments-play-billing/"
+                >Digital Goods</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/get-installed-related-apps/"
+                >getInstalledRelatedApps</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/app-shortcuts/"
+                >Shortcuts</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share (Files)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share-target/"
+                >Web Share Target (Files)</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#mconverter.eu.webp">#</a>
+        </article>
+
+        <article
+          id="edit.photostack.app.webp"
+          class="file-system-access service-worker web-share-files"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://edit.photostack.app"
+              >PhotoStack</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://edit.photostack.app"
+            >
+              <picture>
+                <source
+                  srcset="edit.photostack.app-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="edit.photostack.app.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="edit.photostack.app.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of PhotoStack"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/photostack/photostack"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://edit.photostack.app"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share (Files)</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#edit.photostack.app.webp">#</a>
+        </article>
+
+        <article
+          id="tomayac.github.io!fugu-showcase!data.webp"
+          class="cache-storage service-worker web-share-files"
+        >
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://tomayac.github.io/fugu-showcase/data/"
+              >Project Fugu API Showcase</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://tomayac.github.io/fugu-showcase/data/"
+            >
+              <picture>
+                <source
+                  srcset="tomayac.github.io!fugu-showcase!data-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="tomayac.github.io!fugu-showcase!data.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="tomayac.github.io!fugu-showcase!data.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Project Fugu API Showcase"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              A showcase of Project Fugu APIs sourced by community submissions.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/tomayac/fugu-showcase"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://tomayac.github.io/fugu-showcase/data/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share (Files)</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#tomayac.github.io!fugu-showcase!data.webp"
+            >#</a
+          >
+        </article>
+
+        <article
+          id="sqliteviewer.app.webp"
+          class="file-handling file-system-access service-worker storage-estimation window-controls-overlay"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://sqliteviewer.app"
+              >SQLite Viewer Web App</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://sqliteviewer.app">
+              <picture>
+                <source
+                  srcset="sqliteviewer.app-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="sqliteviewer.app.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="sqliteviewer.app.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of SQLite Viewer Web App"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              A free online SQLite Explorer, inspired by DB Browser for SQLite
+              and Airtable. Use this web-based SQLite Tool to quickly and easily
+              inspect sqlite files on the web.
+            </figcaption>
+          </figure>
+
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://sqliteviewer.app"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-handling/"
+                >File Handling</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate"
+                >Storage Estimation</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/window-controls-overlay/"
+                >Window Controls Overlay</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#sqliteviewer.app.webp">#</a>
+        </article>
+
+        <article id="stackedit.io.webp" class="add-to-home-screen">
+          <h2>
+            <a target="_blank" rel="noopener" href="https://stackedit.io "
+              >StackEdit – In-browser Markdown editor</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://stackedit.io ">
+              <picture>
+                <source
+                  srcset="stackedit.io-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="stackedit.io.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="stackedit.io.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of StackEdit – In-browser Markdown editor"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Full-featured, open-source Markdown editor based on PageDown, the
+              Markdown library used by Stack Overflow and the other Stack
+              Exchange sites.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/benweet/stackedit/"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://stackedit.io "
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#stackedit.io.webp">#</a>
+        </article>
+
+        <article
+          id="svgco.de.webp"
+          class="add-to-home-screen async-clipboard-images cache-storage file-handling file-system-access web-share-files web-share-target-files window-controls-overlay"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://svgco.de/"
+              >SVGcode</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://svgco.de/">
+              <picture>
+                <source
+                  srcset="svgco.de-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="svgco.de.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="svgco.de.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of SVGcode"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              SVGcode is a Progressive Web App that lets you convert raster
+              images like JPG, PNG, GIF, WebP, AVIF, etc. to vector graphics in
+              SVG format.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/tomayac/SVGcode"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://svgco.de/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/async-clipboard/"
+                >Async Clipboard (Images)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-handling/"
+                >File Handling</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share (Files)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share-target/"
+                >Web Share Target (Files)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/window-controls-overlay/"
+                >Window Controls Overlay</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#svgco.de.webp">#</a>
+        </article>
+
+        <article
+          id="tidepool.org!uploader.webp"
+          class="webbluetooth webhid webserial webusb"
+        >
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://tidepool.org/uploader"
+              >Tidepool</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://tidepool.org/uploader"
+            >
+              <picture>
+                <source
+                  srcset="tidepool.org!uploader-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="tidepool.org!uploader.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="tidepool.org!uploader.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Tidepool"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/tidepool-org/uploader"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://tidepool.org/uploader"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/bluetooth/"
+                >WebBluetooth</a
+              >
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/hid/"
+                >WebHID</a
+              >
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/serial/"
+                >WebSerial</a
+              >
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/usb/"
+                >WebUSB</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#tidepool.org!uploader.webp">#</a>
+        </article>
+
+        <article
+          id="web.telegram.org!z.webp"
+          class="async-clipboard-images async-clipboard badging cache-storage media-session service-worker"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://web.telegram.org/z/"
+              >Telegram Web</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://web.telegram.org/z/"
+            >
+              <picture>
+                <source
+                  srcset="web.telegram.org!z-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="web.telegram.org!z.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="web.telegram.org!z.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Telegram Web"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Telegram is a cloud-based mobile and desktop messaging app with a
+              focus on security and speed.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/Ajaxy/telegram-tt"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://web.telegram.org/z/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/async-clipboard/"
+                >Async Clipboard (Images)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/async-clipboard/"
+                >Async Clipboard</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/badging-api/"
+                >Badging</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+                >Media Session</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#web.telegram.org!z.webp">#</a>
+        </article>
+
+        <article
+          id="tgstorage.com.webp"
+          class="add-to-home-screen cache-storage service-worker web-share-files web-share web-share-target-files web-share-target"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://tgstorage.com"
+              >TgStorage</a
+            >
+          </h2>
+          <figure>
+            <a target="_blank" rel="noopener" href="https://tgstorage.com">
+              <picture>
+                <source
+                  srcset="tgstorage.com-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="tgstorage.com.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="tgstorage.com.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of TgStorage"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Advanced Saved Messages of the Telegram. Organize your notes,
+              links, checklists, photos and any documents in the free unlimited
+              Telegram Cloud.
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/sh-a-v/tgstorage"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a target="_blank" rel="noopener" href="https://tgstorage.com"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share (Files)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share-target/"
+                >Web Share Target (Files)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share-target/"
+                >Web Share Target</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#tgstorage.com.webp">#</a>
+        </article>
+
+        <article
+          id="uspeaking.netlify.app.webp"
+          class="persistent-storage service-worker"
+        >
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://uspeaking.netlify.app/"
+              >USpeaking</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://uspeaking.netlify.app/"
+            >
+              <picture>
+                <source
+                  srcset="uspeaking.netlify.app-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="uspeaking.netlify.app.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="uspeaking.netlify.app.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of USpeaking"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/rafaelguinho/u-speaking-react"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://uspeaking.netlify.app/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
+                >Persistent Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#uspeaking.netlify.app.webp">#</a>
+        </article>
+
+        <article
+          id="anaesthetics.app!bluetooth.webp"
+          class="screen-wake-lock service-worker webbluetooth"
+        >
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://anaesthetics.app/bluetooth/"
+              >Web Bluetooth Demo</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://anaesthetics.app/bluetooth/"
+            >
+              <picture>
+                <source
+                  srcset="anaesthetics.app!bluetooth-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="anaesthetics.app!bluetooth.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="anaesthetics.app!bluetooth.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of Web Bluetooth Demo"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              Monitor your oxygen saturation and heart rate with a bluetooth
+              pulse oximeter
+            </figcaption>
+          </figure>
+          <span class="source"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/anaestheticsapp/bluetooth"
+              >Source code</a
+            ></span
+          >
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://anaesthetics.app/bluetooth/"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/wake-lock/"
+                >Screen Wake Lock</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/bluetooth/"
+                >WebBluetooth</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#anaesthetics.app!bluetooth.webp">#</a>
+        </article>
+
+        <article
+          id="whatpwacando.today.webp"
+          class="add-to-home-screen cache-storage contact-picker file-system-access gyroscope linear-acceleration-sensor media-session notification-triggers payment-request relative-orientation-sensor screen-wake-lock service-worker shortcuts web-share-files web-share web-share-target-files web-share-target webnfc"
+        >
+          <h2>
+            <a target="_blank" rel="noopener" href="https://whatpwacando.today "
+              >What PWA Can Do Today</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://whatpwacando.today "
+            >
+              <picture>
+                <source
+                  srcset="whatpwacando.today-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="whatpwacando.today.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="whatpwacando.today.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of What PWA Can Do Today"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              A showcase of what is possible with Progressive Web Apps today.
+            </figcaption>
+          </figure>
+
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://whatpwacando.today "
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/contact-picker/"
+                >Contact Picker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/file-system-access/"
+                >File System Access</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/generic-sensor/"
+                >Gyroscope</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/generic-sensor/"
+                >Linear Acceleration Sensor</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+                >Media Session</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/notification-triggers/"
+                >Notification Triggers</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API"
+                >Payment Request</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/generic-sensor/"
+                >Relative Orientation Sensor</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/wake-lock/"
+                >Screen Wake Lock</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+                >Service Worker</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/app-shortcuts/"
+                >Shortcuts</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share (Files)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share/"
+                >Web Share</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share-target/"
+                >Web Share Target (Files)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/web-share-target/"
+                >Web Share Target</a
+              >
+            </li>
+            <li>
+              <a target="_blank" rel="noopener" href="https://web.dev/nfc/"
+                >WebNFC</a
+              >
+            </li>
+          </ul>
+          <a class="anchor" href="#whatpwacando.today.webp">#</a>
+        </article>
+
+        <article
+          id="yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp"
+          class="absolute-orientation-sensor add-to-home-screen async-clipboard background-fetch badging cache-storage"
+        >
+          <h2>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://yakuneba-community.com/welcome/YwAnWZXanuD7QckXWJwd"
+              >みんなのネバーランド - 約束のネバーランド公式コミュニティ -</a
+            >
+          </h2>
+          <figure>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://yakuneba-community.com/welcome/YwAnWZXanuD7QckXWJwd"
+            >
+              <picture>
+                <source
+                  srcset="
+                    yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd-dark.webp
+                  "
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="
+                    yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp
+                  "
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp"
+                  width="1280"
+                  height="800"
+                  alt="Screenshot of みんなのネバーランド - 約束のネバーランド公式コミュニティ -"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
+            <figcaption class="description">
+              みんネバは約束のネバーランド好きが集まる公式コミュニティです。考察やファンアート、約ネバの話題で盛り上がろう！
+            </figcaption>
+          </figure>
+
+          <span class="launch"
+            ><a
+              target="_blank"
+              rel="noopener"
+              href="https://yakuneba-community.com/welcome/YwAnWZXanuD7QckXWJwd"
+              >Launch app</a
+            ></span
+          >
+          <button type="button" class="share">Share app</button>
+          <h3>Used APIs:</h3>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/generic-sensor/"
+                >Absolute Orientation Sensor</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+                >Add to Home Screen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/async-clipboard/"
+                >Async Clipboard</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API"
+                >Background Fetch</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://web.dev/badging-api/"
+                >Badging</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+                >Cache Storage</a
+              >
+            </li>
+          </ul>
+          <a
+            class="anchor"
+            href="#yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp"
+            >#</a
+          >
+        </article>
       </div>
       <script>
-        const articles = document.querySelectorAll('article');
-        const options = document.querySelectorAll('option');
+        const articles = document.querySelectorAll("article");
+        const options = document.querySelectorAll("option");
         const button = document.querySelector('button[type="reset"]');
-        const input = document.querySelector('input');
-        const form = document.querySelector('form');
-        const shareButtons = document.querySelectorAll('.share');
+        const input = document.querySelector("input");
+        const form = document.querySelector("form");
+        const shareButtons = document.querySelectorAll(".share");
 
         const slugify = (string) => {
-          return string.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '');
+          return string
+            .toLowerCase()
+            .replace(/[^a-z0-9]/gi, "-")
+            .replace(/-+/g, "-")
+            .replace(/-*$/g, "");
         };
 
-        const availableAPIs = ['absolute orientation sensor', 'add to home screen', 'async clipboard', 'async clipboard (images)', 'background fetch', 'badging', 'cache storage', 'contact picker', 'digital goods', 'eyedropper', 'file handling', 'file system access', 'gyroscope', 'launch handler', 'linear acceleration sensor', 'local font access', 'media session', 'notification triggers', 'payment request', 'persistent storage', 'push', 'relative orientation sensor', 'screen wake lock', 'service worker', 'shortcuts', 'storage estimation', 'web share', 'web share (files)', 'web share target', 'web share target (files)', 'webbluetooth', 'webhid', 'webnfc', 'webserial', 'webusb', 'window controls overlay', 'getinstalledrelatedapps'].map(slugify);
+        const availableAPIs = [
+          "absolute orientation sensor",
+          "add to home screen",
+          "async clipboard",
+          "async clipboard (images)",
+          "background fetch",
+          "badging",
+          "cache storage",
+          "contact picker",
+          "digital goods",
+          "eyedropper",
+          "file handling",
+          "file system access",
+          "gyroscope",
+          "launch handler",
+          "linear acceleration sensor",
+          "local font access",
+          "media session",
+          "notification triggers",
+          "payment request",
+          "persistent storage",
+          "push",
+          "relative orientation sensor",
+          "screen wake lock",
+          "service worker",
+          "shortcuts",
+          "storage estimation",
+          "web share",
+          "web share (files)",
+          "web share target",
+          "web share target (files)",
+          "webbluetooth",
+          "webhid",
+          "webnfc",
+          "webserial",
+          "webusb",
+          "window controls overlay",
+          "getinstalledrelatedapps",
+        ].map(slugify);
 
-        button.addEventListener('click', () => {
-          input.value = '';
-          input.dispatchEvent(new Event('input'));
+        button.addEventListener("click", () => {
+          input.value = "";
+          input.dispatchEvent(new Event("input"));
         });
 
-        form.addEventListener('submit', (e) => {
+        form.addEventListener("submit", (e) => {
           e.preventDefault();
         });
 
         options.forEach((option) => {
-          option.addEventListener('click', (e) => {
+          option.addEventListener("click", (e) => {
             input.value = option.value;
-            input.dispatchEvent(new Event('input'));
+            input.dispatchEvent(new Event("input"));
           });
         });
 
-        input.addEventListener('input', () => {
+        input.addEventListener("input", () => {
           const value = slugify(input.value);
           const url = new URL(window.location);
           if (value && availableAPIs.includes(value)) {
-            url.searchParams.set('api', value);
-            window.history.pushState({}, '', url);
-            articles.forEach(article => {
-              article.style.display = 'none';
+            url.searchParams.set("api", value);
+            window.history.pushState({}, "", url);
+            articles.forEach((article) => {
+              article.style.display = "none";
               if (article.classList.contains(value)) {
-                article.style.display = 'block';
+                article.style.display = "block";
               }
             });
           } else {
-            articles.forEach(article => {
-              article.style.display = 'block';
+            articles.forEach((article) => {
+              article.style.display = "block";
             });
-            url.searchParams.delete('api');
-            window.history.pushState({}, '', url);
+            url.searchParams.delete("api");
+            window.history.pushState({}, "", url);
           }
         });
 
-        window.addEventListener('load', () => {
+        window.addEventListener("load", () => {
           const url = new URL(window.location);
-          const api = url.searchParams.get('api');
+          const api = url.searchParams.get("api");
           if (api && availableAPIs.includes(api)) {
             for (const option of options) {
               if (slugify(option.value) === api) {
@@ -933,39 +2840,50 @@
               }
             }
           } else {
-            url.searchParams.delete('api');
-            window.history.pushState({}, '', url);
+            url.searchParams.delete("api");
+            window.history.pushState({}, "", url);
           }
-          input.dispatchEvent(new Event('input'));
+          input.dispatchEvent(new Event("input"));
         });
 
-        if ('share' in navigator && 'canShare' in navigator) {
-          const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+        if ("share" in navigator && "canShare" in navigator) {
+          const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
           shareButtons.forEach((button) => {
             if (isMac) {
-              button.classList.add('mac');
+              button.classList.add("mac");
             }
-            button.style.display = 'block';
-            button.addEventListener('click', async (e) => {
-              const article = e.target.closest('article');
-              const img = article.querySelector('img');
-              const blob = await fetch(img.currentSrc).then((res) => res.blob());
-              const file = new File([blob], img.getAttribute('src'), { type: blob.type });
+            button.style.display = "block";
+            button.addEventListener("click", async (e) => {
+              const article = e.target.closest("article");
+              const img = article.querySelector("img");
+              const blob = await fetch(img.currentSrc).then((res) =>
+                res.blob(),
+              );
+              const file = new File([blob], img.getAttribute("src"), {
+                type: blob.type,
+              });
               const data = {
-                text: `👀 I just found the app “${article.querySelector('h2').textContent}”: ${article.querySelector('a').href}.
+                text: `👀 I just found the app “${
+                  article.querySelector("h2").textContent
+                }”: ${article.querySelector("a").href}.
 
 Among others, it uses these cool Project Fugu APIs:
 
-${Array.from(article.querySelectorAll('li')).slice(0, 3).map(li => `👉 ${li.textContent}`).join('\n')}
+${Array.from(article.querySelectorAll("li"))
+  .slice(0, 3)
+  .map((li) => `👉 ${li.textContent}`)
+  .join("\n")}
 
-(via the 🐡 ${document.title}: https://tomayac.github.io/fugu-showcase/data/)`.trim(),
+(via the 🐡 ${
+                  document.title
+                }: https://tomayac.github.io/fugu-showcase/data/)`.trim(),
                 files: [file],
-              }
+              };
               if (navigator.canShare(data)) {
                 try {
                   await navigator.share(data);
                 } catch (err) {
-                  if (err.name !== 'AbortError') {
+                  if (err.name !== "AbortError") {
                     console.error(err.name, err.message);
                   }
                 }
@@ -974,18 +2892,30 @@ ${Array.from(article.querySelectorAll('li')).slice(0, 3).map(li => `👉 ${li.te
           });
         }
 
-        if ('serviceWorker' in navigator) {
-          window.addEventListener('load', () => {
-            navigator.serviceWorker.register('sw.js');
+        if ("serviceWorker" in navigator) {
+          window.addEventListener("load", () => {
+            navigator.serviceWorker.register("sw.js");
           });
         }
       </script>
-            <footer>
-              Made by <a target="_blank" rel="noopener" href="https://twitter.com/tomayac">@tomayac</a>.
-              You can propose missing apps by submitting them via this
-              <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform">form</a>.
-              Source code on <a target="_blank" rel="noopener" href="https://github.com/tomayac/fugu-showcase">GitHub</a>.
-            </footer>
-          </main>
-        </body>
-      </html>
+      <footer>
+        Made by
+        <a target="_blank" rel="noopener" href="https://twitter.com/tomayac"
+          >@tomayac</a
+        >. You can propose missing apps by submitting them via this
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform"
+          >form</a
+        >. Source code on
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/tomayac/fugu-showcase"
+          >GitHub</a
+        >.
+      </footer>
+    </main>
+  </body>
+</html>

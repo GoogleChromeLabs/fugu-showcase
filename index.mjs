@@ -81,8 +81,8 @@ const createScreenshots = async (data, overrideType = null) => {
         if (!overrideType) {
           return sharp(buffer)
             .resize({
-              width: SCREENSHOT_OPTIONS.width / 4,
-              height: SCREENSHOT_OPTIONS.height / 4,
+              width: SCREENSHOT_OPTIONS.width / 2,
+              height: SCREENSHOT_OPTIONS.height / 2,
             })
             .toBuffer()
             .then((data) => {
