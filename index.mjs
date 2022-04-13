@@ -177,7 +177,7 @@ const createHTML = async (data) => {
           .sort((a, b) =>
             a.title[0].toLowerCase().localeCompare(b.title[0].toLowerCase()),
           )
-          .map((item) => {
+          .map((item, i) => {
             const classes = [];
             item.usedAPIs.forEach((usedAPI) => {
               availableAPIs.add(usedAPI.name);
@@ -207,7 +207,8 @@ const createHTML = async (data) => {
                     <img src="${item.screenshot}"
                         width="${SCREENSHOT_OPTIONS.width}"
                         height="${SCREENSHOT_OPTIONS.height}"
-                        alt="Screenshot of ${item.title}">
+                        alt="Screenshot of ${item.title}"
+                        ${i > 6 ? 'loading="lazy"' : ''}>
                   </picture>
                 </a>
                 ${
@@ -311,7 +312,11 @@ const createHTML = async (data) => {
         });
 
         if ('share' in navigator && 'canShare' in navigator) {
+          const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
           shareButtons.forEach((button) => {
+            if (isMac) {
+              button.classList.add('mac');
+            }
             button.style.display = 'block';
             button.addEventListener('click', async (e) => {
               const article = e.target.closest('article');
