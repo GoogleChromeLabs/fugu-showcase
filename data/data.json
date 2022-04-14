@@ -694,5 +694,45 @@
       }
     ],
     "screenshot": "tomayac.github.io!fugu-showcase!data.webp"
+  },
+  {
+    "timestamp": "2022-04-13T17:05:39.000Z",
+    "appURL": "https://bpmtech.no",
+    "sourceURL": "https://github.com/webmaxru/bpm-counter",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Launch Handler",
+        "url": "https://web.dev/launch-handler/"
+      },
+      {
+        "name": "Media Capabilities",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API"
+      },
+      {
+        "name": "Protocol Handlers",
+        "url": "https://web.dev/url-protocol-handler/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "URL Handlers",
+        "url": "https://web.dev/pwa-url-handler/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "screenshot": "bpmtech.no.webp"
   }
 ]

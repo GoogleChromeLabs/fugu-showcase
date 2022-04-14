@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-7404991704249773';
-  const MEDIA_CACHE = 'media-7404991704249773';
+  const APP_SHELL_CACHE = 'app-shell-36668426489365635';
+  const MEDIA_CACHE = 'media-36668426489365635';
 
   const APP_SHELL_FILES = [
     './',
@@ -61,7 +61,9 @@
     'svgco.de.webp',
     'svgco.de-dark.webp',
     'tomayac.github.io!fugu-showcase!data.webp',
-    'tomayac.github.io!fugu-showcase!data-dark.webp'
+    'tomayac.github.io!fugu-showcase!data-dark.webp',
+    'bpmtech.no.webp',
+    'bpmtech.no-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
