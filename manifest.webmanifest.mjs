@@ -9,14 +9,14 @@ export default `
   "theme_color": "#222",
   "user_preferences": {
     "color_scheme_dark": {
-        "theme_color": "#222"
-        "background_color": "#222"
+      "theme_color": "#222",
+      "background_color": "#222"
     },
     "color_scheme_light": {
-        "theme_color": "#eee"
-        "background_color": "#eee"
+      "theme_color": "#eee",
+      "background_color": "#eee"
     }
-  }
+  },
   "icons": [
     {
       "src": "icon.png",
