@@ -197,6 +197,7 @@ const createHTML = async (data) => {
                   .replace(/-*$/g, ''),
               );
             });
+            /* 🤡 TODO: Anchors still have a .webp. */
             const anchor = item.screenshot.replace(SCREENSHOT_OPTIONS.type, '');
             return `
             <article id="${anchor}" class="${classes.join(' ')}">

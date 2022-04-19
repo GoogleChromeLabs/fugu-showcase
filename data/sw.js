@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-36668426489365635';
-  const MEDIA_CACHE = 'media-36668426489365635';
+  const APP_SHELL_CACHE = 'app-shell-3050503110382574';
+  const MEDIA_CACHE = 'media-3050503110382574';
 
   const APP_SHELL_FILES = [
     './',
@@ -63,7 +63,15 @@
     'tomayac.github.io!fugu-showcase!data.webp',
     'tomayac.github.io!fugu-showcase!data-dark.webp',
     'bpmtech.no.webp',
-    'bpmtech.no-dark.webp'
+    'bpmtech.no-dark.webp',
+    'case.xchart.com.webp',
+    'case.xchart.com-dark.webp',
+    'spike.legoeducation.com.webp',
+    'spike.legoeducation.com-dark.webp',
+    'postr.me.webp',
+    'postr.me-dark.webp',
+    'dev.to.webp',
+    'dev.to-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
