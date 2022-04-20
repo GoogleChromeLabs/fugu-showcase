@@ -197,8 +197,9 @@ const createHTML = async (data) => {
                   .replace(/-*$/g, ''),
               );
             });
-            /* 🤡 TODO: Anchors still have a .webp. */
-            const anchor = item.screenshot.replace(SCREENSHOT_OPTIONS.type, '');
+            const fileNameComponents = item.screenshot.split('.');
+            fileNameComponents.pop();
+            const anchor = fileNameComponents.join('.');
             return `
             <article id="${anchor}" class="${classes.join(' ')}">
               <h2><a target="_blank" rel="noopener" href="${item.appURL}">${
