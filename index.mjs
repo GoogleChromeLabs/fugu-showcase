@@ -137,6 +137,7 @@ const createHTML = async (data) => {
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="description" content="A showcase of Project Fugu APIs sourced by community submissions." />
+            <meta name="robots" content="noindex,indexifembedded" />
             <meta property="og:type" content="website" />
             <meta property="og:title" content="Project Fugu API Showcase" />
             <meta property="og:description" content="A showcase of Project Fugu APIs sourced by community submissions." />
