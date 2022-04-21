@@ -177,4 +177,8 @@ export default `
     margin-block: 2rem;
     font-size: 0.8rem;
   }
+  .iframe h1,
+  .iframe p {
+    display: none;
+  }
 </style>`;

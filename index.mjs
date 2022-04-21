@@ -147,6 +147,19 @@ const createHTML = async (data) => {
             <link ref="canonical" href="${CANONICAL_URL}" />
             <link rel="manifest" href="manifest.webmanifest" />
             ${style}
+            <script>
+              function inIframe() {
+                try {
+                  return window.self !== window.top;
+                } catch {
+                  return true;
+                }
+              }
+
+              if (inIframe()) {
+                document.body.classList.add('iframe');
+              }
+            </script>
             <noscript>
               <style>
                 article {
@@ -322,7 +335,7 @@ const createHTML = async (data) => {
         });
 
         if ('share' in navigator && 'canShare' in navigator) {
-          const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+          const isMac = /Mac|iPhone/.test(navigator.platform);
           shareButtons.forEach((button) => {
             if (isMac) {
               button.classList.add('mac');
