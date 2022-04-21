@@ -31,6 +31,7 @@ const SCREENSHOT_OPTIONS = {
 };
 
 const CANONICAL_URL = 'https://tomayac.github.io/fugu-showcase/data/';
+const EMBED_URL = 'https://web.dev/fugu-showcase/';
 
 const createRawData = async () => {
   const response = await fetch(SPREADSHEET_URL);
@@ -348,7 +349,7 @@ const createHTML = async (data) => {
               const blob = await fetch(img.currentSrc).then((res) => res.blob());
               const file = new File([blob], img.getAttribute('src'), { type: blob.type });
               const data = {
-                text: \`👀 I just found the app “\${article.querySelector('h2').textContent}”: \${article.querySelector('a').href}.\n\nAmong others, it uses these cool Project Fugu APIs:\n\n\${Array.from(article.querySelectorAll('li')).slice(0, 3).map(li => \`👉 \${li.textContent}\`).join('\\n')}\n\n(via the 🐡 \${document.title}: ${CANONICAL_URL})\`.trim(),
+                text: \`👀 I just found the app “\${article.querySelector('h2').textContent}”: \${article.querySelector('a').href}.\n\nAmong others, it uses these cool Project Fugu APIs:\n\n\${Array.from(article.querySelectorAll('li')).slice(0, 2).map(li => \`👉 \${li.textContent}\`).join('\\n')}\n\n(via the 🐡 \${document.title}: ${EMBED_URL})\`.trim(),
                 files: [file],
               }
               if (navigator.canShare(data)) {
