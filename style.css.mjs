@@ -178,7 +178,8 @@ export default `
     font-size: 0.8rem;
   }
   .iframe h1,
-  .iframe p {
+  .iframe p,
+  .iframe footer {
     display: none;
   }
 </style>`;
