@@ -144,7 +144,7 @@ const createHTML = async (data) => {
             <meta property="og:image" content="${CANONICAL_URL}tomayac.github.io!fugu-showcase!data.png" />
             <title>Project Fugu API Showcase</title>
             <link rel="icon" href="${fuguSVG}" />
-            <link ref="canonical" href="${CANONICAL_URL}" />
+            <link rel="canonical" href="${CANONICAL_URL}" />
             <link rel="manifest" href="manifest.webmanifest" />
             ${style}
             <noscript>
