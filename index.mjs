@@ -147,6 +147,15 @@ const createHTML = async (data) => {
             <link ref="canonical" href="${CANONICAL_URL}" />
             <link rel="manifest" href="manifest.webmanifest" />
             ${style}
+            <noscript>
+              <style>
+                article {
+                  display: block;
+                }
+              </style>
+            </noscript>
+          </head>
+          <body>
             <script>
               function inIframe() {
                 try {
@@ -160,15 +169,6 @@ const createHTML = async (data) => {
                 document.body.classList.add('iframe');
               }
             </script>
-            <noscript>
-              <style>
-                article {
-                  display: block;
-                }
-              </style>
-            </noscript>
-          </head>
-          <body>
             <main>
               <h1>
                 <a href="./index.html">
