@@ -182,4 +182,10 @@ export default `
   .iframe footer {
     display: none;
   }
+  .iframe {
+    color-scheme: light;
+    --background-color: #eee;
+    --foreground-color: #000;
+    --accent-color: #e60073;
+  }
 </style>`;
