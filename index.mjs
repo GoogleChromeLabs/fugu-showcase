@@ -31,7 +31,7 @@ const SCREENSHOT_OPTIONS = {
 };
 
 const CANONICAL_URL = 'https://tomayac.github.io/fugu-showcase/data/';
-const EMBED_URL = 'https://web.dev/fugu-showcase/';
+const EMBED_URL = 'https://developer.chrome.com/blog/fugu-showcase/';
 
 const createRawData = async () => {
   const response = await fetch(SPREADSHEET_URL);
@@ -168,7 +168,7 @@ const createHTML = async (data) => {
               }
 
               if (inIframe()) {
-                document.body.classList.add('iframe');
+                document.documentElement.classList.add('iframe');
               }
             </script>
             <main>
