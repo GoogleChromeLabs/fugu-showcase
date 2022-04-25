@@ -1070,5 +1070,61 @@
       }
     ],
     "screenshot": "codeit.codes.webp"
+  },
+  {
+    "timestamp": "2022-04-25T16:45:29.000Z",
+    "appURL": "https://haven.pages.dev/",
+    "sourceURL": "https://github.com/ThaUnknown/pwa-haven",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Declarative Link Capturing",
+        "url": "https://web.dev/declarative-link-capturing/"
+      },
+      {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Launch Handler",
+        "url": "https://web.dev/launch-handler/"
+      },
+      {
+        "name": "Media Capabilities",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API"
+      },
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+      },
+      {
+        "name": "Protocol Handlers",
+        "url": "https://web.dev/url-protocol-handler/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "URL Handlers",
+        "url": "https://web.dev/pwa-url-handler/"
+      }
+    ],
+    "screenshot": "haven.pages.dev.webp"
   }
 ]

@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-0708368746726018';
-  const MEDIA_CACHE = 'media-0708368746726018';
+  const APP_SHELL_CACHE = 'app-shell-6297958730403581';
+  const MEDIA_CACHE = 'media-6297958730403581';
 
   const APP_SHELL_FILES = [
     './',
@@ -91,7 +91,9 @@
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi-dark.webp',
     'codeit.codes.webp',
-    'codeit.codes-dark.webp'
+    'codeit.codes-dark.webp',
+    'haven.pages.dev.webp',
+    'haven.pages.dev-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
