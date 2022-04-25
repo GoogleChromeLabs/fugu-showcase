@@ -986,5 +986,33 @@
       }
     ],
     "screenshot": "vscode.dev.webp"
+  },
+  {
+    "timestamp": "2022-04-25T11:21:36.000Z",
+    "appURL": "https://mishipay.shop/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Device Memory",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Device_Memory_API"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shape Detection (Barcodes)",
+        "url": "https://web.dev/shape-detection/"
+      }
+    ],
+    "screenshot": "mishipay.shop.webp"
   }
 ]

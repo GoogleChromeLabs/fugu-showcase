@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-220754195244667';
-  const MEDIA_CACHE = 'media-220754195244667';
+  const APP_SHELL_CACHE = 'app-shell-35342248540839116';
+  const MEDIA_CACHE = 'media-35342248540839116';
 
   const APP_SHELL_FILES = [
     './',
@@ -85,7 +85,9 @@
     'app.vysor.io.webp',
     'app.vysor.io-dark.webp',
     'vscode.dev.webp',
-    'vscode.dev-dark.webp'
+    'vscode.dev-dark.webp',
+    'mishipay.shop.webp',
+    'mishipay.shop-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
