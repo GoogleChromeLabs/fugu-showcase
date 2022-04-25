@@ -902,5 +902,89 @@
       }
     ],
     "screenshot": "remap-keys.app.webp"
+  },
+  {
+    "timestamp": "2022-04-25T10:46:05.000Z",
+    "appURL": "https://editor.bridge-core.app/",
+    "sourceURL": "https://github.com/bridge-core/editor",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Launch Handler",
+        "url": "https://web.dev/launch-handler/"
+      },
+      {
+        "name": "Window Controls Overlay",
+        "url": "https://web.dev/window-controls-overlay/"
+      }
+    ],
+    "screenshot": "editor.bridge-core.app.webp"
+  },
+  {
+    "timestamp": "2022-04-25T10:57:46.000Z",
+    "appURL": "https://qrsnapper.com",
+    "sourceURL": "https://github.com/PaulKinlan/qrcode",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shape Detection (Barcodes)",
+        "url": "https://web.dev/shape-detection/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "screenshot": "qrsnapper.com.webp"
+  },
+  {
+    "timestamp": "2022-04-25T11:00:25.000Z",
+    "appURL": "https://app.vysor.io/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "app.vysor.io.webp"
+  },
+  {
+    "timestamp": "2022-04-25T11:00:59.000Z",
+    "appURL": "https://vscode.dev/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      }
+    ],
+    "screenshot": "vscode.dev.webp"
   }
 ]

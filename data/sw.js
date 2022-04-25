@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-23659724799036352';
-  const MEDIA_CACHE = 'media-23659724799036352';
+  const APP_SHELL_CACHE = 'app-shell-220754195244667';
+  const MEDIA_CACHE = 'media-220754195244667';
 
   const APP_SHELL_FILES = [
     './',
@@ -77,7 +77,15 @@
     'editor.construct.net.webp',
     'editor.construct.net-dark.webp',
     'remap-keys.app.webp',
-    'remap-keys.app-dark.webp'
+    'remap-keys.app-dark.webp',
+    'editor.bridge-core.app.webp',
+    'editor.bridge-core.app-dark.webp',
+    'qrsnapper.com.webp',
+    'qrsnapper.com-dark.webp',
+    'app.vysor.io.webp',
+    'app.vysor.io-dark.webp',
+    'vscode.dev.webp',
+    'vscode.dev-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
