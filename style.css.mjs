@@ -190,6 +190,6 @@ export default `
   }
   .iframe .share::before,
   .iframe .launch::before {
-    filter: invert(1);
+    filter: none;
   }
 </style>`;
