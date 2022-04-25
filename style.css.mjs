@@ -188,4 +188,8 @@ export default `
     --foreground-color: #000;
     --accent-color: #e60073;
   }
+  .iframe .share::before,
+  .iframe .launch::before {
+    filter: invert(1);
+  }
 </style>`;
