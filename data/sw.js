@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-6297958730403581';
-  const MEDIA_CACHE = 'media-6297958730403581';
+  const APP_SHELL_CACHE = 'app-shell-8780893977355197';
+  const MEDIA_CACHE = 'media-8780893977355197';
 
   const APP_SHELL_FILES = [
     './',
@@ -93,7 +93,11 @@
     'codeit.codes.webp',
     'codeit.codes-dark.webp',
     'haven.pages.dev.webp',
-    'haven.pages.dev-dark.webp'
+    'haven.pages.dev-dark.webp',
+    'app.thepocketlab.com.webp',
+    'app.thepocketlab.com-dark.webp',
+    'code.makewonder.com!cue#.webp',
+    'code.makewonder.com!cue#-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
