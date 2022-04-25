@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-06291247853589121';
-  const MEDIA_CACHE = 'media-06291247853589121';
+  const APP_SHELL_CACHE = 'app-shell-5924878839598102';
+  const MEDIA_CACHE = 'media-5924878839598102';
 
   const APP_SHELL_FILES = [
     './',
@@ -71,7 +71,9 @@
     'postr.me.webp',
     'postr.me-dark.webp',
     'dev.to.webp',
-    'dev.to-dark.webp'
+    'dev.to-dark.webp',
+    'photoshop.adobe.com.webp',
+    'photoshop.adobe.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
