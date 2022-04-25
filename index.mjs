@@ -17,7 +17,7 @@ import style from './style.css.mjs';
 import sw from './sw.mjs';
 import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = false;
+const SKIP_SCREENSHOTS = true;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
@@ -292,7 +292,16 @@ const createHTML = async (data) => {
         });
 
         options.forEach((option) => {
+          option.tabIndex = 0;
           option.addEventListener('click', (e) => {
+            input.value = option.value;
+            input.dispatchEvent(new Event('input'));
+          });
+          option.addEventListener('keypress', (e) => {
+            e.preventDefault();
+            if (e.key !== 'Enter' && e.key !== ' ') {
+              return;
+            }
             input.value = option.value;
             input.dispatchEvent(new Event('input'));
           });
