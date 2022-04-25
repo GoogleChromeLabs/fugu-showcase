@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node index.mjs",
-    "fix": "npx prettier . --write"
+    "fix": "npx prettier . --write",
+    "deploy": "npm run fix && npm start && git add . && git commit -a -m 'New release' && git push"
   },
   "dependencies": {
     "capture-website": "^2.3.0",
