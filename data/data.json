@@ -882,5 +882,25 @@
       }
     ],
     "screenshot": "editor.construct.net.webp"
+  },
+  {
+    "timestamp": "2022-04-25T10:44:51.000Z",
+    "appURL": "https://remap-keys.app/",
+    "sourceURL": "https://github.com/remap-keys/remap",
+    "usedAPIs": [
+      {
+        "name": "WebHID",
+        "url": "https://web.dev/hid/"
+      },
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      },
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "remap-keys.app.webp"
   }
 ]
