@@ -33,6 +33,11 @@ const SCREENSHOT_OPTIONS = {
 const CANONICAL_URL = 'https://tomayac.github.io/fugu-showcase/data/';
 const EMBED_URL = 'https://developer.chrome.com/blog/fugu-showcase/';
 
+// Path file names so they don't include `#`.
+const fileNamifyURL = (url) => {
+  return filenamifyUrl(url).replace(/#/g, '');
+};
+
 const createRawData = async () => {
   const response = await fetch(SPREADSHEET_URL);
   const json = await response.json();
@@ -48,7 +53,7 @@ const createRawData = async () => {
           url: api.replace(/.*?\((https.*)\)/g, '$1'),
         };
       }),
-      screenshot: `${filenamifyUrl(row[1])}.${SCREENSHOT_OPTIONS.type}`,
+      screenshot: `${fileNamifyURL(row[1])}.${SCREENSHOT_OPTIONS.type}`,
     };
   });
   await writeFile(
@@ -273,7 +278,7 @@ const createHTML = async (data) => {
         const shareButtons = document.querySelectorAll('.share');
 
         const slugify = (string) => {
-          return string.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '').replace(/#/g, '');
+          return string.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '');
         };
 
         const availableAPIs = [${Array.from(availableAPIs.keys())
@@ -440,7 +445,7 @@ const createWebManifest = async () => {
     [
       {
         appURL: CANONICAL_URL,
-        screenshot: `${filenamifyUrl(CANONICAL_URL)}.png`,
+        screenshot: `${fileNamifyURL(CANONICAL_URL)}.png`,
       },
     ],
     'png',
