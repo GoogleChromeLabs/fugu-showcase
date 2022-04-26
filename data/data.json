@@ -5,6 +5,10 @@
     "sourceURL": "https://github.com/bridge-core/editor",
     "usedAPIs": [
       {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
         "name": "Badging",
         "url": "https://web.dev/badging-api/"
       },
@@ -902,34 +906,6 @@
       }
     ],
     "screenshot": "remap-keys.app.webp"
-  },
-  {
-    "timestamp": "2022-04-25T10:46:05.000Z",
-    "appURL": "https://editor.bridge-core.app/",
-    "sourceURL": "https://github.com/bridge-core/editor",
-    "usedAPIs": [
-      {
-        "name": "Add to Home Screen",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
-      },
-      {
-        "name": "File Handling",
-        "url": "https://web.dev/file-handling/"
-      },
-      {
-        "name": "File System Access",
-        "url": "https://web.dev/file-system-access/"
-      },
-      {
-        "name": "Launch Handler",
-        "url": "https://web.dev/launch-handler/"
-      },
-      {
-        "name": "Window Controls Overlay",
-        "url": "https://web.dev/window-controls-overlay/"
-      }
-    ],
-    "screenshot": "editor.bridge-core.app.webp"
   },
   {
     "timestamp": "2022-04-25T10:57:46.000Z",
