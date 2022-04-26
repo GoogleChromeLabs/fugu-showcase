@@ -307,7 +307,8 @@ const createHTML = async (data) => {
             article.style.display = 'none';
           });
           const value = e.target.value.toLowerCase();
-          const matchingArticles = container.querySelectorAll(\`[class*="\${value}"]\`);
+          const matchingArticles = container.querySelectorAll(\`article[class*="\${value}"]\`);
+          console.log(matchingArticles);
           matchingArticles.forEach((article) => {
             article.style.display = 'block';
           });

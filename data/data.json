@@ -1354,5 +1354,25 @@
       }
     ],
     "screenshot": "tinder.com.webp"
+  },
+  {
+    "timestamp": "2022-04-26T16:52:26.000Z",
+    "appURL": "https://ember.ly",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "screenshot": "ember.ly.webp"
   }
 ]
