@@ -33,7 +33,7 @@ const SCREENSHOT_OPTIONS = {
 const CANONICAL_URL = 'https://tomayac.github.io/fugu-showcase/data/';
 const EMBED_URL = 'https://developer.chrome.com/blog/fugu-showcase/';
 
-// Path file names so they don't include `#`.
+// Make sure file names don't include `#`.
 const fileNamifyURL = (url) => {
   return filenamifyUrl(url).replace(/#/g, '');
 };
@@ -42,20 +42,23 @@ const createRawData = async () => {
   const response = await fetch(SPREADSHEET_URL);
   const json = await response.json();
   const values = json.values;
-  const data = values.map((row) => {
-    return {
-      timestamp: new Date(row[0]),
-      appURL: row[1],
-      sourceURL: row[2] || null,
-      usedAPIs: row[3].split(', ').map((api) => {
-        return {
-          name: api.replace(/\(https.*\)/g, '').trim(),
-          url: api.replace(/.*?\((https.*)\)/g, '$1'),
-        };
-      }),
-      screenshot: `${fileNamifyURL(row[1])}.${SCREENSHOT_OPTIONS.type}`,
-    };
-  });
+  const data = values
+    // @ToDo: Temporarily skip this URL due to errors.
+    .filter((row) => row[1] !== 'https://logseq.com/?spa=true')
+    .map((row) => {
+      return {
+        timestamp: new Date(row[0]),
+        appURL: row[1],
+        sourceURL: row[2] || null,
+        usedAPIs: row[3].split(', ').map((api) => {
+          return {
+            name: api.replace(/\(https.*\)/g, '').trim(),
+            url: api.replace(/.*?\((https.*)\)/g, '$1'),
+          };
+        }),
+        screenshot: `${fileNamifyURL(row[1])}.${SCREENSHOT_OPTIONS.type}`,
+      };
+    });
   await writeFile(
     path.resolve('data', 'data.json'),
     JSON.stringify(data, null, 2),
@@ -115,23 +118,25 @@ const createScreenshots = async (data, overrideType = null) => {
 const createHTML = async (data) => {
   await Promise.all(
     data.map(async (item) => {
-      return ogp(item.appURL, { skipOembed: true }).then((meta) => {
-        item.meta = meta;
-        item.title =
-          item.meta.ogp?.['og:title'] ||
-          item.meta.seo?.title ||
-          item.meta.seo?.['og:title'] ||
-          item.meta.seo?.['twitter:title'] ||
-          item.meta.title ||
-          new URL(item.appURL).hostname;
-        item.description =
-          item.meta.ogp?.['og:description'] ||
-          item.meta.seo?.description ||
-          item.meta.seo?.['og:description'] ||
-          item.meta.seo?.['twitter:description'] ||
-          item.meta.description ||
-          '';
-      });
+      return ogp(item.appURL, { skipOembed: true })
+        .then((meta) => {
+          item.meta = meta;
+          item.title =
+            item.meta.ogp?.['og:title'] ||
+            item.meta.seo?.title ||
+            item.meta.seo?.['og:title'] ||
+            item.meta.seo?.['twitter:title'] ||
+            item.meta.title ||
+            new URL(item.appURL).hostname;
+          item.description =
+            item.meta.ogp?.['og:description'] ||
+            item.meta.seo?.description ||
+            item.meta.seo?.['og:description'] ||
+            item.meta.seo?.['twitter:description'] ||
+            item.meta.description ||
+            '';
+        })
+        .catch((err) => console.error(err));
     }),
   );
   const availableAPIs = new Set();
@@ -190,13 +195,13 @@ const createHTML = async (data) => {
                 Submissions are reviewed on a regular basis and the site will be updated accordingly.
               </p>`;
 
-  const form = `
-      <form>
+  const filterAPIsForm = `
+      <form class="search-apis">
         <label>
           Filter used APIs:
-          <input list="available-apis" id="search" type="search" />
+          <input list="available-apis" class="search-apis" type="search" />
         </label>
-        <button type="reset">Clear</button>
+        <button type="reset" class="search-apis">Clear</button>
       </form>`;
 
   const div = `
@@ -220,6 +225,8 @@ const createHTML = async (data) => {
             const fileNameComponents = item.screenshot.split('.');
             fileNameComponents.pop();
             const anchor = fileNameComponents.join('.');
+            classes.push(anchor);
+            classes.push(item.title.toString().toLowerCase());
             return `
             <article id="${anchor}" class="${classes.join(' ')}">
               <h2><a target="_blank" rel="noopener" href="${item.appURL}">${
@@ -272,10 +279,13 @@ const createHTML = async (data) => {
       <script>
         const articles = document.querySelectorAll('article');
         const options = document.querySelectorAll('option');
-        const button = document.querySelector('button[type="reset"]');
-        const input = document.querySelector('input');
-        const form = document.querySelector('form');
+        const button = document.querySelector('button[type="reset"].search-apis');
+        const input = document.querySelector('input.search-apis');
+        const form = document.querySelector('form.search-apis');
+        const searchButton = document.querySelector('button.search-apps');
+        const searchInput = document.querySelector('input.search-apps');
         const shareButtons = document.querySelectorAll('.share');
+        const container = document.querySelector('.container');
 
         const slugify = (string) => {
           return string.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '');
@@ -286,6 +296,27 @@ const createHTML = async (data) => {
           .map((api) => `'${api}'`)
           .join(', ')
           .toLowerCase()}].map(slugify);
+
+        searchInput.addEventListener('input', (e) => {
+          if (!e.target.value) {
+            input.dispatchEvent(new Event('input'));
+            return;
+          }
+          articles
+          .forEach((article) => {
+            article.style.display = 'none';
+          });
+          const value = e.target.value.toLowerCase();
+          const matchingArticles = container.querySelectorAll(\`[class*="\${value}"]\`);
+          matchingArticles.forEach((article) => {
+            article.style.display = 'block';
+          });
+        });
+
+        searchButton.addEventListener('click', (e) => {
+          searchInput.value = '';
+          searchInput.dispatchEvent(new Event('input'));
+        });
 
         button.addEventListener('click', () => {
           input.value = '';
@@ -395,6 +426,15 @@ const createHTML = async (data) => {
       )
       .join('')}</datalist>`;
 
+  const searchAppsForm = `
+      <form class="search-apps">
+        <label>
+          Search apps:
+          <input list="available-apps" class="search-apps" type="search" />
+        </label>
+        <button type="reset" class="search-apps">Clear</button>
+      </form>`;
+
   const footer = `
             <footer>
               Made by <a target="_blank" rel="noopener" href="https://twitter.com/tomayac">@tomayac</a>.
@@ -406,7 +446,7 @@ const createHTML = async (data) => {
         </body>
       </html>`;
 
-  const html = `${header}${form}${datalist}${div}${footer}`;
+  const html = `${header}${filterAPIsForm}${datalist}${searchAppsForm}${div}${footer}`;
   const minified = minifyHtml.minify(
     html,
     minifyHtml.createConfiguration({

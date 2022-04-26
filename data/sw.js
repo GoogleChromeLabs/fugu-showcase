@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-7766875251231584';
-  const MEDIA_CACHE = 'media-7766875251231584';
+  const APP_SHELL_CACHE = 'app-shell-861787089590972';
+  const MEDIA_CACHE = 'media-861787089590972';
 
   const APP_SHELL_FILES = [
     './',
@@ -111,7 +111,11 @@
     'leonidasesteban.com.webp',
     'leonidasesteban.com-dark.webp',
     'stedit.app.webp',
-    'stedit.app-dark.webp'
+    'stedit.app-dark.webp',
+    'jsmusicdb.com.webp',
+    'jsmusicdb.com-dark.webp',
+    'tinder.com.webp',
+    'tinder.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
