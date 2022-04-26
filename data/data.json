@@ -1150,5 +1150,161 @@
       }
     ],
     "screenshot": "code.makewonder.com!cue#.webp"
+  },
+  {
+    "timestamp": "2022-04-25T17:18:06.000Z",
+    "appURL": "https://code.irobot.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "WebBluetooth",
+        "url": "https://web.dev/bluetooth/"
+      },
+      {
+        "name": "WebGPU",
+        "url": "https://web.dev/webgpu"
+      }
+    ],
+    "screenshot": "code.irobot.com.webp"
+  },
+  {
+    "timestamp": "2022-04-25T17:21:45.000Z",
+    "appURL": "https://studio.samlabs.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebBluetooth",
+        "url": "https://web.dev/bluetooth/"
+      }
+    ],
+    "screenshot": "studio.samlabs.com.webp"
+  },
+  {
+    "timestamp": "2022-04-25T17:41:51.000Z",
+    "appURL": "https://fuse.littlebits.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebBluetooth",
+        "url": "https://web.dev/bluetooth/"
+      },
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "fuse.littlebits.com.webp"
+  },
+  {
+    "timestamp": "2022-04-25T17:50:51.000Z",
+    "appURL": "https://flash.android.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "flash.android.com.webp"
+  },
+  {
+    "timestamp": "2022-04-25T17:51:32.000Z",
+    "appURL": "https://grapheneos.org/install/web",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "grapheneos.org!install!web.webp"
+  },
+  {
+    "timestamp": "2022-04-25T19:21:13.000Z",
+    "appURL": "https://bundle.js.org",
+    "sourceURL": "https://github.com/okikio/bundle",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "screenshot": "bundle.js.org.webp"
+  },
+  {
+    "timestamp": "2022-04-25T21:25:04.000Z",
+    "appURL": "http://leonidasesteban.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "screenshot": "leonidasesteban.com.webp"
+  },
+  {
+    "timestamp": "2022-04-26T03:33:16.000Z",
+    "appURL": "https://stedit.app",
+    "sourceURL": "https://github.com/Offroaders123/Smart-Text-Editor",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      },
+      {
+        "name": "Window Controls Overlay",
+        "url": "https://web.dev/window-controls-overlay/"
+      }
+    ],
+    "screenshot": "stedit.app.webp"
   }
 ]

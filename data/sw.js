@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-8780893977355197';
-  const MEDIA_CACHE = 'media-8780893977355197';
+  const APP_SHELL_CACHE = 'app-shell-14241933816289998';
+  const MEDIA_CACHE = 'media-14241933816289998';
 
   const APP_SHELL_FILES = [
     './',
@@ -97,7 +97,23 @@
     'app.thepocketlab.com.webp',
     'app.thepocketlab.com-dark.webp',
     'code.makewonder.com!cue#.webp',
-    'code.makewonder.com!cue#-dark.webp'
+    'code.makewonder.com!cue#-dark.webp',
+    'code.irobot.com.webp',
+    'code.irobot.com-dark.webp',
+    'studio.samlabs.com.webp',
+    'studio.samlabs.com-dark.webp',
+    'fuse.littlebits.com.webp',
+    'fuse.littlebits.com-dark.webp',
+    'flash.android.com.webp',
+    'flash.android.com-dark.webp',
+    'grapheneos.org!install!web.webp',
+    'grapheneos.org!install!web-dark.webp',
+    'bundle.js.org.webp',
+    'bundle.js.org-dark.webp',
+    'leonidasesteban.com.webp',
+    'leonidasesteban.com-dark.webp',
+    'stedit.app.webp',
+    'stedit.app-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
