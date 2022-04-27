@@ -17,7 +17,7 @@ import style from './style.css.mjs';
 import sw from './sw.mjs';
 import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = true;
+const SKIP_SCREENSHOTS = false;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
