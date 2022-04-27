@@ -290,7 +290,8 @@ const createHTML = async (data) => {
 
         if ('clipboard' in navigator && 'writeText' in navigator.clipboard) {
           anchors.forEach((anchor) => {
-            anchor.addEventListener('click', () => {
+            anchor.addEventListener('click', (e) => {
+              e.preventDefault();
               const url = new URL(anchor.href).toString();
               navigator.clipboard.writeText(url);
               anchor.classList.add('copied');
