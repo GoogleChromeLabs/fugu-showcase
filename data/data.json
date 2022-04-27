@@ -849,6 +849,10 @@
         "url": "https://wicg.github.io/compression/"
       },
       {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
         "name": "File System Access",
         "url": "https://web.dev/file-system-access/"
       },
@@ -1374,5 +1378,53 @@
       }
     ],
     "screenshot": "ember.ly.webp"
+  },
+  {
+    "timestamp": "2022-04-27T06:54:53.000Z",
+    "appURL": "https://maskable.app",
+    "sourceURL": "https://github.com/NotWoods/maskable",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "EyeDropper",
+        "url": "https://github.com/WICG/eyedropper-api/blob/main/README.md"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "screenshot": "maskable.app.webp"
+  },
+  {
+    "timestamp": "2022-04-27T07:02:41.000Z",
+    "appURL": "https://kenchris.github.io/webnfc-groceries/",
+    "sourceURL": "https://github.com/kenchris/webnfc-groceries",
+    "usedAPIs": [
+      {
+        "name": "WebNFC",
+        "url": "https://web.dev/nfc/"
+      }
+    ],
+    "screenshot": "kenchris.github.io!webnfc-groceries.webp"
   }
 ]

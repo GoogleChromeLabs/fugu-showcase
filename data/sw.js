@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-5106832681234035';
-  const MEDIA_CACHE = 'media-5106832681234035';
+  const APP_SHELL_CACHE = 'app-shell-29294457105174243';
+  const MEDIA_CACHE = 'media-29294457105174243';
 
   const APP_SHELL_FILES = [
     './',
@@ -117,7 +117,11 @@
     'tinder.com.webp',
     'tinder.com-dark.webp',
     'ember.ly.webp',
-    'ember.ly-dark.webp'
+    'ember.ly-dark.webp',
+    'maskable.app.webp',
+    'maskable.app-dark.webp',
+    'kenchris.github.io!webnfc-groceries.webp',
+    'kenchris.github.io!webnfc-groceries-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
