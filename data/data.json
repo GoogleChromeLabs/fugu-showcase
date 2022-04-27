@@ -685,6 +685,10 @@
     "sourceURL": "https://github.com/tomayac/fugu-showcase",
     "usedAPIs": [
       {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
         "name": "Cache Storage",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
       },

@@ -17,7 +17,7 @@ import style from './style.css.mjs';
 import sw from './sw.mjs';
 import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = false;
+const SKIP_SCREENSHOTS = true;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
@@ -286,6 +286,20 @@ const createHTML = async (data) => {
         const searchInput = document.querySelector('input.search-apps');
         const shareButtons = document.querySelectorAll('.share');
         const container = document.querySelector('.container');
+        const anchors = document.querySelectorAll('a.anchor');
+
+        if ('clipboard' in navigator && 'writeText' in navigator.clipboard) {
+          anchors.forEach((anchor) => {
+            anchor.addEventListener('click', () => {
+              const url = new URL(anchor.href).toString();
+              navigator.clipboard.writeText(url);
+              anchor.classList.add('copied');
+              setTimeout(() => {
+                anchor.classList.remove('copied');
+              }, 3000);
+            });
+          });
+        }
 
         const slugify = (string) => {
           return string.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '');

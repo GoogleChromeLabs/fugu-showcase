@@ -84,6 +84,12 @@ export default `
     right: 0.5rem;
     bottom: 0.5rem;
   }
+  .copied.anchor::before {
+    content: "Copied to clipboard";
+    display:inline-block;
+    text-decoration: none;
+    margin-inline-end: 0.5rem;
+  }
   figure {
     margin: 0;
   }
