@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-2799455777442701';
-  const MEDIA_CACHE = 'media-2799455777442701';
+  const APP_SHELL_CACHE = 'app-shell-8254068458422801';
+  const MEDIA_CACHE = 'media-8254068458422801';
 
   const APP_SHELL_FILES = [
     './',
@@ -121,7 +121,9 @@
     'maskable.app.webp',
     'maskable.app-dark.webp',
     'kenchris.github.io!webnfc-groceries.webp',
-    'kenchris.github.io!webnfc-groceries-dark.webp'
+    'kenchris.github.io!webnfc-groceries-dark.webp',
+    'josephrocca.github.io!clip-image-sorter.webp',
+    'josephrocca.github.io!clip-image-sorter-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

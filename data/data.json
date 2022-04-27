@@ -1430,5 +1430,17 @@
       }
     ],
     "screenshot": "kenchris.github.io!webnfc-groceries.webp"
+  },
+  {
+    "timestamp": "2022-04-27T09:53:49.000Z",
+    "appURL": "https://josephrocca.github.io/clip-image-sorter/",
+    "sourceURL": "https://github.com/josephrocca/clip-image-sorter",
+    "usedAPIs": [
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      }
+    ],
+    "screenshot": "josephrocca.github.io!clip-image-sorter.webp"
   }
 ]
