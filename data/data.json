@@ -1442,5 +1442,69 @@
       }
     ],
     "screenshot": "josephrocca.github.io!clip-image-sorter.webp"
+  },
+  {
+    "timestamp": "2022-04-27T16:20:03.000Z",
+    "appURL": "https://yt-playlist-notifier.web.app/",
+    "sourceURL": "https://github.com/jeffposnick/yt-playlist-notifier",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Periodic Background Sync",
+        "url": "https://web.dev/periodic-background-sync/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "screenshot": "yt-playlist-notifier.web.app.webp"
+  },
+  {
+    "timestamp": "2022-04-27T16:21:59.000Z",
+    "appURL": "https://scrapbook-pwa.web.app/",
+    "sourceURL": "https://github.com/GoogleChrome/samples/blob/gh-pages/web-share/",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Content Index",
+        "url": "https://web.dev/content-indexing-api/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share (Files)",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "screenshot": "scrapbook-pwa.web.app.webp"
   }
 ]

@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-6674221941053677';
-  const MEDIA_CACHE = 'media-6674221941053677';
+  const APP_SHELL_CACHE = 'app-shell-5905231557450326';
+  const MEDIA_CACHE = 'media-5905231557450326';
 
   const APP_SHELL_FILES = [
     './',
@@ -123,7 +123,11 @@
     'kenchris.github.io!webnfc-groceries.webp',
     'kenchris.github.io!webnfc-groceries-dark.webp',
     'josephrocca.github.io!clip-image-sorter.webp',
-    'josephrocca.github.io!clip-image-sorter-dark.webp'
+    'josephrocca.github.io!clip-image-sorter-dark.webp',
+    'yt-playlist-notifier.web.app.webp',
+    'yt-playlist-notifier.web.app-dark.webp',
+    'scrapbook-pwa.web.app.webp',
+    'scrapbook-pwa.web.app-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

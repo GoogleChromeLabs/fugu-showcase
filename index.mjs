@@ -169,15 +169,15 @@ const createHTML = async (data) => {
           </head>
           <body>
             <script>
-              function inIframe() {
+              function runningInIframe() {
                 try {
                   return window.self !== window.top;
                 } catch {
                   return true;
                 }
               }
-
-              if (inIframe()) {
+              const inIframe = runningInIframe();
+              if (inIframe) {
                 document.documentElement.classList.add('iframe');
               }
             </script>
@@ -290,14 +290,21 @@ const createHTML = async (data) => {
 
         if ('clipboard' in navigator && 'writeText' in navigator.clipboard) {
           anchors.forEach((anchor) => {
-            anchor.addEventListener('click', (e) => {
+            anchor.addEventListener('click', async (e) => {
               e.preventDefault();
               const anchorURL = new URL(anchor.href);
-              navigator.clipboard.writeText(anchorURL);
               anchor.classList.add('copied');
-              const url = new URL(window.location);
-              url.hash = anchorURL.hash;
-              window.history.pushState({}, '', url);
+              if (inIframe) {
+                window.top.postMessage({
+                  anchor: anchorURL.hash,
+                }, '*');
+              }
+              window.history.pushState({}, '', anchorURL);
+              try {
+                await navigator.clipboard.writeText(anchorURL);
+              } catch (err) {
+                console.error(err.name, err.message);
+              }
               setTimeout(() => {
                 anchor.classList.remove('copied');
               }, 3000);
