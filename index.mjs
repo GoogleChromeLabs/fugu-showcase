@@ -292,9 +292,12 @@ const createHTML = async (data) => {
           anchors.forEach((anchor) => {
             anchor.addEventListener('click', (e) => {
               e.preventDefault();
-              const url = new URL(anchor.href).toString();
-              navigator.clipboard.writeText(url);
+              const anchorURL = new URL(anchor.href);
+              navigator.clipboard.writeText(anchorURL);
               anchor.classList.add('copied');
+              const url = new URL(window.location);
+              url.hash = anchorURL.hash;
+              window.history.pushState({}, '', url);
               setTimeout(() => {
                 anchor.classList.remove('copied');
               }, 3000);
