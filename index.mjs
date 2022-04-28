@@ -1,3 +1,22 @@
+/**
+ * SVGcode—Convert raster images to SVG vector graphics
+ * Copyright (C) 2022 Google LLC
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+
 import path from 'path';
 import fetch from 'node-fetch';
 import { writeFile } from 'fs/promises';
@@ -17,7 +36,7 @@ import style from './style.css.mjs';
 import sw from './sw.mjs';
 import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = false;
+const SKIP_SCREENSHOTS = true;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
@@ -288,6 +307,31 @@ const createHTML = async (data) => {
         const container = document.querySelector('.container');
         const anchors = document.querySelectorAll('a.anchor');
 
+        if (inIframe) {
+          window.addEventListener('message', (event) => {
+            console.log('In iframe', event);
+            const url = new URL(location.href);
+            if ('search' in event.data) {
+              if (event.data.search) {
+                const [key, value] = event.data.search.split('=');
+                url.searchParams.set(key, value);
+                input.value = value;
+                input.dispatchEvent(new Event('input'));
+              } else {
+                url.searchParams.delete('api');
+              }
+            }
+            if ('hash' in event.data) {
+              url.hash = event.data.hash;
+              searchInput.value = url.hash;
+              searchInput.dispatchEvent(new Event('input'));
+            }
+            console.log('Iframe URL', url.toString());
+            window.history.pushState({}, '', url);
+          });
+        }
+
+
         if ('clipboard' in navigator && 'writeText' in navigator.clipboard) {
           anchors.forEach((anchor) => {
             anchor.addEventListener('click', async (e) => {
@@ -373,6 +417,11 @@ const createHTML = async (data) => {
           const url = new URL(window.location);
           if (value && availableAPIs.includes(value)) {
             url.searchParams.set('api', value);
+            if (inIframe) {
+              window.top.postMessage({
+                search: \`api=\${value}\`,
+              }, '*');
+            }
             window.history.pushState({}, '', url);
             articles.forEach(article => {
               article.style.display = 'none';
@@ -385,6 +434,11 @@ const createHTML = async (data) => {
               article.style.display = 'block';
             });
             url.searchParams.delete('api');
+            if (inIframe) {
+              window.top.postMessage({
+                search: '',
+              }, '*');
+            }
             window.history.pushState({}, '', url);
           }
         });
@@ -401,6 +455,11 @@ const createHTML = async (data) => {
             }
           } else {
             url.searchParams.delete('api');
+            if (inIframe) {
+              window.top.postMessage({
+                search: '',
+              }, '*');
+            }
             window.history.pushState({}, '', url);
           }
           input.dispatchEvent(new Event('input'));
