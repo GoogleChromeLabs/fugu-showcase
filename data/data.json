@@ -1506,5 +1506,89 @@
       }
     ],
     "screenshot": "scrapbook-pwa.web.app.webp"
+  },
+  {
+    "timestamp": "2022-04-27T17:03:59.000Z",
+    "appURL": "https://1tuner.com",
+    "sourceURL": "https://github.com/robinbakker/1tuner",
+    "usedAPIs": [
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "screenshot": "1tuner.com.webp"
+  },
+  {
+    "timestamp": "2022-04-27T18:23:26.000Z",
+    "appURL": "https://www.espruino.com/ide/",
+    "sourceURL": "https://github.com/espruino/EspruinoWebIDE",
+    "usedAPIs": [
+      {
+        "name": "WebBluetooth",
+        "url": "https://web.dev/bluetooth/"
+      },
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      }
+    ],
+    "screenshot": "espruino.com!ide.webp"
+  },
+  {
+    "timestamp": "2022-04-27T18:33:23.000Z",
+    "appURL": "https://make.firialabs.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "make.firialabs.com.webp"
+  },
+  {
+    "timestamp": "2022-04-27T18:35:14.000Z",
+    "appURL": "https://my.numworks.com/",
+    "sourceURL": "https://www.numworks.com/blog/webusb-firmware-update/",
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "my.numworks.com.webp"
+  },
+  {
+    "timestamp": "2022-04-27T18:35:41.000Z",
+    "appURL": "https://www.stemplayer.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "stemplayer.com.webp"
+  },
+  {
+    "timestamp": "2022-04-27T18:38:31.000Z",
+    "appURL": "https://duino.app/",
+    "sourceURL": "https://github.com/duinoapp/duinoapp-client",
+    "usedAPIs": [
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      }
+    ],
+    "screenshot": "duino.app.webp"
   }
 ]

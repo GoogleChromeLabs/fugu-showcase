@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-5905231557450326';
-  const MEDIA_CACHE = 'media-5905231557450326';
+  const APP_SHELL_CACHE = 'app-shell-6128824700307893';
+  const MEDIA_CACHE = 'media-6128824700307893';
 
   const APP_SHELL_FILES = [
     './',
@@ -127,7 +127,19 @@
     'yt-playlist-notifier.web.app.webp',
     'yt-playlist-notifier.web.app-dark.webp',
     'scrapbook-pwa.web.app.webp',
-    'scrapbook-pwa.web.app-dark.webp'
+    'scrapbook-pwa.web.app-dark.webp',
+    '1tuner.com.webp',
+    '1tuner.com-dark.webp',
+    'espruino.com!ide.webp',
+    'espruino.com!ide-dark.webp',
+    'make.firialabs.com.webp',
+    'make.firialabs.com-dark.webp',
+    'my.numworks.com.webp',
+    'my.numworks.com-dark.webp',
+    'stemplayer.com.webp',
+    'stemplayer.com-dark.webp',
+    'duino.app.webp',
+    'duino.app-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
