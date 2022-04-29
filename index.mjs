@@ -318,9 +318,12 @@ const createHTML = async (data) => {
               }
             }
             if ('hash' in event.data) {
+              const article = document.querySelector(\`#\${event.data.hash}\`);
+              if (article) {
+                article.classList.add('target');
+                article.scrollIntoView();
+              }
               url.hash = event.data.hash;
-              searchInput.value = url.hash;
-              searchInput.dispatchEvent(new Event('input'));
             }
             window.history.pushState({}, '', url);
           });
