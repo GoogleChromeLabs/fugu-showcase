@@ -1590,5 +1590,33 @@
       }
     ],
     "screenshot": "duino.app.webp"
+  },
+  {
+    "timestamp": "2022-04-28T18:53:24.000Z",
+    "appURL": "https://stadia.google.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "Pointer Lock (unadjustedMovement)",
+        "url": "https://web.dev/disable-mouse-acceleration/"
+      }
+    ],
+    "screenshot": "stadia.google.com.webp"
+  },
+  {
+    "timestamp": "2022-04-28T18:54:22.000Z",
+    "appURL": "https://play.geforcenow.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      }
+    ],
+    "screenshot": "play.geforcenow.com.webp"
   }
 ]

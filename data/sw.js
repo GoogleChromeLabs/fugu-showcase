@@ -1,6 +1,6 @@
 
-  const APP_SHELL_CACHE = 'app-shell-11154109931600265';
-  const MEDIA_CACHE = 'media-11154109931600265';
+  const APP_SHELL_CACHE = 'app-shell-4146314848160675';
+  const MEDIA_CACHE = 'media-4146314848160675';
 
   const APP_SHELL_FILES = [
     './',
@@ -139,7 +139,11 @@
     'stemplayer.com.webp',
     'stemplayer.com-dark.webp',
     'duino.app.webp',
-    'duino.app-dark.webp'
+    'duino.app-dark.webp',
+    'stadia.google.com.webp',
+    'stadia.google.com-dark.webp',
+    'play.geforcenow.com.webp',
+    'play.geforcenow.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
