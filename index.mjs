@@ -30,7 +30,7 @@ import style from './style.css.mjs';
 import sw from './sw.mjs';
 import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = false;
+const SKIP_SCREENSHOTS = true;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
@@ -303,13 +303,12 @@ const createHTML = async (data) => {
 
         if (inIframe) {
           window.addEventListener('message', (event) => {
-            console.log('In iframe', event);
             const url = new URL(location.href);
             if ('search' in event.data) {
               if (event.data.search) {
                 const [key, value] = event.data.search.split('=');
                 url.searchParams.set(key, value);
-                input.value = value;
+                input.value = getOptionValue(value);
                 input.dispatchEvent(new Event('input'));
               } else {
                 url.searchParams.delete('api');
@@ -320,11 +319,9 @@ const createHTML = async (data) => {
               searchInput.value = url.hash;
               searchInput.dispatchEvent(new Event('input'));
             }
-            console.log('Iframe URL', url.toString());
             window.history.pushState({}, '', url);
           });
         }
-
 
         if ('clipboard' in navigator && 'writeText' in navigator.clipboard) {
           anchors.forEach((anchor) => {
@@ -332,6 +329,9 @@ const createHTML = async (data) => {
               e.preventDefault();
               const anchorURL = new URL(anchor.href);
               anchor.classList.add('copied');
+              setTimeout(() => {
+                anchor.classList.remove('copied');
+              }, 3000);
               if (inIframe) {
                 window.top.postMessage({
                   anchor: anchorURL.hash,
@@ -343,15 +343,19 @@ const createHTML = async (data) => {
               } catch (err) {
                 console.error(err.name, err.message);
               }
-              setTimeout(() => {
-                anchor.classList.remove('copied');
-              }, 3000);
             });
           });
         }
 
         const slugify = (string) => {
           return string.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '');
+        };
+
+        const clearURL = () => {
+          const url = new URL(location.href);
+          url.searchParams.delete('api');
+          url.hash = '';
+          window.history.pushState({}, '', url);
         };
 
         const availableAPIs = [${Array.from(availableAPIs.keys())
@@ -365,6 +369,8 @@ const createHTML = async (data) => {
             input.dispatchEvent(new Event('input'));
             return;
           }
+          input.value = '';
+          clearURL();
           articles
           .forEach((article) => {
             article.style.display = 'none';
@@ -379,11 +385,13 @@ const createHTML = async (data) => {
         searchButton.addEventListener('click', (e) => {
           searchInput.value = '';
           searchInput.dispatchEvent(new Event('input'));
+          clearURL();
         });
 
         button.addEventListener('click', () => {
           input.value = '';
           input.dispatchEvent(new Event('input'));
+          clearURL();
         });
 
         form.addEventListener('submit', (e) => {
@@ -391,7 +399,6 @@ const createHTML = async (data) => {
         });
 
         options.forEach((option) => {
-          option.tabIndex = 0;
           option.addEventListener('click', (e) => {
             input.value = option.value;
             input.dispatchEvent(new Event('input'));
@@ -411,6 +418,7 @@ const createHTML = async (data) => {
           const url = new URL(window.location);
           if (value && availableAPIs.includes(value)) {
             url.searchParams.set('api', value);
+            url.hash = '';
             if (inIframe) {
               window.top.postMessage({
                 search: \`api=\${value}\`,
@@ -437,16 +445,27 @@ const createHTML = async (data) => {
           }
         });
 
+        const getOptionValue = (api) => {
+          for (const option of options) {
+            if (slugify(option.value) === api) {
+              return option.value;
+              break;
+            }
+          }
+        };
+
+        window.addEventListener('keydown', (e) => {
+          if (e.key === 'f' && e.metaKey) {
+            e.preventDefault();
+            searchInput.focus();
+          }
+        });
+
         window.addEventListener('load', () => {
           const url = new URL(window.location);
           const api = url.searchParams.get('api');
           if (api && availableAPIs.includes(api)) {
-            for (const option of options) {
-              if (slugify(option.value) === api) {
-                input.value = option.value;
-                break;
-              }
-            }
+            input.value = getOptionValue(api);
           } else {
             url.searchParams.delete('api');
             if (inIframe) {
@@ -472,7 +491,7 @@ const createHTML = async (data) => {
               const blob = await fetch(img.currentSrc).then((res) => res.blob());
               const file = new File([blob], img.getAttribute('src'), { type: blob.type });
               const data = {
-                text: \`👀 I just found the app “\${article.querySelector('h2').textContent}”: \${article.querySelector('a').href}.\n\nAmong others, it uses these cool Project Fugu APIs:\n\n\${Array.from(article.querySelectorAll('li')).slice(0, 2).map(li => \`👉 \${li.textContent}\`).join('\\n')}\n\n(via the 🐡 \${document.title}: ${EMBED_URL})\`.trim(),
+                text: \`👀 I just found the app “\${article.querySelector('h2').textContent}”: \${article.querySelector('a').href}.\n\nAmong others, it uses these cool Project Fugu APIs:\n\n\${Array.from(article.querySelectorAll('li')).slice(0, 2).map(li => \`👉 \${li.textContent}\`).join('\\n')}\n\n(via the 🐡 \${document.title}: ${CANONICAL_URL})\`.trim(),
                 files: [file],
               }
               if (navigator.canShare(data)) {
@@ -500,7 +519,7 @@ const createHTML = async (data) => {
       .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
       .map(
         (availableAPI) =>
-          `<option value="${availableAPI}">${availableAPI}</option>`,
+          `<option tabindex="0" value="${availableAPI}">${availableAPI}</option>`,
       )
       .join('')}</datalist>`;
 
@@ -552,7 +571,11 @@ const createServiceWorker = async (data) => {
 };
 
 const createWebManifest = async () => {
-  await writeFile(path.resolve('data', 'manifest.webmanifest'), manifest);
+  const manifestMinified = JSON.stringify(JSON.parse(manifest));
+  await writeFile(
+    path.resolve('data', 'manifest.webmanifest'),
+    manifestMinified,
+  );
   console.log('Successfully created `manifest.webmanifest`.');
 };
 

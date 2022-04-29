@@ -102,6 +102,7 @@ export default `
     display:inline-block;
     text-decoration: none;
     margin-inline-end: 0.5rem;
+    background-color: var(--background-color);
   }
   figure {
     margin: 0;
