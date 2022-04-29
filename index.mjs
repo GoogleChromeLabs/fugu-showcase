@@ -318,12 +318,16 @@ const createHTML = async (data) => {
               }
             }
             if ('hash' in event.data) {
-              const article = document.querySelector(\`#\${event.data.hash}\`);
-              if (article) {
-                article.classList.add('target');
-                article.scrollIntoView();
+              if (event.data.hash) {
+                const article = document.querySelector(\`#\${event.data.hash}\`);
+                if (article) {
+                  article.classList.add('target');
+                  article.scrollIntoView();
+                }
+                url.hash = event.data.hash;
+              } else {
+                url.hash = '';
               }
-              url.hash = event.data.hash;
             }
             window.history.pushState({}, '', url);
           });
