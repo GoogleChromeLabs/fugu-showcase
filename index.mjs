@@ -305,6 +305,7 @@ const createHTML = async (data) => {
 
         if (inIframe) {
           window.addEventListener('message', (event) => {
+            console.log('Iframe received from embedding page', event.data);
             const url = new URL(location.href);
             if ('search' in event.data) {
               if (event.data.search) {
