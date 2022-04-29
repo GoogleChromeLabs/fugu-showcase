@@ -30,7 +30,7 @@ import style from './style.css.mjs';
 import sw from './sw.mjs';
 import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = false;
+const SKIP_SCREENSHOTS = true;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
@@ -169,7 +169,7 @@ const createHTML = async (data) => {
             <meta property="og:image" content="${CANONICAL_URL}tomayac.github.io!fugu-showcase!data.png" />
             <title>Project Fugu API Showcase</title>
             <link rel="icon" href="${fuguSVG}" />
-            <link rel="canonical" href="${CANONICAL_URL}" />
+            <link rel="canonical" href="${EMBED_URL}" />
             <link rel="manifest" href="manifest.webmanifest" />
             ${style}
             <noscript>
@@ -290,6 +290,8 @@ const createHTML = async (data) => {
           .join('')}
       </div>
       <script>
+        const EMBED_URL = '${EMBED_URL}';
+
         const articles = document.querySelectorAll('article');
         const options = document.querySelectorAll('option');
         const button = document.querySelector('button[type="reset"].search-apis');
@@ -339,6 +341,11 @@ const createHTML = async (data) => {
               }
               window.history.pushState({}, '', anchorURL);
               try {
+                const embedURL = new URL(EMBED_URL);
+                anchorURL.host = embedURL.host;
+                anchorURL.pathname = embedURL.pathname;
+                anchorURL.port = '';
+                anchorURL.protocol = 'https:';
                 await navigator.clipboard.writeText(anchorURL);
               } catch (err) {
                 console.error(err.name, err.message);
@@ -491,7 +498,7 @@ const createHTML = async (data) => {
               const blob = await fetch(img.currentSrc).then((res) => res.blob());
               const file = new File([blob], img.getAttribute('src'), { type: blob.type });
               const data = {
-                text: \`👀 I just found the app “\${article.querySelector('h2').textContent}”: \${article.querySelector('a').href}.\n\nAmong others, it uses these cool Project Fugu APIs:\n\n\${Array.from(article.querySelectorAll('li')).slice(0, 2).map(li => \`👉 \${li.textContent}\`).join('\\n')}\n\n(via the 🐡 \${document.title}: ${CANONICAL_URL})\`.trim(),
+                text: \`👀 I just found the app “\${article.querySelector('h2').textContent}”: \${article.querySelector('a').href}.\n\nAmong others, it uses these cool Project Fugu APIs:\n\n\${Array.from(article.querySelectorAll('li')).slice(0, 2).map(li => \`👉 \${li.textContent}\`).join('\\n')}\n\n(via the 🐡 \${document.title}: ${EMBED_URL})\`.trim(),
                 files: [file],
               }
               if (navigator.canShare(data)) {
