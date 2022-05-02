@@ -368,6 +368,7 @@ const createHTML = async (data) => {
         };
 
         const clearURL = () => {
+          document.querySelectorAll('.target').forEach((target) => target.classList.remove('target'));
           const url = new URL(location.href);
           url.searchParams.delete('api');
           url.hash = '';
