@@ -565,6 +565,9 @@ const createHTML = async (data) => {
     minifyHtml.createConfiguration({
       minify_js: true,
       minify_css: true,
+      do_not_minify_doctype: true,
+      ensure_spec_compliant_unquoted_attribute_values: true,
+      keep_spaces_between_attributes: true,
     }),
   );
   await writeFile(path.resolve('data', 'index.html'), minified);

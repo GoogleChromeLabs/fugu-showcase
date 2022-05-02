@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8376150542551268';
-  const MEDIA_CACHE = 'media-8376150542551268';
+  const APP_SHELL_CACHE = 'app-shell-6618069979868961';
+  const MEDIA_CACHE = 'media-6618069979868961';
 
   const APP_SHELL_FILES = [
     './',
