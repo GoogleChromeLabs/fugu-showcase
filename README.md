@@ -29,7 +29,7 @@ Project Fugu.
 
 ## Contributing
 
-See [`CONTRIBUTING.md``](./blob/main/CONTRIBUTING.md) for more information.
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for more information.
 
 ## License
 
