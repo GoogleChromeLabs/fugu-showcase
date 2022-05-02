@@ -345,7 +345,7 @@ const createHTML = async (data) => {
               }, 3000);
               if (inIframe) {
                 window.top.postMessage({
-                  anchor: anchorURL.hash,
+                  hash: anchorURL.hash,
                 }, '*');
               }
               window.history.pushState({}, '', anchorURL);
@@ -388,6 +388,11 @@ const createHTML = async (data) => {
           }
           input.value = '';
           clearURL();
+          if (inIframe) {
+            window.top.postMessage({
+              search: '',
+            }, '*');
+          }
           articles.forEach((article) => {
             article.style.display = 'none';
           });
@@ -491,7 +496,7 @@ const createHTML = async (data) => {
             if (inIframe) {
               window.top.postMessage({
                 search: '',
-                anchor: url.hash,
+                hash: url.hash,
               }, '*');
             }
             window.history.pushState({}, '', url);
