@@ -14,10 +14,9 @@ Project Fugu.
    [spreadsheet](https://docs.google.com/spreadsheets/d/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/edit?usp=sharing).
 1. The spreadsheet is published as a
    [JSON file](https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json).
-1. The file [`index.mjs`](./blob/main/index.mjs) consumes the JSON file and
-   creates the output data in the [`data/`](./tree/main/data) folder.
-   Screenshots and app metadata are dynamically generated based on the live
-   apps.
+1. The file [`index.mjs`](./index.mjs) consumes the JSON file and creates the
+   output data in the [`data/`](./data) folder. Screenshots and app metadata are
+   dynamically generated based on the live apps.
 1. The whole repository is published to GitHub Pages.
 
 ## Deploying a new release
@@ -25,8 +24,8 @@ Project Fugu.
 1. Check the data in the
    [spreadsheet](https://docs.google.com/spreadsheets/d/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/edit?usp=sharing)
    for correctness.
-1. Run `npm run deploy`, which triggers all data in [`data/`](./tree/main/data)
-   to be re-generated.
+1. Run `npm run deploy`, which triggers all data in [`data/`](./data) to be
+   re-generated.
 
 ## Contributing
 
