@@ -320,12 +320,13 @@ const createHTML = async (data) => {
             if ('hash' in event.data) {
               if (event.data.hash) {
                 const article = document.querySelector(\`article[id="\${event.data.hash}"]\`);
-                console.log('Selector', \`article[id="\${event.data.hash}"]\`);
+                console.log('Selector', \`article[id="\${event.data.hash}"]\`, article);
                 if (article) {
                   article.classList.add('target');
                   article.scrollIntoView();
+                } else {
+                  url.hash = event.data.hash;
                 }
-                url.hash = event.data.hash;
               } else {
                 url.hash = '';
               }
