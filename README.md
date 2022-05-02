@@ -5,6 +5,8 @@ The
 a collection of apps that make use of APIs that were conceived in the context of
 Project Fugu.
 
+![Project Fugu API Showcase](https://user-images.githubusercontent.com/145676/166227856-49ec9d9f-ff68-4c68-9c15-a01b192483f5.png)
+
 ## Data flow
 
 1. Community members submit their apps to the showcase via this
@@ -18,6 +20,8 @@ Project Fugu.
    output data in the [`data/`](./data) folder. Screenshots and app metadata are
    dynamically generated based on the live apps.
 1. The whole repository is published to GitHub Pages.
+1. The file [`data/index.html`](./data/index.html) is embedded as an iframe on
+   [`GoogleChrome/developer.chrome.com/site/en/blog/fugu-showcase/index.md`](https://github.com/GoogleChrome/developer.chrome.com//blob/main/site/en/blog/fugu-showcase/index.md).
 
 ## Deploying a new release
 
