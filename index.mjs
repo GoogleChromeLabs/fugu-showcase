@@ -319,8 +319,7 @@ const createHTML = async (data) => {
             }
             if ('hash' in event.data) {
               if (event.data.hash) {
-                const article = document.querySelector(\`#\${event.data.hash}\`);
-                console.log('Selector', \`#\${event.data.hash}\`);
+                const article = document.querySelector(\`article[id="#\${event.data.hash}"]\`);
                 if (article) {
                   article.classList.add('target');
                   article.scrollIntoView();
