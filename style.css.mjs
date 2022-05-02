@@ -29,7 +29,8 @@ export default `
       --accent-color: hotpink;
     }
   }
-  :target {
+  :target,
+  .target {
     outline: 0.25rem solid var(--accent-color);
   }
   body {

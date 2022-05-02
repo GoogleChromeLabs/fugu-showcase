@@ -117,7 +117,7 @@ const createScreenshots = async (data, overrideType = null) => {
                 console.log(`Successfully created \`${filename}\`.`),
               );
             })
-            .catch((err) => console.log(err));
+            .catch((err) => console.error(err));
         }
         return writeFile(path.resolve('data', filename), buffer).then(() =>
           console.log(`Successfully created \`${filename}\`.`),
@@ -320,7 +320,6 @@ const createHTML = async (data) => {
             if ('hash' in event.data) {
               if (event.data.hash) {
                 const article = document.querySelector(\`article[id="\${event.data.hash}"]\`);
-                console.log('Selector', \`article[id="\${event.data.hash}"]\`, article);
                 if (article) {
                   article.classList.add('target');
                   article.scrollIntoView();
@@ -388,8 +387,7 @@ const createHTML = async (data) => {
           }
           input.value = '';
           clearURL();
-          articles
-          .forEach((article) => {
+          articles.forEach((article) => {
             article.style.display = 'none';
           });
           const value = e.target.value.toLowerCase();
@@ -488,6 +486,7 @@ const createHTML = async (data) => {
             if (inIframe) {
               window.top.postMessage({
                 search: '',
+                anchor: url.hash,
               }, '*');
             }
             window.history.pushState({}, '', url);
