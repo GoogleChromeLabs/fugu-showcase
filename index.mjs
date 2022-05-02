@@ -399,15 +399,15 @@ const createHTML = async (data) => {
         });
 
         searchButton.addEventListener('click', (e) => {
+          clearURL();
           searchInput.value = '';
           searchInput.dispatchEvent(new Event('input'));
-          clearURL();
         });
 
         button.addEventListener('click', () => {
+          clearURL();
           input.value = '';
           input.dispatchEvent(new Event('input'));
-          clearURL();
         });
 
         form.addEventListener('submit', (e) => {
@@ -416,6 +416,7 @@ const createHTML = async (data) => {
 
         options.forEach((option) => {
           option.addEventListener('click', (e) => {
+            clearURL();
             input.value = option.value;
             input.dispatchEvent(new Event('input'));
           });
@@ -424,6 +425,7 @@ const createHTML = async (data) => {
             if (e.key !== 'Enter' && e.key !== ' ') {
               return;
             }
+            clearURL();
             input.value = option.value;
             input.dispatchEvent(new Event('input'));
           });
@@ -432,6 +434,8 @@ const createHTML = async (data) => {
         input.addEventListener('input', () => {
           const value = slugify(input.value);
           const url = new URL(window.location);
+          searchInput.value = '';
+          clearURL();
           if (value && availableAPIs.includes(value)) {
             url.searchParams.set('api', value);
             url.hash = '';
