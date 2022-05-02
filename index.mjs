@@ -343,6 +343,10 @@ const createHTML = async (data) => {
                 anchor.classList.remove('copied');
               }, 3000);
               if (inIframe) {
+                removeTargetClass();
+                anchor.closest('article').classList.add('target');
+              }
+              if (inIframe) {
                 window.top.postMessage({
                   hash: anchorURL.hash,
                 }, '*');
@@ -366,8 +370,12 @@ const createHTML = async (data) => {
           return string.toLowerCase().replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-').replace(/-*$/g, '');
         };
 
-        const clearURL = () => {
+        const removeTargetClass = () => {
           document.querySelectorAll('.target').forEach((target) => target.classList.remove('target'));
+        };
+
+        const clearURL = () => {
+          removeTargetClass();
           const url = new URL(location.href);
           url.searchParams.delete('api');
           url.hash = '';
