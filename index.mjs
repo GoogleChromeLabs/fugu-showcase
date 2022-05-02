@@ -16,8 +16,8 @@ import fetch from 'node-fetch';
 import { writeFile } from 'fs/promises';
 import captureWebsite from 'capture-website';
 import filenamifyUrl from 'filenamify-url';
-import ogp from 'ogp-parser';
 import sharp from 'sharp';
+import { unfurl } from 'unfurl.js';
 
 // https://github.com/wilsonzlin/minify-html/issues/65
 import { createRequire } from 'module';
@@ -30,7 +30,7 @@ import style from './style.css.mjs';
 import sw from './sw.mjs';
 import manifest from './manifest.webmanifest.mjs';
 
-const SKIP_SCREENSHOTS = true;
+const SKIP_SCREENSHOTS = false;
 
 const SPREADSHEET_URL =
   'https://sheets.googleapis.com/v4/spreadsheets/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/values/Sheet2?key=AIzaSyCkROWBarEOJ9hQJggyrlUFulOFA4h6AW0&alt=json';
@@ -55,23 +55,20 @@ const createRawData = async () => {
   const response = await fetch(SPREADSHEET_URL);
   const json = await response.json();
   const values = json.values;
-  const data = values
-    // @ToDo: Temporarily skip this URL due to errors.
-    .filter((row) => row[1] !== 'https://logseq.com/?spa=true')
-    .map((row) => {
-      return {
-        timestamp: new Date(row[0]),
-        appURL: row[1],
-        sourceURL: row[2] || null,
-        usedAPIs: row[3].split(', ').map((api) => {
-          return {
-            name: api.replace(/\(https.*\)/g, '').trim(),
-            url: api.replace(/.*?\((https.*)\)/g, '$1'),
-          };
-        }),
-        screenshot: `${fileNamifyURL(row[1])}.${SCREENSHOT_OPTIONS.type}`,
-      };
-    });
+  const data = values.map((row) => {
+    return {
+      timestamp: new Date(row[0]),
+      appURL: row[1],
+      sourceURL: row[2] || null,
+      usedAPIs: row[3].split(', ').map((api) => {
+        return {
+          name: api.replace(/\(https.*\)/g, '').trim(),
+          url: api.replace(/.*?\((https.*)\)/g, '$1'),
+        };
+      }),
+      screenshot: `${fileNamifyURL(row[1])}.${SCREENSHOT_OPTIONS.type}`,
+    };
+  });
   await writeFile(
     path.resolve('data', 'data.json'),
     JSON.stringify(data, null, 2),
@@ -131,22 +128,18 @@ const createScreenshots = async (data, overrideType = null) => {
 const createHTML = async (data) => {
   await Promise.all(
     data.map(async (item) => {
-      return ogp(item.appURL, { skipOembed: true })
+      return unfurl(item.appURL, { oembed: false, compress: true })
         .then((meta) => {
           item.meta = meta;
           item.title =
-            item.meta.ogp?.['og:title'] ||
-            item.meta.seo?.title ||
-            item.meta.seo?.['og:title'] ||
-            item.meta.seo?.['twitter:title'] ||
-            item.meta.title ||
+            item.open_graph?.title ||
+            item.twitter_card?.title ||
+            item.title ||
             new URL(item.appURL).hostname;
           item.description =
-            item.meta.ogp?.['og:description'] ||
-            item.meta.seo?.description ||
-            item.meta.seo?.['og:description'] ||
-            item.meta.seo?.['twitter:description'] ||
-            item.meta.description ||
+            item.open_graph?.description ||
+            item.twitter_card?.description ||
+            item.description ||
             '';
         })
         .catch((err) => console.error(err));

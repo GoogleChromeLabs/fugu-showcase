@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5044324051904008';
-  const MEDIA_CACHE = 'media-5044324051904008';
+  const APP_SHELL_CACHE = 'app-shell-004974120896799272';
+  const MEDIA_CACHE = 'media-004974120896799272';
 
   const APP_SHELL_FILES = [
     './',
@@ -124,6 +124,8 @@
     'leonidasesteban.com-dark.webp',
     'stedit.app.webp',
     'stedit.app-dark.webp',
+    'logseq.com!spa=true.webp',
+    'logseq.com!spa=true-dark.webp',
     'jsmusicdb.com.webp',
     'jsmusicdb.com-dark.webp',
     'tinder.com.webp',
