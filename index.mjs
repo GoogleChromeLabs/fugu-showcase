@@ -312,6 +312,7 @@ const createHTML = async (data) => {
                 url.searchParams.set(key, value);
                 input.value = getOptionValue(value);
                 input.dispatchEvent(new Event('input'));
+                form.scrollIntoView();
               } else {
                 url.searchParams.delete('api');
               }
