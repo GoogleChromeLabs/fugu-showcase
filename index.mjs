@@ -260,14 +260,14 @@ const createHTML = async (data) => {
                     : ''
                 }
               </figure>
+              <span class="launch"><a target="_blank" rel="noopener" href="${
+                item.appURL
+              }">Launch app</a></span>
               ${
                 item.sourceURL
                   ? `<span class="source"><a target="_blank" rel="noopener" href="${item.sourceURL}">Source code</a></span>`
                   : ''
               }
-              <span class="launch"><a target="_blank" rel="noopener" href="${
-                item.appURL
-              }">Launch app</a></span>
               <button type="button" class="share">Share app</button>
               <h3>Used APIs:</h3>
               <ul>${item.usedAPIs
