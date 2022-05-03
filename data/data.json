@@ -1662,5 +1662,45 @@
       }
     ],
     "screenshot": "lookscanned.io!scan.webp"
+  },
+  {
+    "timestamp": "2022-05-03T16:45:41.000Z",
+    "appURL": "http://sharedgametimer.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "HapticsDevice",
+        "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/HapticsDevice/explainer.md"
+      },
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+      },
+      {
+        "name": "Screen Wake Lock",
+        "url": "https://web.dev/wake-lock/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "WebBluetooth",
+        "url": "https://web.dev/bluetooth/"
+      }
+    ],
+    "screenshot": "sharedgametimer.com.webp"
   }
 ]

@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8046957085391051';
-  const MEDIA_CACHE = 'media-8046957085391051';
+  const APP_SHELL_CACHE = 'app-shell-8690252078264067';
+  const MEDIA_CACHE = 'media-8690252078264067';
 
   const APP_SHELL_FILES = [
     './',
@@ -159,7 +159,9 @@
     'play.geforcenow.com.webp',
     'play.geforcenow.com-dark.webp',
     'lookscanned.io!scan.webp',
-    'lookscanned.io!scan-dark.webp'
+    'lookscanned.io!scan-dark.webp',
+    'sharedgametimer.com.webp',
+    'sharedgametimer.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
