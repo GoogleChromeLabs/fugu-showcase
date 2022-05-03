@@ -1642,5 +1642,25 @@
       }
     ],
     "screenshot": "play.geforcenow.com.webp"
+  },
+  {
+    "timestamp": "2022-05-03T10:28:50.000Z",
+    "appURL": "https://lookscanned.io/scan",
+    "sourceURL": "https://github.com/rwv/lookscanned.io",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "screenshot": "lookscanned.io!scan.webp"
   }
 ]
