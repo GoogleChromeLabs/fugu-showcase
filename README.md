@@ -45,7 +45,7 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for more information.
    [spreadsheet](https://docs.google.com/spreadsheets/d/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/edit?usp=sharing)
    for correctness. Remove any new rows that are spam or otherwise
    inappropriate. You can see when the site was last deployed by looking at the
-   [Action](./actions) tab of the repo and checking for the last successful run
+   [Action](../../actions) tab of the repo and checking for the last successful run
    of the `pages build and deployment` action.
 1. Run `npm start`, which triggers all data in [`data/`](./data) to be
    re-generated and which opens a local copy of the site on
