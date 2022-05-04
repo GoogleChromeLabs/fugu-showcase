@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8567996354103029';
-  const MEDIA_CACHE = 'media-8567996354103029';
+  const APP_SHELL_CACHE = 'app-shell-9277935123218368';
+  const MEDIA_CACHE = 'media-9277935123218368';
 
   const APP_SHELL_FILES = [
     './',
@@ -165,7 +165,9 @@
     'configure.zsa.io!train.webp',
     'configure.zsa.io!train-dark.webp',
     'hoten.cc!zc!play.webp',
-    'hoten.cc!zc!play-dark.webp'
+    'hoten.cc!zc!play-dark.webp',
+    'squoosh.app.webp',
+    'squoosh.app-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

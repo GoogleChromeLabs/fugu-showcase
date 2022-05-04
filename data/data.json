@@ -1746,5 +1746,29 @@
       }
     ],
     "screenshot": "hoten.cc!zc!play.webp"
+  },
+  {
+    "timestamp": "2022-05-04T09:19:18.000Z",
+    "appURL": "https://squoosh.app",
+    "sourceURL": "https://github.com/GoogleChromeLabs/squoosh",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share (Files)",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "screenshot": "squoosh.app.webp"
   }
 ]
