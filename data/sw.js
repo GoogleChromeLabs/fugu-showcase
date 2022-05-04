@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8690252078264067';
-  const MEDIA_CACHE = 'media-8690252078264067';
+  const APP_SHELL_CACHE = 'app-shell-8567996354103029';
+  const MEDIA_CACHE = 'media-8567996354103029';
 
   const APP_SHELL_FILES = [
     './',
@@ -161,7 +161,11 @@
     'lookscanned.io!scan.webp',
     'lookscanned.io!scan-dark.webp',
     'sharedgametimer.com.webp',
-    'sharedgametimer.com-dark.webp'
+    'sharedgametimer.com-dark.webp',
+    'configure.zsa.io!train.webp',
+    'configure.zsa.io!train-dark.webp',
+    'hoten.cc!zc!play.webp',
+    'hoten.cc!zc!play-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

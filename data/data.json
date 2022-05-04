@@ -1702,5 +1702,49 @@
       }
     ],
     "screenshot": "sharedgametimer.com.webp"
+  },
+  {
+    "timestamp": "2022-05-03T22:08:08.000Z",
+    "appURL": "https://configure.zsa.io/train",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "configure.zsa.io!train.webp"
+  },
+  {
+    "timestamp": "2022-05-04T07:51:50.000Z",
+    "appURL": "https://hoten.cc/zc/play/",
+    "sourceURL": "https://github.com/connorjclark/ZeldaClassic",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "Persistent Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "screenshot": "hoten.cc!zc!play.webp"
   }
 ]
