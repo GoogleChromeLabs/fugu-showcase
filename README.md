@@ -11,7 +11,7 @@ Project Fugu.
 
 1. Community members submit their apps to the showcase via this
    [anonymous form](https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform)
-   ([edit form](https://docs.google.com/forms/d/1jepNYg6P7zt1AyP9tOgqSY5MHCmBZcik7zzOhwtbUxc/edit)).
+   (Project Fugu team members can [edit form](https://docs.google.com/forms/d/1jepNYg6P7zt1AyP9tOgqSY5MHCmBZcik7zzOhwtbUxc/edit)).
 1. Form responses land in this world-readable
    [spreadsheet](https://docs.google.com/spreadsheets/d/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/edit?usp=sharing).
    The form is moderated by members of Chrome's Project Fugu team.
