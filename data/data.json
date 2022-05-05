@@ -1770,5 +1770,25 @@
       }
     ],
     "screenshot": "squoosh.app.webp"
+  },
+  {
+    "timestamp": "2022-05-05T07:57:14.000Z",
+    "appURL": "https://activerecall.com/login.html",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "screenshot": "activerecall.com!login.html.webp"
   }
 ]

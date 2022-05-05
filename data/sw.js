@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9277935123218368';
-  const MEDIA_CACHE = 'media-9277935123218368';
+  const APP_SHELL_CACHE = 'app-shell-3613047466717345';
+  const MEDIA_CACHE = 'media-3613047466717345';
 
   const APP_SHELL_FILES = [
     './',
@@ -167,7 +167,9 @@
     'hoten.cc!zc!play.webp',
     'hoten.cc!zc!play-dark.webp',
     'squoosh.app.webp',
-    'squoosh.app-dark.webp'
+    'squoosh.app-dark.webp',
+    'activerecall.com!login.html.webp',
+    'activerecall.com!login.html-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
