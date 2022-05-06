@@ -142,7 +142,11 @@ const createHTML = async (data) => {
             meta.description ||
             '';
         })
-        .catch((err) => console.error(err));
+        .catch((err) => {
+          item.meta = {};
+          item.title = new URL(item.appURL).hostname;
+          item.description = '';
+        });
     }),
   );
   const availableAPIs = new Set();
