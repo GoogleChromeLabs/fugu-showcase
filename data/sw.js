@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-3613047466717345';
-  const MEDIA_CACHE = 'media-3613047466717345';
+  const APP_SHELL_CACHE = 'app-shell-2555084671013004';
+  const MEDIA_CACHE = 'media-2555084671013004';
 
   const APP_SHELL_FILES = [
     './',
@@ -169,7 +169,9 @@
     'squoosh.app.webp',
     'squoosh.app-dark.webp',
     'activerecall.com!login.html.webp',
-    'activerecall.com!login.html-dark.webp'
+    'activerecall.com!login.html-dark.webp',
+    'xbox.com!en-US!play!games!fortnite!BT5P2X999VH2.webp',
+    'xbox.com!en-US!play!games!fortnite!BT5P2X999VH2-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

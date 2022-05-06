@@ -1790,5 +1790,17 @@
       }
     ],
     "screenshot": "activerecall.com!login.html.webp"
+  },
+  {
+    "timestamp": "2022-05-06T07:04:51.000Z",
+    "appURL": "https://www.xbox.com/en-US/play/games/fortnite/BT5P2X999VH2",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      }
+    ],
+    "screenshot": "xbox.com!en-US!play!games!fortnite!BT5P2X999VH2.webp"
   }
 ]
