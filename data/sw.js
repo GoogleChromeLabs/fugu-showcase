@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-022481405309387137';
-  const MEDIA_CACHE = 'media-022481405309387137';
+  const APP_SHELL_CACHE = 'app-shell-33625959054180066';
+  const MEDIA_CACHE = 'media-33625959054180066';
 
   const APP_SHELL_FILES = [
     './',
@@ -173,7 +173,9 @@
     'xbox.com!en-US!play!games!fortnite!BT5P2X999VH2.webp',
     'xbox.com!en-US!play!games!fortnite!BT5P2X999VH2-dark.webp',
     'canva.com.webp',
-    'canva.com-dark.webp'
+    'canva.com-dark.webp',
+    'apps.tibbo.com.webp',
+    'apps.tibbo.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

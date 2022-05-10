@@ -1838,5 +1838,17 @@
       }
     ],
     "screenshot": "canva.com.webp"
+  },
+  {
+    "timestamp": "2022-05-09T18:13:55.000Z",
+    "appURL": "https://apps.tibbo.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "apps.tibbo.com.webp"
   }
 ]
