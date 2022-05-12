@@ -1850,5 +1850,33 @@
       }
     ],
     "screenshot": "apps.tibbo.com.webp"
+  },
+  {
+    "timestamp": "2022-05-12T10:19:13.000Z",
+    "appURL": "https://pwa.kiwix.org/www/index.html",
+    "sourceURL": "https://github.com/kiwix/kiwix-js-windows",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Tabbed Application Mode",
+        "url": "https://web.dev/tabbed-application-mode/"
+      }
+    ],
+    "screenshot": "pwa.kiwix.org!www!index.html.webp"
   }
 ]

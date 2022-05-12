@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-33625959054180066';
-  const MEDIA_CACHE = 'media-33625959054180066';
+  const APP_SHELL_CACHE = 'app-shell-0327068837774982';
+  const MEDIA_CACHE = 'media-0327068837774982';
 
   const APP_SHELL_FILES = [
     './',
@@ -175,7 +175,9 @@
     'canva.com.webp',
     'canva.com-dark.webp',
     'apps.tibbo.com.webp',
-    'apps.tibbo.com-dark.webp'
+    'apps.tibbo.com-dark.webp',
+    'pwa.kiwix.org!www!index.html.webp',
+    'pwa.kiwix.org!www!index.html-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
