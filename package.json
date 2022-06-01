@@ -8,14 +8,14 @@
   },
   "dependencies": {
     "@minify-html/js": "^0.8.0",
-    "capture-website": "^2.3.0",
+    "capture-website": "^2.4.0",
     "filenamify-url": "^3.0.0",
     "node-fetch": "^3.2.4",
     "prettier": "^2.6.2",
-    "sharp": "^0.30.4",
-    "unfurl.js": "^5.6.4"
+    "sharp": "^0.30.6",
+    "unfurl.js": "^5.7.0"
   },
   "devDependencies": {
-    "http-server": "^14.1.0"
+    "http-server": "^14.1.1"
   }
 }
