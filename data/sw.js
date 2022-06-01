@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7703734316142026';
-  const MEDIA_CACHE = 'media-7703734316142026';
+  const APP_SHELL_CACHE = 'app-shell-6833435217032986';
+  const MEDIA_CACHE = 'media-6833435217032986';
 
   const APP_SHELL_FILES = [
     './',
@@ -72,8 +72,8 @@
     'web.telegram.org!z-dark.webp',
     'svgco.de.webp',
     'svgco.de-dark.webp',
-    'tomayac.github.io!fugu-showcase!data.webp',
-    'tomayac.github.io!fugu-showcase!data-dark.webp',
+    'developer.chrome.com!blog!fugu-showcase.webp',
+    'developer.chrome.com!blog!fugu-showcase-dark.webp',
     'bpmtech.no.webp',
     'bpmtech.no-dark.webp',
     'case.xchart.com.webp',

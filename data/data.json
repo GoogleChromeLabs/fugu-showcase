@@ -681,8 +681,8 @@
   },
   {
     "timestamp": "2022-04-13T10:31:31.000Z",
-    "appURL": "https://tomayac.github.io/fugu-showcase/data/",
-    "sourceURL": "https://github.com/tomayac/fugu-showcase",
+    "appURL": "https://developer.chrome.com/blog/fugu-showcase/",
+    "sourceURL": "https://github.com/GoogleChromeLabs/fugu-showcase",
     "usedAPIs": [
       {
         "name": "Async Clipboard",
@@ -701,7 +701,7 @@
         "url": "https://web.dev/web-share/"
       }
     ],
-    "screenshot": "tomayac.github.io!fugu-showcase!data.webp"
+    "screenshot": "developer.chrome.com!blog!fugu-showcase.webp"
   },
   {
     "timestamp": "2022-04-13T17:05:39.000Z",
