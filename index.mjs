@@ -43,7 +43,7 @@ const SCREENSHOT_OPTIONS = {
   type: 'webp',
 };
 
-const CANONICAL_URL = 'https://tomayac.github.io/fugu-showcase/data/';
+const CANONICAL_URL = 'https://googlechromelabs.github.io/fugu-showcase/data/';
 const EMBED_URL = 'https://developer.chrome.com/blog/fugu-showcase/';
 
 // Make sure file names don't include `#`.
@@ -163,7 +163,7 @@ const createHTML = async (data) => {
             <meta property="og:title" content="Project Fugu API Showcase" />
             <meta property="og:description" content="A showcase of Project Fugu APIs sourced by community submissions." />
             <meta property="og:url" content="${CANONICAL_URL}" />
-            <meta property="og:image" content="${CANONICAL_URL}tomayac.github.io!fugu-showcase!data.png" />
+            <meta property="og:image" content="${CANONICAL_URL}developer.chrome.com!blog!fugu-showcase-dark.webp" />
             <title>Project Fugu API Showcase</title>
             <link rel="icon" href="${fuguSVG}" />
             <link rel="canonical" href="${EMBED_URL}" />
@@ -568,7 +568,7 @@ const createHTML = async (data) => {
               Made by <a target="_blank" rel="noopener" href="https://twitter.com/tomayac">@tomayac</a>.
               You can propose missing apps by submitting them via this
               <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform">form</a>.
-              Source code on <a target="_blank" rel="noopener" href="https://github.com/tomayac/fugu-showcase">GitHub</a>.
+              Source code on <a target="_blank" rel="noopener" href="https://github.com/GoogleChromeLabs/fugu-showcase">GitHub</a>.
             </footer>
           </main>
         </body>
