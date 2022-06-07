@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-14231978372540932';
-  const MEDIA_CACHE = 'media-14231978372540932';
+  const APP_SHELL_CACHE = 'app-shell-8124823576035118';
+  const MEDIA_CACHE = 'media-8124823576035118';
 
   const APP_SHELL_FILES = [
     './',
@@ -179,7 +179,9 @@
     'pwa.kiwix.org!www!index.html.webp',
     'pwa.kiwix.org!www!index.html-dark.webp',
     'wootility.io.webp',
-    'wootility.io-dark.webp'
+    'wootility.io-dark.webp',
+    'figma.com.webp',
+    'figma.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

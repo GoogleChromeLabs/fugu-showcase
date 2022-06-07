@@ -1918,5 +1918,33 @@
       }
     ],
     "screenshot": "wootility.io.webp"
+  },
+  {
+    "timestamp": "2022-06-07T15:46:52.000Z",
+    "appURL": "https://www.figma.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "EyeDropper",
+        "url": "https://github.com/WICG/eyedropper-api/blob/main/README.md"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "Local Font Access",
+        "url": "https://web.dev/local-fonts/"
+      },
+      {
+        "name": "Persistent Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
+      }
+    ],
+    "screenshot": "figma.com.webp"
   }
 ]
