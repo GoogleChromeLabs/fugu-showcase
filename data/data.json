@@ -1878,5 +1878,45 @@
       }
     ],
     "screenshot": "pwa.kiwix.org!www!index.html.webp"
+  },
+  {
+    "timestamp": "2022-06-07T08:30:21.000Z",
+    "appURL": "https://wootility.io/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "Navigation Preload",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigationPreloadManager"
+      },
+      {
+        "name": "Protocol Handlers",
+        "url": "https://web.dev/url-protocol-handler/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "WebHID",
+        "url": "https://web.dev/hid/"
+      }
+    ],
+    "screenshot": "wootility.io.webp"
   }
 ]

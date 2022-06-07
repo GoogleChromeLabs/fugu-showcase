@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-39536507294171686';
-  const MEDIA_CACHE = 'media-39536507294171686';
+  const APP_SHELL_CACHE = 'app-shell-14231978372540932';
+  const MEDIA_CACHE = 'media-14231978372540932';
 
   const APP_SHELL_FILES = [
     './',
@@ -177,7 +177,9 @@
     'apps.tibbo.com.webp',
     'apps.tibbo.com-dark.webp',
     'pwa.kiwix.org!www!index.html.webp',
-    'pwa.kiwix.org!www!index.html-dark.webp'
+    'pwa.kiwix.org!www!index.html-dark.webp',
+    'wootility.io.webp',
+    'wootility.io-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
