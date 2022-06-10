@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8124823576035118';
-  const MEDIA_CACHE = 'media-8124823576035118';
+  const APP_SHELL_CACHE = 'app-shell-9188227471376675';
+  const MEDIA_CACHE = 'media-9188227471376675';
 
   const APP_SHELL_FILES = [
     './',
@@ -181,7 +181,9 @@
     'wootility.io.webp',
     'wootility.io-dark.webp',
     'figma.com.webp',
-    'figma.com-dark.webp'
+    'figma.com-dark.webp',
+    'senomix.com!timesheet.webp',
+    'senomix.com!timesheet-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
