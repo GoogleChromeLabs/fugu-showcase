@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9188227471376675';
-  const MEDIA_CACHE = 'media-9188227471376675';
+  const APP_SHELL_CACHE = 'app-shell-8202289120883488';
+  const MEDIA_CACHE = 'media-8202289120883488';
 
   const APP_SHELL_FILES = [
     './',
@@ -183,7 +183,9 @@
     'figma.com.webp',
     'figma.com-dark.webp',
     'senomix.com!timesheet.webp',
-    'senomix.com!timesheet-dark.webp'
+    'senomix.com!timesheet-dark.webp',
+    'my.flipp.dev.webp',
+    'my.flipp.dev-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

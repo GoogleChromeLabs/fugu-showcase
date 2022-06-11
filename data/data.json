@@ -1970,5 +1970,17 @@
       }
     ],
     "screenshot": "senomix.com!timesheet.webp"
+  },
+  {
+    "timestamp": "2022-06-10T23:44:59.000Z",
+    "appURL": "https://my.flipp.dev/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      }
+    ],
+    "screenshot": "my.flipp.dev.webp"
   }
 ]
