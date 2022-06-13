@@ -1982,5 +1982,21 @@
       }
     ],
     "screenshot": "my.flipp.dev.webp"
+  },
+  {
+    "timestamp": "2022-06-13T14:18:46.000Z",
+    "appURL": "https://bangle.io",
+    "sourceURL": "https://github.com/bangle-io/bangle-io",
+    "usedAPIs": [
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "screenshot": "bangle.io.webp"
   }
 ]
