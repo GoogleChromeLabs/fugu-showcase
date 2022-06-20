@@ -7,11 +7,11 @@
     "deploy": "npm run fix && npm run build && git add . && git commit -a -m 'New release' && git push"
   },
   "dependencies": {
-    "@minify-html/js": "^0.8.0",
+    "@minify-html/js": "^0.8.1",
     "capture-website": "^2.4.0",
     "filenamify-url": "^3.0.0",
-    "node-fetch": "^3.2.4",
-    "prettier": "^2.6.2",
+    "node-fetch": "^3.2.6",
+    "prettier": "^2.7.1",
     "sharp": "^0.30.6",
     "unfurl.js": "^5.7.0"
   },
