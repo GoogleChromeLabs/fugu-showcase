@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-08617135763052342';
-  const MEDIA_CACHE = 'media-08617135763052342';
+  const APP_SHELL_CACHE = 'app-shell-4174165274898489';
+  const MEDIA_CACHE = 'media-4174165274898489';
 
   const APP_SHELL_FILES = [
     './',
@@ -189,7 +189,9 @@
     'bangle.io.webp',
     'bangle.io-dark.webp',
     'app.element.io!!welcome.webp',
-    'app.element.io!!welcome-dark.webp'
+    'app.element.io!!welcome-dark.webp',
+    'codev5.vex.com.webp',
+    'codev5.vex.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
