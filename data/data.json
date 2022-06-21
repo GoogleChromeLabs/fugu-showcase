@@ -2054,5 +2054,81 @@
       }
     ],
     "screenshot": "codev5.vex.com.webp"
+  },
+  {
+    "timestamp": "2022-06-21T13:47:44.000Z",
+    "appURL": "https://haven.pages.dev/",
+    "sourceURL": "https://github.com/ThaUnknown/pwa-haven",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Declarative Link Capturing",
+        "url": "https://web.dev/declarative-link-capturing/"
+      },
+      {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Launch Handler",
+        "url": "https://web.dev/launch-handler/"
+      },
+      {
+        "name": "Local Font Access",
+        "url": "https://web.dev/local-fonts/"
+      },
+      {
+        "name": "Media Capabilities",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API"
+      },
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+      },
+      {
+        "name": "Persistent Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
+      },
+      {
+        "name": "Pointer Lock (unadjustedMovement)",
+        "url": "https://web.dev/disable-mouse-acceleration/"
+      },
+      {
+        "name": "Protocol Handlers",
+        "url": "https://web.dev/url-protocol-handler/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Storage Estimation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate"
+      },
+      {
+        "name": "URL Handlers",
+        "url": "https://web.dev/pwa-url-handler/"
+      }
+    ],
+    "screenshot": "haven.pages.dev.webp"
   }
 ]
