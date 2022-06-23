@@ -2130,5 +2130,33 @@
       }
     ],
     "screenshot": "haven.pages.dev.webp"
+  },
+  {
+    "timestamp": "2022-06-23T11:08:31.000Z",
+    "appURL": "https://snapper-gps.herokuapp.com/",
+    "sourceURL": "https://github.com/SnapperGPS/snappergps-app",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "snapper-gps.herokuapp.com.webp"
   }
 ]

@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-1539931386550928';
-  const MEDIA_CACHE = 'media-1539931386550928';
+  const APP_SHELL_CACHE = 'app-shell-6307077752191375';
+  const MEDIA_CACHE = 'media-6307077752191375';
 
   const APP_SHELL_FILES = [
     './',
@@ -193,7 +193,9 @@
     'codev5.vex.com.webp',
     'codev5.vex.com-dark.webp',
     'haven.pages.dev.webp',
-    'haven.pages.dev-dark.webp'
+    'haven.pages.dev-dark.webp',
+    'snapper-gps.herokuapp.com.webp',
+    'snapper-gps.herokuapp.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
