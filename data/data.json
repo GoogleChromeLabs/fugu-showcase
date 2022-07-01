@@ -2194,5 +2194,29 @@
       }
     ],
     "screenshot": "topdecked.com.webp"
+  },
+  {
+    "timestamp": "2022-07-01T11:51:58.000Z",
+    "appURL": "https://dj.beatport.com/home",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "WebMIDI",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+      }
+    ],
+    "screenshot": "dj.beatport.com!home.webp"
   }
 ]

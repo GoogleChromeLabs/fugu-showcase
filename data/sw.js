@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-47155834271691743';
-  const MEDIA_CACHE = 'media-47155834271691743';
+  const APP_SHELL_CACHE = 'app-shell-4847900078483911';
+  const MEDIA_CACHE = 'media-4847900078483911';
 
   const APP_SHELL_FILES = [
     './',
@@ -197,7 +197,9 @@
     'snapper-gps.herokuapp.com.webp',
     'snapper-gps.herokuapp.com-dark.webp',
     'topdecked.com.webp',
-    'topdecked.com-dark.webp'
+    'topdecked.com-dark.webp',
+    'dj.beatport.com!home.webp',
+    'dj.beatport.com!home-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
