@@ -2218,5 +2218,17 @@
       }
     ],
     "screenshot": "dj.beatport.com!home.webp"
+  },
+  {
+    "timestamp": "2022-07-04T03:30:08.000Z",
+    "appURL": "https://web.brewflasher.com/",
+    "sourceURL": "https://github.com/thorrak/brewflasher_web",
+    "usedAPIs": [
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      }
+    ],
+    "screenshot": "web.brewflasher.com.webp"
   }
 ]

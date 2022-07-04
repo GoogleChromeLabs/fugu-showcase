@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4847900078483911';
-  const MEDIA_CACHE = 'media-4847900078483911';
+  const APP_SHELL_CACHE = 'app-shell-9051229241043033';
+  const MEDIA_CACHE = 'media-9051229241043033';
 
   const APP_SHELL_FILES = [
     './',
@@ -199,7 +199,9 @@
     'topdecked.com.webp',
     'topdecked.com-dark.webp',
     'dj.beatport.com!home.webp',
-    'dj.beatport.com!home-dark.webp'
+    'dj.beatport.com!home-dark.webp',
+    'web.brewflasher.com.webp',
+    'web.brewflasher.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
