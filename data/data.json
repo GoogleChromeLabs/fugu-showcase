@@ -2230,5 +2230,21 @@
       }
     ],
     "screenshot": "web.brewflasher.com.webp"
+  },
+  {
+    "timestamp": "2022-07-05T00:49:32.000Z",
+    "appURL": "https://configure.zsa.io/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebHID",
+        "url": "https://web.dev/hid/"
+      },
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "configure.zsa.io.webp"
   }
 ]
