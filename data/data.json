@@ -1357,8 +1357,16 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
       },
       {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
         "name": "Badging",
         "url": "https://web.dev/badging-api/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
       },
       {
         "name": "Contact Picker",
@@ -1367,6 +1375,10 @@
       {
         "name": "getInstalledRelatedApps",
         "url": "https://web.dev/get-installed-related-apps/"
+      },
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
       },
       {
         "name": "Push",
