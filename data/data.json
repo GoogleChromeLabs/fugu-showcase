@@ -2258,5 +2258,21 @@
       }
     ],
     "screenshot": "configure.zsa.io.webp"
+  },
+  {
+    "timestamp": "2022-07-15T09:11:40.000Z",
+    "appURL": "https://play.spacelancers.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      }
+    ],
+    "screenshot": "play.spacelancers.com.webp"
   }
 ]

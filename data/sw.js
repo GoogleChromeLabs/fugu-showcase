@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-3264953759153153';
-  const MEDIA_CACHE = 'media-3264953759153153';
+  const APP_SHELL_CACHE = 'app-shell-3426270580215489';
+  const MEDIA_CACHE = 'media-3426270580215489';
 
   const APP_SHELL_FILES = [
     './',
@@ -203,7 +203,9 @@
     'web.brewflasher.com.webp',
     'web.brewflasher.com-dark.webp',
     'configure.zsa.io.webp',
-    'configure.zsa.io-dark.webp'
+    'configure.zsa.io-dark.webp',
+    'play.spacelancers.com.webp',
+    'play.spacelancers.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
