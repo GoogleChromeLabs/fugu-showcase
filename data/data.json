@@ -2274,5 +2274,37 @@
       }
     ],
     "screenshot": "play.spacelancers.com.webp"
+  },
+  {
+    "timestamp": "2022-07-18T07:36:19.000Z",
+    "appURL": "https://pixa.pics/",
+    "sourceURL": "https://github.com/pixa-pics/pixa-pics.github.io",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Background Sync",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "screenshot": "pixa.pics.webp"
   }
 ]
