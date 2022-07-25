@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5616777841902922';
-  const MEDIA_CACHE = 'media-5616777841902922';
+  const APP_SHELL_CACHE = 'app-shell-017930673185559076';
+  const MEDIA_CACHE = 'media-017930673185559076';
 
   const APP_SHELL_FILES = [
     './',
@@ -207,7 +207,9 @@
     'play.spacelancers.com.webp',
     'play.spacelancers.com-dark.webp',
     'pixa.pics.webp',
-    'pixa.pics-dark.webp'
+    'pixa.pics-dark.webp',
+    'ui.perfetto.dev.webp',
+    'ui.perfetto.dev-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

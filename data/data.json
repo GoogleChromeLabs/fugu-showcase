@@ -2306,5 +2306,29 @@
       }
     ],
     "screenshot": "pixa.pics.webp"
+  },
+  {
+    "timestamp": "2022-07-25T15:06:45.000Z",
+    "appURL": "https://ui.perfetto.dev/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "screenshot": "ui.perfetto.dev.webp"
   }
 ]
