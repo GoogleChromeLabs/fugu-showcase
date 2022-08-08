@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-11229624477255884';
-  const MEDIA_CACHE = 'media-11229624477255884';
+  const APP_SHELL_CACHE = 'app-shell-2859506076639786';
+  const MEDIA_CACHE = 'media-2859506076639786';
 
   const APP_SHELL_FILES = [
     './',
@@ -211,7 +211,9 @@
     'ui.perfetto.dev.webp',
     'ui.perfetto.dev-dark.webp',
     'paintz.app.webp',
-    'paintz.app-dark.webp'
+    'paintz.app-dark.webp',
+    'open.spotify.com.webp',
+    'open.spotify.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

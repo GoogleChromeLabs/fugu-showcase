@@ -2370,5 +2370,33 @@
       }
     ],
     "screenshot": "paintz.app.webp"
+  },
+  {
+    "timestamp": "2022-08-08T14:57:45.000Z",
+    "appURL": "https://open.spotify.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Storage Estimation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate"
+      }
+    ],
+    "screenshot": "open.spotify.com.webp"
   }
 ]
