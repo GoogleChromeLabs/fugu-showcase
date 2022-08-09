@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-31941150363927906';
-  const MEDIA_CACHE = 'media-31941150363927906';
+  const APP_SHELL_CACHE = 'app-shell-9914433087346921';
+  const MEDIA_CACHE = 'media-9914433087346921';
 
   const APP_SHELL_FILES = [
     './',
@@ -213,7 +213,9 @@
     'open.spotify.com.webp',
     'open.spotify.com-dark.webp',
     'docs.qq.com!desktop.webp',
-    'docs.qq.com!desktop-dark.webp'
+    'docs.qq.com!desktop-dark.webp',
+    'roland50.studio.webp',
+    'roland50.studio-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

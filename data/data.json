@@ -2370,5 +2370,21 @@
       }
     ],
     "screenshot": "docs.qq.com!desktop.webp"
+  },
+  {
+    "timestamp": "2022-08-09T09:14:57.000Z",
+    "appURL": "https://roland50.studio/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Share (Files)",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "screenshot": "roland50.studio.webp"
   }
 ]
