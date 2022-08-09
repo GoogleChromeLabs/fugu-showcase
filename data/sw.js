@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-014145508915662797';
-  const MEDIA_CACHE = 'media-014145508915662797';
+  const APP_SHELL_CACHE = 'app-shell-31941150363927906';
+  const MEDIA_CACHE = 'media-31941150363927906';
 
   const APP_SHELL_FILES = [
     './',
@@ -102,8 +102,6 @@
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi-dark.webp',
     'codeit.codes.webp',
     'codeit.codes-dark.webp',
-    'haven.pages.dev.webp',
-    'haven.pages.dev-dark.webp',
     'app.thepocketlab.com.webp',
     'app.thepocketlab.com-dark.webp',
     'code.makewonder.com!cue.webp',

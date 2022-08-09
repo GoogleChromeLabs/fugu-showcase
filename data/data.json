@@ -1056,62 +1056,6 @@
     "screenshot": "codeit.codes.webp"
   },
   {
-    "timestamp": "2022-04-25T16:45:29.000Z",
-    "appURL": "https://haven.pages.dev/",
-    "sourceURL": "https://github.com/ThaUnknown/pwa-haven",
-    "usedAPIs": [
-      {
-        "name": "Add to Home Screen",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
-      },
-      {
-        "name": "Async Clipboard",
-        "url": "https://web.dev/async-clipboard/"
-      },
-      {
-        "name": "Cache Storage",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
-      },
-      {
-        "name": "Declarative Link Capturing",
-        "url": "https://web.dev/declarative-link-capturing/"
-      },
-      {
-        "name": "File Handling",
-        "url": "https://web.dev/file-handling/"
-      },
-      {
-        "name": "File System Access",
-        "url": "https://web.dev/file-system-access/"
-      },
-      {
-        "name": "Launch Handler",
-        "url": "https://web.dev/launch-handler/"
-      },
-      {
-        "name": "Media Capabilities",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API"
-      },
-      {
-        "name": "Media Session",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
-      },
-      {
-        "name": "Protocol Handlers",
-        "url": "https://web.dev/url-protocol-handler/"
-      },
-      {
-        "name": "Service Worker",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
-      },
-      {
-        "name": "URL Handlers",
-        "url": "https://web.dev/pwa-url-handler/"
-      }
-    ],
-    "screenshot": "haven.pages.dev.webp"
-  },
-  {
     "timestamp": "2022-04-25T16:56:40.000Z",
     "appURL": "https://app.thepocketlab.com/",
     "sourceURL": null,
@@ -1249,7 +1193,7 @@
   },
   {
     "timestamp": "2022-04-26T03:33:16.000Z",
-    "appURL": "https://stedit.app",
+    "appURL": "https://stedit.app/",
     "sourceURL": "https://github.com/Offroaders123/Smart-Text-Editor",
     "usedAPIs": [
       {
@@ -1317,7 +1261,7 @@
   },
   {
     "timestamp": "2022-04-26T11:29:45.000Z",
-    "appURL": "https://www.jsmusicdb.com",
+    "appURL": "https://www.jsmusicdb.com/",
     "sourceURL": "https://github.com/lucienimmink/jsmusicdb",
     "usedAPIs": [
       {
@@ -1349,7 +1293,7 @@
   },
   {
     "timestamp": "2022-04-26T13:39:48.000Z",
-    "appURL": "https://tinder.com",
+    "appURL": "https://tinder.com/",
     "sourceURL": null,
     "usedAPIs": [
       {
@@ -1401,7 +1345,7 @@
   },
   {
     "timestamp": "2022-04-26T16:52:26.000Z",
-    "appURL": "https://ember.ly",
+    "appURL": "https://ember.ly/",
     "sourceURL": null,
     "usedAPIs": [
       {
@@ -1421,7 +1365,7 @@
   },
   {
     "timestamp": "2022-04-27T06:54:53.000Z",
-    "appURL": "https://maskable.app",
+    "appURL": "https://maskable.app/",
     "sourceURL": "https://github.com/NotWoods/maskable",
     "usedAPIs": [
       {
