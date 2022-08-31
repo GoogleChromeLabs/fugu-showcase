@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9914433087346921';
-  const MEDIA_CACHE = 'media-9914433087346921';
+  const APP_SHELL_CACHE = 'app-shell-0873413192542094';
+  const MEDIA_CACHE = 'media-0873413192542094';
 
   const APP_SHELL_FILES = [
     './',
@@ -215,7 +215,9 @@
     'docs.qq.com!desktop.webp',
     'docs.qq.com!desktop-dark.webp',
     'roland50.studio.webp',
-    'roland50.studio-dark.webp'
+    'roland50.studio-dark.webp',
+    'setu-upi-over-nfc.herokuapp.com!how-it-works.webp',
+    'setu-upi-over-nfc.herokuapp.com!how-it-works-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

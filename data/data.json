@@ -2386,5 +2386,17 @@
       }
     ],
     "screenshot": "roland50.studio.webp"
+  },
+  {
+    "timestamp": "2022-08-31T10:19:08.000Z",
+    "appURL": "https://setu-upi-over-nfc.herokuapp.com/how-it-works/",
+    "sourceURL": "https://github.com/SetuHQ/upi-pos",
+    "usedAPIs": [
+      {
+        "name": "WebNFC",
+        "url": "https://web.dev/nfc/"
+      }
+    ],
+    "screenshot": "setu-upi-over-nfc.herokuapp.com!how-it-works.webp"
   }
 ]
