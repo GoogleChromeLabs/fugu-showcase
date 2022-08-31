@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7655995641342976';
-  const MEDIA_CACHE = 'media-7655995641342976';
+  const APP_SHELL_CACHE = 'app-shell-9242045324091219';
+  const MEDIA_CACHE = 'media-9242045324091219';
 
   const APP_SHELL_FILES = [
     './',
@@ -66,8 +66,6 @@
     'boxy-svg.com!app-dark.webp',
     'mconverter.eu.webp',
     'mconverter.eu-dark.webp',
-    'tidepool.org!uploader.webp',
-    'tidepool.org!uploader-dark.webp',
     'web.telegram.org!z.webp',
     'web.telegram.org!z-dark.webp',
     'svgco.de.webp',
@@ -217,7 +215,9 @@
     'roland50.studio.webp',
     'roland50.studio-dark.webp',
     'setu-upi-over-nfc.herokuapp.com!how-it-works.webp',
-    'setu-upi-over-nfc.herokuapp.com!how-it-works-dark.webp'
+    'setu-upi-over-nfc.herokuapp.com!how-it-works-dark.webp',
+    'tidepool.org!uploader.webp',
+    'tidepool.org!uploader-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

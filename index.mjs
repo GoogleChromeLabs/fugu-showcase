@@ -66,6 +66,7 @@ const createRawData = async () => {
           url: api.replace(/.*?\((https.*)\)/g, '$1'),
         };
       }),
+      isElectronApp: row[4].toLowerCase() === 'yes',
       screenshot: `${fileNamifyURL(row[1])}.${SCREENSHOT_OPTIONS.type}`,
     };
   });
@@ -266,7 +267,11 @@ const createHTML = async (data) => {
               </figure>
               <span class="launch"><a target="_blank" rel="noopener" href="${
                 item.appURL
-              }">Launch app</a></span>
+              }">Launch app</a>${
+              item.isElectronApp
+                ? ' (<span class="electron">Electron.js</span>)'
+                : ''
+            }</span>
               ${
                 item.sourceURL
                   ? `<span class="source"><a target="_blank" rel="noopener" href="${item.sourceURL}">Source code</a></span>`
