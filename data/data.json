@@ -277,7 +277,7 @@
   },
   {
     "timestamp": "2022-02-23T19:38:16.000Z",
-    "appURL": "https://makecode.com",
+    "appURL": "https://www.microsoft.com/en-us/makecode",
     "sourceURL": null,
     "usedAPIs": [
       {
@@ -293,7 +293,7 @@
         "url": "https://web.dev/usb/"
       }
     ],
-    "screenshot": "makecode.com.webp"
+    "screenshot": "microsoft.com!en-us!makecode.webp"
   },
   {
     "timestamp": "2022-02-23T20:09:29.000Z",

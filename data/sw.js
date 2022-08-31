@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-0873413192542094';
-  const MEDIA_CACHE = 'media-0873413192542094';
+  const APP_SHELL_CACHE = 'app-shell-7655995641342976';
+  const MEDIA_CACHE = 'media-7655995641342976';
 
   const APP_SHELL_FILES = [
     './',
@@ -48,8 +48,8 @@
     'stackedit.io-dark.webp',
     'hexed.it.webp',
     'hexed.it-dark.webp',
-    'makecode.com.webp',
-    'makecode.com-dark.webp',
+    'microsoft.com!en-us!makecode.webp',
+    'microsoft.com!en-us!makecode-dark.webp',
     'dannymoerkerke.github.io!file-tree.webp',
     'dannymoerkerke.github.io!file-tree-dark.webp',
     'whatpwacando.today.webp',
