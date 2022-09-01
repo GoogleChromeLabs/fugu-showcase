@@ -2497,5 +2497,63 @@
     ],
     "isElectronApp": true,
     "screenshot": "tidepool.org!uploader.webp"
+  },
+  {
+    "timestamp": "2022-08-31T11:44:02.000Z",
+    "appURL": "https://microsoftedge.github.io/Demos/pwamp/",
+    "sourceURL": "https://github.com/MicrosoftEdge/Demos/tree/main/pwamp",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Protocol Handlers",
+        "url": "https://web.dev/url-protocol-handler/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share (Files)",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      },
+      {
+        "name": "Window Controls Overlay",
+        "url": "https://web.dev/window-controls-overlay/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "microsoftedge.github.io!Demos!pwamp.webp"
+  },
+  {
+    "timestamp": "2022-08-31T18:25:47.000Z",
+    "appURL": "https://usevia.app/",
+    "sourceURL": "https://github.com/the-via/app",
+    "usedAPIs": [
+      {
+        "name": "WebHID",
+        "url": "https://web.dev/hid/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "usevia.app.webp"
   }
 ]

@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-10110059291952589';
-  const MEDIA_CACHE = 'media-10110059291952589';
+  const APP_SHELL_CACHE = 'app-shell-183192452930665';
+  const MEDIA_CACHE = 'media-183192452930665';
 
   const APP_SHELL_FILES = [
     './',
@@ -217,7 +217,11 @@
     'setu-upi-over-nfc.herokuapp.com!how-it-works.webp',
     'setu-upi-over-nfc.herokuapp.com!how-it-works-dark.webp',
     'tidepool.org!uploader.webp',
-    'tidepool.org!uploader-dark.webp'
+    'tidepool.org!uploader-dark.webp',
+    'microsoftedge.github.io!Demos!pwamp.webp',
+    'microsoftedge.github.io!Demos!pwamp-dark.webp',
+    'usevia.app.webp',
+    'usevia.app-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
