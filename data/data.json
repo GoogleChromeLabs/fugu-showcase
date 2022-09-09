@@ -2555,5 +2555,18 @@
     ],
     "isElectronApp": false,
     "screenshot": "usevia.app.webp"
+  },
+  {
+    "timestamp": "2022-09-09T08:08:52.000Z",
+    "appURL": "https://web-serial-app.netlify.app/",
+    "sourceURL": "https://github.com/tanepiper/web-serial-controller",
+    "usedAPIs": [
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "web-serial-app.netlify.app.webp"
   }
 ]

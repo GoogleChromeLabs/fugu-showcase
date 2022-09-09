@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7152203628690066';
-  const MEDIA_CACHE = 'media-7152203628690066';
+  const APP_SHELL_CACHE = 'app-shell-0425014026404118';
+  const MEDIA_CACHE = 'media-0425014026404118';
 
   const APP_SHELL_FILES = [
     './',
@@ -221,7 +221,9 @@
     'microsoftedge.github.io!Demos!pwamp.webp',
     'microsoftedge.github.io!Demos!pwamp-dark.webp',
     'usevia.app.webp',
-    'usevia.app-dark.webp'
+    'usevia.app-dark.webp',
+    'web-serial-app.netlify.app.webp',
+    'web-serial-app.netlify.app-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
