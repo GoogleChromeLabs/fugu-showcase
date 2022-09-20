@@ -2568,5 +2568,81 @@
     ],
     "isElectronApp": false,
     "screenshot": "web-serial-app.netlify.app.webp"
+  },
+  {
+    "timestamp": "2022-09-20T00:12:48.000Z",
+    "appURL": "https://fpv.wtf/#/about",
+    "sourceURL": "https://github.com/fpv-wtf/voc-web",
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "fpv.wtf!!about.webp"
+  },
+  {
+    "timestamp": "2022-09-20T00:13:58.000Z",
+    "appURL": "https://esc-configurator.com/",
+    "sourceURL": "https://github.com/stylesuxx/esc-configurator",
+    "usedAPIs": [
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      },
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "esc-configurator.com.webp"
+  },
+  {
+    "timestamp": "2022-09-20T00:17:15.000Z",
+    "appURL": "https://buddy.edgetx.org/",
+    "sourceURL": "https://github.com/EdgeTX/buddy",
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "buddy.edgetx.org.webp"
+  },
+  {
+    "timestamp": "2022-09-20T00:34:05.000Z",
+    "appURL": "https://pwa.journalisticapp.com",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "pwa.journalisticapp.com.webp"
   }
 ]

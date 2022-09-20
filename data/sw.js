@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-0425014026404118';
-  const MEDIA_CACHE = 'media-0425014026404118';
+  const APP_SHELL_CACHE = 'app-shell-9538088797555717';
+  const MEDIA_CACHE = 'media-9538088797555717';
 
   const APP_SHELL_FILES = [
     './',
@@ -223,7 +223,15 @@
     'usevia.app.webp',
     'usevia.app-dark.webp',
     'web-serial-app.netlify.app.webp',
-    'web-serial-app.netlify.app-dark.webp'
+    'web-serial-app.netlify.app-dark.webp',
+    'fpv.wtf!!about.webp',
+    'fpv.wtf!!about-dark.webp',
+    'esc-configurator.com.webp',
+    'esc-configurator.com-dark.webp',
+    'buddy.edgetx.org.webp',
+    'buddy.edgetx.org-dark.webp',
+    'pwa.journalisticapp.com.webp',
+    'pwa.journalisticapp.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
