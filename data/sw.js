@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5470232210349006';
-  const MEDIA_CACHE = 'media-5470232210349006';
+  const APP_SHELL_CACHE = 'app-shell-146790817876705';
+  const MEDIA_CACHE = 'media-146790817876705';
 
   const APP_SHELL_FILES = [
     './',
@@ -233,7 +233,9 @@
     'pwa.journalisticapp.com.webp',
     'pwa.journalisticapp.com-dark.webp',
     'editor.kota-yata.com.webp',
-    'editor.kota-yata.com-dark.webp'
+    'editor.kota-yata.com-dark.webp',
+    'conifer-music.app.webp',
+    'conifer-music.app-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
