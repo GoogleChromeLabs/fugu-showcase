@@ -2644,5 +2644,26 @@
     ],
     "isElectronApp": false,
     "screenshot": "pwa.journalisticapp.com.webp"
+  },
+  {
+    "timestamp": "2022-09-26T04:12:21.000Z",
+    "appURL": "https://editor.kota-yata.com/",
+    "sourceURL": "https://github.com/kota-yata/editor.kota-yata.com",
+    "usedAPIs": [
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "editor.kota-yata.com.webp"
   }
 ]
