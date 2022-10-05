@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-146790817876705';
-  const MEDIA_CACHE = 'media-146790817876705';
+  const APP_SHELL_CACHE = 'app-shell-058889188634624334';
+  const MEDIA_CACHE = 'media-058889188634624334';
 
   const APP_SHELL_FILES = [
     './',
@@ -235,7 +235,9 @@
     'editor.kota-yata.com.webp',
     'editor.kota-yata.com-dark.webp',
     'conifer-music.app.webp',
-    'conifer-music.app-dark.webp'
+    'conifer-music.app-dark.webp',
+    'kryogenix.org!farmbound.webp',
+    'kryogenix.org!farmbound-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
