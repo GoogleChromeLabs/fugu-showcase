@@ -2755,5 +2755,68 @@
     ],
     "isElectronApp": false,
     "screenshot": "kryogenix.org!farmbound.webp"
+  },
+  {
+    "timestamp": "2022-10-05T20:00:03.000Z",
+    "appURL": "https://app.cosee.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "app.cosee.com.webp"
+  },
+  {
+    "timestamp": "2022-10-06T08:37:03.000Z",
+    "appURL": "https://niftypass.app/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Screen Wake Lock",
+        "url": "https://web.dev/wake-lock/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "niftypass.app.webp"
+  },
+  {
+    "timestamp": "2022-10-06T08:38:19.000Z",
+    "appURL": "https://microsoftedge.github.io/Demos/wami/",
+    "sourceURL": "https://github.com/MicrosoftEdge/Demos/tree/main/wami",
+    "usedAPIs": [
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "microsoftedge.github.io!Demos!wami.webp"
   }
 ]

@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-058889188634624334';
-  const MEDIA_CACHE = 'media-058889188634624334';
+  const APP_SHELL_CACHE = 'app-shell-7722147150946608';
+  const MEDIA_CACHE = 'media-7722147150946608';
 
   const APP_SHELL_FILES = [
     './',
@@ -237,7 +237,13 @@
     'conifer-music.app.webp',
     'conifer-music.app-dark.webp',
     'kryogenix.org!farmbound.webp',
-    'kryogenix.org!farmbound-dark.webp'
+    'kryogenix.org!farmbound-dark.webp',
+    'app.cosee.com.webp',
+    'app.cosee.com-dark.webp',
+    'niftypass.app.webp',
+    'niftypass.app-dark.webp',
+    'microsoftedge.github.io!Demos!wami.webp',
+    'microsoftedge.github.io!Demos!wami-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
