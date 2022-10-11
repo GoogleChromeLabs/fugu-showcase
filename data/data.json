@@ -2818,5 +2818,22 @@
     ],
     "isElectronApp": false,
     "screenshot": "microsoftedge.github.io!Demos!wami.webp"
+  },
+  {
+    "timestamp": "2022-10-11T08:37:57.000Z",
+    "appURL": "https://www.airconsole.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Screen Wake Lock",
+        "url": "https://web.dev/wake-lock/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "airconsole.com.webp"
   }
 ]
