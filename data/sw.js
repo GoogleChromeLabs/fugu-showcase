@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-18933859273074716';
-  const MEDIA_CACHE = 'media-18933859273074716';
+  const APP_SHELL_CACHE = 'app-shell-36104513835333485';
+  const MEDIA_CACHE = 'media-36104513835333485';
 
   const APP_SHELL_FILES = [
     './',
@@ -245,7 +245,9 @@
     'microsoftedge.github.io!Demos!wami.webp',
     'microsoftedge.github.io!Demos!wami-dark.webp',
     'airconsole.com.webp',
-    'airconsole.com-dark.webp'
+    'airconsole.com-dark.webp',
+    'okso.app.webp',
+    'okso.app-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

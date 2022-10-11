@@ -2835,5 +2835,26 @@
     ],
     "isElectronApp": false,
     "screenshot": "airconsole.com.webp"
+  },
+  {
+    "timestamp": "2022-10-11T13:10:45.000Z",
+    "appURL": "https://okso.app/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "okso.app.webp"
   }
 ]
