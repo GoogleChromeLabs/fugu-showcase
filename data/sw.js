@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-36104513835333485';
-  const MEDIA_CACHE = 'media-36104513835333485';
+  const APP_SHELL_CACHE = 'app-shell-2161218337643509';
+  const MEDIA_CACHE = 'media-2161218337643509';
 
   const APP_SHELL_FILES = [
     './',
@@ -247,7 +247,9 @@
     'airconsole.com.webp',
     'airconsole.com-dark.webp',
     'okso.app.webp',
-    'okso.app-dark.webp'
+    'okso.app-dark.webp',
+    'app.storz-bickel.com.webp',
+    'app.storz-bickel.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

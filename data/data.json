@@ -2856,5 +2856,26 @@
     ],
     "isElectronApp": false,
     "screenshot": "okso.app.webp"
+  },
+  {
+    "timestamp": "2022-10-13T10:32:32.000Z",
+    "appURL": "https://app.storz-bickel.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "WebBluetooth",
+        "url": "https://web.dev/bluetooth/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "app.storz-bickel.com.webp"
   }
 ]
