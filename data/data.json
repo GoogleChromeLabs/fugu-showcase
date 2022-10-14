@@ -2877,5 +2877,22 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.storz-bickel.com.webp"
+  },
+  {
+    "timestamp": "2022-10-14T18:25:11.000Z",
+    "appURL": "https://cleanfeed.net/studio",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Screen Wake Lock",
+        "url": "https://web.dev/wake-lock/"
+      },
+      {
+        "name": "Storage Estimation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "cleanfeed.net!studio.webp"
   }
 ]
