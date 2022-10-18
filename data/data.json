@@ -1705,19 +1705,6 @@
     "screenshot": "sharedgametimer.com.webp"
   },
   {
-    "timestamp": "2022-05-03T22:08:08.000Z",
-    "appURL": "https://configure.zsa.io/train",
-    "sourceURL": null,
-    "usedAPIs": [
-      {
-        "name": "WebUSB",
-        "url": "https://web.dev/usb/"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "configure.zsa.io!train.webp"
-  },
-  {
     "timestamp": "2022-05-04T07:51:50.000Z",
     "appURL": "https://hoten.cc/zc/play/",
     "sourceURL": "https://github.com/connorjclark/ZeldaClassic",
