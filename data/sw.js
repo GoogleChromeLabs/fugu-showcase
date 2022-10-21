@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6191509637291848';
-  const MEDIA_CACHE = 'media-6191509637291848';
+  const APP_SHELL_CACHE = 'app-shell-7028548824083585';
+  const MEDIA_CACHE = 'media-7028548824083585';
 
   const APP_SHELL_FILES = [
     './',
@@ -253,7 +253,9 @@
     'snapdrop.net.webp',
     'snapdrop.net-dark.webp',
     'wormhole.app.webp',
-    'wormhole.app-dark.webp'
+    'wormhole.app-dark.webp',
+    'bitmidi.com.webp',
+    'bitmidi.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

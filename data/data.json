@@ -2951,5 +2951,30 @@
     ],
     "isElectronApp": false,
     "screenshot": "wormhole.app.webp"
+  },
+  {
+    "timestamp": "2022-10-21T11:11:51.000Z",
+    "appURL": "https://bitmidi.com/",
+    "sourceURL": "https://github.com/feross/bitmidi.com",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Navigation Preload",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigationPreloadManager"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "bitmidi.com.webp"
   }
 ]
