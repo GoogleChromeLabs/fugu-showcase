@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-770039141474181';
-  const MEDIA_CACHE = 'media-770039141474181';
+  const APP_SHELL_CACHE = 'app-shell-09976086937248763';
+  const MEDIA_CACHE = 'media-09976086937248763';
 
   const APP_SHELL_FILES = [
     './',
@@ -249,7 +249,9 @@
     'app.storz-bickel.com.webp',
     'app.storz-bickel.com-dark.webp',
     'cleanfeed.net!studio.webp',
-    'cleanfeed.net!studio-dark.webp'
+    'cleanfeed.net!studio-dark.webp',
+    'snapdrop.net.webp',
+    'snapdrop.net-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
