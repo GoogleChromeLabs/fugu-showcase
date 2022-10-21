@@ -2914,5 +2914,42 @@
     ],
     "isElectronApp": false,
     "screenshot": "snapdrop.net.webp"
+  },
+  {
+    "timestamp": "2022-10-21T10:20:43.000Z",
+    "appURL": "https://wormhole.app/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "wormhole.app.webp"
   }
 ]
