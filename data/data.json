@@ -3594,5 +3594,30 @@
     ],
     "isElectronApp": false,
     "screenshot": "shots.so.webp"
+  },
+  {
+    "timestamp": "2022-10-26T15:42:26.000Z",
+    "appURL": "https://www.capcut.com/editor",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Device Memory",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Device_Memory_API"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "capcut.com!editor.webp"
   }
 ]

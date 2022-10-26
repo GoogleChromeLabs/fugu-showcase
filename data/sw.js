@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7472215776427154';
-  const MEDIA_CACHE = 'media-7472215776427154';
+  const APP_SHELL_CACHE = 'app-shell-2201984642720447';
+  const MEDIA_CACHE = 'media-2201984642720447';
 
   const APP_SHELL_FILES = [
     './',
@@ -299,7 +299,9 @@
     'web.blockbench.net.webp',
     'web.blockbench.net-dark.webp',
     'shots.so.webp',
-    'shots.so-dark.webp'
+    'shots.so-dark.webp',
+    'capcut.com!editor.webp',
+    'capcut.com!editor-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
