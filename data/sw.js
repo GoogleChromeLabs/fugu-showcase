@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-2201984642720447';
-  const MEDIA_CACHE = 'media-2201984642720447';
+  const APP_SHELL_CACHE = 'app-shell-2759277402316236';
+  const MEDIA_CACHE = 'media-2759277402316236';
 
   const APP_SHELL_FILES = [
     './',
@@ -301,7 +301,9 @@
     'shots.so.webp',
     'shots.so-dark.webp',
     'capcut.com!editor.webp',
-    'capcut.com!editor-dark.webp'
+    'capcut.com!editor-dark.webp',
+    'h5.topwargame.com!h5game!index.html.webp',
+    'h5.topwargame.com!h5game!index.html-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

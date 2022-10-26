@@ -3619,5 +3619,22 @@
     ],
     "isElectronApp": false,
     "screenshot": "capcut.com!editor.webp"
+  },
+  {
+    "timestamp": "2022-10-26T15:51:12.000Z",
+    "appURL": "https://h5.topwargame.com/h5game/index.html",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "h5.topwargame.com!h5game!index.html.webp"
   }
 ]
