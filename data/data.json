@@ -84,16 +84,20 @@
     "sourceURL": "https://github.com/anaestheticsapp/bluetooth",
     "usedAPIs": [
       {
-        "name": "Screen Wake Lock",
-        "url": "https://web.dev/wake-lock/"
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
       },
       {
         "name": "Service Worker",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
       },
       {
-        "name": "WebBluetooth",
-        "url": "https://web.dev/bluetooth/"
+        "name": "Screen Wake Lock",
+        "url": "https://web.dev/wake-lock/"
       }
     ],
     "isElectronApp": false,
@@ -249,19 +253,6 @@
     ],
     "isElectronApp": false,
     "screenshot": "esphome.github.io!esp-web-tools.webp"
-  },
-  {
-    "timestamp": "2022-02-23T17:02:36.000Z",
-    "appURL": "https://esphome.io/",
-    "sourceURL": "https://github.com/esphome/dashboard/",
-    "usedAPIs": [
-      {
-        "name": "WebSerial",
-        "url": "https://web.dev/serial/"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "esphome.io.webp"
   },
   {
     "timestamp": "2022-02-23T19:35:14.000Z",
@@ -778,7 +769,7 @@
   },
   {
     "timestamp": "2022-04-17T08:58:59.000Z",
-    "appURL": "http://postr.me/",
+    "appURL": "https://postr.me/",
     "sourceURL": null,
     "usedAPIs": [
       {
@@ -1201,7 +1192,7 @@
   },
   {
     "timestamp": "2022-04-25T21:25:04.000Z",
-    "appURL": "http://leonidasesteban.com/",
+    "appURL": "https://leonidasesteban.com/",
     "sourceURL": null,
     "usedAPIs": [
       {
@@ -1665,7 +1656,7 @@
   },
   {
     "timestamp": "2022-05-03T16:45:41.000Z",
-    "appURL": "http://sharedgametimer.com/",
+    "appURL": "https://sharedgametimer.com/",
     "sourceURL": null,
     "usedAPIs": [
       {
@@ -2976,5 +2967,632 @@
     ],
     "isElectronApp": false,
     "screenshot": "bitmidi.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T08:48:14.000Z",
+    "appURL": "https://www.photopea.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "photopea.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T08:51:40.000Z",
+    "appURL": "https://www.netflix.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Device Memory",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Device_Memory_API"
+      },
+      {
+        "name": "Media Capabilities",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "netflix.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T08:53:47.000Z",
+    "appURL": "https://twitter.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Badging",
+        "url": "https://web.dev/badging-api/"
+      },
+      {
+        "name": "Launch Handler",
+        "url": "https://web.dev/launch-handler/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Storage Estimation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "twitter.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T08:57:01.000Z",
+    "appURL": "https://github.dev/github/dev",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "github.dev!github!dev.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:01:16.000Z",
+    "appURL": "https://hoppscotch.io/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "hoppscotch.io.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:03:34.000Z",
+    "appURL": "https://www.instagram.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Badging",
+        "url": "https://web.dev/badging-api/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Navigation Preload",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigationPreloadManager"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "instagram.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:05:35.000Z",
+    "appURL": "https://thesession.org/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "thesession.org.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:07:56.000Z",
+    "appURL": "https://traintimes.org.uk/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "traintimes.org.uk.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:09:15.000Z",
+    "appURL": "https://www.lightningmaps.org/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Background Sync",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "lightningmaps.org.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:11:10.000Z",
+    "appURL": "https://pixlr.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Digital Goods",
+        "url": "https://developer.chrome.com/docs/android/trusted-web-activity/receive-payments-play-billing/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Payment Request",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "pixlr.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:16:01.000Z",
+    "appURL": "https://lichess.org/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "lichess.org.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:24:33.000Z",
+    "appURL": "https://narrow.one/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "Navigation Preload",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigationPreloadManager"
+      },
+      {
+        "name": "Pointer Lock (unadjustedMovement)",
+        "url": "https://web.dev/disable-mouse-acceleration/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Storage Estimation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "narrow.one.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:27:49.000Z",
+    "appURL": "https://radio-house.app/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "radio-house.app.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:34:49.000Z",
+    "appURL": "https://www.soundslice.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "soundslice.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:43:05.000Z",
+    "appURL": "https://linear.app/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "linear.app.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:45:31.000Z",
+    "appURL": "https://www.tldraw.com/",
+    "sourceURL": "https://github.com/tldraw/tldraw",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "tldraw.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:47:20.000Z",
+    "appURL": "https://www.irccloud.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Protocol Handlers",
+        "url": "https://web.dev/url-protocol-handler/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "irccloud.com.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:51:50.000Z",
+    "appURL": "https://app.diagrams.net/",
+    "sourceURL": "https://github.com/jgraph/drawio",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "app.diagrams.net.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:54:33.000Z",
+    "appURL": "https://docs.craft.do/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "docs.craft.do.webp"
+  },
+  {
+    "timestamp": "2022-10-26T09:56:54.000Z",
+    "appURL": "https://pokedex.org/",
+    "sourceURL": "https://github.com/nolanlawson/pokedex.org",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "getInstalledRelatedApps",
+        "url": "https://web.dev/get-installed-related-apps/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "pokedex.org.webp"
+  },
+  {
+    "timestamp": "2022-10-26T10:00:09.000Z",
+    "appURL": "https://www.pinterest.de/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Device Memory",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Device_Memory_API"
+      },
+      {
+        "name": "getInstalledRelatedApps",
+        "url": "https://web.dev/get-installed-related-apps/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "pinterest.de.webp"
+  },
+  {
+    "timestamp": "2022-10-26T10:04:03.000Z",
+    "appURL": "https://web.blockbench.net/",
+    "sourceURL": "https://github.com/JannisX11/blockbench",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "EyeDropper",
+        "url": "https://github.com/WICG/eyedropper-api/blob/main/README.md"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Tabbed Application Mode",
+        "url": "https://web.dev/tabbed-application-mode/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "web.blockbench.net.webp"
+  },
+  {
+    "timestamp": "2022-10-26T10:13:55.000Z",
+    "appURL": "https://shots.so/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "EyeDropper",
+        "url": "https://github.com/WICG/eyedropper-api/blob/main/README.md"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Tabbed Application Mode",
+        "url": "https://web.dev/tabbed-application-mode/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "shots.so.webp"
   }
 ]

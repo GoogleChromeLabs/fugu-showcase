@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7028548824083585';
-  const MEDIA_CACHE = 'media-7028548824083585';
+  const APP_SHELL_CACHE = 'app-shell-7472215776427154';
+  const MEDIA_CACHE = 'media-7472215776427154';
 
   const APP_SHELL_FILES = [
     './',
@@ -42,8 +42,6 @@
     'improv-wifi.com-dark.webp',
     'esphome.github.io!esp-web-tools.webp',
     'esphome.github.io!esp-web-tools-dark.webp',
-    'esphome.io.webp',
-    'esphome.io-dark.webp',
     'stackedit.io.webp',
     'stackedit.io-dark.webp',
     'hexed.it.webp',
@@ -255,7 +253,53 @@
     'wormhole.app.webp',
     'wormhole.app-dark.webp',
     'bitmidi.com.webp',
-    'bitmidi.com-dark.webp'
+    'bitmidi.com-dark.webp',
+    'photopea.com.webp',
+    'photopea.com-dark.webp',
+    'netflix.com.webp',
+    'netflix.com-dark.webp',
+    'twitter.com.webp',
+    'twitter.com-dark.webp',
+    'github.dev!github!dev.webp',
+    'github.dev!github!dev-dark.webp',
+    'hoppscotch.io.webp',
+    'hoppscotch.io-dark.webp',
+    'instagram.com.webp',
+    'instagram.com-dark.webp',
+    'thesession.org.webp',
+    'thesession.org-dark.webp',
+    'traintimes.org.uk.webp',
+    'traintimes.org.uk-dark.webp',
+    'lightningmaps.org.webp',
+    'lightningmaps.org-dark.webp',
+    'pixlr.com.webp',
+    'pixlr.com-dark.webp',
+    'lichess.org.webp',
+    'lichess.org-dark.webp',
+    'narrow.one.webp',
+    'narrow.one-dark.webp',
+    'radio-house.app.webp',
+    'radio-house.app-dark.webp',
+    'soundslice.com.webp',
+    'soundslice.com-dark.webp',
+    'linear.app.webp',
+    'linear.app-dark.webp',
+    'tldraw.com.webp',
+    'tldraw.com-dark.webp',
+    'irccloud.com.webp',
+    'irccloud.com-dark.webp',
+    'app.diagrams.net.webp',
+    'app.diagrams.net-dark.webp',
+    'docs.craft.do.webp',
+    'docs.craft.do-dark.webp',
+    'pokedex.org.webp',
+    'pokedex.org-dark.webp',
+    'pinterest.de.webp',
+    'pinterest.de-dark.webp',
+    'web.blockbench.net.webp',
+    'web.blockbench.net-dark.webp',
+    'shots.so.webp',
+    'shots.so-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

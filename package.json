@@ -13,7 +13,7 @@
     "node-fetch": "^3.2.10",
     "prettier": "^2.7.1",
     "sharp": "^0.31.1",
-    "unfurl.js": "^5.7.0"
+    "unfurl.js": "^6.0.0"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
