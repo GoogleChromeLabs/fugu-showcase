@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7067391841127855';
-  const MEDIA_CACHE = 'media-7067391841127855';
+  const APP_SHELL_CACHE = 'app-shell-6358073638019619';
+  const MEDIA_CACHE = 'media-6358073638019619';
 
   const APP_SHELL_FILES = [
     './',
@@ -307,7 +307,13 @@
     'trovo.live.webp',
     'trovo.live-dark.webp',
     'tiktok.com.webp',
-    'tiktok.com-dark.webp'
+    'tiktok.com-dark.webp',
+    'toot.cafe.webp',
+    'toot.cafe-dark.webp',
+    'stackblitz.com.webp',
+    'stackblitz.com-dark.webp',
+    'excalidraw.com.webp',
+    'excalidraw.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

@@ -3686,5 +3686,96 @@
     ],
     "isElectronApp": false,
     "screenshot": "tiktok.com.webp"
+  },
+  {
+    "timestamp": "2022-11-04T14:54:39.000Z",
+    "appURL": "https://toot.cafe/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "toot.cafe.webp"
+  },
+  {
+    "timestamp": "2022-11-04T14:58:38.000Z",
+    "appURL": "https://stackblitz.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "stackblitz.com.webp"
+  },
+  {
+    "timestamp": "2022-11-04T15:05:51.000Z",
+    "appURL": "https://excalidraw.com/",
+    "sourceURL": "https://github.com/excalidraw/excalidraw",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "File Handling",
+        "url": "https://web.dev/file-handling/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "excalidraw.com.webp"
   }
 ]
