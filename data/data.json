@@ -3777,5 +3777,39 @@
     ],
     "isElectronApp": false,
     "screenshot": "excalidraw.com.webp"
+  },
+  {
+    "timestamp": "2022-11-07T09:36:54.000Z",
+    "appURL": "https://songwhip.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Device Memory",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Device_Memory_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "songwhip.com.webp"
+  },
+  {
+    "timestamp": "2022-11-07T09:39:50.000Z",
+    "appURL": "https://grapheneos.org/install/web#flashing-factory-images",
+    "sourceURL": "https://github.com/GrapheneOS/grapheneos.org",
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "grapheneos.org!install!webflashing-factory-images.webp"
   }
 ]
