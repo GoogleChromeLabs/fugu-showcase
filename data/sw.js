@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-1524605214564818';
-  const MEDIA_CACHE = 'media-1524605214564818';
+  const APP_SHELL_CACHE = 'app-shell-2997731304615825';
+  const MEDIA_CACHE = 'media-2997731304615825';
 
   const APP_SHELL_FILES = [
     './',
@@ -317,7 +317,9 @@
     'songwhip.com.webp',
     'songwhip.com-dark.webp',
     'grapheneos.org!install!webflashing-factory-images.webp',
-    'grapheneos.org!install!webflashing-factory-images-dark.webp'
+    'grapheneos.org!install!webflashing-factory-images-dark.webp',
+    'install.wled.me.webp',
+    'install.wled.me-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

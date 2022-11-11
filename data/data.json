@@ -3811,5 +3811,18 @@
     ],
     "isElectronApp": false,
     "screenshot": "grapheneos.org!install!webflashing-factory-images.webp"
+  },
+  {
+    "timestamp": "2022-11-11T11:54:40.000Z",
+    "appURL": "https://install.wled.me/",
+    "sourceURL": "https://github.com/Aircoookie/WLED",
+    "usedAPIs": [
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "install.wled.me.webp"
   }
 ]
