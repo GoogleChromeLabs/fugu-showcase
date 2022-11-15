@@ -10,7 +10,7 @@
     "@minify-html/js": "^0.8.1",
     "capture-website": "^3.2.0",
     "filenamify-url": "^3.0.0",
-    "node-fetch": "^3.2.10",
+    "node-fetch": "^3.3.0",
     "prettier": "^2.7.1",
     "sharp": "^0.31.2",
     "unfurl.js": "^6.0.0"

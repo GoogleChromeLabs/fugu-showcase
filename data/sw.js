@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-2997731304615825';
-  const MEDIA_CACHE = 'media-2997731304615825';
+  const APP_SHELL_CACHE = 'app-shell-4403656503071858';
+  const MEDIA_CACHE = 'media-4403656503071858';
 
   const APP_SHELL_FILES = [
     './',
@@ -319,7 +319,9 @@
     'grapheneos.org!install!webflashing-factory-images.webp',
     'grapheneos.org!install!webflashing-factory-images-dark.webp',
     'install.wled.me.webp',
-    'install.wled.me-dark.webp'
+    'install.wled.me-dark.webp',
+    'boardgamearena.com.webp',
+    'boardgamearena.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
