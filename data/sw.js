@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4403656503071858';
-  const MEDIA_CACHE = 'media-4403656503071858';
+  const APP_SHELL_CACHE = 'app-shell-5509611605595732';
+  const MEDIA_CACHE = 'media-5509611605595732';
 
   const APP_SHELL_FILES = [
     './',
@@ -321,7 +321,9 @@
     'install.wled.me.webp',
     'install.wled.me-dark.webp',
     'boardgamearena.com.webp',
-    'boardgamearena.com-dark.webp'
+    'boardgamearena.com-dark.webp',
+    'logiwebconnect.com.webp',
+    'logiwebconnect.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

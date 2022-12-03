@@ -620,6 +620,8 @@ const createWebManifest = async () => {
 
 (async () => {
   const data = await createRawData();
+  console.log(data);
+  return;
   await createScreenshots(data);
   await createScreenshots(
     [
@@ -630,7 +632,9 @@ const createWebManifest = async () => {
     ],
     'png',
   );
-  createHTML(data);
-  createServiceWorker(data);
-  createWebManifest();
+  await Promise.all([
+    createHTML(data),
+    createServiceWorker(data),
+    createWebManifest(),
+  ]);
 })();
