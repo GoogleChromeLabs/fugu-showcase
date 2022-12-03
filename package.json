@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "start": "npm run build && npm run serve",
+    "clean": "shx rm -rf data/*",
+    "start": "npm run clean && npm run build && npm run serve",
     "serve": "npx http-server ./data",
     "build": "node index.mjs",
     "fix": "npx prettier . --write",
-    "deploy": "npm run fix && npm run build && git add . && git commit -a -m 'New release' && git push"
+    "deploy": "npm run clean && npm run fix && npm run build && git add . && git commit -a -m 'New release' && git push"
   },
   "dependencies": {
     "@minify-html/js": "^0.8.1",
@@ -13,7 +14,8 @@
     "node-fetch": "^3.3.0",
     "prettier": "^2.8.0",
     "sharp": "^0.31.2",
-    "unfurl.js": "^6.0.0"
+    "shx": "^0.3.4",
+    "unfurl.js": "^5.1.0"
   },
   "devDependencies": {
     "http-server": "^14.1.1"

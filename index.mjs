@@ -129,7 +129,11 @@ const createScreenshots = async (data, overrideType = null) => {
 const createHTML = async (data) => {
   await Promise.all(
     data.map(async (item) => {
-      return unfurl(item.appURL, { oembed: false, compress: true })
+      return unfurl(item.appURL, {
+        oembed: false,
+        compress: true,
+        timeout: 30000,
+      })
         .then((meta) => {
           item.meta = meta;
           item.title =
@@ -620,8 +624,6 @@ const createWebManifest = async () => {
 
 (async () => {
   const data = await createRawData();
-  console.log(data);
-  return;
   await createScreenshots(data);
   await createScreenshots(
     [
