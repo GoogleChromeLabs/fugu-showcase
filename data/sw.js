@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-16373862135633743';
-  const MEDIA_CACHE = 'media-16373862135633743';
+  const APP_SHELL_CACHE = 'app-shell-6009705126037321';
+  const MEDIA_CACHE = 'media-6009705126037321';
 
   const APP_SHELL_FILES = [
     './',
@@ -323,7 +323,9 @@
     'boardgamearena.com.webp',
     'boardgamearena.com-dark.webp',
     'logiwebconnect.com.webp',
-    'logiwebconnect.com-dark.webp'
+    'logiwebconnect.com-dark.webp',
+    'web-gphoto2.rreverser.com.webp',
+    'web-gphoto2.rreverser.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

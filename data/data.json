@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2022-02-23T01:21:57.000Z",
+    "timestamp": "2022-02-23T11:21:57.000Z",
     "appURL": "https://editor.bridge-core.app/",
     "sourceURL": "https://github.com/bridge-core/editor",
     "usedAPIs": [
@@ -33,7 +33,7 @@
     "screenshot": "editor.bridge-core.app.webp"
   },
   {
-    "timestamp": "2022-02-23T01:55:57.000Z",
+    "timestamp": "2022-02-23T11:55:57.000Z",
     "appURL": "https://sqliteviewer.app",
     "sourceURL": null,
     "usedAPIs": [
@@ -62,7 +62,7 @@
     "screenshot": "sqliteviewer.app.webp"
   },
   {
-    "timestamp": "2022-02-23T02:26:05.000Z",
+    "timestamp": "2022-02-23T12:26:05.000Z",
     "appURL": "https://uspeaking.netlify.app/",
     "sourceURL": "https://github.com/rafaelguinho/u-speaking-react",
     "usedAPIs": [
@@ -79,7 +79,7 @@
     "screenshot": "uspeaking.netlify.app.webp"
   },
   {
-    "timestamp": "2022-02-23T02:43:26.000Z",
+    "timestamp": "2022-02-23T12:43:26.000Z",
     "appURL": "https://anaesthetics.app/bluetooth/",
     "sourceURL": "https://github.com/anaestheticsapp/bluetooth",
     "usedAPIs": [
@@ -104,7 +104,7 @@
     "screenshot": "anaesthetics.app!bluetooth.webp"
   },
   {
-    "timestamp": "2022-02-23T02:45:53.000Z",
+    "timestamp": "2022-02-23T12:45:53.000Z",
     "appURL": "https://thelogbook.app",
     "sourceURL": null,
     "usedAPIs": [
@@ -141,7 +141,7 @@
     "screenshot": "thelogbook.app.webp"
   },
   {
-    "timestamp": "2022-02-23T03:25:27.000Z",
+    "timestamp": "2022-02-23T13:25:27.000Z",
     "appURL": "https://md.nico.dev/",
     "sourceURL": "https://github.com/nico-martin/markdown-editor/",
     "usedAPIs": [
@@ -170,7 +170,7 @@
     "screenshot": "md.nico.dev.webp"
   },
   {
-    "timestamp": "2022-02-23T04:41:34.000Z",
+    "timestamp": "2022-02-23T14:41:34.000Z",
     "appURL": "https://edit.photostack.app",
     "sourceURL": "https://github.com/photostack/photostack",
     "usedAPIs": [
@@ -191,7 +191,7 @@
     "screenshot": "edit.photostack.app.webp"
   },
   {
-    "timestamp": "2022-02-23T04:44:17.000Z",
+    "timestamp": "2022-02-23T14:44:17.000Z",
     "appURL": "https://linkcleaner.app/",
     "sourceURL": "https://github.com/corbindavenport/link-cleaner",
     "usedAPIs": [
@@ -212,7 +212,7 @@
     "screenshot": "linkcleaner.app.webp"
   },
   {
-    "timestamp": "2022-02-23T05:23:21.000Z",
+    "timestamp": "2022-02-23T15:23:21.000Z",
     "appURL": "https://avg-colour.netlify.app/",
     "sourceURL": "https://github.com/ThomasRettig/average-color",
     "usedAPIs": [
@@ -225,7 +225,7 @@
     "screenshot": "avg-colour.netlify.app.webp"
   },
   {
-    "timestamp": "2022-02-23T07:01:10.000Z",
+    "timestamp": "2022-02-23T17:01:10.000Z",
     "appURL": "https://www.improv-wifi.com/",
     "sourceURL": "https://github.com/improv-wifi/sdk-js/",
     "usedAPIs": [
@@ -242,7 +242,7 @@
     "screenshot": "improv-wifi.com.webp"
   },
   {
-    "timestamp": "2022-02-23T07:01:44.000Z",
+    "timestamp": "2022-02-23T17:01:44.000Z",
     "appURL": "https://esphome.github.io/esp-web-tools/",
     "sourceURL": "https://github.com/esphome/esp-web-tools",
     "usedAPIs": [
@@ -255,7 +255,7 @@
     "screenshot": "esphome.github.io!esp-web-tools.webp"
   },
   {
-    "timestamp": "2022-02-23T09:35:14.000Z",
+    "timestamp": "2022-02-23T19:35:14.000Z",
     "appURL": "https://stackedit.io ",
     "sourceURL": "https://github.com/benweet/stackedit/",
     "usedAPIs": [
@@ -268,7 +268,7 @@
     "screenshot": "stackedit.io.webp"
   },
   {
-    "timestamp": "2022-02-23T09:37:27.000Z",
+    "timestamp": "2022-02-23T19:37:27.000Z",
     "appURL": "https://hexed.it",
     "sourceURL": null,
     "usedAPIs": [
@@ -281,7 +281,7 @@
     "screenshot": "hexed.it.webp"
   },
   {
-    "timestamp": "2022-02-23T09:38:16.000Z",
+    "timestamp": "2022-02-23T19:38:16.000Z",
     "appURL": "https://www.microsoft.com/en-us/makecode",
     "sourceURL": null,
     "usedAPIs": [
@@ -302,7 +302,7 @@
     "screenshot": "microsoft.com!en-us!makecode.webp"
   },
   {
-    "timestamp": "2022-02-23T10:09:29.000Z",
+    "timestamp": "2022-02-23T20:09:29.000Z",
     "appURL": "https://dannymoerkerke.github.io/file-tree",
     "sourceURL": "https://github.com/DannyMoerkerke/file-tree",
     "usedAPIs": [
@@ -315,7 +315,7 @@
     "screenshot": "dannymoerkerke.github.io!file-tree.webp"
   },
   {
-    "timestamp": "2022-02-23T10:11:46.000Z",
+    "timestamp": "2022-02-23T20:11:46.000Z",
     "appURL": "https://whatpwacando.today ",
     "sourceURL": null,
     "usedAPIs": [
@@ -396,7 +396,7 @@
     "screenshot": "whatpwacando.today.webp"
   },
   {
-    "timestamp": "2022-02-23T19:11:50.000Z",
+    "timestamp": "2022-02-24T05:11:50.000Z",
     "appURL": "https://yakuneba-community.com/welcome/YwAnWZXanuD7QckXWJwd",
     "sourceURL": null,
     "usedAPIs": [
@@ -429,7 +429,7 @@
     "screenshot": "yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp"
   },
   {
-    "timestamp": "2022-02-24T02:14:05.000Z",
+    "timestamp": "2022-02-24T12:14:05.000Z",
     "appURL": "https://loilo.github.io/diffr/",
     "sourceURL": "https://github.com/loilo/diffr",
     "usedAPIs": [
@@ -442,7 +442,7 @@
     "screenshot": "loilo.github.io!diffr.webp"
   },
   {
-    "timestamp": "2022-02-24T23:23:57.000Z",
+    "timestamp": "2022-02-25T09:23:57.000Z",
     "appURL": "https://panel.hostmeapp.com",
     "sourceURL": null,
     "usedAPIs": [
@@ -475,7 +475,7 @@
     "screenshot": "panel.hostmeapp.com.webp"
   },
   {
-    "timestamp": "2022-02-25T00:14:58.000Z",
+    "timestamp": "2022-02-25T10:14:58.000Z",
     "appURL": "https://tgstorage.com",
     "sourceURL": "https://github.com/sh-a-v/tgstorage",
     "usedAPIs": [
@@ -512,7 +512,7 @@
     "screenshot": "tgstorage.com.webp"
   },
   {
-    "timestamp": "2022-02-27T00:48:33.000Z",
+    "timestamp": "2022-02-27T10:48:33.000Z",
     "appURL": "https://boxy-svg.com/app",
     "sourceURL": null,
     "usedAPIs": [
@@ -549,7 +549,7 @@
     "screenshot": "boxy-svg.com!app.webp"
   },
   {
-    "timestamp": "2022-02-28T23:29:47.000Z",
+    "timestamp": "2022-03-01T09:29:47.000Z",
     "appURL": "https://mconverter.eu/",
     "sourceURL": null,
     "usedAPIs": [
@@ -598,7 +598,7 @@
     "screenshot": "mconverter.eu.webp"
   },
   {
-    "timestamp": "2022-03-31T03:04:37.000Z",
+    "timestamp": "2022-03-31T12:04:37.000Z",
     "appURL": "https://web.telegram.org/z/",
     "sourceURL": "https://github.com/Ajaxy/telegram-tt",
     "usedAPIs": [
@@ -631,7 +631,7 @@
     "screenshot": "web.telegram.org!z.webp"
   },
   {
-    "timestamp": "2022-04-11T01:35:10.000Z",
+    "timestamp": "2022-04-11T09:35:10.000Z",
     "appURL": "https://svgco.de/",
     "sourceURL": "https://github.com/tomayac/SVGcode",
     "usedAPIs": [
@@ -672,7 +672,7 @@
     "screenshot": "svgco.de.webp"
   },
   {
-    "timestamp": "2022-04-13T02:31:31.000Z",
+    "timestamp": "2022-04-13T10:31:31.000Z",
     "appURL": "https://developer.chrome.com/blog/fugu-showcase/",
     "sourceURL": "https://github.com/GoogleChromeLabs/fugu-showcase",
     "usedAPIs": [
@@ -697,7 +697,7 @@
     "screenshot": "developer.chrome.com!blog!fugu-showcase.webp"
   },
   {
-    "timestamp": "2022-04-13T09:05:39.000Z",
+    "timestamp": "2022-04-13T17:05:39.000Z",
     "appURL": "https://bpmtech.no",
     "sourceURL": "https://github.com/webmaxru/bpm-counter",
     "usedAPIs": [
@@ -738,7 +738,7 @@
     "screenshot": "bpmtech.no.webp"
   },
   {
-    "timestamp": "2022-04-14T10:24:15.000Z",
+    "timestamp": "2022-04-14T18:24:15.000Z",
     "appURL": "https://case.xchart.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -751,7 +751,7 @@
     "screenshot": "case.xchart.com.webp"
   },
   {
-    "timestamp": "2022-04-14T10:25:00.000Z",
+    "timestamp": "2022-04-14T18:25:00.000Z",
     "appURL": "https://spike.legoeducation.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -768,7 +768,7 @@
     "screenshot": "spike.legoeducation.com.webp"
   },
   {
-    "timestamp": "2022-04-17T00:58:59.000Z",
+    "timestamp": "2022-04-17T08:58:59.000Z",
     "appURL": "https://postr.me/",
     "sourceURL": null,
     "usedAPIs": [
@@ -785,7 +785,7 @@
     "screenshot": "postr.me.webp"
   },
   {
-    "timestamp": "2022-04-17T20:15:32.000Z",
+    "timestamp": "2022-04-18T04:15:32.000Z",
     "appURL": "https://dev.to",
     "sourceURL": "https://github.com/forem/forem",
     "usedAPIs": [
@@ -798,7 +798,7 @@
     "screenshot": "dev.to.webp"
   },
   {
-    "timestamp": "2022-04-24T23:31:18.000Z",
+    "timestamp": "2022-04-25T07:31:18.000Z",
     "appURL": "https://photoshop.adobe.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -827,7 +827,7 @@
     "screenshot": "photoshop.adobe.com.webp"
   },
   {
-    "timestamp": "2022-04-25T01:26:54.000Z",
+    "timestamp": "2022-04-25T09:26:54.000Z",
     "appURL": "https://editor.construct.net",
     "sourceURL": null,
     "usedAPIs": [
@@ -896,7 +896,7 @@
     "screenshot": "editor.construct.net.webp"
   },
   {
-    "timestamp": "2022-04-25T02:44:51.000Z",
+    "timestamp": "2022-04-25T10:44:51.000Z",
     "appURL": "https://remap-keys.app/",
     "sourceURL": "https://github.com/remap-keys/remap",
     "usedAPIs": [
@@ -917,7 +917,7 @@
     "screenshot": "remap-keys.app.webp"
   },
   {
-    "timestamp": "2022-04-25T02:57:46.000Z",
+    "timestamp": "2022-04-25T10:57:46.000Z",
     "appURL": "https://qrsnapper.com",
     "sourceURL": "https://github.com/PaulKinlan/qrcode",
     "usedAPIs": [
@@ -942,7 +942,7 @@
     "screenshot": "qrsnapper.com.webp"
   },
   {
-    "timestamp": "2022-04-25T03:00:25.000Z",
+    "timestamp": "2022-04-25T11:00:25.000Z",
     "appURL": "https://app.vysor.io/",
     "sourceURL": null,
     "usedAPIs": [
@@ -959,7 +959,7 @@
     "screenshot": "app.vysor.io.webp"
   },
   {
-    "timestamp": "2022-04-25T03:00:59.000Z",
+    "timestamp": "2022-04-25T11:00:59.000Z",
     "appURL": "https://vscode.dev/",
     "sourceURL": null,
     "usedAPIs": [
@@ -976,7 +976,7 @@
     "screenshot": "vscode.dev.webp"
   },
   {
-    "timestamp": "2022-04-25T03:21:36.000Z",
+    "timestamp": "2022-04-25T11:21:36.000Z",
     "appURL": "https://mishipay.shop/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1005,7 +1005,7 @@
     "screenshot": "mishipay.shop.webp"
   },
   {
-    "timestamp": "2022-04-25T05:05:50.000Z",
+    "timestamp": "2022-04-25T13:05:50.000Z",
     "appURL": "https://chrome.google.com/webstore/detail/croskeys-by-crosexperts/akiaafoeijpibmbbfaebhkhccepbdgfi",
     "sourceURL": null,
     "usedAPIs": [
@@ -1038,7 +1038,7 @@
     "screenshot": "chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp"
   },
   {
-    "timestamp": "2022-04-25T05:46:07.000Z",
+    "timestamp": "2022-04-25T13:46:07.000Z",
     "appURL": "https://codeit.codes",
     "sourceURL": "https://github.com/codeitcodes/codeit",
     "usedAPIs": [
@@ -1063,7 +1063,7 @@
     "screenshot": "codeit.codes.webp"
   },
   {
-    "timestamp": "2022-04-25T08:56:40.000Z",
+    "timestamp": "2022-04-25T16:56:40.000Z",
     "appURL": "https://app.thepocketlab.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1076,7 +1076,7 @@
     "screenshot": "app.thepocketlab.com.webp"
   },
   {
-    "timestamp": "2022-04-25T08:59:47.000Z",
+    "timestamp": "2022-04-25T16:59:47.000Z",
     "appURL": "https://code.makewonder.com/cue/#/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1089,7 +1089,7 @@
     "screenshot": "code.makewonder.com!cue.webp"
   },
   {
-    "timestamp": "2022-04-25T09:18:06.000Z",
+    "timestamp": "2022-04-25T17:18:06.000Z",
     "appURL": "https://code.irobot.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1110,7 +1110,7 @@
     "screenshot": "code.irobot.com.webp"
   },
   {
-    "timestamp": "2022-04-25T09:21:45.000Z",
+    "timestamp": "2022-04-25T17:21:45.000Z",
     "appURL": "https://studio.samlabs.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1123,7 +1123,7 @@
     "screenshot": "studio.samlabs.com.webp"
   },
   {
-    "timestamp": "2022-04-25T09:41:51.000Z",
+    "timestamp": "2022-04-25T17:41:51.000Z",
     "appURL": "https://fuse.littlebits.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1140,7 +1140,7 @@
     "screenshot": "fuse.littlebits.com.webp"
   },
   {
-    "timestamp": "2022-04-25T09:50:51.000Z",
+    "timestamp": "2022-04-25T17:50:51.000Z",
     "appURL": "https://flash.android.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1153,7 +1153,7 @@
     "screenshot": "flash.android.com.webp"
   },
   {
-    "timestamp": "2022-04-25T09:51:32.000Z",
+    "timestamp": "2022-04-25T17:51:32.000Z",
     "appURL": "https://grapheneos.org/install/web",
     "sourceURL": null,
     "usedAPIs": [
@@ -1166,7 +1166,7 @@
     "screenshot": "grapheneos.org!install!web.webp"
   },
   {
-    "timestamp": "2022-04-25T11:21:13.000Z",
+    "timestamp": "2022-04-25T19:21:13.000Z",
     "appURL": "https://bundle.js.org",
     "sourceURL": "https://github.com/okikio/bundle",
     "usedAPIs": [
@@ -1191,7 +1191,7 @@
     "screenshot": "bundle.js.org.webp"
   },
   {
-    "timestamp": "2022-04-25T13:25:04.000Z",
+    "timestamp": "2022-04-25T21:25:04.000Z",
     "appURL": "https://leonidasesteban.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1208,7 +1208,7 @@
     "screenshot": "leonidasesteban.com.webp"
   },
   {
-    "timestamp": "2022-04-25T19:33:16.000Z",
+    "timestamp": "2022-04-26T03:33:16.000Z",
     "appURL": "https://stedit.app/",
     "sourceURL": "https://github.com/Offroaders123/Smart-Text-Editor",
     "usedAPIs": [
@@ -1253,7 +1253,7 @@
     "screenshot": "stedit.app.webp"
   },
   {
-    "timestamp": "2022-04-26T01:16:50.000Z",
+    "timestamp": "2022-04-26T09:16:50.000Z",
     "appURL": "https://logseq.com/?spa=true",
     "sourceURL": null,
     "usedAPIs": [
@@ -1278,7 +1278,7 @@
     "screenshot": "logseq.com!spa=true.webp"
   },
   {
-    "timestamp": "2022-04-26T03:29:45.000Z",
+    "timestamp": "2022-04-26T11:29:45.000Z",
     "appURL": "https://www.jsmusicdb.com/",
     "sourceURL": "https://github.com/lucienimmink/jsmusicdb",
     "usedAPIs": [
@@ -1311,7 +1311,7 @@
     "screenshot": "jsmusicdb.com.webp"
   },
   {
-    "timestamp": "2022-04-26T05:39:48.000Z",
+    "timestamp": "2022-04-26T13:39:48.000Z",
     "appURL": "https://tinder.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1364,7 +1364,7 @@
     "screenshot": "tinder.com.webp"
   },
   {
-    "timestamp": "2022-04-26T08:52:26.000Z",
+    "timestamp": "2022-04-26T16:52:26.000Z",
     "appURL": "https://ember.ly/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1385,7 +1385,7 @@
     "screenshot": "ember.ly.webp"
   },
   {
-    "timestamp": "2022-04-26T22:54:53.000Z",
+    "timestamp": "2022-04-27T06:54:53.000Z",
     "appURL": "https://maskable.app/",
     "sourceURL": "https://github.com/NotWoods/maskable",
     "usedAPIs": [
@@ -1422,7 +1422,7 @@
     "screenshot": "maskable.app.webp"
   },
   {
-    "timestamp": "2022-04-26T23:02:41.000Z",
+    "timestamp": "2022-04-27T07:02:41.000Z",
     "appURL": "https://kenchris.github.io/webnfc-groceries/",
     "sourceURL": "https://github.com/kenchris/webnfc-groceries",
     "usedAPIs": [
@@ -1435,7 +1435,7 @@
     "screenshot": "kenchris.github.io!webnfc-groceries.webp"
   },
   {
-    "timestamp": "2022-04-27T01:53:49.000Z",
+    "timestamp": "2022-04-27T09:53:49.000Z",
     "appURL": "https://josephrocca.github.io/clip-image-sorter/",
     "sourceURL": "https://github.com/josephrocca/clip-image-sorter",
     "usedAPIs": [
@@ -1448,7 +1448,7 @@
     "screenshot": "josephrocca.github.io!clip-image-sorter.webp"
   },
   {
-    "timestamp": "2022-04-27T08:20:03.000Z",
+    "timestamp": "2022-04-27T16:20:03.000Z",
     "appURL": "https://yt-playlist-notifier.web.app/",
     "sourceURL": "https://github.com/jeffposnick/yt-playlist-notifier",
     "usedAPIs": [
@@ -1473,7 +1473,7 @@
     "screenshot": "yt-playlist-notifier.web.app.webp"
   },
   {
-    "timestamp": "2022-04-27T08:21:59.000Z",
+    "timestamp": "2022-04-27T16:21:59.000Z",
     "appURL": "https://scrapbook-pwa.web.app/",
     "sourceURL": "https://github.com/GoogleChrome/samples/blob/gh-pages/web-share/",
     "usedAPIs": [
@@ -1514,7 +1514,7 @@
     "screenshot": "scrapbook-pwa.web.app.webp"
   },
   {
-    "timestamp": "2022-04-27T09:03:59.000Z",
+    "timestamp": "2022-04-27T17:03:59.000Z",
     "appURL": "https://1tuner.com",
     "sourceURL": "https://github.com/robinbakker/1tuner",
     "usedAPIs": [
@@ -1535,7 +1535,7 @@
     "screenshot": "1tuner.com.webp"
   },
   {
-    "timestamp": "2022-04-27T10:23:26.000Z",
+    "timestamp": "2022-04-27T18:23:26.000Z",
     "appURL": "https://www.espruino.com/ide/",
     "sourceURL": "https://github.com/espruino/EspruinoWebIDE",
     "usedAPIs": [
@@ -1552,7 +1552,7 @@
     "screenshot": "espruino.com!ide.webp"
   },
   {
-    "timestamp": "2022-04-27T10:33:23.000Z",
+    "timestamp": "2022-04-27T18:33:23.000Z",
     "appURL": "https://make.firialabs.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1565,7 +1565,7 @@
     "screenshot": "make.firialabs.com.webp"
   },
   {
-    "timestamp": "2022-04-27T10:35:14.000Z",
+    "timestamp": "2022-04-27T18:35:14.000Z",
     "appURL": "https://my.numworks.com/",
     "sourceURL": "https://www.numworks.com/blog/webusb-firmware-update/",
     "usedAPIs": [
@@ -1578,7 +1578,7 @@
     "screenshot": "my.numworks.com.webp"
   },
   {
-    "timestamp": "2022-04-27T10:35:41.000Z",
+    "timestamp": "2022-04-27T18:35:41.000Z",
     "appURL": "https://www.stemplayer.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1591,7 +1591,7 @@
     "screenshot": "stemplayer.com.webp"
   },
   {
-    "timestamp": "2022-04-27T10:38:31.000Z",
+    "timestamp": "2022-04-27T18:38:31.000Z",
     "appURL": "https://duino.app/",
     "sourceURL": "https://github.com/duinoapp/duinoapp-client",
     "usedAPIs": [
@@ -1604,7 +1604,7 @@
     "screenshot": "duino.app.webp"
   },
   {
-    "timestamp": "2022-04-28T10:53:24.000Z",
+    "timestamp": "2022-04-28T18:53:24.000Z",
     "appURL": "https://stadia.google.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1621,7 +1621,7 @@
     "screenshot": "stadia.google.com.webp"
   },
   {
-    "timestamp": "2022-04-28T10:54:22.000Z",
+    "timestamp": "2022-04-28T18:54:22.000Z",
     "appURL": "https://play.geforcenow.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1634,7 +1634,7 @@
     "screenshot": "play.geforcenow.com.webp"
   },
   {
-    "timestamp": "2022-05-03T02:28:50.000Z",
+    "timestamp": "2022-05-03T10:28:50.000Z",
     "appURL": "https://lookscanned.io/scan",
     "sourceURL": "https://github.com/rwv/lookscanned.io",
     "usedAPIs": [
@@ -1655,7 +1655,7 @@
     "screenshot": "lookscanned.io!scan.webp"
   },
   {
-    "timestamp": "2022-05-03T08:45:41.000Z",
+    "timestamp": "2022-05-03T16:45:41.000Z",
     "appURL": "https://sharedgametimer.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1696,7 +1696,7 @@
     "screenshot": "sharedgametimer.com.webp"
   },
   {
-    "timestamp": "2022-05-03T23:51:50.000Z",
+    "timestamp": "2022-05-04T07:51:50.000Z",
     "appURL": "https://hoten.cc/zc/play/",
     "sourceURL": "https://github.com/connorjclark/ZeldaClassic",
     "usedAPIs": [
@@ -1729,7 +1729,7 @@
     "screenshot": "hoten.cc!zc!play.webp"
   },
   {
-    "timestamp": "2022-05-04T01:19:18.000Z",
+    "timestamp": "2022-05-04T09:19:18.000Z",
     "appURL": "https://squoosh.app",
     "sourceURL": "https://github.com/GoogleChromeLabs/squoosh",
     "usedAPIs": [
@@ -1754,7 +1754,7 @@
     "screenshot": "squoosh.app.webp"
   },
   {
-    "timestamp": "2022-05-04T23:57:14.000Z",
+    "timestamp": "2022-05-05T07:57:14.000Z",
     "appURL": "https://activerecall.com/login.html",
     "sourceURL": null,
     "usedAPIs": [
@@ -1775,7 +1775,7 @@
     "screenshot": "activerecall.com!login.html.webp"
   },
   {
-    "timestamp": "2022-05-05T23:04:51.000Z",
+    "timestamp": "2022-05-06T07:04:51.000Z",
     "appURL": "https://www.xbox.com/en-US/play/games/fortnite/BT5P2X999VH2",
     "sourceURL": null,
     "usedAPIs": [
@@ -1788,7 +1788,7 @@
     "screenshot": "xbox.com!en-US!play!games!fortnite!BT5P2X999VH2.webp"
   },
   {
-    "timestamp": "2022-05-05T23:16:39.000Z",
+    "timestamp": "2022-05-06T07:16:39.000Z",
     "appURL": "https://www.canva.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1825,7 +1825,7 @@
     "screenshot": "canva.com.webp"
   },
   {
-    "timestamp": "2022-05-09T10:13:55.000Z",
+    "timestamp": "2022-05-09T18:13:55.000Z",
     "appURL": "https://apps.tibbo.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1838,7 +1838,7 @@
     "screenshot": "apps.tibbo.com.webp"
   },
   {
-    "timestamp": "2022-05-12T02:19:13.000Z",
+    "timestamp": "2022-05-12T10:19:13.000Z",
     "appURL": "https://pwa.kiwix.org/www/index.html",
     "sourceURL": "https://github.com/kiwix/kiwix-js-windows",
     "usedAPIs": [
@@ -1867,7 +1867,7 @@
     "screenshot": "pwa.kiwix.org!www!index.html.webp"
   },
   {
-    "timestamp": "2022-06-07T00:30:21.000Z",
+    "timestamp": "2022-06-07T08:30:21.000Z",
     "appURL": "https://wootility.io/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1908,7 +1908,7 @@
     "screenshot": "wootility.io.webp"
   },
   {
-    "timestamp": "2022-06-07T07:46:52.000Z",
+    "timestamp": "2022-06-07T15:46:52.000Z",
     "appURL": "https://www.figma.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1937,7 +1937,7 @@
     "screenshot": "figma.com.webp"
   },
   {
-    "timestamp": "2022-06-10T07:31:49.000Z",
+    "timestamp": "2022-06-10T15:31:49.000Z",
     "appURL": "https://www.senomix.com/timesheet",
     "sourceURL": null,
     "usedAPIs": [
@@ -1962,7 +1962,7 @@
     "screenshot": "senomix.com!timesheet.webp"
   },
   {
-    "timestamp": "2022-06-10T15:44:59.000Z",
+    "timestamp": "2022-06-10T23:44:59.000Z",
     "appURL": "https://my.flipp.dev/",
     "sourceURL": null,
     "usedAPIs": [
@@ -1975,7 +1975,7 @@
     "screenshot": "my.flipp.dev.webp"
   },
   {
-    "timestamp": "2022-06-13T06:18:46.000Z",
+    "timestamp": "2022-06-13T14:18:46.000Z",
     "appURL": "https://bangle.io",
     "sourceURL": "https://github.com/bangle-io/bangle-io",
     "usedAPIs": [
@@ -1992,7 +1992,7 @@
     "screenshot": "bangle.io.webp"
   },
   {
-    "timestamp": "2022-06-20T01:20:15.000Z",
+    "timestamp": "2022-06-20T09:20:15.000Z",
     "appURL": "https://app.element.io/#/welcome",
     "sourceURL": null,
     "usedAPIs": [
@@ -2029,7 +2029,7 @@
     "screenshot": "app.element.io!!welcome.webp"
   },
   {
-    "timestamp": "2022-06-20T09:28:54.000Z",
+    "timestamp": "2022-06-20T17:28:54.000Z",
     "appURL": "https://codev5.vex.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2050,7 +2050,7 @@
     "screenshot": "codev5.vex.com.webp"
   },
   {
-    "timestamp": "2022-06-21T05:47:44.000Z",
+    "timestamp": "2022-06-21T13:47:44.000Z",
     "appURL": "https://haven.pages.dev/",
     "sourceURL": "https://github.com/ThaUnknown/pwa-haven",
     "usedAPIs": [
@@ -2127,7 +2127,7 @@
     "screenshot": "haven.pages.dev.webp"
   },
   {
-    "timestamp": "2022-06-23T03:08:31.000Z",
+    "timestamp": "2022-06-23T11:08:31.000Z",
     "appURL": "https://snapper-gps.herokuapp.com/",
     "sourceURL": "https://github.com/SnapperGPS/snappergps-app",
     "usedAPIs": [
@@ -2156,7 +2156,7 @@
     "screenshot": "snapper-gps.herokuapp.com.webp"
   },
   {
-    "timestamp": "2022-06-29T08:03:55.000Z",
+    "timestamp": "2022-06-29T16:03:55.000Z",
     "appURL": "https://www.topdecked.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2193,7 +2193,7 @@
     "screenshot": "topdecked.com.webp"
   },
   {
-    "timestamp": "2022-07-01T03:51:58.000Z",
+    "timestamp": "2022-07-01T11:51:58.000Z",
     "appURL": "https://dj.beatport.com/home",
     "sourceURL": null,
     "usedAPIs": [
@@ -2218,7 +2218,7 @@
     "screenshot": "dj.beatport.com!home.webp"
   },
   {
-    "timestamp": "2022-07-03T19:30:08.000Z",
+    "timestamp": "2022-07-04T03:30:08.000Z",
     "appURL": "https://web.brewflasher.com/",
     "sourceURL": "https://github.com/thorrak/brewflasher_web",
     "usedAPIs": [
@@ -2231,7 +2231,7 @@
     "screenshot": "web.brewflasher.com.webp"
   },
   {
-    "timestamp": "2022-07-04T16:49:32.000Z",
+    "timestamp": "2022-07-05T00:49:32.000Z",
     "appURL": "https://configure.zsa.io/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2248,7 +2248,7 @@
     "screenshot": "configure.zsa.io.webp"
   },
   {
-    "timestamp": "2022-07-15T01:11:40.000Z",
+    "timestamp": "2022-07-15T09:11:40.000Z",
     "appURL": "https://play.spacelancers.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2265,7 +2265,7 @@
     "screenshot": "play.spacelancers.com.webp"
   },
   {
-    "timestamp": "2022-07-17T23:36:19.000Z",
+    "timestamp": "2022-07-18T07:36:19.000Z",
     "appURL": "https://pixa.pics/",
     "sourceURL": "https://github.com/pixa-pics/pixa-pics.github.io",
     "usedAPIs": [
@@ -2298,7 +2298,7 @@
     "screenshot": "pixa.pics.webp"
   },
   {
-    "timestamp": "2022-07-25T07:06:45.000Z",
+    "timestamp": "2022-07-25T15:06:45.000Z",
     "appURL": "https://ui.perfetto.dev/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2323,7 +2323,7 @@
     "screenshot": "ui.perfetto.dev.webp"
   },
   {
-    "timestamp": "2022-07-26T07:18:36.000Z",
+    "timestamp": "2022-07-26T15:18:36.000Z",
     "appURL": "https://paintz.app",
     "sourceURL": "https://github.com/ZMYaro/PaintZ",
     "usedAPIs": [
@@ -2364,7 +2364,7 @@
     "screenshot": "paintz.app.webp"
   },
   {
-    "timestamp": "2022-08-08T06:57:45.000Z",
+    "timestamp": "2022-08-08T14:57:45.000Z",
     "appURL": "https://open.spotify.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2393,7 +2393,7 @@
     "screenshot": "open.spotify.com.webp"
   },
   {
-    "timestamp": "2022-08-08T23:58:51.000Z",
+    "timestamp": "2022-08-09T07:58:51.000Z",
     "appURL": "https://docs.qq.com/desktop/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2422,7 +2422,7 @@
     "screenshot": "docs.qq.com!desktop.webp"
   },
   {
-    "timestamp": "2022-08-09T01:14:57.000Z",
+    "timestamp": "2022-08-09T09:14:57.000Z",
     "appURL": "https://roland50.studio/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2439,7 +2439,7 @@
     "screenshot": "roland50.studio.webp"
   },
   {
-    "timestamp": "2022-08-31T02:19:08.000Z",
+    "timestamp": "2022-08-31T10:19:08.000Z",
     "appURL": "https://setu-upi-over-nfc.herokuapp.com/how-it-works/",
     "sourceURL": "https://github.com/SetuHQ/upi-pos",
     "usedAPIs": [
@@ -2452,7 +2452,7 @@
     "screenshot": "setu-upi-over-nfc.herokuapp.com!how-it-works.webp"
   },
   {
-    "timestamp": "2022-08-31T02:37:08.000Z",
+    "timestamp": "2022-08-31T10:37:08.000Z",
     "appURL": "https://tidepool.org/uploader",
     "sourceURL": "https://github.com/tidepool-org/uploader",
     "usedAPIs": [
@@ -2477,7 +2477,7 @@
     "screenshot": "tidepool.org!uploader.webp"
   },
   {
-    "timestamp": "2022-08-31T03:44:02.000Z",
+    "timestamp": "2022-08-31T11:44:02.000Z",
     "appURL": "https://microsoftedge.github.io/Demos/pwamp/",
     "sourceURL": "https://github.com/MicrosoftEdge/Demos/tree/main/pwamp",
     "usedAPIs": [
@@ -2522,7 +2522,7 @@
     "screenshot": "microsoftedge.github.io!Demos!pwamp.webp"
   },
   {
-    "timestamp": "2022-08-31T10:25:47.000Z",
+    "timestamp": "2022-08-31T18:25:47.000Z",
     "appURL": "https://usevia.app/",
     "sourceURL": "https://github.com/the-via/app",
     "usedAPIs": [
@@ -2535,7 +2535,7 @@
     "screenshot": "usevia.app.webp"
   },
   {
-    "timestamp": "2022-09-09T00:08:52.000Z",
+    "timestamp": "2022-09-09T08:08:52.000Z",
     "appURL": "https://web-serial-app.netlify.app/",
     "sourceURL": "https://github.com/tanepiper/web-serial-controller",
     "usedAPIs": [
@@ -2548,7 +2548,7 @@
     "screenshot": "web-serial-app.netlify.app.webp"
   },
   {
-    "timestamp": "2022-09-19T16:12:48.000Z",
+    "timestamp": "2022-09-20T00:12:48.000Z",
     "appURL": "https://fpv.wtf/#/about",
     "sourceURL": "https://github.com/fpv-wtf/voc-web",
     "usedAPIs": [
@@ -2561,7 +2561,7 @@
     "screenshot": "fpv.wtf!!about.webp"
   },
   {
-    "timestamp": "2022-09-19T16:13:58.000Z",
+    "timestamp": "2022-09-20T00:13:58.000Z",
     "appURL": "https://esc-configurator.com/",
     "sourceURL": "https://github.com/stylesuxx/esc-configurator",
     "usedAPIs": [
@@ -2586,7 +2586,7 @@
     "screenshot": "esc-configurator.com.webp"
   },
   {
-    "timestamp": "2022-09-19T16:17:15.000Z",
+    "timestamp": "2022-09-20T00:17:15.000Z",
     "appURL": "https://buddy.edgetx.org/",
     "sourceURL": "https://github.com/EdgeTX/buddy",
     "usedAPIs": [
@@ -2603,7 +2603,7 @@
     "screenshot": "buddy.edgetx.org.webp"
   },
   {
-    "timestamp": "2022-09-19T16:34:05.000Z",
+    "timestamp": "2022-09-20T00:34:05.000Z",
     "appURL": "https://pwa.journalisticapp.com",
     "sourceURL": null,
     "usedAPIs": [
@@ -2624,7 +2624,7 @@
     "screenshot": "pwa.journalisticapp.com.webp"
   },
   {
-    "timestamp": "2022-09-25T20:12:21.000Z",
+    "timestamp": "2022-09-26T04:12:21.000Z",
     "appURL": "https://editor.kota-yata.com/",
     "sourceURL": "https://github.com/kota-yata/editor.kota-yata.com",
     "usedAPIs": [
@@ -2645,7 +2645,7 @@
     "screenshot": "editor.kota-yata.com.webp"
   },
   {
-    "timestamp": "2022-09-26T14:01:25.000Z",
+    "timestamp": "2022-09-26T22:01:25.000Z",
     "appURL": "https://www.conifer-music.app",
     "sourceURL": null,
     "usedAPIs": [
@@ -2706,7 +2706,7 @@
     "screenshot": "conifer-music.app.webp"
   },
   {
-    "timestamp": "2022-10-05T01:30:06.000Z",
+    "timestamp": "2022-10-05T10:30:06.000Z",
     "appURL": "https://kryogenix.org/farmbound",
     "sourceURL": null,
     "usedAPIs": [
@@ -2735,7 +2735,7 @@
     "screenshot": "kryogenix.org!farmbound.webp"
   },
   {
-    "timestamp": "2022-10-05T11:00:03.000Z",
+    "timestamp": "2022-10-05T20:00:03.000Z",
     "appURL": "https://app.cosee.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2756,7 +2756,7 @@
     "screenshot": "app.cosee.com.webp"
   },
   {
-    "timestamp": "2022-10-05T23:37:03.000Z",
+    "timestamp": "2022-10-06T08:37:03.000Z",
     "appURL": "https://niftypass.app/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2781,7 +2781,7 @@
     "screenshot": "niftypass.app.webp"
   },
   {
-    "timestamp": "2022-10-05T23:38:19.000Z",
+    "timestamp": "2022-10-06T08:38:19.000Z",
     "appURL": "https://microsoftedge.github.io/Demos/wami/",
     "sourceURL": "https://github.com/MicrosoftEdge/Demos/tree/main/wami",
     "usedAPIs": [
@@ -2798,7 +2798,7 @@
     "screenshot": "microsoftedge.github.io!Demos!wami.webp"
   },
   {
-    "timestamp": "2022-10-10T23:37:57.000Z",
+    "timestamp": "2022-10-11T08:37:57.000Z",
     "appURL": "https://www.airconsole.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2815,7 +2815,7 @@
     "screenshot": "airconsole.com.webp"
   },
   {
-    "timestamp": "2022-10-11T04:10:45.000Z",
+    "timestamp": "2022-10-11T13:10:45.000Z",
     "appURL": "https://okso.app/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2836,7 +2836,7 @@
     "screenshot": "okso.app.webp"
   },
   {
-    "timestamp": "2022-10-13T01:32:32.000Z",
+    "timestamp": "2022-10-13T10:32:32.000Z",
     "appURL": "https://app.storz-bickel.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2857,7 +2857,7 @@
     "screenshot": "app.storz-bickel.com.webp"
   },
   {
-    "timestamp": "2022-10-14T09:25:11.000Z",
+    "timestamp": "2022-10-14T18:25:11.000Z",
     "appURL": "https://cleanfeed.net/studio",
     "sourceURL": null,
     "usedAPIs": [
@@ -2874,7 +2874,7 @@
     "screenshot": "cleanfeed.net!studio.webp"
   },
   {
-    "timestamp": "2022-10-20T23:59:24.000Z",
+    "timestamp": "2022-10-21T08:59:24.000Z",
     "appURL": "https://snapdrop.net/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2907,7 +2907,7 @@
     "screenshot": "snapdrop.net.webp"
   },
   {
-    "timestamp": "2022-10-21T01:20:43.000Z",
+    "timestamp": "2022-10-21T10:20:43.000Z",
     "appURL": "https://wormhole.app/",
     "sourceURL": null,
     "usedAPIs": [
@@ -2944,7 +2944,7 @@
     "screenshot": "wormhole.app.webp"
   },
   {
-    "timestamp": "2022-10-21T02:11:51.000Z",
+    "timestamp": "2022-10-21T11:11:51.000Z",
     "appURL": "https://bitmidi.com/",
     "sourceURL": "https://github.com/feross/bitmidi.com",
     "usedAPIs": [
@@ -2969,7 +2969,7 @@
     "screenshot": "bitmidi.com.webp"
   },
   {
-    "timestamp": "2022-10-25T23:48:14.000Z",
+    "timestamp": "2022-10-26T08:48:14.000Z",
     "appURL": "https://www.photopea.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3002,7 +3002,7 @@
     "screenshot": "photopea.com.webp"
   },
   {
-    "timestamp": "2022-10-25T23:51:40.000Z",
+    "timestamp": "2022-10-26T08:51:40.000Z",
     "appURL": "https://www.netflix.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3031,7 +3031,7 @@
     "screenshot": "netflix.com.webp"
   },
   {
-    "timestamp": "2022-10-25T23:53:47.000Z",
+    "timestamp": "2022-10-26T08:53:47.000Z",
     "appURL": "https://twitter.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3072,7 +3072,7 @@
     "screenshot": "twitter.com.webp"
   },
   {
-    "timestamp": "2022-10-25T23:57:01.000Z",
+    "timestamp": "2022-10-26T08:57:01.000Z",
     "appURL": "https://github.dev/github/dev",
     "sourceURL": null,
     "usedAPIs": [
@@ -3097,7 +3097,7 @@
     "screenshot": "github.dev!github!dev.webp"
   },
   {
-    "timestamp": "2022-10-26T00:01:16.000Z",
+    "timestamp": "2022-10-26T09:01:16.000Z",
     "appURL": "https://hoppscotch.io/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3126,7 +3126,7 @@
     "screenshot": "hoppscotch.io.webp"
   },
   {
-    "timestamp": "2022-10-26T00:03:34.000Z",
+    "timestamp": "2022-10-26T09:03:34.000Z",
     "appURL": "https://www.instagram.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3163,7 +3163,7 @@
     "screenshot": "instagram.com.webp"
   },
   {
-    "timestamp": "2022-10-26T00:05:35.000Z",
+    "timestamp": "2022-10-26T09:05:35.000Z",
     "appURL": "https://thesession.org/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3176,7 +3176,7 @@
     "screenshot": "thesession.org.webp"
   },
   {
-    "timestamp": "2022-10-26T00:07:56.000Z",
+    "timestamp": "2022-10-26T09:07:56.000Z",
     "appURL": "https://traintimes.org.uk/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3197,7 +3197,7 @@
     "screenshot": "traintimes.org.uk.webp"
   },
   {
-    "timestamp": "2022-10-26T00:09:15.000Z",
+    "timestamp": "2022-10-26T09:09:15.000Z",
     "appURL": "https://www.lightningmaps.org/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3210,7 +3210,7 @@
     "screenshot": "lightningmaps.org.webp"
   },
   {
-    "timestamp": "2022-10-26T00:11:10.000Z",
+    "timestamp": "2022-10-26T09:11:10.000Z",
     "appURL": "https://pixlr.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3239,7 +3239,7 @@
     "screenshot": "pixlr.com.webp"
   },
   {
-    "timestamp": "2022-10-26T00:16:01.000Z",
+    "timestamp": "2022-10-26T09:16:01.000Z",
     "appURL": "https://lichess.org/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3260,7 +3260,7 @@
     "screenshot": "lichess.org.webp"
   },
   {
-    "timestamp": "2022-10-26T00:24:33.000Z",
+    "timestamp": "2022-10-26T09:24:33.000Z",
     "appURL": "https://narrow.one/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3301,7 +3301,7 @@
     "screenshot": "narrow.one.webp"
   },
   {
-    "timestamp": "2022-10-26T00:27:49.000Z",
+    "timestamp": "2022-10-26T09:27:49.000Z",
     "appURL": "https://radio-house.app/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3318,7 +3318,7 @@
     "screenshot": "radio-house.app.webp"
   },
   {
-    "timestamp": "2022-10-26T00:34:49.000Z",
+    "timestamp": "2022-10-26T09:34:49.000Z",
     "appURL": "https://www.soundslice.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3335,7 +3335,7 @@
     "screenshot": "soundslice.com.webp"
   },
   {
-    "timestamp": "2022-10-26T00:43:05.000Z",
+    "timestamp": "2022-10-26T09:43:05.000Z",
     "appURL": "https://linear.app/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3360,7 +3360,7 @@
     "screenshot": "linear.app.webp"
   },
   {
-    "timestamp": "2022-10-26T00:45:31.000Z",
+    "timestamp": "2022-10-26T09:45:31.000Z",
     "appURL": "https://www.tldraw.com/",
     "sourceURL": "https://github.com/tldraw/tldraw",
     "usedAPIs": [
@@ -3385,7 +3385,7 @@
     "screenshot": "tldraw.com.webp"
   },
   {
-    "timestamp": "2022-10-26T00:47:20.000Z",
+    "timestamp": "2022-10-26T09:47:20.000Z",
     "appURL": "https://www.irccloud.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3406,7 +3406,7 @@
     "screenshot": "irccloud.com.webp"
   },
   {
-    "timestamp": "2022-10-26T00:51:50.000Z",
+    "timestamp": "2022-10-26T09:51:50.000Z",
     "appURL": "https://app.diagrams.net/",
     "sourceURL": "https://github.com/jgraph/drawio",
     "usedAPIs": [
@@ -3435,7 +3435,7 @@
     "screenshot": "app.diagrams.net.webp"
   },
   {
-    "timestamp": "2022-10-26T00:54:33.000Z",
+    "timestamp": "2022-10-26T09:54:33.000Z",
     "appURL": "https://docs.craft.do/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3452,7 +3452,7 @@
     "screenshot": "docs.craft.do.webp"
   },
   {
-    "timestamp": "2022-10-26T00:56:54.000Z",
+    "timestamp": "2022-10-26T09:56:54.000Z",
     "appURL": "https://pokedex.org/",
     "sourceURL": "https://github.com/nolanlawson/pokedex.org",
     "usedAPIs": [
@@ -3477,7 +3477,7 @@
     "screenshot": "pokedex.org.webp"
   },
   {
-    "timestamp": "2022-10-26T01:00:09.000Z",
+    "timestamp": "2022-10-26T10:00:09.000Z",
     "appURL": "https://www.pinterest.de/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3518,7 +3518,7 @@
     "screenshot": "pinterest.de.webp"
   },
   {
-    "timestamp": "2022-10-26T01:04:03.000Z",
+    "timestamp": "2022-10-26T10:04:03.000Z",
     "appURL": "https://web.blockbench.net/",
     "sourceURL": "https://github.com/JannisX11/blockbench",
     "usedAPIs": [
@@ -3555,7 +3555,7 @@
     "screenshot": "web.blockbench.net.webp"
   },
   {
-    "timestamp": "2022-10-26T01:13:55.000Z",
+    "timestamp": "2022-10-26T10:13:55.000Z",
     "appURL": "https://shots.so/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3596,7 +3596,7 @@
     "screenshot": "shots.so.webp"
   },
   {
-    "timestamp": "2022-10-26T06:42:26.000Z",
+    "timestamp": "2022-10-26T15:42:26.000Z",
     "appURL": "https://www.capcut.com/editor",
     "sourceURL": null,
     "usedAPIs": [
@@ -3621,7 +3621,7 @@
     "screenshot": "capcut.com!editor.webp"
   },
   {
-    "timestamp": "2022-10-26T06:51:12.000Z",
+    "timestamp": "2022-10-26T15:51:12.000Z",
     "appURL": "https://h5.topwargame.com/h5game/index.html",
     "sourceURL": null,
     "usedAPIs": [
@@ -3638,7 +3638,7 @@
     "screenshot": "h5.topwargame.com!h5game!index.html.webp"
   },
   {
-    "timestamp": "2022-10-26T07:42:44.000Z",
+    "timestamp": "2022-10-26T16:42:44.000Z",
     "appURL": "https://trovo.live/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3659,7 +3659,7 @@
     "screenshot": "trovo.live.webp"
   },
   {
-    "timestamp": "2022-10-26T07:45:05.000Z",
+    "timestamp": "2022-10-26T16:45:05.000Z",
     "appURL": "https://www.tiktok.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3688,7 +3688,7 @@
     "screenshot": "tiktok.com.webp"
   },
   {
-    "timestamp": "2022-11-04T04:54:39.000Z",
+    "timestamp": "2022-11-04T14:54:39.000Z",
     "appURL": "https://toot.cafe/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3717,7 +3717,7 @@
     "screenshot": "toot.cafe.webp"
   },
   {
-    "timestamp": "2022-11-04T04:58:38.000Z",
+    "timestamp": "2022-11-04T14:58:38.000Z",
     "appURL": "https://stackblitz.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3738,7 +3738,7 @@
     "screenshot": "stackblitz.com.webp"
   },
   {
-    "timestamp": "2022-11-04T05:05:51.000Z",
+    "timestamp": "2022-11-04T15:05:51.000Z",
     "appURL": "https://excalidraw.com/",
     "sourceURL": "https://github.com/excalidraw/excalidraw",
     "usedAPIs": [
@@ -3779,7 +3779,7 @@
     "screenshot": "excalidraw.com.webp"
   },
   {
-    "timestamp": "2022-11-06T23:36:54.000Z",
+    "timestamp": "2022-11-07T09:36:54.000Z",
     "appURL": "https://songwhip.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3800,7 +3800,7 @@
     "screenshot": "songwhip.com.webp"
   },
   {
-    "timestamp": "2022-11-06T23:39:50.000Z",
+    "timestamp": "2022-11-07T09:39:50.000Z",
     "appURL": "https://grapheneos.org/install/web#flashing-factory-images",
     "sourceURL": "https://github.com/GrapheneOS/grapheneos.org",
     "usedAPIs": [
@@ -3813,7 +3813,7 @@
     "screenshot": "grapheneos.org!install!webflashing-factory-images.webp"
   },
   {
-    "timestamp": "2022-11-11T01:54:40.000Z",
+    "timestamp": "2022-11-11T11:54:40.000Z",
     "appURL": "https://install.wled.me/",
     "sourceURL": "https://github.com/Aircoookie/WLED",
     "usedAPIs": [
@@ -3826,7 +3826,7 @@
     "screenshot": "install.wled.me.webp"
   },
   {
-    "timestamp": "2022-11-15T02:36:03.000Z",
+    "timestamp": "2022-11-15T12:36:03.000Z",
     "appURL": "https://boardgamearena.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3847,7 +3847,7 @@
     "screenshot": "boardgamearena.com.webp"
   },
   {
-    "timestamp": "2022-12-01T19:29:58.000Z",
+    "timestamp": "2022-12-02T05:29:58.000Z",
     "appURL": "https://logiwebconnect.com/",
     "sourceURL": null,
     "usedAPIs": [
@@ -3866,5 +3866,18 @@
     ],
     "isElectronApp": false,
     "screenshot": "logiwebconnect.com.webp"
+  },
+  {
+    "timestamp": "2023-01-05T22:20:08.000Z",
+    "appURL": "https://web-gphoto2.rreverser.com/",
+    "sourceURL": "https://github.com/GoogleChromeLabs/web-gphoto2",
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "web-gphoto2.rreverser.com.webp"
   }
 ]
