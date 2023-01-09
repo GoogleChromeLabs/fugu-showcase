@@ -3879,5 +3879,222 @@
     ],
     "isElectronApp": false,
     "screenshot": "web-gphoto2.rreverser.com.webp"
+  },
+  {
+    "timestamp": "2023-01-09T12:38:09.000Z",
+    "appURL": "https://www.vimonlineeditor.com/",
+    "sourceURL": "https://github.com/programmerhat/vim-online-editor",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "vimonlineeditor.com.webp"
+  },
+  {
+    "timestamp": "2023-01-09T12:46:21.000Z",
+    "appURL": "https://www.globs.design/",
+    "sourceURL": "https://github.com/steveruizok/globs",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "globs.design.webp"
+  },
+  {
+    "timestamp": "2023-01-09T12:50:02.000Z",
+    "appURL": "https://audiomass.co/",
+    "sourceURL": "https://github.com/pkalogiros/audiomass",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "audiomass.co.webp"
+  },
+  {
+    "timestamp": "2023-01-09T12:53:34.000Z",
+    "appURL": "https://app.diagrams.net/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "app.diagrams.net.webp"
+  },
+  {
+    "timestamp": "2023-01-09T12:56:18.000Z",
+    "appURL": "https://graphtoy.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "graphtoy.com.webp"
+  },
+  {
+    "timestamp": "2023-01-09T12:59:07.000Z",
+    "appURL": "https://edit.photo/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "edit.photo.webp"
+  },
+  {
+    "timestamp": "2023-01-09T13:00:06.000Z",
+    "appURL": "https://edit.video/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "edit.video.webp"
+  },
+  {
+    "timestamp": "2023-01-09T13:04:39.000Z",
+    "appURL": "https://gltf.report/",
+    "sourceURL": "https://github.com/donmccurdy/glTF-Report-Feedback",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "gltf.report.webp"
+  },
+  {
+    "timestamp": "2023-01-09T13:05:27.000Z",
+    "appURL": "https://regex101.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "regex101.com.webp"
+  },
+  {
+    "timestamp": "2023-01-09T13:07:36.000Z",
+    "appURL": "https://three-colors.opl.io/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "three-colors.opl.io.webp"
+  },
+  {
+    "timestamp": "2023-01-09T13:12:22.000Z",
+    "appURL": "https://tylify.app/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "tylify.app.webp"
+  },
+  {
+    "timestamp": "2023-01-09T13:14:47.000Z",
+    "appURL": "https://readyplayer.me/avatar",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "readyplayer.me!avatar.webp"
+  },
+  {
+    "timestamp": "2023-01-09T13:18:17.000Z",
+    "appURL": "https://natto.dev/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "natto.dev.webp"
   }
 ]

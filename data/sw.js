@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6009705126037321';
-  const MEDIA_CACHE = 'media-6009705126037321';
+  const APP_SHELL_CACHE = 'app-shell-9404852193149162';
+  const MEDIA_CACHE = 'media-9404852193149162';
 
   const APP_SHELL_FILES = [
     './',
@@ -325,7 +325,33 @@
     'logiwebconnect.com.webp',
     'logiwebconnect.com-dark.webp',
     'web-gphoto2.rreverser.com.webp',
-    'web-gphoto2.rreverser.com-dark.webp'
+    'web-gphoto2.rreverser.com-dark.webp',
+    'vimonlineeditor.com.webp',
+    'vimonlineeditor.com-dark.webp',
+    'globs.design.webp',
+    'globs.design-dark.webp',
+    'audiomass.co.webp',
+    'audiomass.co-dark.webp',
+    'app.diagrams.net.webp',
+    'app.diagrams.net-dark.webp',
+    'graphtoy.com.webp',
+    'graphtoy.com-dark.webp',
+    'edit.photo.webp',
+    'edit.photo-dark.webp',
+    'edit.video.webp',
+    'edit.video-dark.webp',
+    'gltf.report.webp',
+    'gltf.report-dark.webp',
+    'regex101.com.webp',
+    'regex101.com-dark.webp',
+    'three-colors.opl.io.webp',
+    'three-colors.opl.io-dark.webp',
+    'tylify.app.webp',
+    'tylify.app-dark.webp',
+    'readyplayer.me!avatar.webp',
+    'readyplayer.me!avatar-dark.webp',
+    'natto.dev.webp',
+    'natto.dev-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
