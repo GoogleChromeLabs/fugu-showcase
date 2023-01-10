@@ -4096,5 +4096,38 @@
     ],
     "isElectronApp": false,
     "screenshot": "natto.dev.webp"
+  },
+  {
+    "timestamp": "2023-01-10T08:03:11.000Z",
+    "appURL": "https://pinafore.social/",
+    "sourceURL": "https://github.com/nolanlawson/pinafore",
+    "usedAPIs": [
+      {
+        "name": "Badging",
+        "url": "https://web.dev/badging-api/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "pinafore.social.webp"
   }
 ]
