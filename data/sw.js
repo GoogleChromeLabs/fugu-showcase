@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-34770344596326686';
-  const MEDIA_CACHE = 'media-34770344596326686';
+  const APP_SHELL_CACHE = 'app-shell-31109439526682103';
+  const MEDIA_CACHE = 'media-31109439526682103';
 
   const APP_SHELL_FILES = [
     './',
@@ -353,7 +353,9 @@
     'natto.dev.webp',
     'natto.dev-dark.webp',
     'pinafore.social.webp',
-    'pinafore.social-dark.webp'
+    'pinafore.social-dark.webp',
+    'web.snapchat.com.webp',
+    'web.snapchat.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

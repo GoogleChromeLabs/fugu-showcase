@@ -4129,5 +4129,50 @@
     ],
     "isElectronApp": false,
     "screenshot": "pinafore.social.webp"
+  },
+  {
+    "timestamp": "2023-01-11T10:29:28.000Z",
+    "appURL": "https://web.snapchat.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Badging",
+        "url": "https://web.dev/badging-api/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Insertable streams for MediaStreamTrack",
+        "url": "https://web.dev/mediastreamtrack-insertable-media-processing/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Screen Wake Lock",
+        "url": "https://web.dev/wake-lock/"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "WebCodecs",
+        "url": "https://web.dev/webcodecs/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "web.snapchat.com.webp"
   }
 ]
