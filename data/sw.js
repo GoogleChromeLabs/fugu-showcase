@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-31109439526682103';
-  const MEDIA_CACHE = 'media-31109439526682103';
+  const APP_SHELL_CACHE = 'app-shell-9156353161522606';
+  const MEDIA_CACHE = 'media-9156353161522606';
 
   const APP_SHELL_FILES = [
     './',
@@ -355,7 +355,11 @@
     'pinafore.social.webp',
     'pinafore.social-dark.webp',
     'web.snapchat.com.webp',
-    'web.snapchat.com-dark.webp'
+    'web.snapchat.com-dark.webp',
+    'fotor.com!photo-editor-app!editor!basic.webp',
+    'fotor.com!photo-editor-app!editor!basic-dark.webp',
+    'pixlr.com.webp',
+    'pixlr.com-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
