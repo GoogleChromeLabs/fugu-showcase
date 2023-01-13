@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9156353161522606';
-  const MEDIA_CACHE = 'media-9156353161522606';
+  const APP_SHELL_CACHE = 'app-shell-24856209281370334';
+  const MEDIA_CACHE = 'media-24856209281370334';
 
   const APP_SHELL_FILES = [
     './',
@@ -359,7 +359,9 @@
     'fotor.com!photo-editor-app!editor!basic.webp',
     'fotor.com!photo-editor-app!editor!basic-dark.webp',
     'pixlr.com.webp',
-    'pixlr.com-dark.webp'
+    'pixlr.com-dark.webp',
+    'elk.zone.webp',
+    'elk.zone-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
