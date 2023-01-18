@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-24856209281370334';
-  const MEDIA_CACHE = 'media-24856209281370334';
+  const APP_SHELL_CACHE = 'app-shell-0254562340334461';
+  const MEDIA_CACHE = 'media-0254562340334461';
 
   const APP_SHELL_FILES = [
     './',
@@ -361,7 +361,9 @@
     'pixlr.com.webp',
     'pixlr.com-dark.webp',
     'elk.zone.webp',
-    'elk.zone-dark.webp'
+    'elk.zone-dark.webp',
+    'stadia.google.com!controller.webp',
+    'stadia.google.com!controller-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];

@@ -348,10 +348,6 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
       },
       {
-        "name": "Notification Triggers",
-        "url": "https://web.dev/notification-triggers/"
-      },
-      {
         "name": "Payment Request",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API"
       },
@@ -720,10 +716,6 @@
       {
         "name": "Service Worker",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
-      },
-      {
-        "name": "URL Handlers",
-        "url": "https://web.dev/pwa-url-handler/"
       },
       {
         "name": "Web Share",
@@ -2071,10 +2063,6 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
       },
       {
-        "name": "Declarative Link Capturing",
-        "url": "https://web.dev/declarative-link-capturing/"
-      },
-      {
         "name": "File Handling",
         "url": "https://web.dev/file-handling/"
       },
@@ -2117,10 +2105,6 @@
       {
         "name": "Storage Estimation",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate"
-      },
-      {
-        "name": "URL Handlers",
-        "url": "https://web.dev/pwa-url-handler/"
       }
     ],
     "isElectronApp": false,
@@ -4261,5 +4245,22 @@
     ],
     "isElectronApp": false,
     "screenshot": "elk.zone.webp"
+  },
+  {
+    "timestamp": "2023-01-18T08:34:00.000Z",
+    "appURL": "https://stadia.google.com/controller/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebHID",
+        "url": "https://web.dev/hid/"
+      },
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "stadia.google.com!controller.webp"
   }
 ]
