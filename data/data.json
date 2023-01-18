@@ -4262,5 +4262,18 @@
     ],
     "isElectronApp": false,
     "screenshot": "stadia.google.com!controller.webp"
+  },
+  {
+    "timestamp": "2023-01-18T10:09:12.000Z",
+    "appURL": "https://tasmota.github.io/install/",
+    "sourceURL": "https://github.com/tasmota/install/",
+    "usedAPIs": [
+      {
+        "name": "WebSerial",
+        "url": "https://web.dev/serial/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "tasmota.github.io!install.webp"
   }
 ]
