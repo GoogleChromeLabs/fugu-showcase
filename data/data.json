@@ -3638,6 +3638,27 @@
     "screenshot": "conifer-music.app.webp"
   },
   {
+    "timestamp": "2023-01-30T13:19:28.000Z",
+    "appURL": "https://www.duolingo.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "duolingo.com.webp"
+  },
+  {
     "timestamp": "2022-04-27T18:23:26.000Z",
     "appURL": "https://www.espruino.com/ide/",
     "sourceURL": "https://github.com/espruino/EspruinoWebIDE",
