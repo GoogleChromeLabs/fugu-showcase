@@ -70,11 +70,6 @@ const createRawData = async () => {
       screenshot: `${fileNamifyURL(row[1])}.${SCREENSHOT_OPTIONS.type}`,
     };
   });
-  await writeFile(
-    path.resolve('data', 'data.json'),
-    JSON.stringify(data, null, 2),
-  );
-  console.log('Successfully created `data.json`.');
   return data;
 };
 
@@ -126,7 +121,7 @@ const createScreenshots = async (data, overrideType = null) => {
   await limit(tasks, 5);
 };
 
-const createHTML = async (data) => {
+const createHTMLandJSON = async (data) => {
   await Promise.all(
     data.map(async (item) => {
       return unfurl(item.appURL, {
@@ -594,8 +589,15 @@ const createHTML = async (data) => {
       keep_spaces_between_attributes: true,
     }),
   );
+
   await writeFile(path.resolve('data', 'index.html'), minified);
   console.log('Successfully created `index.html`.');
+
+  await writeFile(
+    path.resolve('data', 'data.json'),
+    JSON.stringify(data, null, 2),
+  );
+  console.log('Successfully created `data.json`.');
 };
 
 const createServiceWorker = async (data) => {
@@ -635,7 +637,7 @@ const createWebManifest = async () => {
     'png',
   );
   await Promise.all([
-    createHTML(data),
+    createHTMLandJSON(data),
     createServiceWorker(data),
     createWebManifest(),
   ]);
