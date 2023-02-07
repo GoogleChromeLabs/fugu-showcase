@@ -400,26 +400,26 @@
     "screenshotDark": "airconsole.com-dark.webp",
     "meta": {
       "title": "AirConsole - Multiplayer games for friends",
-      "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the gamepads.",
+      "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads.",
       "open_graph": {
         "title": "AirConsole - Multiplayer games for friends",
         "type": "website",
         "url": "https://www.airconsole.com/",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.francois-tcl-package-id.449724264331544942/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.laurent-debug-https-reverse-proxy.449839425126100383/og-image.jpg"
           }
         ],
-        "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the gamepads."
+        "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads."
       },
       "twitter_card": {
         "card": "summary_large_image",
         "site": "@AirConsole",
         "title": "AirConsole - Multiplayer games for friends",
-        "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the gamepads.",
+        "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads.",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.francois-tcl-package-id.449724264331544942/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.laurent-debug-https-reverse-proxy.449839425126100383/og-image.jpg"
           }
         ],
         "url": "https://www.airconsole.com/"
@@ -427,7 +427,7 @@
       "favicon": "https://www.airconsole.com/favicon.ico"
     },
     "title": "AirConsole - Multiplayer games for friends",
-    "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the gamepads."
+    "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads."
   },
   {
     "timestamp": "2022-06-13T14:18:46.000Z",
@@ -1775,7 +1775,7 @@
         "site": "@elk_zone",
         "card": "summary_large_image"
       },
-      "title": "Elk",
+      "title": " | Elk",
       "favicon": "https://elk.zone/logo.svg"
     },
     "title": "Elk",
@@ -3225,7 +3225,7 @@
         "description": "Linear streamlines issues, sprints, and product roadmaps. It’s the new standard for modern software development."
       },
       "description": "Linear streamlines issues, sprints, and product roadmaps. It’s the new standard for modern software development.",
-      "favicon": "https://linear.app/static/favicon.ico"
+      "favicon": "https://linear.app/static/favicon.svg"
     },
     "title": "Linear – A better way to build products",
     "description": "Linear streamlines issues, sprints, and product roadmaps. It’s the new standard for modern software development."
@@ -4260,7 +4260,7 @@
   },
   {
     "timestamp": "2022-04-13T10:31:31.000Z",
-    "appURL": "https://developer.chrome.com/blog/fugu-showcase/",
+    "appURL": "https://developer.chrome.com/fugu-showcase/",
     "sourceURL": "https://github.com/GoogleChromeLabs/fugu-showcase",
     "usedAPIs": [
       {
@@ -4281,38 +4281,38 @@
       }
     ],
     "isElectronApp": false,
-    "screenshot": "developer.chrome.com!blog!fugu-showcase.webp",
-    "screenshotDark": "developer.chrome.com!blog!fugu-showcase-dark.webp",
+    "screenshot": "developer.chrome.com!fugu-showcase.webp",
+    "screenshotDark": "developer.chrome.com!fugu-showcase-dark.webp",
     "meta": {
-      "title": "Project Fugu API showcase - Chrome Developers",
+      "title": "Project Fugu API Showcase - Chrome Developers",
       "open_graph": {
         "site_name": "Chrome Developers",
-        "title": "Project Fugu API showcase - Chrome Developers",
+        "title": "Project Fugu API Showcase - Chrome Developers",
         "type": "website",
-        "url": "https://developer.chrome.com/blog/fugu-showcase/",
+        "url": "https://developer.chrome.com/fugu-showcase/",
         "images": [
           {
-            "url": "https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/8FZcBmFowbDKWxpkOytx.jpg?auto=format&w=1521",
+            "url": "https://wd.imgix.net/image/jxu1OdD7LKOGIDU7jURMpSH2lyK2/wu6CeuL1HpHtc8b4WIIm.png?auto=format&w=1521",
             "alt": "Blowfish swarm swimming in the ocean."
           }
         ],
-        "description": "The Project Fugu API Showcase is a collection of apps that use APIs created in the context of Project Fugu."
+        "description": "The Project Fugu API Showcase is a collection of apps that make use of APIs that were conceived in the context of Project Fugu.\n"
       },
       "twitter_card": {
         "card": "summary_large_image",
         "images": [
           {
-            "url": "https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/8FZcBmFowbDKWxpkOytx.jpg?auto=format&w=1521",
+            "url": "https://wd.imgix.net/image/jxu1OdD7LKOGIDU7jURMpSH2lyK2/wu6CeuL1HpHtc8b4WIIm.png?auto=format&w=1521",
             "alt": "Blowfish swarm swimming in the ocean."
           }
         ],
-        "description": "The Project Fugu API Showcase is a collection of apps that use APIs created in the context of Project Fugu."
+        "description": "The Project Fugu API Showcase is a collection of apps that make use of APIs that were conceived in the context of Project Fugu.\n"
       },
-      "description": "The Project Fugu API Showcase is a collection of apps that use APIs created in the context of Project Fugu.",
+      "description": "The Project Fugu API Showcase is a collection of apps that make use of APIs that were conceived in the context of Project Fugu.\n",
       "favicon": "https://developer.chrome.com/images/meta/favicon-16x16.png"
     },
-    "title": "Project Fugu API showcase - Chrome Developers",
-    "description": "The Project Fugu API Showcase is a collection of apps that use APIs created in the context of Project Fugu."
+    "title": "Project Fugu API Showcase - Chrome Developers",
+    "description": "The Project Fugu API Showcase is a collection of apps that make use of APIs that were conceived in the context of Project Fugu.\n"
   },
   {
     "timestamp": "2022-02-23T14:41:34.000Z",
@@ -5481,9 +5481,40 @@
     "isElectronApp": false,
     "screenshot": "snapdrop.net.webp",
     "screenshotDark": "snapdrop.net-dark.webp",
-    "meta": {},
-    "title": "snapdrop.net",
-    "description": ""
+    "meta": {
+      "title": "Snapdrop",
+      "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+      "keywords": [
+        "File",
+        "Transfer",
+        "Share",
+        "Peer2Peer"
+      ],
+      "author": "RobinLinus",
+      "open_graph": {
+        "title": "Snapdrop",
+        "type": "article",
+        "url": "https://snapdrop.net/",
+        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+        "images": [
+          {
+            "url": "https://snapdrop.net/images/twitter-stream.jpg"
+          }
+        ]
+      },
+      "twitter_card": {
+        "card": "summary_large_image",
+        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+        "images": [
+          {
+            "url": "https://snapdrop.net/images/twitter-stream.jpg"
+          }
+        ]
+      },
+      "favicon": "https://snapdrop.net/images/favicon-96x96.png"
+    },
+    "title": "Snapdrop",
+    "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup."
   },
   {
     "timestamp": "2022-06-23T11:08:31.000Z",
@@ -6076,7 +6107,7 @@
     "screenshot": "stemplayer.com.webp",
     "screenshotDark": "stemplayer.com-dark.webp",
     "meta": {
-      "description": "Customise any song. Ships with Donda. Splits any song into stems.",
+      "description": "Summon a cinema anywhere with STEM PROJECTOR",
       "open_graph": {
         "type": "website",
         "description": "Official site",
@@ -6197,7 +6228,7 @@
         "site_name": "lichess.org",
         "images": [
           {
-            "url": "https://lichess1.org/assets/_vr2wRG/logo/lichess-tile-wide.png"
+            "url": "https://lichess1.org/assets/_SGGxVX/logo/lichess-tile-wide.png"
           }
         ]
       },
@@ -6207,12 +6238,12 @@
         "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
         "images": [
           {
-            "url": "https://lichess1.org/assets/_vr2wRG/logo/lichess-tile.png"
+            "url": "https://lichess1.org/assets/_SGGxVX/logo/lichess-tile.png"
           }
         ],
         "site": "@lichess"
       },
-      "favicon": "https://lichess1.org/assets/_vr2wRG/logo/lichess-favicon-32.png"
+      "favicon": "https://lichess1.org/assets/_is2bvl/logo/lichess-favicon-32.png"
     },
     "title": "The best free, adless Chess server",
     "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents."

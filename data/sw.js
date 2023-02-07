@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-497112486075977';
-  const MEDIA_CACHE = 'media-497112486075977';
+  const APP_SHELL_CACHE = 'app-shell-4779249811115496';
+  const MEDIA_CACHE = 'media-4779249811115496';
 
   const APP_SHELL_FILES = [
     './',
@@ -78,8 +78,8 @@
     'dannymoerkerke.github.io!file-tree-dark.webp',
     'dev.to.webp',
     'dev.to-dark.webp',
-    'developer.chrome.com!blog!fugu-showcase.webp',
-    'developer.chrome.com!blog!fugu-showcase-dark.webp',
+    'developer.chrome.com!fugu-showcase.webp',
+    'developer.chrome.com!fugu-showcase-dark.webp',
     'dj.beatport.com!home.webp',
     'dj.beatport.com!home-dark.webp',
     'docs.craft.do.webp',
