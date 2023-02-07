@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4779249811115496';
-  const MEDIA_CACHE = 'media-4779249811115496';
+  const APP_SHELL_CACHE = 'app-shell-6094822550053343';
+  const MEDIA_CACHE = 'media-6094822550053343';
 
   const APP_SHELL_FILES = [
     './',
@@ -32,6 +32,8 @@
     'app.diagrams.net-dark.webp',
     'app.element.io!!welcome.webp',
     'app.element.io!!welcome-dark.webp',
+    'app.sketchup.com!app.webp',
+    'app.sketchup.com!app-dark.webp',
     'app.storz-bickel.com.webp',
     'app.storz-bickel.com-dark.webp',
     'app.thepocketlab.com.webp',
