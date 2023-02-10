@@ -6978,6 +6978,64 @@
     "description": "Your keyboard's best friend"
   },
   {
+    "timestamp": "2023-02-10T12:51:24.000Z",
+    "appURL": "https://vimeo.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "vimeo.com.webp",
+    "screenshotDark": "vimeo.com-dark.webp",
+    "meta": {
+      "title": "Vimeo – Video Experience Platform",
+      "description": "Vimeo is the world's most innovative video experience platform. We enable anyone to create high-quality video experiences to connect better and bring ideas to life.",
+      "keywords": [
+        "vimeo"
+      ],
+      "open_graph": {
+        "type": "website",
+        "title": "Vimeo – Video Experience Platform",
+        "description": "Vimeo is the world's most innovative video experience platform. We enable anyone to create high-quality video experiences to connect better and bring ideas to life.",
+        "images": [
+          {
+            "url": "https://i.vimeocdn.com/custom_asset/0c9523e3e65b7f4f7dc38a2aa013ca3c.jpg",
+            "type": "image/jpg",
+            "alt": "Vimeo – Video Experience Platform"
+          }
+        ],
+        "site_name": "Vimeo",
+        "locale": "en_US",
+        "url": "https://vimeo.com/"
+      },
+      "twitter_card": {
+        "card": "summary",
+        "title": "Vimeo – Video Experience Platform",
+        "description": "Vimeo is the world's most innovative video experience platform. We enable anyone to create high-quality video experiences to connect better and bring ideas to life.",
+        "images": [
+          {
+            "url": "https://i.vimeocdn.com/custom_asset/0c9523e3e65b7f4f7dc38a2aa013ca3c.jpg"
+          }
+        ],
+        "url": "https://vimeo.com/"
+      },
+      "favicon": "https://f.vimeocdn.com/images_v6/favicon.ico?12efd54dde7bc4920c3a973b64f211b8461343b5"
+    },
+    "title": "Vimeo – Video Experience Platform",
+    "description": "Vimeo is the world's most innovative video experience platform. We enable anyone to create high-quality video experiences to connect better and bring ideas to life."
+  },
+  {
     "timestamp": "2022-04-25T11:00:59.000Z",
     "appURL": "https://vscode.dev/",
     "sourceURL": null,

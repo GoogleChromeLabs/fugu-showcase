@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-32399470291677557';
-  const MEDIA_CACHE = 'media-32399470291677557';
+  const APP_SHELL_CACHE = 'app-shell-4966578554710279';
+  const MEDIA_CACHE = 'media-4966578554710279';
 
   const APP_SHELL_FILES = [
     './',
@@ -286,6 +286,8 @@
     'usevia.app-dark.webp',
     'uspeaking.netlify.app.webp',
     'uspeaking.netlify.app-dark.webp',
+    'vimeo.com.webp',
+    'vimeo.com-dark.webp',
     'vscode.dev.webp',
     'vscode.dev-dark.webp',
     'web-gphoto2.rreverser.com.webp',
