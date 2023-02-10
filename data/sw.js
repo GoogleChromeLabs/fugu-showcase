@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6094822550053343';
-  const MEDIA_CACHE = 'media-6094822550053343';
+  const APP_SHELL_CACHE = 'app-shell-32399470291677557';
+  const MEDIA_CACHE = 'media-32399470291677557';
 
   const APP_SHELL_FILES = [
     './',
@@ -296,6 +296,8 @@
     'web.blockbench.net-dark.webp',
     'web.brewflasher.com.webp',
     'web.brewflasher.com-dark.webp',
+    'web.goodnotes.com.webp',
+    'web.goodnotes.com-dark.webp',
     'web.snapchat.com.webp',
     'web.snapchat.com-dark.webp',
     'web.telegram.org!z.webp',
