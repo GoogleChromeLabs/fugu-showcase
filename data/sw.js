@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4966578554710279';
-  const MEDIA_CACHE = 'media-4966578554710279';
+  const APP_SHELL_CACHE = 'app-shell-6099270184872543';
+  const MEDIA_CACHE = 'media-6099270184872543';
 
   const APP_SHELL_FILES = [
     './',
@@ -288,6 +288,8 @@
     'uspeaking.netlify.app-dark.webp',
     'vimeo.com.webp',
     'vimeo.com-dark.webp',
+    'vodon-player.vercel.app.webp',
+    'vodon-player.vercel.app-dark.webp',
     'vscode.dev.webp',
     'vscode.dev-dark.webp',
     'web-gphoto2.rreverser.com.webp',
