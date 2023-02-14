@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6099270184872543';
-  const MEDIA_CACHE = 'media-6099270184872543';
+  const APP_SHELL_CACHE = 'app-shell-048015779323668406';
+  const MEDIA_CACHE = 'media-048015779323668406';
 
   const APP_SHELL_FILES = [
     './',
@@ -362,6 +362,8 @@
     'topdecked.com-dark.webp',
     'vimonlineeditor.com.webp',
     'vimonlineeditor.com-dark.webp',
+    'webgamer.io.webp',
+    'webgamer.io-dark.webp',
     'xbox.com!en-US!play!games!fortnite!BT5P2X999VH2.webp',
     'xbox.com!en-US!play!games!fortnite!BT5P2X999VH2-dark.webp',
     'yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp',
