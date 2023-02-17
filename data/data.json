@@ -407,7 +407,7 @@
         "url": "https://www.airconsole.com/",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.francois-media-session.449997236610784637/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.daniel-fix-local-loader.450067323793271479/og-image.jpg"
           }
         ],
         "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads."
@@ -419,7 +419,7 @@
         "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads.",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.francois-media-session.449997236610784637/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.daniel-fix-local-loader.450067323793271479/og-image.jpg"
           }
         ],
         "url": "https://www.airconsole.com/"
@@ -739,6 +739,35 @@
     },
     "title": "bridge. v2",
     "description": "bridge. is a light-weight IDE for Minecraft Add-Ons"
+  },
+  {
+    "timestamp": "2023-02-14T12:05:00.000Z",
+    "appURL": "https://georapbox.github.io/barcode-scanner/",
+    "sourceURL": "https://github.com/georapbox/barcode-scanner",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Shape Detection (Barcodes)",
+        "url": "https://web.dev/shape-detection/"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "georapbox.github.io!barcode-scanner.webp",
+    "screenshotDark": "georapbox.github.io!barcode-scanner-dark.webp",
+    "meta": {
+      "title": "Barcode/QR code Scanner",
+      "description": "A Progressive Web Application (PWA) that scans barcodes of various formats, using the Barcode Detection API.",
+      "favicon": "https://georapbox.github.io/favicon.ico"
+    },
+    "title": "Barcode/QR code Scanner",
+    "description": "A Progressive Web Application (PWA) that scans barcodes of various formats, using the Barcode Detection API."
   },
   {
     "timestamp": "2022-10-26T10:04:03.000Z",
@@ -3952,6 +3981,71 @@
     "description": ""
   },
   {
+    "timestamp": "2023-02-17T13:21:01.000Z",
+    "appURL": "https://notepad.js.org/",
+    "sourceURL": "https://github.com/amitmerchant1990/notepad",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "notepad.js.org.webp",
+    "screenshotDark": "notepad.js.org-dark.webp",
+    "meta": {
+      "title": "Notepad - Offline capable",
+      "description": "An offline capable notepad powered by ServiceWorker. It's quick, distraction-free, dark mode enabled, mobile compatible(Android, iOS) and minimalist in nature.",
+      "keywords": [
+        "note",
+        "offline",
+        "mobile",
+        "web",
+        "notepad",
+        "android",
+        "ios",
+        "desktop"
+      ],
+      "author": "Amit Merchant",
+      "open_graph": {
+        "title": "Notepad - Offline capable",
+        "type": "appliction",
+        "images": [
+          {
+            "url": "https://notepad.js.org/art/cover.png"
+          }
+        ],
+        "url": "https://www.amitmerchant.com/notepad",
+        "description": "An offline capable notepad powered by ServiceWorker. It's quick, distraction-free, dark mode enabled, mobile compatible(Android, iOS) and minimalist in nature."
+      },
+      "twitter_card": {
+        "card": "summary_large_image",
+        "title": "Notepad - Offline capable",
+        "images": [
+          {
+            "url": "https://notepad.js.org/art/cover.png"
+          }
+        ],
+        "description": "An offline capable notepad powered by ServiceWorker. It's quick, distraction-free, dark mode enabled, mobile compatible(Android, iOS) and minimalist in nature."
+      },
+      "favicon": "https://notepad.js.org/favicon.ico"
+    },
+    "title": "Notepad - Offline capable",
+    "description": "An offline capable notepad powered by ServiceWorker. It's quick, distraction-free, dark mode enabled, mobile compatible(Android, iOS) and minimalist in nature."
+  },
+  {
     "timestamp": "2022-10-26T08:51:40.000Z",
     "appURL": "https://www.netflix.com/",
     "sourceURL": null,
@@ -5511,9 +5605,40 @@
     "isElectronApp": false,
     "screenshot": "snapdrop.net.webp",
     "screenshotDark": "snapdrop.net-dark.webp",
-    "meta": {},
-    "title": "snapdrop.net",
-    "description": ""
+    "meta": {
+      "title": "Snapdrop",
+      "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+      "keywords": [
+        "File",
+        "Transfer",
+        "Share",
+        "Peer2Peer"
+      ],
+      "author": "RobinLinus",
+      "open_graph": {
+        "title": "Snapdrop",
+        "type": "article",
+        "url": "https://snapdrop.net/",
+        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+        "images": [
+          {
+            "url": "https://snapdrop.net/images/twitter-stream.jpg"
+          }
+        ]
+      },
+      "twitter_card": {
+        "card": "summary_large_image",
+        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+        "images": [
+          {
+            "url": "https://snapdrop.net/images/twitter-stream.jpg"
+          }
+        ]
+      },
+      "favicon": "https://snapdrop.net/images/favicon-96x96.png"
+    },
+    "title": "Snapdrop",
+    "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup."
   },
   {
     "timestamp": "2022-06-23T11:08:31.000Z",
@@ -5740,7 +5865,7 @@
         ],
         "site": "@StackBlitz"
       },
-      "favicon": "https://c.staticblitz.com/assets/favicon-148f9e9aced4a6363b4a8232686c3d8998d3eabaab1a06385fd3f1996baf3a3e.png"
+      "favicon": "https://c.staticblitz.com/assets/favicon_sb-148f9e9aced4a6363b4a8232686c3d8998d3eabaab1a06385fd3f1996baf3a3e.png"
     },
     "title": "StackBlitz | Instant Dev Environments | Click. Code. Done. - StackBlitz",
     "description": ""

@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-048015779323668406';
-  const MEDIA_CACHE = 'media-048015779323668406';
+  const APP_SHELL_CACHE = 'app-shell-6302875354898283';
+  const MEDIA_CACHE = 'media-6302875354898283';
 
   const APP_SHELL_FILES = [
     './',
@@ -118,6 +118,8 @@
     'fpv.wtf!!about-dark.webp',
     'fuse.littlebits.com.webp',
     'fuse.littlebits.com-dark.webp',
+    'georapbox.github.io!barcode-scanner.webp',
+    'georapbox.github.io!barcode-scanner-dark.webp',
     'github.dev!github!dev.webp',
     'github.dev!github!dev-dark.webp',
     'gltf.report.webp',
@@ -184,6 +186,8 @@
     'natto.dev-dark.webp',
     'niftypass.app.webp',
     'niftypass.app-dark.webp',
+    'notepad.js.org.webp',
+    'notepad.js.org-dark.webp',
     'okso.app.webp',
     'okso.app-dark.webp',
     'open.spotify.com.webp',
