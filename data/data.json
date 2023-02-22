@@ -53,6 +53,7 @@
           }
         ]
       },
+      "theme_color": "#106672",
       "favicon": "https://md.nico.dev/assets/static/favicon/favicon-16x16.png"
     },
     "title": "[md.edit]",
@@ -98,6 +99,7 @@
         "site": "@1tuner",
         "creator": "@robinbakker"
       },
+      "theme_color": "#111111",
       "favicon": "https://1tuner.com/favicon.ico"
     },
     "title": "1tuner | listen to radio, podcasts and create playlists",
@@ -125,6 +127,7 @@
     "screenshot": "activerecall.com!login.html.webp",
     "screenshotDark": "activerecall.com!login.html-dark.webp",
     "meta": {
+      "theme_color": "#ffffff",
       "title": "Active Recall",
       "favicon": "https://activerecall.com/assets/ar_favicon_32.png?v=3"
     },
@@ -234,6 +237,7 @@
           }
         ]
       },
+      "theme_color": "#008080",
       "favicon": "https://avg-colour.netlify.app/favicon-dark.svg"
     },
     "title": "Average Colour",
@@ -375,6 +379,7 @@
     "screenshotDark": "traintimes.org.uk-dark.webp",
     "meta": {
       "title": "Accessible UK Train Timetables",
+      "theme_color": "#eeeeff",
       "description": "A blazingly small and fast UK train times journey planner and live departure boards, with bookmarkable URLs as a web app, and offline saving of viewed journeys.",
       "favicon": "https://traintimes.org.uk/favicon.ico?1644669432"
     },
@@ -407,7 +412,7 @@
         "url": "https://www.airconsole.com/",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.francois-promo-mwc-gdc.450165183314709403/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.ci-jenkins.450187656348757696/og-image.jpg"
           }
         ],
         "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads."
@@ -419,7 +424,7 @@
         "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads.",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.francois-promo-mwc-gdc.450165183314709403/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.ci-jenkins.450187656348757696/og-image.jpg"
           }
         ],
         "url": "https://www.airconsole.com/"
@@ -447,6 +452,7 @@
     "screenshot": "bangle.io.webp",
     "screenshotDark": "bangle.io-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "Bangle.io",
       "favicon": "https://bangle.io/favicon.svg"
     },
@@ -538,6 +544,7 @@
     "meta": {
       "title": "BPM Techno - Free Online Real-Time BPM Counter for DJ",
       "description": "Produce some beats using any player, launchpad, keyboard, and mix them live with another track easily and precisely using this free online real-time BPM counter",
+      "theme_color": "#0d4c73",
       "open_graph": {
         "url": "https://bpmtech.no/",
         "type": "website",
@@ -630,6 +637,7 @@
         "online bundler",
         "treeshake bundles"
       ],
+      "theme_color": "#000000",
       "favicon": "https://bundle.js.org/favicon/favicon.ico"
     },
     "title": "bundlejs",
@@ -661,6 +669,7 @@
     "screenshot": "dj.beatport.com!home.webp",
     "screenshotDark": "dj.beatport.com!home-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "Beatport DJ | The First Web Based DJ Software Designed for all DJs",
       "open_graph": {
         "type": "website",
@@ -735,6 +744,7 @@
         "title": "bridge. v2",
         "description": "bridge. is a light-weight IDE for Minecraft Add-Ons"
       },
+      "theme_color": "#000000",
       "favicon": "https://editor.bridge-core.app/img/icons/favicon-16x16.png"
     },
     "title": "bridge. v2",
@@ -764,6 +774,7 @@
     "meta": {
       "title": "Barcode/QR code Scanner",
       "description": "A Progressive Web Application (PWA) that scans barcodes of various formats, using the Barcode Detection API.",
+      "theme_color": "#212529",
       "favicon": "https://georapbox.github.io/favicon.ico"
     },
     "title": "Barcode/QR code Scanner",
@@ -808,6 +819,7 @@
     "screenshotDark": "web.blockbench.net-dark.webp",
     "meta": {
       "title": "Blockbench",
+      "theme_color": "#181a1f",
       "favicon": "https://web.blockbench.net/favicon.png"
     },
     "title": "Blockbench",
@@ -955,6 +967,7 @@
     "screenshotDark": "codeit.codes-dark.webp",
     "meta": {
       "title": "Codeit | Mobile code editor connected to Git",
+      "theme_color": "#0f1014",
       "description": "Run projects, code your ideas, and share it all on Codeit.",
       "open_graph": {
         "title": "Codeit | Mobile code editor connected to Git",
@@ -1047,6 +1060,7 @@
     "screenshot": "docs.craft.do.webp",
     "screenshotDark": "docs.craft.do-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "Craft — A fresh take on documents",
       "description": "Get started today, it's free.",
       "open_graph": {
@@ -1137,6 +1151,7 @@
     "meta": {
       "title": "Game Making Software - Construct 3",
       "description": "The best browser based game making software. Make games, no programming required. Learn how to make games with Construct 3, the free browser game building software.",
+      "theme_color": "#3B4045",
       "open_graph": {
         "url": "https://editor.construct.net/",
         "title": "Construct 3 r327.2 ★★★★★",
@@ -1178,11 +1193,45 @@
     "screenshot": "make.firialabs.com.webp",
     "screenshotDark": "make.firialabs.com-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "CodeSpace - Firia Labs",
       "favicon": "https://make.firialabs.com/favicon.png"
     },
     "title": "CodeSpace - Firia Labs",
     "description": ""
+  },
+  {
+    "timestamp": "2023-02-22T17:58:39.000Z",
+    "appURL": "https://observablehq.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "observablehq.com.webp",
+    "screenshotDark": "observablehq.com-dark.webp",
+    "meta": {
+      "title": "Collaborative data platform and canvas | Observable",
+      "description": "Powered by Community, collaborate with your entire team from technical to non-technical users and get to data insights, faster. Bring your data to life.",
+      "open_graph": {
+        "site_name": "Observable",
+        "images": [
+          {
+            "url": "https://static.observablehq.com/assets/og-image.png"
+          }
+        ]
+      },
+      "twitter_card": {
+        "site": "@observablehq",
+        "card": "summary"
+      },
+      "favicon": "https://static.observablehq.com/favicon-512.0667824687f99c942a02e06e2db1a060911da0bf3606671676a255b1cf97b4fe.png"
+    },
+    "title": "Collaborative data platform and canvas | Observable",
+    "description": "Powered by Community, collaborate with your entire team from technical to non-technical users and get to data insights, faster. Bring your data to life."
   },
   {
     "timestamp": "2022-04-25T10:57:46.000Z",
@@ -1212,6 +1261,7 @@
     "meta": {
       "title": "Capture QR Code",
       "description": "Instantly snap QR codes on mobile and desktop without installing an app.",
+      "theme_color": "#212121",
       "favicon": "https://qrsnapper.com/images/touch/chrome-touch-icon-192x192.png"
     },
     "title": "Capture QR Code",
@@ -1282,6 +1332,7 @@
         "title": "Create Amazing Mockups",
         "description": "Create Amazing Mockups"
       },
+      "theme_color": "#0D0D0D",
       "favicon": "https://shots.so/image/favicon.png"
     },
     "title": "Create Amazing Mockups",
@@ -1313,6 +1364,7 @@
     "screenshot": "three-colors.opl.io.webp",
     "screenshotDark": "three-colors.opl.io-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "description": "A ThreeJS color picker",
       "title": "Color Picker - ThreeJS",
       "favicon": "https://three-colors.opl.io/favicon.ico"
@@ -1417,6 +1469,7 @@
     "meta": {
       "title": "conifer",
       "description": "Play all of your music with conifer, your cross-platform music player.",
+      "theme_color": "#f3f3f3",
       "favicon": "https://www.conifer-music.app/assets/newIcons/favicon.ico"
     },
     "title": "conifer",
@@ -1468,6 +1521,7 @@
         ],
         "card": "summary_large_image"
       },
+      "theme_color": "#000000",
       "favicon": "https://res.cloudinary.com/practicaldev/image/fetch/s--lrmEcD2H--/c_limit,f_png,fl_progressive,q_80,w_128/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png"
     },
     "title": "DEV Community 👩‍💻👨‍💻",
@@ -1488,6 +1542,7 @@
     "screenshotDark": "duino.app-dark.webp",
     "meta": {
       "title": "Duino App",
+      "theme_color": "#37989d",
       "favicon": "https://duino.app/img/icons/favicon-16x16.png"
     },
     "title": "Duino App",
@@ -1509,6 +1564,7 @@
     "meta": {
       "title": "Diffr | The Online Text Diffing Tool",
       "description": "Create and share diffs with Diffr, the privacy focused online text diffing tool.",
+      "theme_color": "#1a2b34",
       "open_graph": {
         "type": "website",
         "title": "Diffr | The Online Text Diffing Tool",
@@ -1546,6 +1602,7 @@
     "screenshot": "tidepool.org!uploader.webp",
     "screenshotDark": "tidepool.org!uploader-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "Download our software | Tidepool",
       "twitter_card": {
         "description": "Tidepool is a nonprofit organization dedicated to making diabetes data more accessible, actionable, and meaningful for people with diabetes, their care teams, and researchers. ",
@@ -1620,6 +1677,7 @@
     "screenshotDark": "app.element.io!!welcome-dark.webp",
     "meta": {
       "title": "Element",
+      "theme_color": "#ffffff",
       "open_graph": {
         "images": [
           {
@@ -1651,6 +1709,7 @@
     "screenshotDark": "buddy.edgetx.org-dark.webp",
     "meta": {
       "title": "EdgeTX Buddy",
+      "theme_color": "#fff",
       "favicon": "https://buddy.edgetx.org/assets/coast-228x228.png"
     },
     "title": "EdgeTX Buddy",
@@ -1681,6 +1740,7 @@
       "author": "PQINA",
       "description": "No ads, no popups, no cookies, no account. The fastest way to edit photos online",
       "title": "Edit • Photo - The Free Online Photo Editor In Your Browser",
+      "theme_color": "#ffffff",
       "open_graph": {
         "type": "website",
         "url": "https://edit.photo/",
@@ -1731,6 +1791,7 @@
       "author": "PQINA",
       "description": "No ads, no popups, no cookies, no account. A quick way to edit videos online",
       "title": "Edit • Video - Free Online Video Editing In Your Browser",
+      "theme_color": "#ffffff",
       "open_graph": {
         "type": "website",
         "url": "https://edit.video/",
@@ -1804,6 +1865,7 @@
         "site": "@elk_zone",
         "card": "summary_large_image"
       },
+      "theme_color": "#fafafa",
       "title": " | Elk",
       "favicon": "https://elk.zone/logo.svg"
     },
@@ -1856,6 +1918,7 @@
         "title": "Emberly - Your knowledge. Organized.",
         "card": "summary_large_image"
       },
+      "theme_color": "#161C24",
       "favicon": "https://ember.ly/icons/favicon-16x16.png"
     },
     "title": "Emberly - Your knowledge. Organized.",
@@ -1887,6 +1950,7 @@
     "screenshot": "esc-configurator.com.webp",
     "screenshotDark": "esc-configurator.com-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "ESC Configurator - for Bluejay, BLHeli_S and AM32",
       "open_graph": {
         "title": "ESC Configurator - for Bluejay, BLHeli_S and AM32",
@@ -1990,6 +2054,7 @@
     "screenshotDark": "excalidraw.com-dark.webp",
     "meta": {
       "title": "Excalidraw | Hand-drawn look & feel • Collaborative • Secure",
+      "theme_color": "#121212",
       "description": "Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.",
       "open_graph": {
         "site_name": "Excalidraw",
@@ -2110,6 +2175,7 @@
     "screenshotDark": "app.diagrams.net-dark.webp",
     "meta": {
       "title": "Flowchart Maker & Online Diagram Software",
+      "theme_color": "#d89000",
       "favicon": "https://app.diagrams.net/favicon.ico"
     },
     "title": "Flowchart Maker & Online Diagram Software",
@@ -2178,6 +2244,7 @@
     "screenshot": "kryogenix.org!farmbound.webp",
     "screenshotDark": "kryogenix.org!farmbound-dark.webp",
     "meta": {
+      "theme_color": "#255525",
       "title": "Farmbound - a diurnal game of farming",
       "favicon": "https://kryogenix.org/favicon.ico"
     },
@@ -2284,6 +2351,7 @@
         ]
       },
       "description": "Build better products as a team. Design, prototype, and gather feedback all in one place with Figma.",
+      "theme_color": "#FFFFFF",
       "title": "Figma: the collaborative interface design tool.",
       "favicon": "https://static.figma.com/app/icon/1/favicon.svg"
     },
@@ -2383,6 +2451,7 @@
     "meta": {
       "title": "Web installer | Install | GrapheneOS",
       "description": "Web-based installer for GrapheneOS, a security and privacy focused mobile OS with Android app compatibility.",
+      "theme_color": "#212121",
       "twitter_card": {
         "site": "@GrapheneOS",
         "creator": "@GrapheneOS"
@@ -2548,6 +2617,7 @@
       "title": "HexEd.it - Browser-based Online and Offline Hex Editing",
       "author": "Jens Duttke",
       "description": "HexEd.it, the powerful online hex editor running in your web browser using HTML5/JavaScript technology. Analyse and edit binary files everywhere.",
+      "theme_color": "#27272e",
       "open_graph": {
         "type": "website",
         "url": "https://hexed.it/",
@@ -2652,6 +2722,7 @@
           }
         ]
       },
+      "theme_color": "#202124",
       "favicon": "https://hoppscotch.io/favicon.ico"
     },
     "title": "Hoppscotch • Open source API development ecosystem",
@@ -2693,6 +2764,7 @@
     "meta": {
       "title": "Hostme",
       "description": "Hostme is everything you need to successfully run your restaurant business!",
+      "theme_color": "#ffffff",
       "favicon": "https://panel.hostmeapp.com/images/chrome-android-196.png"
     },
     "title": "Hostme",
@@ -2732,6 +2804,7 @@
     "screenshot": "pinafore.social.webp",
     "screenshotDark": "pinafore.social-dark.webp",
     "meta": {
+      "theme_color": "#4169e1",
       "description": "An alternative web client for Mastodon, focused on speed and simplicity.",
       "title": "Home · Pinafore",
       "favicon": "https://pinafore.social/favicon.png"
@@ -2781,6 +2854,7 @@
     "screenshot": "install.wled.me.webp",
     "screenshotDark": "install.wled.me-dark.webp",
     "meta": {
+      "theme_color": "#222222",
       "title": "Install WLED",
       "favicon": "https://install.wled.me/favicon.png"
     },
@@ -2892,6 +2966,7 @@
     "screenshot": "instagram.com.webp",
     "screenshotDark": "instagram.com-dark.webp",
     "meta": {
+      "theme_color": "#ffffff",
       "open_graph": {
         "site_name": "Instagram",
         "title": "Instagram",
@@ -2979,6 +3054,7 @@
     "screenshotDark": "pwa.journalisticapp.com-dark.webp",
     "meta": {
       "title": "Journalistic",
+      "theme_color": "#FFFFFF",
       "author": "Journalistic",
       "description": "A micro journaling app with minimalistic design, pristine writing experience, and powerful insights.",
       "open_graph": {
@@ -3026,6 +3102,7 @@
     "screenshot": "jsmusicdb.com.webp",
     "screenshotDark": "jsmusicdb.com-dark.webp",
     "meta": {
+      "theme_color": "#0063B1",
       "title": "JSMusicDB",
       "favicon": "https://www.jsmusicdb.com/assets/favicon-16x16.png"
     },
@@ -3056,6 +3133,7 @@
     "meta": {
       "title": "Editor | kota-yata.com",
       "description": "WYSIWIG memo app with PDF preview",
+      "theme_color": "#333333",
       "open_graph": {
         "type": "website",
         "title": "kota-yata editor",
@@ -3116,6 +3194,7 @@
     "meta": {
       "title": "Kiwix JS PWA",
       "description": "Offline Wikipedia reader",
+      "theme_color": "black",
       "favicon": "https://pwa.kiwix.org/www/favicon.ico"
     },
     "title": "Kiwix JS PWA",
@@ -3143,6 +3222,7 @@
     "screenshot": "app.cosee.com.webp",
     "screenshotDark": "app.cosee.com-dark.webp",
     "meta": {
+      "theme_color": "#ffffff",
       "title": "LogIn | Cosee",
       "favicon": "https://app.cosee.com/favicon-16x16.png"
     },
@@ -3167,6 +3247,7 @@
     "screenshot": "fuse.littlebits.com.webp",
     "screenshotDark": "fuse.littlebits.com-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "LittleBits Fuse",
       "favicon": "https://fuse.littlebits.com/favicon_io/favicon.ico"
     },
@@ -3223,6 +3304,7 @@
         "Cursos de CSS",
         "Aprende a programar"
       ],
+      "theme_color": "#030021",
       "favicon": "https://leonidasesteban.com/icons/icon-96x96.png"
     },
     "title": "Leonidas Esteban, Google Developer Expert en Web Technologies",
@@ -3279,6 +3361,7 @@
         ],
         "description": "Linear streamlines issues, sprints, and product roadmaps. It’s the new standard for modern software development."
       },
+      "theme_color": "#000212",
       "description": "Linear streamlines issues, sprints, and product roadmaps. It’s the new standard for modern software development.",
       "favicon": "https://linear.app/static/favicon.svg"
     },
@@ -3309,6 +3392,7 @@
     "meta": {
       "title": "Link Cleaner",
       "description": "Link Cleaner is a web app that removes unnecessary junk from links in one click.",
+      "theme_color": "#262626",
       "twitter_card": {
         "card": "summary",
         "creator": "@corbindavenport",
@@ -3342,6 +3426,7 @@
     "meta": {
       "title": "LiveHeats | Live Scoring and Competition Management Platform for Sports",
       "description": "Helping organisers run sophisticated competitions with minimal effort. All-in-one platform for live scoring, heat draws, scheduling, rankings and registration.",
+      "theme_color": "#081C38",
       "open_graph": {
         "type": "website",
         "url": "https://liveheats.com/",
@@ -3391,6 +3476,7 @@
     "screenshot": "logiwebconnect.com.webp",
     "screenshotDark": "logiwebconnect.com-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "description": "Logi Web Connect",
       "title": "Logi Web Connect",
       "favicon": "https://logiwebconnect.com/logo192.png"
@@ -3422,6 +3508,7 @@
     "meta": {
       "title": "Look Scanned",
       "description": "Look Scanned is a pure frontend site that makes your PDFs look scanned! No need for printers and scanners anymore - everything you need to do is just a few clicks.",
+      "theme_color": "#101014",
       "favicon": "https://lookscanned.io/icons/favicon.svg"
     },
     "title": "Look Scanned",
@@ -3603,6 +3690,7 @@
     "screenshotDark": "maskable.app-dark.webp",
     "meta": {
       "title": "Maskable.app",
+      "theme_color": "#FFD567",
       "description": "Preview maskable icons in the browser!",
       "twitter_card": {
         "card": "summary_large_image",
@@ -3682,6 +3770,7 @@
     "meta": {
       "title": "MConverter: Easy to Use Online File Converter",
       "description": "Convert securely video, audio, image, e-book, office & archive files. Bulk convert large files up to 1 GB. Free and easy to use converter.",
+      "theme_color": "#2e5598",
       "open_graph": {
         "images": [
           {
@@ -3749,6 +3838,7 @@
       ],
       "author": "MishiPay",
       "title": "MishiPay | It's time we shop smart",
+      "theme_color": "#1976d2",
       "favicon": "https://mishipay.shop/favicon.ico"
     },
     "title": "MishiPay | It's time we shop smart",
@@ -4068,6 +4158,7 @@
     "screenshotDark": "notepad.js.org-dark.webp",
     "meta": {
       "title": "Notepad - Offline capable",
+      "theme_color": "#4d4d4d",
       "description": "An offline capable notepad powered by ServiceWorker. It's quick, distraction-free, dark mode enabled, mobile compatible(Android, iOS) and minimalist in nature.",
       "keywords": [
         "note",
@@ -4193,6 +4284,7 @@
     "screenshot": "anaesthetics.app!bluetooth.webp",
     "screenshotDark": "anaesthetics.app!bluetooth-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "Oxygen Saturation Monitor",
       "description": "Monitor your oxygen saturation and heart rate with a bluetooth pulse oximeter",
       "keywords": [
@@ -4244,6 +4336,7 @@
     "screenshot": "configure.zsa.io.webp",
     "screenshotDark": "configure.zsa.io-dark.webp",
     "meta": {
+      "theme_color": "#d48f2e",
       "description": "A powerful, visual tool to configure your keyboard. Based on the open-source QMK firmware.",
       "title": "Oryx: The ZSA Keyboard Configurator",
       "favicon": "https://configure.zsa.io/static/favicon.png?v=1"
@@ -4295,6 +4388,7 @@
     "meta": {
       "title": "Ok! So... Draw online",
       "description": "The drawing app to express, grasp, and organize your thoughts and ideas",
+      "theme_color": "#ffffff",
       "open_graph": {
         "title": "Ok! So...",
         "description": "The drawing app to express, grasp, and organize your thoughts and ideas",
@@ -4339,6 +4433,7 @@
     "screenshot": "app.thepocketlab.com.webp",
     "screenshotDark": "app.thepocketlab.com-dark.webp",
     "meta": {
+      "theme_color": "#e4751b",
       "title": "PocketLab",
       "favicon": "https://app.thepocketlab.com/favicon.ico"
     },
@@ -4373,6 +4468,7 @@
     "meta": {
       "title": "Popular MIDIs — BitMidi",
       "description": "Listen to free MIDI songs, download the best MIDI files, and share the best MIDIs on the web.",
+      "theme_color": "#ff41b4",
       "open_graph": {
         "title": "Popular MIDIs — BitMidi",
         "description": "Listen to free MIDI songs, download the best MIDI files, and share the best MIDIs on the web.",
@@ -4436,6 +4532,7 @@
         "site_name": "Board Game Arena",
         "description": "The world's #1 platform for playing board games online. Play hundreds of board games from your browser for free."
       },
+      "theme_color": "#ffffff",
       "title": "Play board games online from your browser • Board Game Arena",
       "favicon": "https://x.boardgamearena.net/data/themereleases/200316-1631/img/favicon/favicon-16x16.png"
     },
@@ -4493,6 +4590,7 @@
         "description": "The Project Fugu API Showcase is a collection of apps that make use of APIs that were conceived in the context of Project Fugu.\n"
       },
       "description": "The Project Fugu API Showcase is a collection of apps that make use of APIs that were conceived in the context of Project Fugu.\n",
+      "theme_color": "#ffffff",
       "favicon": "https://developer.chrome.com/images/meta/favicon-16x16.png"
     },
     "title": "Project Fugu API Showcase - Chrome Developers",
@@ -4521,6 +4619,7 @@
     "screenshotDark": "edit.photostack.app-dark.webp",
     "meta": {
       "title": "PhotoStack",
+      "theme_color": "#222",
       "favicon": "https://edit.photostack.app/favicon.ico"
     },
     "title": "PhotoStack",
@@ -4660,6 +4759,7 @@
     "screenshotDark": "microsoftedge.github.io!Demos!pwamp-dark.webp",
     "meta": {
       "title": "pwamp",
+      "theme_color": "#181c25",
       "favicon": "https://microsoftedge.github.io/Demos/pwamp/favicon.svg"
     },
     "title": "pwamp",
@@ -4723,6 +4823,7 @@
         "card": "summary_large_image",
         "site": "@PaintZApp"
       },
+      "theme_color": "#3f51b5",
       "favicon": "https://paintz.app/images/logo/256.png"
     },
     "title": "PaintZ",
@@ -4803,6 +4904,7 @@
           }
         ]
       },
+      "theme_color": "#060f23",
       "favicon": "https://pixa.pics/src/images/favicon.ico"
     },
     "title": "Pixel-Art/NFTs LAB. Make potential possible while (un)limited.",
@@ -4836,6 +4938,7 @@
     "meta": {
       "title": "Pokedex.org",
       "description": "A mini-encyclopedia of Pokémon species, types, evolutions, and moves.",
+      "theme_color": "#a040a0",
       "favicon": "https://pokedex.org/favicon.ico"
     },
     "title": "Pokedex.org",
@@ -4870,6 +4973,7 @@
           }
         ]
       },
+      "theme_color": "#FFFFFF",
       "twitter_card": {
         "card": "summary_large_image",
         "site": "@postrme",
@@ -4996,6 +5100,7 @@
     "screenshot": "photopea.com.webp",
     "screenshotDark": "photopea.com-dark.webp",
     "meta": {
+      "theme_color": "#474747",
       "title": "Photopea | Online Photo Editor",
       "description": "Photopea Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures. Do Online Photo Editing in your browser for free!",
       "favicon": "https://www.photopea.com/promo/icon512.png"
@@ -5059,6 +5164,7 @@
       },
       "title": "Pinterest - Deutschland",
       "description": "Discover recipes, home ideas, style inspiration and other ideas to try.",
+      "theme_color": "#FFFFFF",
       "twitter_card": {
         "apps": {
           "ipad": {
@@ -5151,6 +5257,7 @@
     "screenshotDark": "radio-house.app-dark.webp",
     "meta": {
       "title": "Radio House",
+      "theme_color": "#2c2c2c",
       "favicon": "https://radio-house.app/static/meta/favicon.svg"
     },
     "title": "Radio House",
@@ -5193,6 +5300,7 @@
     "screenshot": "regex101.com.webp",
     "screenshotDark": "regex101.com-dark.webp",
     "meta": {
+      "theme_color": "#3366a4",
       "keywords": [
         "regex",
         "regex tester",
@@ -5263,6 +5371,7 @@
     "screenshot": "remap-keys.app.webp",
     "screenshotDark": "remap-keys.app-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "open_graph": {
         "type": "website",
         "site_name": "Remap",
@@ -5304,6 +5413,7 @@
     "meta": {
       "title": "Roland50.studio",
       "description": "Emulate the sound of Roland's most famous and influential musical instruments from Yuri Suzuki and Roland.",
+      "theme_color": "#000000",
       "twitter_card": {
         "card": "summary_large_image",
         "site": "@RolandGlobal",
@@ -5398,6 +5508,7 @@
       "title": "STORZ & BICKEL",
       "author": "STORZ & BICKEL",
       "description": "STORZ & BICKEL Web App for Bluetooth Devices.",
+      "theme_color": "#FFFFFF",
       "favicon": "https://app.storz-bickel.com/img/icon-sb-md.png"
     },
     "title": "STORZ & BICKEL",
@@ -5529,6 +5640,7 @@
     "screenshot": "scrapbook-pwa.web.app.webp",
     "screenshotDark": "scrapbook-pwa.web.app-dark.webp",
     "meta": {
+      "theme_color": "#37474F",
       "title": "Scrapbook PWA",
       "favicon": "https://scrapbook-pwa.web.app/images/icon.png"
     },
@@ -5595,6 +5707,7 @@
     "screenshotDark": "sharedgametimer.com-dark.webp",
     "meta": {
       "title": "Shared Game Timer",
+      "theme_color": "#271c19",
       "description": "A board game timer that synchronizes across multiple devices.",
       "twitter_card": {
         "card": "summary_large_image",
@@ -5666,40 +5779,9 @@
     "isElectronApp": false,
     "screenshot": "snapdrop.net.webp",
     "screenshotDark": "snapdrop.net-dark.webp",
-    "meta": {
-      "title": "Snapdrop",
-      "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
-      "keywords": [
-        "File",
-        "Transfer",
-        "Share",
-        "Peer2Peer"
-      ],
-      "author": "RobinLinus",
-      "open_graph": {
-        "title": "Snapdrop",
-        "type": "article",
-        "url": "https://snapdrop.net/",
-        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
-        "images": [
-          {
-            "url": "https://snapdrop.net/images/twitter-stream.jpg"
-          }
-        ]
-      },
-      "twitter_card": {
-        "card": "summary_large_image",
-        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
-        "images": [
-          {
-            "url": "https://snapdrop.net/images/twitter-stream.jpg"
-          }
-        ]
-      },
-      "favicon": "https://snapdrop.net/images/favicon-96x96.png"
-    },
-    "title": "Snapdrop",
-    "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup."
+    "meta": {},
+    "title": "snapdrop.net",
+    "description": ""
   },
   {
     "timestamp": "2022-06-23T11:08:31.000Z",
@@ -5733,6 +5815,7 @@
     "meta": {
       "title": "SnapperGPS - Home",
       "description": "Home page of SnapperGPS - A small, low-cost, low-power wildlife tracking system.",
+      "theme_color": "#5E2590",
       "favicon": "https://snapper-gps.herokuapp.com/images/favicon.ico"
     },
     "title": "SnapperGPS - Home",
@@ -5760,6 +5843,7 @@
     "screenshot": "songwhip.com.webp",
     "screenshotDark": "songwhip.com-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "Songwhip - Free music links to all platforms",
       "description": "In one click, Songwhip finds your music everywhere & makes a page you can share with everyone",
       "open_graph": {
@@ -5824,6 +5908,7 @@
     "screenshot": "sqliteviewer.app.webp",
     "screenshotDark": "sqliteviewer.app-dark.webp",
     "meta": {
+      "theme_color": "rgb(28, 28, 30)",
       "description": "A free online SQLite Explorer, inspired by DB Browser for SQLite and Airtable. Use this web-based SQLite Tool to quickly and easily inspect sqlite files on the web.",
       "title": "SQLite Viewer Web App",
       "favicon": "https://sqliteviewer.app/favicon.ico"
@@ -5878,6 +5963,7 @@
         ],
         "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser."
       },
+      "theme_color": "#ff3385",
       "favicon": "https://squoosh.app/c/favicon-c9cf50ef.ico"
     },
     "title": "Squoosh",
@@ -5926,6 +6012,7 @@
         ],
         "site": "@StackBlitz"
       },
+      "theme_color": "#2e3138",
       "favicon": "https://c.staticblitz.com/assets/favicon_sb-148f9e9aced4a6363b4a8232686c3d8998d3eabaab1a06385fd3f1996baf3a3e.png"
     },
     "title": "StackBlitz | Instant Dev Environments | Click. Code. Done. - StackBlitz",
@@ -5971,6 +6058,7 @@
     "screenshot": "stadia.google.com!controller.webp",
     "screenshotDark": "stadia.google.com!controller-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "title": "Stadia Bluetooth mode",
       "description": "Switch your Stadia Controller to Bluetooth mode to keep gaming wirelessly on your favorite devices and services after Stadia shuts down",
       "favicon": "https://ssl.gstatic.com/stadia/gamers/assets/favicon.ico"
@@ -6040,6 +6128,7 @@
       "twitter_card": {
         "card": "summary_large_image"
       },
+      "theme_color": "#1e1e1e",
       "favicon": "https://stedit.app/resources/icon.svg"
     },
     "title": "Smart Text Editor",
@@ -6107,6 +6196,7 @@
     "screenshotDark": "svgco.de-dark.webp",
     "meta": {
       "description": "SVGcode is a Progressive Web App that lets you convert raster images like JPG, PNG, GIF, WebP, AVIF, etc. to vector graphics in SVG format.",
+      "theme_color": "#131313",
       "open_graph": {
         "title": "SVGcode",
         "type": "website",
@@ -6199,6 +6289,7 @@
       "twitter_card": {
         "card": "summary_large_image"
       },
+      "theme_color": "#FFFC00",
       "favicon": "https://web.snapchat.com/favicon.svg"
     },
     "title": "Snapchat. Now on the web.",
@@ -6239,6 +6330,7 @@
       ],
       "author": "Senomix Software Inc.",
       "title": "Senomix Timesheets - Sign-In",
+      "theme_color": "#47699d",
       "favicon": "https://www.senomix.com/favicon.png?v=2203a"
     },
     "title": "Senomix Timesheets - Sign-In",
@@ -6292,6 +6384,7 @@
     "screenshot": "stemplayer.com.webp",
     "screenshotDark": "stemplayer.com-dark.webp",
     "meta": {
+      "theme_color": "#C8BCB2",
       "description": "Summon a cinema anywhere with STEM PROJECTOR",
       "open_graph": {
         "type": "website",
@@ -6427,6 +6520,7 @@
     "screenshot": "lichess.org.webp",
     "screenshotDark": "lichess.org-dark.webp",
     "meta": {
+      "theme_color": "#2e2a24",
       "title": "lichess.org • Free Online Chess",
       "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
       "open_graph": {
@@ -6520,6 +6614,7 @@
         "card": "summary_large_image"
       },
       "description": "Advanced Saved Messages of the Telegram. Organize your notes, links, checklists, photos and any documents in the free unlimited Telegram Cloud.",
+      "theme_color": "#35363a",
       "favicon": "https://tgstorage.com/favicon-196.f6d6f83b.png"
     },
     "title": "TgStorage",
@@ -6540,6 +6635,7 @@
     "screenshotDark": "thesession.org-dark.webp",
     "meta": {
       "title": "Traditional Irish music on The Session",
+      "theme_color": "#660000",
       "description": "An online community dedicated to traditional Irish music. Find tunes, recordings, sessions and events.",
       "twitter_card": {
         "card": "summary",
@@ -6618,6 +6714,7 @@
     "meta": {
       "title": "Tinder | Dating, Make Friends & Meet New People",
       "description": "With 55 billion matches to date, Tinder® is the world’s most popular dating app, making it the place to meet new people.",
+      "theme_color": "#fd267a",
       "twitter_card": {
         "card": "summary",
         "description": "With 55 billion matches to date, Tinder® is the world’s most popular dating app, making it the place to meet new people.",
@@ -6679,6 +6776,7 @@
     "screenshot": "toot.cafe.webp",
     "screenshotDark": "toot.cafe-dark.webp",
     "meta": {
+      "theme_color": "#191b22",
       "title": "Toot Café",
       "description": "A Mastodon instance mostly populated by folks interested in web design and development.",
       "open_graph": {
@@ -6788,6 +6886,7 @@
         "title": "Twitter. It’s what’s happening",
         "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary."
       },
+      "theme_color": "#ffffff",
       "title": "Twitter. It’s what’s happening / Twitter",
       "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
       "favicon": "https://abs.twimg.com/favicons/twitter.2.ico"
@@ -6815,6 +6914,7 @@
     "meta": {
       "title": "Tylify: Create seamless patterns in seconds",
       "description": "Web-based pattern-making application. All image formats supported (SVG, PNG, JPG, etc.)",
+      "theme_color": "#0F172A",
       "open_graph": {
         "title": "Tylify: Create seamless patterns in seconds",
         "description": "Web-based pattern-making application. All image formats supported (SVG, PNG, JPG, etc.)",
@@ -6870,6 +6970,7 @@
     "meta": {
       "title": "Telegram",
       "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+      "theme_color": "#ffffff",
       "open_graph": {
         "type": "website",
         "url": "https://web.telegram.org/z/",
@@ -6924,6 +7025,7 @@
     "screenshotDark": "tldraw.com-dark.webp",
     "meta": {
       "description": "A tiny little drawing app.",
+      "theme_color": "#fafafa",
       "twitter_card": {
         "url": "https://tldraw.com/",
         "title": "tldraw",
@@ -7013,6 +7115,7 @@
           }
         ]
       },
+      "theme_color": "#1976d2",
       "favicon": "https://www.topdecked.com/assets/icon/favicon.ico"
     },
     "title": "TopDecked Unified",
@@ -7036,6 +7139,7 @@
     "screenshot": "uspeaking.netlify.app.webp",
     "screenshotDark": "uspeaking.netlify.app-dark.webp",
     "meta": {
+      "theme_color": "#e74c3c",
       "title": "USpeaking",
       "favicon": "https://uspeaking.netlify.app/favicon.ico"
     },
@@ -7061,6 +7165,7 @@
     "screenshotDark": "app.vysor.io-dark.webp",
     "meta": {
       "title": "Vysor",
+      "theme_color": "#3949AB",
       "favicon": "https://app.vysor.io/img/icons/favicon-16x16.png"
     },
     "title": "Vysor",
@@ -7292,6 +7397,7 @@
     "screenshot": "fpv.wtf!!about.webp",
     "screenshotDark": "fpv.wtf!!about-dark.webp",
     "meta": {
+      "theme_color": "#000000",
       "description": "Root and configure your DJI HD FPV goggles and air-units via web interface.",
       "title": "WTFOS Configurator",
       "favicon": "https://fpv.wtf/favicon.ico"
@@ -7337,6 +7443,7 @@
     "screenshot": "web-serial-app.netlify.app.webp",
     "screenshotDark": "web-serial-app.netlify.app-dark.webp",
     "meta": {
+      "theme_color": "#ffffff",
       "description": "Connect to any USB or Bluetooth Serial Device from your browser using the Web Serial API Controller",
       "title": "Web Serial Controller",
       "twitter_card": {
@@ -7458,6 +7565,7 @@
       "twitter_card": {
         "card": "summary_large_image"
       },
+      "theme_color": "#ffffff",
       "favicon": "https://whatpwacando.today/src/img/icons/favicon-32.png"
     },
     "title": "What PWA Can Do Today",
@@ -7507,6 +7615,7 @@
     "meta": {
       "title": "Wootility Web",
       "description": "Instantly edit your Wooting keyboard profiles and colors from the browser.",
+      "theme_color": "#0F1114",
       "open_graph": {
         "title": "Wootility Web",
         "description": "Instantly edit your Wooting keyboard profiles and colors from the browser.",
@@ -7563,6 +7672,7 @@
     "meta": {
       "title": "Wormhole - Simple, private file sharing",
       "description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires.",
+      "theme_color": "#9F7AEA",
       "open_graph": {
         "title": "Wormhole - Simple, private file sharing",
         "description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires.",
@@ -7686,6 +7796,7 @@
     "screenshotDark": "webgamer.io-dark.webp",
     "meta": {
       "title": "WebGamer.io | Next-Gen Web Games",
+      "theme_color": "#151515",
       "favicon": "https://www.webgamer.io/icon.svg"
     },
     "title": "WebGamer.io | Next-Gen Web Games",
@@ -7705,6 +7816,7 @@
     "screenshot": "case.xchart.com.webp",
     "screenshotDark": "case.xchart.com-dark.webp",
     "meta": {
+      "theme_color": "#0A3552",
       "description": "Automatic anesthesia charting. Focus on your patient — not your paperwork.",
       "title": "Xchart.com",
       "favicon": "https://case.xchart.com/icon192.c56c5893.png"
@@ -7738,6 +7850,7 @@
     "screenshot": "yt-playlist-notifier.web.app.webp",
     "screenshotDark": "yt-playlist-notifier.web.app-dark.webp",
     "meta": {
+      "theme_color": "#ced4da",
       "twitter_card": {
         "card": "summary",
         "site": "@jeffposnick"
@@ -7857,6 +7970,7 @@
           }
         ]
       },
+      "theme_color": "#FFFFFF",
       "favicon": "https://yakuneba-community.com/static/yakuneba/logo03.png"
     },
     "title": "みんなのネバーランド - 約束のネバーランド公式コミュニティ -",

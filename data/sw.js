@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6937424047484348';
-  const MEDIA_CACHE = 'media-6937424047484348';
+  const APP_SHELL_CACHE = 'app-shell-9113756457006223';
+  const MEDIA_CACHE = 'media-9113756457006223';
 
   const APP_SHELL_FILES = [
     './',
@@ -192,6 +192,8 @@
     'niftypass.app-dark.webp',
     'notepad.js.org.webp',
     'notepad.js.org-dark.webp',
+    'observablehq.com.webp',
+    'observablehq.com-dark.webp',
     'okso.app.webp',
     'okso.app-dark.webp',
     'open.spotify.com.webp',

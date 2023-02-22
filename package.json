@@ -15,7 +15,7 @@
     "prettier": "^2.8.4",
     "sharp": "^0.31.3",
     "shx": "^0.3.4",
-    "unfurl.js": "^6.1.0"
+    "unfurl.js": "^6.2.0"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
