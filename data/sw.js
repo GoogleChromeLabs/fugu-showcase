@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6302875354898283';
-  const MEDIA_CACHE = 'media-6302875354898283';
+  const APP_SHELL_CACHE = 'app-shell-825359806432177';
+  const MEDIA_CACHE = 'media-825359806432177';
 
   const APP_SHELL_FILES = [
     './',
@@ -154,6 +154,8 @@
     'linear.app-dark.webp',
     'linkcleaner.app.webp',
     'linkcleaner.app-dark.webp',
+    'liveheats.com.webp',
+    'liveheats.com-dark.webp',
     'logiwebconnect.com.webp',
     'logiwebconnect.com-dark.webp',
     'logseq.com!spa=true.webp',
@@ -184,6 +186,8 @@
     'narrow.one-dark.webp',
     'natto.dev.webp',
     'natto.dev-dark.webp',
+    'nfctools.net.webp',
+    'nfctools.net-dark.webp',
     'niftypass.app.webp',
     'niftypass.app-dark.webp',
     'notepad.js.org.webp',
