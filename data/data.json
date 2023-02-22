@@ -653,7 +653,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
       },
       {
-        "name": "WebMIDI",
+        "name": "Web MIDI",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
       }
     ],
@@ -819,7 +819,7 @@
     "sourceURL": "https://github.com/thorrak/brewflasher_web",
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -914,7 +914,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       }
     ],
@@ -1479,7 +1479,7 @@
     "sourceURL": "https://github.com/duinoapp/duinoapp-client",
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -1526,7 +1526,7 @@
     "sourceURL": "https://github.com/tidepool-org/uploader",
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       },
       {
@@ -1534,7 +1534,7 @@
         "url": "https://web.dev/hid/"
       },
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       },
       {
@@ -1867,7 +1867,7 @@
     "sourceURL": "https://github.com/stylesuxx/esc-configurator",
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       },
       {
@@ -1910,7 +1910,7 @@
     "sourceURL": "https://github.com/esphome/esp-web-tools",
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -2061,11 +2061,11 @@
     "sourceURL": "https://github.com/espruino/EspruinoWebIDE",
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       },
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -2452,26 +2452,6 @@
     "description": "Graphing functions easily on the web"
   },
   {
-    "timestamp": "2022-04-27T07:02:41.000Z",
-    "appURL": "https://kenchris.github.io/webnfc-groceries/",
-    "sourceURL": "https://github.com/kenchris/webnfc-groceries",
-    "usedAPIs": [
-      {
-        "name": "WebNFC",
-        "url": "https://web.dev/nfc/"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "kenchris.github.io!webnfc-groceries.webp",
-    "screenshotDark": "kenchris.github.io!webnfc-groceries-dark.webp",
-    "meta": {
-      "title": "Groceries",
-      "favicon": "https://kenchris.github.io/webnfc-groceries/images/favicon.ico"
-    },
-    "title": "Groceries",
-    "description": ""
-  },
-  {
     "timestamp": "2023-01-05T22:20:08.000Z",
     "appURL": "https://web-gphoto2.rreverser.com/",
     "sourceURL": "https://github.com/GoogleChromeLabs/web-gphoto2",
@@ -2769,7 +2749,7 @@
         "url": "https://web.dev/gamepad/"
       },
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       },
       {
@@ -2793,7 +2773,7 @@
     "sourceURL": "https://github.com/Aircoookie/WLED",
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -2813,7 +2793,7 @@
     "sourceURL": "https://github.com/tasmota/install/",
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -2833,11 +2813,11 @@
     "sourceURL": "https://github.com/improv-wifi/sdk-js/",
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       },
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -3088,6 +3068,23 @@
     "description": "WYSIWYG Markdown editor with pdf viewer"
   },
   {
+    "timestamp": "2022-04-27T07:02:41.000Z",
+    "appURL": "https://kenchris.github.io/Web NFC-groceries/",
+    "sourceURL": "https://github.com/kenchris/Web NFC-groceries",
+    "usedAPIs": [
+      {
+        "name": "Web NFC",
+        "url": "https://web.dev/nfc/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "kenchris.github.io!Web NFC-groceries.webp",
+    "screenshotDark": "kenchris.github.io!Web NFC-groceries-dark.webp",
+    "meta": {},
+    "title": "kenchris.github.io",
+    "description": ""
+  },
+  {
     "timestamp": "2022-05-12T10:19:13.000Z",
     "appURL": "https://pwa.kiwix.org/www/index.html",
     "sourceURL": "https://github.com/kiwix/kiwix-js-windows",
@@ -3158,7 +3155,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       },
       {
@@ -3335,7 +3332,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebNFC",
+        "name": "Web NFC",
         "url": "https://web.dev/nfc/"
       }
     ],
@@ -3382,7 +3379,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
       },
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       },
       {
@@ -3436,11 +3433,11 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       },
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -3763,7 +3760,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -3784,11 +3781,11 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       },
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       },
       {
@@ -3997,7 +3994,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebNFC",
+        "name": "Web NFC",
         "url": "https://web.dev/nfc/"
       }
     ],
@@ -4334,7 +4331,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       }
     ],
@@ -5254,7 +5251,7 @@
         "url": "https://web.dev/hid/"
       },
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       },
       {
@@ -5390,7 +5387,7 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
       },
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       }
     ],
@@ -5544,7 +5541,7 @@
     "sourceURL": "https://github.com/SetuHQ/upi-pos",
     "usedAPIs": [
       {
-        "name": "WebNFC",
+        "name": "Web NFC",
         "url": "https://web.dev/nfc/"
       }
     ],
@@ -5589,7 +5586,7 @@
         "url": "https://web.dev/web-share/"
       },
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       }
     ],
@@ -6054,7 +6051,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebBluetooth",
+        "name": "Web Bluetooth",
         "url": "https://web.dev/bluetooth/"
       }
     ],
@@ -7075,7 +7072,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       },
       {
@@ -7332,7 +7329,7 @@
     "sourceURL": "https://github.com/tanepiper/web-serial-controller",
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
@@ -7439,7 +7436,7 @@
         "url": "https://web.dev/web-share-target/"
       },
       {
-        "name": "WebNFC",
+        "name": "Web NFC",
         "url": "https://web.dev/nfc/"
       }
     ],
@@ -7700,7 +7697,7 @@
     "sourceURL": null,
     "usedAPIs": [
       {
-        "name": "WebSerial",
+        "name": "Web Serial",
         "url": "https://web.dev/serial/"
       }
     ],
