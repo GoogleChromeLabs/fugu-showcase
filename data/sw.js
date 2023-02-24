@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9113756457006223';
-  const MEDIA_CACHE = 'media-9113756457006223';
+  const APP_SHELL_CACHE = 'app-shell-21339249068927346';
+  const MEDIA_CACHE = 'media-21339249068927346';
 
   const APP_SHELL_FILES = [
     './',
@@ -172,6 +172,8 @@
     'mconverter.eu-dark.webp',
     'md.nico.dev.webp',
     'md.nico.dev-dark.webp',
+    'mdsilo.com!app!demo.webp',
+    'mdsilo.com!app!demo-dark.webp',
     'microsoftedge.github.io!Demos!pwamp.webp',
     'microsoftedge.github.io!Demos!pwamp-dark.webp',
     'microsoftedge.github.io!Demos!wami.webp',
@@ -296,6 +298,8 @@
     'usevia.app-dark.webp',
     'uspeaking.netlify.app.webp',
     'uspeaking.netlify.app-dark.webp',
+    'ustaxes.org!start.webp',
+    'ustaxes.org!start-dark.webp',
     'vimeo.com.webp',
     'vimeo.com-dark.webp',
     'vodon-player.vercel.app.webp',
@@ -322,6 +326,8 @@
     'wootility.io-dark.webp',
     'wormhole.app.webp',
     'wormhole.app-dark.webp',
+    'write.sonnet.io.webp',
+    'write.sonnet.io-dark.webp',
     'airconsole.com.webp',
     'airconsole.com-dark.webp',
     'canva.com.webp',

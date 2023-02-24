@@ -1489,7 +1489,7 @@
     "screenshot": "dev.to.webp",
     "screenshotDark": "dev.to-dark.webp",
     "meta": {
-      "title": "DEV Community 👩‍💻👨‍💻",
+      "title": "DEV Community",
       "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
       "keywords": [
         "software development",
@@ -1501,18 +1501,18 @@
       "open_graph": {
         "type": "website",
         "url": "https://dev.to/",
-        "title": "DEV Community 👩‍💻👨‍💻",
+        "title": "DEV Community",
         "images": [
           {
             "url": "https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
           }
         ],
         "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
-        "site_name": "DEV Community 👩‍💻👨‍💻"
+        "site_name": "DEV Community"
       },
       "twitter_card": {
         "site": "@thepracticaldev",
-        "title": "DEV Community 👩‍💻👨‍💻",
+        "title": "DEV Community",
         "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
         "images": [
           {
@@ -1524,7 +1524,7 @@
       "theme_color": "#000000",
       "favicon": "https://res.cloudinary.com/practicaldev/image/fetch/s--lrmEcD2H--/c_limit,f_png,fl_progressive,q_80,w_128/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png"
     },
-    "title": "DEV Community 👩‍💻👨‍💻",
+    "title": "DEV Community",
     "description": "A constructive and inclusive social network for software developers. With you every step of your journey."
   },
   {
@@ -2121,6 +2121,28 @@
     "description": "Instantly play the most demanding PC games and seamlessly play across your devices."
   },
   {
+    "timestamp": "2023-02-24T09:26:55.000Z",
+    "appURL": "https://write.sonnet.io/",
+    "sourceURL": "https://github.com/paprikka/ulysses",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "write.sonnet.io.webp",
+    "screenshotDark": "write.sonnet.io-dark.webp",
+    "meta": {
+      "theme_color": "#333",
+      "description": "Writing is Thinking",
+      "title": "Ensō",
+      "favicon": "https://write.sonnet.io/favicon.a84e12d7.jpg"
+    },
+    "title": "Ensō",
+    "description": "Writing is Thinking"
+  },
+  {
     "timestamp": "2022-04-27T18:23:26.000Z",
     "appURL": "https://www.espruino.com/ide/",
     "sourceURL": "https://github.com/espruino/EspruinoWebIDE",
@@ -2303,6 +2325,80 @@
     },
     "title": "Free Photo editor online image animation and design : Pixlr",
     "description": "Discover free and premium online photo editor and animation design tools! Effects, filters, overlays, simple to expert tools.Open almost any image format like PSD (Photoshop), PXD, Jpeg, PNG (Transparent), webP, SVG and many more. You'll find a Pixlr image editor just for you!"
+  },
+  {
+    "timestamp": "2022-05-06T07:16:39.000Z",
+    "appURL": "https://www.canva.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard (Images)",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Device Memory",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Device_Memory_API"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share",
+        "url": "https://web.dev/web-share/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "canva.com.webp",
+    "screenshotDark": "canva.com-dark.webp",
+    "meta": {
+      "title": "Free Design Tool: Presentations, Video, Social Media | Canva",
+      "open_graph": {
+        "site_name": "Canva",
+        "title": "Free Design Tool: Presentations, Video, Social Media | Canva",
+        "images": [
+          {
+            "url": "https://static.canva.com/anon_home/og-image-1200x630.jpg",
+            "secure_url": "https://static.canva.com/anon_home/og-image-1200x630.jpg",
+            "width": 1200,
+            "height": 630
+          }
+        ],
+        "url": "https://www.canva.com/",
+        "type": "website",
+        "description": "Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more."
+      },
+      "twitter_card": {
+        "card": "summary_large_image",
+        "site": "@canva",
+        "creator": "@canva",
+        "title": "Free Design Tool: Presentations, Video, Social Media | Canva",
+        "description": "Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more."
+      },
+      "keywords": [
+        "online design website",
+        "graphic design software",
+        "free online design software",
+        "free design media and templates",
+        "Canva"
+      ],
+      "description": "Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more.",
+      "favicon": "https://static.canva.com/static/images/android-192x192-2.png"
+    },
+    "title": "Free Design Tool: Presentations, Video, Social Media | Canva",
+    "description": "Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more."
   },
   {
     "timestamp": "2022-06-07T15:46:52.000Z",
@@ -2519,6 +2615,28 @@
     },
     "title": "Graphtoy",
     "description": "Graphing functions easily on the web"
+  },
+  {
+    "timestamp": "2023-02-24T09:31:36.000Z",
+    "appURL": "https://ustaxes.org/start",
+    "sourceURL": "https://github.com/ustaxes/ustaxes",
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "ustaxes.org!start.webp",
+    "screenshotDark": "ustaxes.org!start-dark.webp",
+    "meta": {
+      "theme_color": "#000000",
+      "description": "UsTaxes is an open source webapp for filing US federal income tax. All tax calculations are performed in the browser, so no personal information is stored on external servers!",
+      "title": "Getting Started | UsTaxes.org",
+      "favicon": "https://ustaxes.org/favicon.ico"
+    },
+    "title": "Getting Started | UsTaxes.org",
+    "description": "UsTaxes is an open source webapp for filing US federal income tax. All tax calculations are performed in the browser, so no personal information is stored on external servers!"
   },
   {
     "timestamp": "2023-01-05T22:20:08.000Z",
@@ -3054,16 +3172,18 @@
     "screenshotDark": "pwa.journalisticapp.com-dark.webp",
     "meta": {
       "title": "Journalistic",
-      "theme_color": "#FFFFFF",
-      "author": "Journalistic",
       "description": "A micro journaling app with minimalistic design, pristine writing experience, and powerful insights.",
       "open_graph": {
         "type": "website",
+        "url": "https://pwa.journalisticapp.com/",
         "title": "Journalistic",
         "site_name": "Journalistic",
         "description": "A micro journaling app with minimalistic design, pristine writing experience, and powerful insights."
       },
-      "favicon": "https://pwa.journalisticapp.com/_nuxt/icons/icon_64x64.a239f6.png"
+      "twitter_card": {
+        "card": "summary"
+      },
+      "favicon": "https://pwa.journalisticapp.com/_nuxt/icons/64x64.77da2dbc.png"
     },
     "title": "Journalistic",
     "description": "A micro journaling app with minimalistic design, pristine writing experience, and powerful insights."
@@ -3309,6 +3429,31 @@
     },
     "title": "Leonidas Esteban, Google Developer Expert en Web Technologies",
     "description": "Te enseño el cómo y el porqué de cada línea de código, aprendamos a programar juntos."
+  },
+  {
+    "timestamp": "2022-10-26T09:16:01.000Z",
+    "appURL": "https://lichess.org/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "lichess.org.webp",
+    "screenshotDark": "lichess.org-dark.webp",
+    "meta": {},
+    "title": "lichess.org",
+    "description": ""
   },
   {
     "timestamp": "2022-10-26T09:43:05.000Z",
@@ -3791,6 +3936,48 @@
     },
     "title": "MConverter: Easy to Use Online File Converter",
     "description": "Convert securely video, audio, image, e-book, office & archive files. Bulk convert large files up to 1 GB. Free and easy to use converter."
+  },
+  {
+    "timestamp": "2023-02-24T09:38:29.000Z",
+    "appURL": "https://mdsilo.com/app/demo",
+    "sourceURL": "https://github.com/danloh/mdSilo-web",
+    "usedAPIs": [
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "mdsilo.com!app!demo.webp",
+    "screenshotDark": "mdsilo.com!app!demo-dark.webp",
+    "meta": {
+      "title": "mdSilo",
+      "description": "mdSilo: Lightweight Personal Wiki on Desktop and Web",
+      "open_graph": {
+        "title": "mdSilo",
+        "description": "mdSilo: Lightweight Personal Wiki on Desktop and Web",
+        "images": [
+          {
+            "url": "https://mdsilo.com/android-chrome-512x512.png"
+          }
+        ],
+        "url": "https://mdsilo.com/",
+        "type": "website"
+      },
+      "twitter_card": {
+        "site": "@mdsiloapp",
+        "title": "mdSilo",
+        "description": "mdSilo: Lightweight Personal Wiki on Desktop and Web",
+        "images": [
+          {
+            "url": "https://mdsilo.com/android-chrome-512x512.png"
+          }
+        ]
+      },
+      "favicon": "https://mdsilo.com/favicon.svg"
+    },
+    "title": "mdSilo",
+    "description": "mdSilo: Lightweight Personal Wiki on Desktop and Web"
   },
   {
     "timestamp": "2022-04-25T11:21:36.000Z",
@@ -5779,9 +5966,41 @@
     "isElectronApp": false,
     "screenshot": "snapdrop.net.webp",
     "screenshotDark": "snapdrop.net-dark.webp",
-    "meta": {},
-    "title": "snapdrop.net",
-    "description": ""
+    "meta": {
+      "title": "Snapdrop",
+      "theme_color": "#3367d6",
+      "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+      "keywords": [
+        "File",
+        "Transfer",
+        "Share",
+        "Peer2Peer"
+      ],
+      "author": "RobinLinus",
+      "open_graph": {
+        "title": "Snapdrop",
+        "type": "article",
+        "url": "https://snapdrop.net/",
+        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+        "images": [
+          {
+            "url": "https://snapdrop.net/images/twitter-stream.jpg"
+          }
+        ]
+      },
+      "twitter_card": {
+        "card": "summary_large_image",
+        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
+        "images": [
+          {
+            "url": "https://snapdrop.net/images/twitter-stream.jpg"
+          }
+        ]
+      },
+      "favicon": "https://snapdrop.net/images/favicon-96x96.png"
+    },
+    "title": "Snapdrop",
+    "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup."
   },
   {
     "timestamp": "2022-06-23T11:08:31.000Z",
@@ -6497,59 +6716,6 @@
     },
     "title": "Top War | Official Web Game",
     "description": "In Top War, modern tanks are merged out of basic gunman, everything can be merged here.No more upgrade waiting times, merge two together and the upgrade will finish instantly."
-  },
-  {
-    "timestamp": "2022-10-26T09:16:01.000Z",
-    "appURL": "https://lichess.org/",
-    "sourceURL": null,
-    "usedAPIs": [
-      {
-        "name": "Async Clipboard",
-        "url": "https://web.dev/async-clipboard/"
-      },
-      {
-        "name": "Push",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
-      },
-      {
-        "name": "Service Worker",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "lichess.org.webp",
-    "screenshotDark": "lichess.org-dark.webp",
-    "meta": {
-      "theme_color": "#2e2a24",
-      "title": "lichess.org • Free Online Chess",
-      "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
-      "open_graph": {
-        "title": "The best free, adless Chess server",
-        "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
-        "url": "https://lichess.org/",
-        "type": "website",
-        "site_name": "lichess.org",
-        "images": [
-          {
-            "url": "https://lichess1.org/assets/_ZUlh7P/logo/lichess-tile-wide.png"
-          }
-        ]
-      },
-      "twitter_card": {
-        "card": "summary",
-        "title": "The best free, adless Chess server",
-        "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
-        "images": [
-          {
-            "url": "https://lichess1.org/assets/_ZUlh7P/logo/lichess-tile.png"
-          }
-        ],
-        "site": "@lichess"
-      },
-      "favicon": "https://lichess1.org/assets/_ZUlh7P/logo/lichess-favicon-32.png"
-    },
-    "title": "The best free, adless Chess server",
-    "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents."
   },
   {
     "timestamp": "2022-02-25T10:14:58.000Z",
@@ -7698,47 +7864,6 @@
     },
     "title": "Wormhole - Simple, private file sharing",
     "description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires."
-  },
-  {
-    "timestamp": "2022-05-06T07:16:39.000Z",
-    "appURL": "https://www.canva.com/",
-    "sourceURL": null,
-    "usedAPIs": [
-      {
-        "name": "Async Clipboard (Images)",
-        "url": "https://web.dev/async-clipboard/"
-      },
-      {
-        "name": "Async Clipboard",
-        "url": "https://web.dev/async-clipboard/"
-      },
-      {
-        "name": "Cache Storage",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
-      },
-      {
-        "name": "Device Memory",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Device_Memory_API"
-      },
-      {
-        "name": "Push",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
-      },
-      {
-        "name": "Service Worker",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
-      },
-      {
-        "name": "Web Share",
-        "url": "https://web.dev/web-share/"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "canva.com.webp",
-    "screenshotDark": "canva.com-dark.webp",
-    "meta": {},
-    "title": "www.canva.com",
-    "description": ""
   },
   {
     "timestamp": "2022-10-26T16:45:05.000Z",
