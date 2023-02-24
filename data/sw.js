@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-21339249068927346';
-  const MEDIA_CACHE = 'media-21339249068927346';
+  const APP_SHELL_CACHE = 'app-shell-18372720462012548';
+  const MEDIA_CACHE = 'media-18372720462012548';
 
   const APP_SHELL_FILES = [
     './',
@@ -252,6 +252,8 @@
     'songwhip.com-dark.webp',
     'spike.legoeducation.com.webp',
     'spike.legoeducation.com-dark.webp',
+    'sqlime.org.webp',
+    'sqlime.org-dark.webp',
     'sqliteviewer.app.webp',
     'sqliteviewer.app-dark.webp',
     'squoosh.app.webp',
