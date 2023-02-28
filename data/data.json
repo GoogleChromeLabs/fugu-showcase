@@ -405,26 +405,26 @@
     "screenshotDark": "airconsole.com-dark.webp",
     "meta": {
       "title": "AirConsole - Multiplayer games for friends",
-      "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads.",
+      "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the gamepads.",
       "open_graph": {
         "title": "AirConsole - Multiplayer games for friends",
         "type": "website",
         "url": "https://www.airconsole.com/",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.ci-jenkins.450187656348757696/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.andrin-automotive-slow-connection.450319979398850956/og-image.jpg"
           }
         ],
-        "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads."
+        "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the gamepads."
       },
       "twitter_card": {
         "card": "summary_large_image",
         "site": "@AirConsole",
         "title": "AirConsole - Multiplayer games for friends",
-        "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads.",
+        "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the gamepads.",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.ci-jenkins.450187656348757696/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.andrin-automotive-slow-connection.450319979398850956/og-image.jpg"
           }
         ],
         "url": "https://www.airconsole.com/"
@@ -432,7 +432,7 @@
       "favicon": "https://www.airconsole.com/favicon.ico"
     },
     "title": "AirConsole - Multiplayer games for friends",
-    "description": "AirConsole is an online video game console. Play over 180 multiplayer games. Your smartphones are the gamepads."
+    "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the gamepads."
   },
   {
     "timestamp": "2022-06-13T14:18:46.000Z",
@@ -1312,7 +1312,7 @@
       "title": "Shots - Create Amazing Mockups",
       "description": "Create Amazing Mockups",
       "twitter_card": {
-        "card": "Create Amazing Mockups",
+        "card": "product",
         "images": [
           {
             "url": "https://shots.so/image/og.jpg"
@@ -2857,6 +2857,44 @@
     "description": "An alternative web client for Mastodon, focused on speed and simplicity."
   },
   {
+    "timestamp": "2023-02-28T11:04:25.000Z",
+    "appURL": "https://semaphore.social/",
+    "sourceURL": "https://github.com/NickColley/semaphore",
+    "usedAPIs": [
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      },
+      {
+        "name": "Web Share Target (Files)",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "semaphore.social.webp",
+    "screenshotDark": "semaphore.social-dark.webp",
+    "meta": {
+      "theme_color": "#4169e1",
+      "description": "An alternative web client for Mastodon, focused on speed and simplicity.",
+      "title": "Home · Semaphore",
+      "favicon": "https://semaphore.social/favicon.png"
+    },
+    "title": "Home · Semaphore",
+    "description": "An alternative web client for Mastodon, focused on speed and simplicity."
+  },
+  {
     "timestamp": "2022-04-25T17:18:06.000Z",
     "appURL": "https://code.irobot.com/",
     "sourceURL": null,
@@ -3115,6 +3153,55 @@
     "description": "A micro journaling app with minimalistic design, pristine writing experience, and powerful insights."
   },
   {
+    "timestamp": "2023-02-27T18:57:05.000Z",
+    "appURL": "https://www.jsmusicdb.com",
+    "sourceURL": "https://github.com/lucienimmink/jsmusicdb",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Launch Handler",
+        "url": "https://web.dev/launch-handler/"
+      },
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+      },
+      {
+        "name": "Persistent Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Shortcuts",
+        "url": "https://web.dev/app-shortcuts/"
+      },
+      {
+        "name": "Window Controls Overlay",
+        "url": "https://web.dev/window-controls-overlay/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "jsmusicdb.com.webp",
+    "screenshotDark": "jsmusicdb.com-dark.webp",
+    "meta": {
+      "theme_color": "#0063B1",
+      "title": "JSMusicDB",
+      "favicon": "https://www.jsmusicdb.com/assets/favicon-16x16.png"
+    },
+    "title": "JSMusicDB",
+    "description": ""
+  },
+  {
     "timestamp": "2022-04-26T11:29:45.000Z",
     "appURL": "https://www.jsmusicdb.com/",
     "sourceURL": "https://github.com/lucienimmink/jsmusicdb",
@@ -3355,6 +3442,31 @@
     },
     "title": "Leonidas Esteban, Google Developer Expert en Web Technologies",
     "description": "Te enseño el cómo y el porqué de cada línea de código, aprendamos a programar juntos."
+  },
+  {
+    "timestamp": "2022-10-26T09:16:01.000Z",
+    "appURL": "https://lichess.org/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "lichess.org.webp",
+    "screenshotDark": "lichess.org-dark.webp",
+    "meta": {},
+    "title": "lichess.org",
+    "description": ""
   },
   {
     "timestamp": "2022-10-26T09:43:05.000Z",
@@ -3627,6 +3739,27 @@
     },
     "title": "Logbook",
     "description": ""
+  },
+  {
+    "timestamp": "2023-02-28T11:08:27.000Z",
+    "appURL": "https://toolbox.lynx-r.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "WebUSB",
+        "url": "https://web.dev/usb/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "toolbox.lynx-r.com.webp",
+    "screenshotDark": "toolbox.lynx-r.com-dark.webp",
+    "meta": {
+      "description": "Lynx Toolbox is an online tool to help you manage your Lynx headset. You can use it to install apps, update your device, or perform various other actions.",
+      "title": "Lynx Toolbox",
+      "favicon": "https://toolbox.lynx-r.com/favicon.ico"
+    },
+    "title": "Lynx Toolbox",
+    "description": "Lynx Toolbox is an online tool to help you manage your Lynx headset. You can use it to install apps, update your device, or perform various other actions."
   },
   {
     "timestamp": "2023-01-30T13:19:28.000Z",
@@ -5289,7 +5422,7 @@
     "screenshot": "xbox.com!en-US!play!games!fortnite!BT5P2X999VH2.webp",
     "screenshotDark": "xbox.com!en-US!play!games!fortnite!BT5P2X999VH2-dark.webp",
     "meta": {
-      "title": "Play Fortnite | Xbox Cloud Gaming (Beta) on Xbox.com",
+      "title": "Play Fortnite | Xbox Cloud Gaming (Beta) on  Xbox.com",
       "description": "Play Fortnite with Xbox Cloud Gaming (Beta). New Chapter. New Island. New Battle Pass. In the fourth Chapter of Fortnite's Battle Royale, go forth in a new realm — ride a dirt bike, roll in a snowball, launch yourself with the Shockwave Hammer, and hurdle over obstacles. Power yourself up with Reality Augments and claim territory for your squad, leaving behind Banners to declare what's yours. Play both Battle Royale and Fortnite Creative for free or purchase access to Fortnite’s PvE Campaign mode, Save the World.  All in-game purchases are discretionary, including the Save the World campaign, cosmetic items (e.g. Outfits), V-Bucks and seasonal account progression products like the Battle Pass. Download now and jump into the action.",
       "keywords": [
         "play Fortnite",
@@ -6525,7 +6658,7 @@
           }
         ]
       },
-      "favicon": "https://d2c3nvafyekx5z.cloudfront.net/images/favicon-bf028173f6019fbca731567d7974b9d1.png"
+      "favicon": "https://d2c3nvafyekx5z.cloudfront.net/images/favicon-dark-4982c9219894ac48fcaa0a206a787633.png"
     },
     "title": "Soundslice | Create living sheet music",
     "description": "Learn music better with our living sheet music."
@@ -6657,59 +6790,6 @@
     },
     "title": "Top War | Official Web Game",
     "description": "In Top War, modern tanks are merged out of basic gunman, everything can be merged here.No more upgrade waiting times, merge two together and the upgrade will finish instantly."
-  },
-  {
-    "timestamp": "2022-10-26T09:16:01.000Z",
-    "appURL": "https://lichess.org/",
-    "sourceURL": null,
-    "usedAPIs": [
-      {
-        "name": "Async Clipboard",
-        "url": "https://web.dev/async-clipboard/"
-      },
-      {
-        "name": "Push",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
-      },
-      {
-        "name": "Service Worker",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "lichess.org.webp",
-    "screenshotDark": "lichess.org-dark.webp",
-    "meta": {
-      "theme_color": "#2e2a24",
-      "title": "lichess.org • Free Online Chess",
-      "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
-      "open_graph": {
-        "title": "The best free, adless Chess server",
-        "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
-        "url": "https://lichess.org/",
-        "type": "website",
-        "site_name": "lichess.org",
-        "images": [
-          {
-            "url": "https://lichess1.org/assets/_Gfhq7J/logo/lichess-tile-wide.png"
-          }
-        ]
-      },
-      "twitter_card": {
-        "card": "summary",
-        "title": "The best free, adless Chess server",
-        "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
-        "images": [
-          {
-            "url": "https://lichess1.org/assets/_Gfhq7J/logo/lichess-tile.png"
-          }
-        ],
-        "site": "@lichess"
-      },
-      "favicon": "https://lichess1.org/assets/_Gfhq7J/logo/lichess-favicon-32.png"
-    },
-    "title": "The best free, adless Chess server",
-    "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents."
   },
   {
     "timestamp": "2022-02-25T10:14:58.000Z",
@@ -8031,6 +8111,44 @@
     "description": "Get notified when YouTube playlists are updated."
   },
   {
+    "timestamp": "2023-02-28T11:02:28.000Z",
+    "appURL": "https://ytaud.io/",
+    "sourceURL": "https://github.com/nico-martin/yt-audio",
+    "usedAPIs": [
+      {
+        "name": "Background Sync",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API"
+      },
+      {
+        "name": "Cache Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "name": "Media Session",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "name": "Web Share Target",
+        "url": "https://web.dev/web-share-target/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "ytaud.io.webp",
+    "screenshotDark": "ytaud.io-dark.webp",
+    "meta": {
+      "title": "YouTube Audio Player",
+      "description": "An awesome audio player for YouTube videos",
+      "theme_color": "#000",
+      "favicon": "https://ytaud.io/assets/static/favicon-48x48.png"
+    },
+    "title": "YouTube Audio Player",
+    "description": "An awesome audio player for YouTube videos"
+  },
+  {
     "timestamp": "2022-05-04T07:51:50.000Z",
     "appURL": "https://hoten.cc/zc/play/",
     "sourceURL": "https://github.com/connorjclark/ZeldaClassic",
@@ -8130,7 +8248,7 @@
           }
         ]
       },
-      "theme_color": "#FFFFFF",
+      "theme_color": "#ffffff",
       "favicon": "https://yakuneba-community.com/static/yakuneba/logo03.png"
     },
     "title": "みんなのネバーランド - 約束のネバーランド公式コミュニティ -",

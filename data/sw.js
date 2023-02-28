@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-18372720462012548';
-  const MEDIA_CACHE = 'media-18372720462012548';
+  const APP_SHELL_CACHE = 'app-shell-27714942868610715';
+  const MEDIA_CACHE = 'media-27714942868610715';
 
   const APP_SHELL_FILES = [
     './',
@@ -238,6 +238,8 @@
     'roland50.studio-dark.webp',
     'scrapbook-pwa.web.app.webp',
     'scrapbook-pwa.web.app-dark.webp',
+    'semaphore.social.webp',
+    'semaphore.social-dark.webp',
     'setu-upi-over-nfc.herokuapp.com!how-it-works.webp',
     'setu-upi-over-nfc.herokuapp.com!how-it-works-dark.webp',
     'sharedgametimer.com.webp',
@@ -284,6 +286,8 @@
     'tidepool.org!uploader-dark.webp',
     'tinder.com.webp',
     'tinder.com-dark.webp',
+    'toolbox.lynx-r.com.webp',
+    'toolbox.lynx-r.com-dark.webp',
     'toot.cafe.webp',
     'toot.cafe-dark.webp',
     'traintimes.org.uk.webp',
@@ -356,6 +360,8 @@
     'irccloud.com-dark.webp',
     'jsmusicdb.com.webp',
     'jsmusicdb.com-dark.webp',
+    'jsmusicdb.com.webp',
+    'jsmusicdb.com-dark.webp',
     'lightningmaps.org.webp',
     'lightningmaps.org-dark.webp',
     'microsoft.com!en-us!makecode.webp',
@@ -387,7 +393,9 @@
     'yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp',
     'yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd-dark.webp',
     'yt-playlist-notifier.web.app.webp',
-    'yt-playlist-notifier.web.app-dark.webp'
+    'yt-playlist-notifier.web.app-dark.webp',
+    'ytaud.io.webp',
+    'ytaud.io-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
