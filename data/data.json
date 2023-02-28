@@ -1685,7 +1685,7 @@
           }
         ]
       },
-      "favicon": "https://app.element.io/vector-icons/favicon.4c70c2b.ico"
+      "favicon": "https://app.element.io/vector-icons/favicon.ae636ac.ico"
     },
     "title": "Element",
     "description": ""
@@ -3202,47 +3202,6 @@
     "description": ""
   },
   {
-    "timestamp": "2022-04-26T11:29:45.000Z",
-    "appURL": "https://www.jsmusicdb.com/",
-    "sourceURL": "https://github.com/lucienimmink/jsmusicdb",
-    "usedAPIs": [
-      {
-        "name": "Add to Home Screen",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
-      },
-      {
-        "name": "Cache Storage",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
-      },
-      {
-        "name": "Media Capabilities",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API"
-      },
-      {
-        "name": "Media Session",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API"
-      },
-      {
-        "name": "Persistent Storage",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
-      },
-      {
-        "name": "Service Worker",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "jsmusicdb.com.webp",
-    "screenshotDark": "jsmusicdb.com-dark.webp",
-    "meta": {
-      "theme_color": "#0063B1",
-      "title": "JSMusicDB",
-      "favicon": "https://www.jsmusicdb.com/assets/favicon-16x16.png"
-    },
-    "title": "JSMusicDB",
-    "description": ""
-  },
-  {
     "timestamp": "2022-09-26T04:12:21.000Z",
     "appURL": "https://editor.kota-yata.com/",
     "sourceURL": "https://github.com/kota-yata/editor.kota-yata.com",
@@ -3442,31 +3401,6 @@
     },
     "title": "Leonidas Esteban, Google Developer Expert en Web Technologies",
     "description": "Te enseño el cómo y el porqué de cada línea de código, aprendamos a programar juntos."
-  },
-  {
-    "timestamp": "2022-10-26T09:16:01.000Z",
-    "appURL": "https://lichess.org/",
-    "sourceURL": null,
-    "usedAPIs": [
-      {
-        "name": "Async Clipboard",
-        "url": "https://web.dev/async-clipboard/"
-      },
-      {
-        "name": "Push",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
-      },
-      {
-        "name": "Service Worker",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "lichess.org.webp",
-    "screenshotDark": "lichess.org-dark.webp",
-    "meta": {},
-    "title": "lichess.org",
-    "description": ""
   },
   {
     "timestamp": "2022-10-26T09:43:05.000Z",
@@ -6790,6 +6724,59 @@
     },
     "title": "Top War | Official Web Game",
     "description": "In Top War, modern tanks are merged out of basic gunman, everything can be merged here.No more upgrade waiting times, merge two together and the upgrade will finish instantly."
+  },
+  {
+    "timestamp": "2022-10-26T09:16:01.000Z",
+    "appURL": "https://lichess.org/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "Push",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "lichess.org.webp",
+    "screenshotDark": "lichess.org-dark.webp",
+    "meta": {
+      "theme_color": "#2e2a24",
+      "title": "lichess.org • Free Online Chess",
+      "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
+      "open_graph": {
+        "title": "The best free, adless Chess server",
+        "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
+        "url": "https://lichess.org/",
+        "type": "website",
+        "site_name": "lichess.org",
+        "images": [
+          {
+            "url": "https://lichess1.org/assets/_Dxy720/logo/lichess-tile-wide.png"
+          }
+        ]
+      },
+      "twitter_card": {
+        "card": "summary",
+        "title": "The best free, adless Chess server",
+        "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
+        "images": [
+          {
+            "url": "https://lichess1.org/assets/_Dxy720/logo/lichess-tile.png"
+          }
+        ],
+        "site": "@lichess"
+      },
+      "favicon": "https://lichess1.org/assets/_Dxy720/logo/lichess-favicon-32.png"
+    },
+    "title": "The best free, adless Chess server",
+    "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents."
   },
   {
     "timestamp": "2022-02-25T10:14:58.000Z",

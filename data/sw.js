@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-27714942868610715';
-  const MEDIA_CACHE = 'media-27714942868610715';
+  const APP_SHELL_CACHE = 'app-shell-8670705625218642';
+  const MEDIA_CACHE = 'media-8670705625218642';
 
   const APP_SHELL_FILES = [
     './',
@@ -358,8 +358,6 @@
     'instagram.com-dark.webp',
     'irccloud.com.webp',
     'irccloud.com-dark.webp',
-    'jsmusicdb.com.webp',
-    'jsmusicdb.com-dark.webp',
     'jsmusicdb.com.webp',
     'jsmusicdb.com-dark.webp',
     'lightningmaps.org.webp',
