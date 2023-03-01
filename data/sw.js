@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8670705625218642';
-  const MEDIA_CACHE = 'media-8670705625218642';
+  const APP_SHELL_CACHE = 'app-shell-9609195075372072';
+  const MEDIA_CACHE = 'media-9609195075372072';
 
   const APP_SHELL_FILES = [
     './',
@@ -142,8 +142,8 @@
     'install.wled.me-dark.webp',
     'josephrocca.github.io!clip-image-sorter.webp',
     'josephrocca.github.io!clip-image-sorter-dark.webp',
-    'kenchris.github.io!Web NFC-groceries.webp',
-    'kenchris.github.io!Web NFC-groceries-dark.webp',
+    'kenchris.github.io!webnfc-groceries.webp',
+    'kenchris.github.io!webnfc-groceries-dark.webp',
     'kryogenix.org!farmbound.webp',
     'kryogenix.org!farmbound-dark.webp',
     'leonidasesteban.com.webp',

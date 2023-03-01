@@ -2543,6 +2543,26 @@
     "description": "Graphing functions easily on the web"
   },
   {
+    "timestamp": "2022-04-27T07:02:41.000Z",
+    "appURL": "https://kenchris.github.io/webnfc-groceries/",
+    "sourceURL": "https://github.com/kenchris/webnfc-groceries",
+    "usedAPIs": [
+      {
+        "name": "Web NFC",
+        "url": "https://web.dev/nfc/"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "kenchris.github.io!webnfc-groceries.webp",
+    "screenshotDark": "kenchris.github.io!webnfc-groceries-dark.webp",
+    "meta": {
+      "title": "Groceries",
+      "favicon": "https://kenchris.github.io/webnfc-groceries/images/favicon.ico"
+    },
+    "title": "Groceries",
+    "description": ""
+  },
+  {
     "timestamp": "2023-02-24T09:31:36.000Z",
     "appURL": "https://ustaxes.org/start",
     "sourceURL": "https://github.com/ustaxes/ustaxes",
@@ -3236,23 +3256,6 @@
     },
     "title": "kota-yata editor",
     "description": "WYSIWYG Markdown editor with pdf viewer"
-  },
-  {
-    "timestamp": "2022-04-27T07:02:41.000Z",
-    "appURL": "https://kenchris.github.io/Web NFC-groceries/",
-    "sourceURL": "https://github.com/kenchris/Web NFC-groceries",
-    "usedAPIs": [
-      {
-        "name": "Web NFC",
-        "url": "https://web.dev/nfc/"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "kenchris.github.io!Web NFC-groceries.webp",
-    "screenshotDark": "kenchris.github.io!Web NFC-groceries-dark.webp",
-    "meta": {},
-    "title": "kenchris.github.io",
-    "description": ""
   },
   {
     "timestamp": "2022-05-12T10:19:13.000Z",
@@ -6247,7 +6250,7 @@
   },
   {
     "timestamp": "2022-02-23T19:35:14.000Z",
-    "appURL": "https://stackedit.io ",
+    "appURL": "https://stackedit.io",
     "sourceURL": "https://github.com/benweet/stackedit/",
     "usedAPIs": [
       {
@@ -6592,7 +6595,7 @@
           }
         ]
       },
-      "favicon": "https://d2c3nvafyekx5z.cloudfront.net/images/favicon-dark-4982c9219894ac48fcaa0a206a787633.png"
+      "favicon": "https://www.soundslice.com/favicon.ico"
     },
     "title": "Soundslice | Create living sheet music",
     "description": "Learn music better with our living sheet music."
@@ -7702,7 +7705,7 @@
   },
   {
     "timestamp": "2022-02-23T20:11:46.000Z",
-    "appURL": "https://whatpwacando.today ",
+    "appURL": "https://whatpwacando.today",
     "sourceURL": null,
     "usedAPIs": [
       {
