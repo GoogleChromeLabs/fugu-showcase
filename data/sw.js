@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9609195075372072';
-  const MEDIA_CACHE = 'media-9609195075372072';
+  const APP_SHELL_CACHE = 'app-shell-2644918283596629';
+  const MEDIA_CACHE = 'media-2644918283596629';
 
   const APP_SHELL_FILES = [
     './',
@@ -300,6 +300,8 @@
     'tylify.app-dark.webp',
     'ui.perfetto.dev.webp',
     'ui.perfetto.dev-dark.webp',
+    'unsplash.com.webp',
+    'unsplash.com-dark.webp',
     'usevia.app.webp',
     'usevia.app-dark.webp',
     'uspeaking.netlify.app.webp',
