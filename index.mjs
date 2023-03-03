@@ -105,12 +105,22 @@ const createScreenshots = async (data, overrideType = null) => {
               height: SCREENSHOT_OPTIONS.height / 2,
             })
             .toBuffer()
-            .then((data) => {
-              return writeFile(path.resolve('data', filename), data).then(() =>
+            .then((imageData) => {
+              if (!SCREENSHOT_OPTIONS.darkMode) {
+                data[i].screenshotSize = imageData.byteLength;
+              } else {
+                data[i - length].screenshotDarkSize = imageData.byteLength;
+              }
+              return writeFile(path.resolve('data', filename), imageData).then(() =>
                 console.log(`Successfully created \`${filename}\`.`),
               );
             })
             .catch((err) => console.error(err));
+        }
+        if (!SCREENSHOT_OPTIONS.darkMode) {
+          data[i].screenshotSize = buffer.byteLength;
+        } else {
+          data[i - length].screenshotDarkSize = buffer.byteLength;
         }
         return writeFile(path.resolve('data', filename), buffer).then(() =>
           console.log(`Successfully created \`${filename}\`.`),
@@ -163,7 +173,7 @@ const createHTMLandJSON = async (data) => {
             <meta property="og:title" content="Project Fugu API Showcase" />
             <meta property="og:description" content="A showcase of Project Fugu APIs sourced by community submissions." />
             <meta property="og:url" content="${CANONICAL_URL}" />
-            <meta property="og:image" content="${CANONICAL_URL}developer.chrome.com!blog!fugu-showcase-dark.webp" />
+            <meta property="og:image" content="https://github.com/GoogleChromeLabs/fugu-showcase/blob/main/data/googlechromelabs.github.io!fugu-showcase!data.png?raw=true" />
             <title>Project Fugu API Showcase</title>
             <link rel="icon" href="${fuguSVG}" />
             <link rel="canonical" href="${EMBED_URL}" />
