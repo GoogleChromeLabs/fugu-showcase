@@ -11,6 +11,8 @@
  * limitations under the License.
  */
 
+import fuguSVG from './fugu.svg.mjs';
+
 export default `
 {
   "name": "Project Fugu API Showcase",
@@ -32,9 +34,9 @@ export default `
   },
   "icons": [
     {
-      "src": "icon.png",
+      "src": "${fuguSVG}",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/svg+xml"
     }
   ]
 }`;

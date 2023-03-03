@@ -111,8 +111,8 @@ const createScreenshots = async (data, overrideType = null) => {
               } else {
                 data[i - length].screenshotDarkSize = imageData.byteLength;
               }
-              return writeFile(path.resolve('data', filename), imageData).then(() =>
-                console.log(`Successfully created \`${filename}\`.`),
+              return writeFile(path.resolve('data', filename), imageData).then(
+                () => console.log(`Successfully created \`${filename}\`.`),
               );
             })
             .catch((err) => console.error(err));
