@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-2993199713534693';
-  const MEDIA_CACHE = 'media-2993199713534693';
+  const APP_SHELL_CACHE = 'app-shell-4171501365726804';
+  const MEDIA_CACHE = 'media-4171501365726804';
 
   const APP_SHELL_FILES = [
     './',
@@ -100,6 +100,8 @@
     'editor.bridge-core.app-dark.webp',
     'editor.construct.net.webp',
     'editor.construct.net-dark.webp',
+    'editor.gdevelop.io.webp',
+    'editor.gdevelop.io-dark.webp',
     'editor.kota-yata.com.webp',
     'editor.kota-yata.com-dark.webp',
     'elk.zone.webp',
