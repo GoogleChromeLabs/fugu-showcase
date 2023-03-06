@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6854181770915837';
-  const MEDIA_CACHE = 'media-6854181770915837';
+  const APP_SHELL_CACHE = 'app-shell-2993199713534693';
+  const MEDIA_CACHE = 'media-2993199713534693';
 
   const APP_SHELL_FILES = [
     './',
@@ -106,6 +106,8 @@
     'elk.zone-dark.webp',
     'ember.ly.webp',
     'ember.ly-dark.webp',
+    'eos.rreverser.com.webp',
+    'eos.rreverser.com-dark.webp',
     'esc-configurator.com.webp',
     'esc-configurator.com-dark.webp',
     'esphome.github.io!esp-web-tools.webp',
