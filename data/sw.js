@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6209496606529545';
-  const MEDIA_CACHE = 'media-6209496606529545';
+  const APP_SHELL_CACHE = 'app-shell-3979219768128113';
+  const MEDIA_CACHE = 'media-3979219768128113';
 
   const APP_SHELL_FILES = [
     './',
@@ -370,6 +370,8 @@
     'fotor.com!photo-editor-app!editor!basic-dark.webp',
     'globs.design.webp',
     'globs.design-dark.webp',
+    'hypertext.plus.webp',
+    'hypertext.plus-dark.webp',
     'improv-wifi.com.webp',
     'improv-wifi.com-dark.webp',
     'instagram.com.webp',
