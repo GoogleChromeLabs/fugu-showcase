@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8384555749542748';
-  const MEDIA_CACHE = 'media-8384555749542748';
+  const APP_SHELL_CACHE = 'app-shell-5816637998886085';
+  const MEDIA_CACHE = 'media-5816637998886085';
 
   const APP_SHELL_FILES = [
     './',
@@ -72,6 +72,8 @@
     'code.makewonder.com!cue-dark.webp',
     'codeit.codes.webp',
     'codeit.codes-dark.webp',
+    'codepoints.net.webp',
+    'codepoints.net-dark.webp',
     'codev5.vex.com.webp',
     'codev5.vex.com-dark.webp',
     'configure.zsa.io.webp',
@@ -122,6 +124,8 @@
     'fpv.wtf!!about-dark.webp',
     'fuse.littlebits.com.webp',
     'fuse.littlebits.com-dark.webp',
+    'games.tigeroakes.com!last-finger-standing.webp',
+    'games.tigeroakes.com!last-finger-standing-dark.webp',
     'georapbox.github.io!barcode-scanner.webp',
     'georapbox.github.io!barcode-scanner-dark.webp',
     'github.dev!github!dev.webp',
@@ -142,6 +146,8 @@
     'hoppscotch.io-dark.webp',
     'hoten.cc!zc!play.webp',
     'hoten.cc!zc!play-dark.webp',
+    'ilariafoodandhome.it.webp',
+    'ilariafoodandhome.it-dark.webp',
     'install.wled.me.webp',
     'install.wled.me-dark.webp',
     'josephrocca.github.io!clip-image-sorter.webp',
@@ -170,6 +176,8 @@
     'lookscanned.io!scan-dark.webp',
     'make.firialabs.com.webp',
     'make.firialabs.com-dark.webp',
+    'marabesi.github.io!json-tool.webp',
+    'marabesi.github.io!json-tool-dark.webp',
     'maskable.app.webp',
     'maskable.app-dark.webp',
     'mconverter.eu.webp',
@@ -250,6 +258,8 @@
     'sharedgametimer.com-dark.webp',
     'shots.so.webp',
     'shots.so-dark.webp',
+    'snaeplayer.com.webp',
+    'snaeplayer.com-dark.webp',
     'snapdrop.net.webp',
     'snapdrop.net-dark.webp',
     'snapper-gps.herokuapp.com.webp',
