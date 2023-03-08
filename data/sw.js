@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-0969887962393341';
-  const MEDIA_CACHE = 'media-0969887962393341';
+  const APP_SHELL_CACHE = 'app-shell-0664928662091071';
+  const MEDIA_CACHE = 'media-0664928662091071';
 
   const APP_SHELL_FILES = [
     './',
@@ -192,6 +192,8 @@
     'microsoftedge.github.io!Demos!wami-dark.webp',
     'mishipay.shop.webp',
     'mishipay.shop-dark.webp',
+    'momo.mometic.com.webp',
+    'momo.mometic.com-dark.webp',
     'my.flipp.dev.webp',
     'my.flipp.dev-dark.webp',
     'my.numworks.com.webp',
