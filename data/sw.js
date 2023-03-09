@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-0664928662091071';
-  const MEDIA_CACHE = 'media-0664928662091071';
+  const APP_SHELL_CACHE = 'app-shell-03901226703864613';
+  const MEDIA_CACHE = 'media-03901226703864613';
 
   const APP_SHELL_FILES = [
     './',
@@ -140,6 +140,8 @@
     'h5.topwargame.com!h5game!index.html-dark.webp',
     'haven.pages.dev.webp',
     'haven.pages.dev-dark.webp',
+    'heritagein.info.webp',
+    'heritagein.info-dark.webp',
     'hexed.it.webp',
     'hexed.it-dark.webp',
     'hoppscotch.io.webp',
