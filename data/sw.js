@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-03901226703864613';
-  const MEDIA_CACHE = 'media-03901226703864613';
+  const APP_SHELL_CACHE = 'app-shell-9580946399451027';
+  const MEDIA_CACHE = 'media-9580946399451027';
 
   const APP_SHELL_FILES = [
     './',
@@ -350,6 +350,8 @@
     'web.telegram.org!z-dark.webp',
     'whatpwacando.today.webp',
     'whatpwacando.today-dark.webp',
+    'wonderful-glacier-07b022d1e.2.azurestaticapps.net.webp',
+    'wonderful-glacier-07b022d1e.2.azurestaticapps.net-dark.webp',
     'wootility.io.webp',
     'wootility.io-dark.webp',
     'wormhole.app.webp',

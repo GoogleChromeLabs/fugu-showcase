@@ -11,7 +11,7 @@
     "@minify-html/js": "^0.8.1",
     "capture-website": "^3.2.0",
     "filenamify-url": "^3.0.0",
-    "node-fetch": "^3.3.0",
+    "node-fetch": "^3.3.1",
     "prettier": "^2.8.4",
     "sharp": "^0.31.3",
     "shx": "^0.3.4",
