@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9580946399451027';
-  const MEDIA_CACHE = 'media-9580946399451027';
+  const APP_SHELL_CACHE = 'app-shell-6686934284278856';
+  const MEDIA_CACHE = 'media-6686934284278856';
 
   const APP_SHELL_FILES = [
     './',
@@ -78,6 +78,8 @@
     'codev5.vex.com-dark.webp',
     'configure.zsa.io.webp',
     'configure.zsa.io-dark.webp',
+    'creators.winamp.com.webp',
+    'creators.winamp.com-dark.webp',
     'dannymoerkerke.github.io!file-tree.webp',
     'dannymoerkerke.github.io!file-tree-dark.webp',
     'dev.to.webp',
