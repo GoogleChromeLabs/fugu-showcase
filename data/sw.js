@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6686934284278856';
-  const MEDIA_CACHE = 'media-6686934284278856';
+  const APP_SHELL_CACHE = 'app-shell-40207371250970136';
+  const MEDIA_CACHE = 'media-40207371250970136';
 
   const APP_SHELL_FILES = [
     './',
@@ -274,6 +274,8 @@
     'snapper-gps.herokuapp.com-dark.webp',
     'songwhip.com.webp',
     'songwhip.com-dark.webp',
+    'spatialfusion.io.webp',
+    'spatialfusion.io-dark.webp',
     'spike.legoeducation.com.webp',
     'spike.legoeducation.com-dark.webp',
     'sqlime.org.webp',
