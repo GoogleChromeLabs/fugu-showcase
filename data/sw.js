@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-40207371250970136';
-  const MEDIA_CACHE = 'media-40207371250970136';
+  const APP_SHELL_CACHE = 'app-shell-5064157753707899';
+  const MEDIA_CACHE = 'media-5064157753707899';
 
   const APP_SHELL_FILES = [
     './',
@@ -370,6 +370,8 @@
     'capcut.com!editor-dark.webp',
     'conifer-music.app.webp',
     'conifer-music.app-dark.webp',
+    'contactsdirect.com.webp',
+    'contactsdirect.com-dark.webp',
     'duolingo.com.webp',
     'duolingo.com-dark.webp',
     'espruino.com!ide.webp',
