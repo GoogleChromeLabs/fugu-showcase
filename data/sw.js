@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9180771414521243';
-  const MEDIA_CACHE = 'media-9180771414521243';
+  const APP_SHELL_CACHE = 'app-shell-8047141237576305';
+  const MEDIA_CACHE = 'media-8047141237576305';
 
   const APP_SHELL_FILES = [
     './',
@@ -180,6 +180,8 @@
     'loilo.github.io!diffr-dark.webp',
     'lookscanned.io!scan.webp',
     'lookscanned.io!scan-dark.webp',
+    'loop.microsoft.com.webp',
+    'loop.microsoft.com-dark.webp',
     'make.firialabs.com.webp',
     'make.firialabs.com-dark.webp',
     'marabesi.github.io!json-tool.webp',
