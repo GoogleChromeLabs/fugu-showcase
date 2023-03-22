@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8047141237576305';
-  const MEDIA_CACHE = 'media-8047141237576305';
+  const APP_SHELL_CACHE = 'app-shell-04367362756588267';
+  const MEDIA_CACHE = 'media-04367362756588267';
 
   const APP_SHELL_FILES = [
     './',
@@ -162,6 +162,8 @@
     'kenchris.github.io!webnfc-groceries-dark.webp',
     'kryogenix.org!farmbound.webp',
     'kryogenix.org!farmbound-dark.webp',
+    'lab.flipper.net.webp',
+    'lab.flipper.net-dark.webp',
     'leonidasesteban.com.webp',
     'leonidasesteban.com-dark.webp',
     'lichess.org.webp',
@@ -202,8 +204,6 @@
     'mishipay.shop-dark.webp',
     'momo.mometic.com.webp',
     'momo.mometic.com-dark.webp',
-    'my.flipp.dev.webp',
-    'my.flipp.dev-dark.webp',
     'my.numworks.com.webp',
     'my.numworks.com-dark.webp',
     'narrow.one.webp',
