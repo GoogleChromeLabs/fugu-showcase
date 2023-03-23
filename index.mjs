@@ -97,35 +97,41 @@ const createScreenshots = async (data, overrideType = null) => {
       if (SKIP_SCREENSHOTS) {
         return;
       }
-      return captureWebsite.buffer(url, SCREENSHOT_OPTIONS).then((buffer) => {
-        if (!overrideType) {
-          return sharp(buffer)
-            .resize({
-              width: SCREENSHOT_OPTIONS.width / 2,
-              height: SCREENSHOT_OPTIONS.height / 2,
-            })
-            .toBuffer()
-            .then((imageData) => {
-              if (i < length) {
-                data[i].screenshotSize = imageData.byteLength;
-              } else {
-                data[i - length].screenshotDarkSize = imageData.byteLength;
-              }
-              return writeFile(path.resolve('data', filename), imageData).then(
-                () => console.log(`Successfully created \`${filename}\`.`),
-              );
-            })
-            .catch((err) => console.error(err.name, err.message));
-        }
-        if (!SCREENSHOT_OPTIONS.darkMode) {
-          data[i].screenshotSize = buffer.byteLength;
-        } else {
-          data[i - length].screenshotDarkSize = buffer.byteLength;
-        }
-        return writeFile(path.resolve('data', filename), buffer).then(() =>
-          console.log(`Successfully created \`${filename}\`.`),
-        );
-      }).catch(err => console.error(err.name, err.message));
+      return captureWebsite
+        .buffer(url, SCREENSHOT_OPTIONS)
+        .then((buffer) => {
+          if (!overrideType) {
+            return sharp(buffer)
+              .resize({
+                width: SCREENSHOT_OPTIONS.width / 2,
+                height: SCREENSHOT_OPTIONS.height / 2,
+              })
+              .toBuffer()
+              .then((imageData) => {
+                if (i < length) {
+                  data[i].screenshotSize = imageData.byteLength;
+                } else {
+                  data[i - length].screenshotDarkSize = imageData.byteLength;
+                }
+                return writeFile(
+                  path.resolve('data', filename),
+                  imageData,
+                ).then(() =>
+                  console.log(`✅ Successfully created \`${filename}\`.`),
+                );
+              })
+              .catch((err) => console.error('❌', err.name, err.message));
+          }
+          if (!SCREENSHOT_OPTIONS.darkMode) {
+            data[i].screenshotSize = buffer.byteLength;
+          } else {
+            data[i - length].screenshotDarkSize = buffer.byteLength;
+          }
+          return writeFile(path.resolve('data', filename), buffer).then(() =>
+            console.log(`✅ Successfully created \`${filename}\`.`),
+          );
+        })
+        .catch((err) => console.error('❌', err.name, err.message));
     };
   });
   await limit(tasks, 5);
@@ -601,13 +607,13 @@ const createHTMLandJSON = async (data) => {
   );
 
   await writeFile(path.resolve('data', 'index.html'), minified);
-  console.log('Successfully created `index.html`.');
+  console.log('✅ Successfully created `index.html`.');
 
   await writeFile(
     path.resolve('data', 'data.json'),
     JSON.stringify(data, null, 2),
   );
-  console.log('Successfully created `data.json`.');
+  console.log('✅ Successfully created `data.json`.');
 };
 
 const createServiceWorker = async (data) => {
@@ -622,7 +628,7 @@ const createServiceWorker = async (data) => {
     )
     .replaceAll('RANDOM', Math.random().toString().substring(2));
   await writeFile(path.resolve('data', 'sw.js'), serviceWorker);
-  console.log('Successfully created `sw.js`.');
+  console.log('✅ Successfully created `sw.js`.');
 };
 
 const createWebManifest = async () => {
@@ -631,7 +637,7 @@ const createWebManifest = async () => {
     path.resolve('data', 'manifest.webmanifest'),
     manifestMinified,
   );
-  console.log('Successfully created `manifest.webmanifest`.');
+  console.log('✅ Successfully created `manifest.webmanifest`.');
 };
 
 (async () => {
