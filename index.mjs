@@ -106,20 +106,16 @@ const createScreenshots = async (data, overrideType = null) => {
             })
             .toBuffer()
             .then((imageData) => {
-              try {
-                if (!SCREENSHOT_OPTIONS.darkMode) {
-                  data[i].screenshotSize = imageData.byteLength;
-                } else {
-                  data[i - length].screenshotDarkSize = imageData.byteLength;
-                }
-              } catch (err) {
-                console.error('⚠️', err.name, err.message, url, filename);
+              if (i < length) {
+                data[i].screenshotSize = imageData.byteLength;
+              } else {
+                data[i - length].screenshotDarkSize = imageData.byteLength;
               }
               return writeFile(path.resolve('data', filename), imageData).then(
                 () => console.log(`Successfully created \`${filename}\`.`),
               );
             })
-            .catch((err) => console.error(err));
+            .catch((err) => console.error(err.name, err.message));
         }
         if (!SCREENSHOT_OPTIONS.darkMode) {
           data[i].screenshotSize = buffer.byteLength;
@@ -129,7 +125,7 @@ const createScreenshots = async (data, overrideType = null) => {
         return writeFile(path.resolve('data', filename), buffer).then(() =>
           console.log(`Successfully created \`${filename}\`.`),
         );
-      });
+      }).catch(err => console.error(err.name, err.message));
     };
   });
   await limit(tasks, 5);
