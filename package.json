@@ -12,10 +12,10 @@
     "capture-website": "^3.2.0",
     "filenamify-url": "^3.0.0",
     "node-fetch": "^3.3.1",
-    "prettier": "^2.8.6",
-    "sharp": "^0.31.3",
+    "prettier": "^2.8.7",
+    "sharp": "^0.32.0",
     "shx": "^0.3.4",
-    "unfurl.js": "^6.2.0"
+    "unfurl.js": "^6.3.0"
   },
   "devDependencies": {
     "http-server": "^14.1.1"

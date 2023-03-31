@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-30680542811686884';
-  const MEDIA_CACHE = 'media-30680542811686884';
+  const APP_SHELL_CACHE = 'app-shell-2726913808451461';
+  const MEDIA_CACHE = 'media-2726913808451461';
 
   const APP_SHELL_FILES = [
     './',
@@ -414,6 +414,8 @@
     'soundslice.com-dark.webp',
     'stemplayer.com.webp',
     'stemplayer.com-dark.webp',
+    'terra.com.br.webp',
+    'terra.com.br-dark.webp',
     'tiktok.com.webp',
     'tiktok.com-dark.webp',
     'tldraw.com.webp',
