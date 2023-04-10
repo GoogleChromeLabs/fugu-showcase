@@ -1,5 +1,40 @@
 [
   {
+    "timestamp": "2023-04-10T15:43:56.000Z",
+    "appURL": "https://learningmusic.ableton.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      },
+      {
+        "name": "Web MIDI",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "learningmusic.ableton.com.webp",
+    "screenshotSize": 6942,
+    "screenshotDark": "learningmusic.ableton.com-dark.webp",
+    "screenshotDarkSize": 6942,
+    "meta": {
+      "description": "Explore the fundamentals of music via Ableton's interactive website. Experiment with beats, melody, harmony, basslines, and song structure in your web browser.",
+      "open_graph": {
+        "type": "website",
+        "images": [
+          {
+            "url": "https://learningmusic.ableton.com/images/og-image.jpg"
+          }
+        ]
+      },
+      "title": " Get started | Learning Music",
+      "favicon": "https://learningmusic.ableton.com/images/favicon.ico"
+    },
+    "title": " Get started | Learning Music",
+    "description": "Explore the fundamentals of music via Ableton's interactive website. Experiment with beats, melody, harmony, basslines, and song structure in your web browser."
+  },
+  {
     "timestamp": "2022-02-23T13:25:27.000Z",
     "appURL": "https://md.nico.dev/",
     "sourceURL": "https://github.com/nico-martin/markdown-editor/",
@@ -27,9 +62,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "md.nico.dev.webp",
-    "screenshotSize": 2856,
+    "screenshotSize": 2840,
     "screenshotDark": "md.nico.dev-dark.webp",
-    "screenshotDarkSize": 2288,
+    "screenshotDarkSize": 2210,
     "meta": {
       "title": "[md.edit]",
       "description": "A Markdown Editor PWA",
@@ -81,9 +116,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "1tuner.com.webp",
-    "screenshotSize": 12754,
+    "screenshotSize": 12704,
     "screenshotDark": "1tuner.com-dark.webp",
-    "screenshotDarkSize": 13018,
+    "screenshotDarkSize": 13180,
     "meta": {
       "title": "1tuner | listen to radio, podcasts and create playlists",
       "description": "Listen to radio, podcasts and create playlists.",
@@ -129,9 +164,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "activerecall.com!login.html.webp",
-    "screenshotSize": 2620,
+    "screenshotSize": 2618,
     "screenshotDark": "activerecall.com!login.html-dark.webp",
-    "screenshotDarkSize": 2620,
+    "screenshotDarkSize": 2618,
     "meta": {
       "theme_color": "#ffffff",
       "title": "Active Recall",
@@ -156,9 +191,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "audiomass.co.webp",
-    "screenshotSize": 9128,
+    "screenshotSize": 9028,
     "screenshotDark": "audiomass.co-dark.webp",
-    "screenshotDarkSize": 9128,
+    "screenshotDarkSize": 9028,
     "meta": {
       "title": "AudioMass - Audio Editor",
       "description": "AudioMass is a free full-featured web-based audio & waveform editing tool",
@@ -212,9 +247,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "avg-colour.netlify.app.webp",
-    "screenshotSize": 3454,
+    "screenshotSize": 3446,
     "screenshotDark": "avg-colour.netlify.app-dark.webp",
-    "screenshotDarkSize": 3836,
+    "screenshotDarkSize": 3834,
     "meta": {
       "title": "Average Colour",
       "description": "Average Colour is a tool to find the average colour in an image.",
@@ -265,9 +300,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "flash.android.com.webp",
-    "screenshotSize": 16922,
+    "screenshotSize": 16962,
     "screenshotDark": "flash.android.com-dark.webp",
-    "screenshotDarkSize": 16922,
+    "screenshotDarkSize": 16962,
     "meta": {
       "title": "Android Flash Tool",
       "favicon": "https://www.gstatic.com/images/icons/material/system_gm/2x/system_update_gm_blue_24dp.png"
@@ -299,9 +334,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "logseq.com!spa=true.webp",
-    "screenshotSize": 11924,
+    "screenshotSize": 12066,
     "screenshotDark": "logseq.com!spa=true-dark.webp",
-    "screenshotDarkSize": 11952,
+    "screenshotDarkSize": 12038,
     "meta": {
       "title": "Logseq: A privacy-first, open-source knowledge base",
       "twitter_card": {
@@ -365,9 +400,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "photoshop.adobe.com.webp",
-    "screenshotSize": 19164,
+    "screenshotSize": 41210,
     "screenshotDark": "photoshop.adobe.com-dark.webp",
-    "screenshotDarkSize": 36356,
+    "screenshotDarkSize": 40270,
     "meta": {
       "title": "Adobe Creative Cloud | Sign in",
       "description": "Access Adobe Creative Cloud apps, services, file management, and more. Sign in to start creating.",
@@ -396,9 +431,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "traintimes.org.uk.webp",
-    "screenshotSize": 52350,
+    "screenshotSize": 53080,
     "screenshotDark": "traintimes.org.uk-dark.webp",
-    "screenshotDarkSize": 52484,
+    "screenshotDarkSize": 53118,
     "meta": {
       "title": "Accessible UK Train Timetables",
       "theme_color": "#eeeeff",
@@ -424,9 +459,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "airconsole.com.webp",
-    "screenshotSize": 16306,
+    "screenshotSize": 16232,
     "screenshotDark": "airconsole.com-dark.webp",
-    "screenshotDarkSize": 16566,
+    "screenshotDarkSize": 16154,
     "meta": {
       "title": "AirConsole - Multiplayer games for friends",
       "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the controllers.",
@@ -436,7 +471,7 @@
         "url": "https://www.airconsole.com/",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.ci-daniel-remove-chromecast.450996145781551141/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.ci-laurent-no-analytics-on-debug.451159869946765746/og-image.jpg"
           }
         ],
         "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the controllers."
@@ -448,7 +483,7 @@
         "description": "AirConsole is an online video game console. Play over 190 multiplayer games. Your smartphones are the controllers.",
         "images": [
           {
-            "url": "https://www.airconsole.com/file/.ci-daniel-remove-chromecast.450996145781551141/og-image.jpg"
+            "url": "https://www.airconsole.com/file/.ci-laurent-no-analytics-on-debug.451159869946765746/og-image.jpg"
           }
         ],
         "url": "https://www.airconsole.com/"
@@ -474,9 +509,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "bangle.io.webp",
-    "screenshotSize": 13830,
+    "screenshotSize": 13916,
     "screenshotDark": "bangle.io-dark.webp",
-    "screenshotDarkSize": 14012,
+    "screenshotDarkSize": 14206,
     "meta": {
       "theme_color": "#000000",
       "title": "Bangle.io",
@@ -521,9 +556,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "boxy-svg.com!app.webp",
-    "screenshotSize": 4308,
+    "screenshotSize": 4228,
     "screenshotDark": "boxy-svg.com!app-dark.webp",
-    "screenshotDarkSize": 3920,
+    "screenshotDarkSize": 3908,
     "meta": {
       "title": "Boxy SVG",
       "description": "Create and edit Scalable Vector Graphics (SVG) files online",
@@ -568,9 +603,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "bpmtech.no.webp",
-    "screenshotSize": 5018,
+    "screenshotSize": 5076,
     "screenshotDark": "bpmtech.no-dark.webp",
-    "screenshotDarkSize": 5018,
+    "screenshotDarkSize": 5076,
     "meta": {
       "title": "BPM Techno - Free Online Real-Time BPM Counter for DJ",
       "description": "Produce some beats using any player, launchpad, keyboard, and mix them live with another track easily and precisely using this free online real-time BPM counter",
@@ -626,9 +661,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "bundle.js.org.webp",
-    "screenshotSize": 5106,
+    "screenshotSize": 5198,
     "screenshotDark": "bundle.js.org-dark.webp",
-    "screenshotDarkSize": 5114,
+    "screenshotDarkSize": 5194,
     "meta": {
       "description": "Visit bundlejs.com - bundlejs is a quick and easy way to bundle, minify, and compress your ts, js, and npm packages all online.",
       "title": "bundlejs",
@@ -699,9 +734,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "dj.beatport.com!home.webp",
-    "screenshotSize": 25358,
+    "screenshotSize": 26796,
     "screenshotDark": "dj.beatport.com!home-dark.webp",
-    "screenshotDarkSize": 25500,
+    "screenshotDarkSize": 25478,
     "meta": {
       "theme_color": "#000000",
       "title": "Beatport DJ | The First Web Based DJ Software Designed for all DJs",
@@ -753,9 +788,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "editor.bridge-core.app.webp",
-    "screenshotSize": 11158,
+    "screenshotSize": 11224,
     "screenshotDark": "editor.bridge-core.app-dark.webp",
-    "screenshotDarkSize": 11022,
+    "screenshotDarkSize": 11068,
     "meta": {
       "description": "bridge. is a light-weight IDE for Minecraft Add-Ons",
       "open_graph": {
@@ -806,9 +841,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "georapbox.github.io!barcode-scanner.webp",
-    "screenshotSize": 6382,
+    "screenshotSize": 6234,
     "screenshotDark": "georapbox.github.io!barcode-scanner-dark.webp",
-    "screenshotDarkSize": 6626,
+    "screenshotDarkSize": 6568,
     "meta": {
       "title": "Barcode/QR code Scanner",
       "description": "A Progressive Web Application (PWA) that scans barcodes of various formats, using the Barcode Detection API.",
@@ -838,9 +873,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "unsplash.com.webp",
-    "screenshotSize": 12414,
+    "screenshotSize": 21266,
     "screenshotDark": "unsplash.com-dark.webp",
-    "screenshotDarkSize": 11786,
+    "screenshotDarkSize": 21240,
     "meta": {
       "title": "Beautiful Free Images & Pictures | Unsplash",
       "author": "Unsplash",
@@ -854,7 +889,7 @@
         "card": "summary_large_image",
         "images": [
           {
-            "url": "https://images.unsplash.com/opengraph/1x1.png?auto=format&fit=crop&w=1200&h=630&q=60&mark-w=64&mark-align=top%2Cleft&mark-pad=50&blend-w=1&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&blend=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1678247539129-9c710092456f%3Fcrop%3Dfaces%252Cedges%26cs%3Dtinysrgb%26fit%3Dcrop%26fm%3Djpg%26ixid%3DMnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjgwMjQ3Nzcy%26ixlib%3Drb-4.0.3%26q%3D60%26w%3D1200%26auto%3Dformat%26h%3D630%26mark-w%3D424%26mark-align%3Dmiddle%252Ccenter%26blend-mode%3Dnormal%26blend-alpha%3D10%26mark%3Dhttps%253A%252F%252Fimages.unsplash.com%252Fopengraph%252Fwordmark.png%26blend%3D000000"
+            "url": "https://images.unsplash.com/opengraph/1x1.png?auto=format&fit=crop&w=1200&h=630&q=60&mark-w=64&mark-align=top%2Cleft&mark-pad=50&blend-w=1&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&blend=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1679041006302-cf5e318da08c%3Fcrop%3Dfaces%252Cedges%26cs%3Dtinysrgb%26fit%3Dcrop%26fm%3Djpg%26ixid%3DMnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjgxMTQ1Njk3%26ixlib%3Drb-4.0.3%26q%3D60%26w%3D1200%26auto%3Dformat%26h%3D630%26mark-w%3D424%26mark-align%3Dmiddle%252Ccenter%26blend-mode%3Dnormal%26blend-alpha%3D10%26mark%3Dhttps%253A%252F%252Fimages.unsplash.com%252Fopengraph%252Fwordmark.png%26blend%3D000000"
           }
         ]
       },
@@ -865,7 +900,7 @@
         "url": "https://unsplash.com/",
         "images": [
           {
-            "url": "https://images.unsplash.com/opengraph/1x1.png?auto=format&fit=crop&w=1200&h=630&q=60&mark-w=64&mark-align=top%2Cleft&mark-pad=50&blend-w=1&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&blend=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1678247539129-9c710092456f%3Fcrop%3Dfaces%252Cedges%26cs%3Dtinysrgb%26fit%3Dcrop%26fm%3Djpg%26ixid%3DMnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjgwMjQ3Nzcy%26ixlib%3Drb-4.0.3%26q%3D60%26w%3D1200%26auto%3Dformat%26h%3D630%26mark-w%3D424%26mark-align%3Dmiddle%252Ccenter%26blend-mode%3Dnormal%26blend-alpha%3D10%26mark%3Dhttps%253A%252F%252Fimages.unsplash.com%252Fopengraph%252Fwordmark.png%26blend%3D000000"
+            "url": "https://images.unsplash.com/opengraph/1x1.png?auto=format&fit=crop&w=1200&h=630&q=60&mark-w=64&mark-align=top%2Cleft&mark-pad=50&blend-w=1&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&blend=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1679041006302-cf5e318da08c%3Fcrop%3Dfaces%252Cedges%26cs%3Dtinysrgb%26fit%3Dcrop%26fm%3Djpg%26ixid%3DMnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjgxMTQ1Njk3%26ixlib%3Drb-4.0.3%26q%3D60%26w%3D1200%26auto%3Dformat%26h%3D630%26mark-w%3D424%26mark-align%3Dmiddle%252Ccenter%26blend-mode%3Dnormal%26blend-alpha%3D10%26mark%3Dhttps%253A%252F%252Fimages.unsplash.com%252Fopengraph%252Fwordmark.png%26blend%3D000000"
           }
         ]
       },
@@ -910,9 +945,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "web.blockbench.net.webp",
-    "screenshotSize": 2596,
+    "screenshotSize": 2370,
     "screenshotDark": "web.blockbench.net-dark.webp",
-    "screenshotDarkSize": 2596,
+    "screenshotDarkSize": 2370,
     "meta": {
       "title": "Blockbench",
       "theme_color": "#181a1f",
@@ -933,15 +968,69 @@
     ],
     "isElectronApp": false,
     "screenshot": "web.brewflasher.com.webp",
-    "screenshotSize": 1624,
+    "screenshotSize": 1702,
     "screenshotDark": "web.brewflasher.com-dark.webp",
-    "screenshotDarkSize": 1624,
+    "screenshotDarkSize": 1702,
     "meta": {
       "title": "BrewFlasher Web Edition",
       "favicon": "https://web.brewflasher.com/favicon.ico"
     },
     "title": "BrewFlasher Web Edition",
     "description": ""
+  },
+  {
+    "timestamp": "2023-04-10T15:42:14.000Z",
+    "appURL": "https://www.bandlab.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      },
+      {
+        "name": "Web MIDI",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "bandlab.com.webp",
+    "screenshotSize": 27452,
+    "screenshotDark": "bandlab.com-dark.webp",
+    "screenshotDarkSize": 18306,
+    "meta": {
+      "title": "BandLab: Make Music Online",
+      "description": "The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe",
+      "open_graph": {
+        "site_name": "BandLab",
+        "url": "https://www.bandlab.com/",
+        "type": "website",
+        "title": "BandLab: Make Music Online",
+        "description": "The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe",
+        "images": [
+          {
+            "url": "https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png",
+            "type": "image/jpeg",
+            "height": 630,
+            "width": 1200
+          }
+        ]
+      },
+      "twitter_card": {
+        "card": "summary",
+        "site": "@BandLab",
+        "title": "BandLab: Make Music Online",
+        "description": "The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe",
+        "images": [
+          {
+            "url": "https://www.bandlab.com/web-app/images/open-graph-4fd21aa09f.png"
+          }
+        ]
+      },
+      "theme_color": "#282c32",
+      "favicon": "https://www.bandlab.com/web-app/images/favicons/favicon-f7616c905f.svg"
+    },
+    "title": "BandLab: Make Music Online",
+    "description": "The cloud platform where musicians and fans create music, collaborate, and engage with each other across the globe"
   },
   {
     "timestamp": "2022-04-25T13:05:50.000Z",
@@ -975,9 +1064,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp",
-    "screenshotSize": 13186,
+    "screenshotSize": 11818,
     "screenshotDark": "chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi-dark.webp",
-    "screenshotDarkSize": 13188,
+    "screenshotDarkSize": 13288,
     "meta": {
       "title": "CrosKeys by CrosExperts - Chrome Web Store",
       "open_graph": {
@@ -997,6 +1086,49 @@
     "description": "Unlock your Chromebook's potential with a powerful keyboard launcher!"
   },
   {
+    "timestamp": "2023-04-10T15:45:43.000Z",
+    "appURL": "https://cleanfeed.net/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "cleanfeed.net.webp",
+    "screenshotSize": 53496,
+    "screenshotDark": "cleanfeed.net-dark.webp",
+    "screenshotDarkSize": 54514,
+    "meta": {
+      "description": "The online studio for live audio and recording",
+      "title": "Cleanfeed",
+      "open_graph": {
+        "title": "Cleanfeed",
+        "images": [
+          {
+            "url": "http://cleanfeed.net/img/social-share.png"
+          }
+        ],
+        "description": "The online studio for live audio and recording"
+      },
+      "twitter_card": {
+        "card": "summary_large_image",
+        "site": "@cleanfeedNET",
+        "title": "Cleanfeed",
+        "description": "The online studio for live audio and recording",
+        "images": [
+          {
+            "url": "http://cleanfeed.net/img/social-share.png"
+          }
+        ]
+      },
+      "favicon": "https://cleanfeed.net/img/favicon.png"
+    },
+    "title": "Cleanfeed",
+    "description": "The online studio for live audio and recording"
+  },
+  {
     "timestamp": "2022-10-14T18:25:11.000Z",
     "appURL": "https://cleanfeed.net/studio",
     "sourceURL": null,
@@ -1012,9 +1144,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "cleanfeed.net!studio.webp",
-    "screenshotSize": 2996,
+    "screenshotSize": 3076,
     "screenshotDark": "cleanfeed.net!studio-dark.webp",
-    "screenshotDarkSize": 3018,
+    "screenshotDarkSize": 3060,
     "meta": {
       "title": "Cleanfeed",
       "favicon": "https://cleanfeed.net/img/favicon"
@@ -1034,9 +1166,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "code.makewonder.com!cue.webp",
-    "screenshotSize": 11402,
+    "screenshotSize": 11440,
     "screenshotDark": "code.makewonder.com!cue-dark.webp",
-    "screenshotDarkSize": 880,
+    "screenshotDarkSize": 11440,
     "meta": {
       "title": "Cue for Education",
       "favicon": "https://code.makewonder.com/cue/appIcons/icon-128x128.png"
@@ -1068,9 +1200,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "codeit.codes.webp",
-    "screenshotSize": 5576,
+    "screenshotSize": 5556,
     "screenshotDark": "codeit.codes-dark.webp",
-    "screenshotDarkSize": 5576,
+    "screenshotDarkSize": 5556,
     "meta": {
       "title": "Codeit | Mobile code editor connected to Git",
       "theme_color": "#0f1014",
@@ -1164,9 +1296,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "creators.winamp.com.webp",
-    "screenshotSize": 3648,
+    "screenshotSize": 7774,
     "screenshotDark": "creators.winamp.com-dark.webp",
-    "screenshotDarkSize": 3106,
+    "screenshotDarkSize": 7770,
     "meta": {
       "favicon": "https://creators.winamp.com/favicon.ico"
     },
@@ -1189,9 +1321,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "docs.craft.do.webp",
-    "screenshotSize": 12072,
+    "screenshotSize": 12016,
     "screenshotDark": "docs.craft.do-dark.webp",
-    "screenshotDarkSize": 11934,
+    "screenshotDarkSize": 12080,
     "meta": {
       "theme_color": "#000000",
       "title": "Craft — A fresh take on documents",
@@ -1280,39 +1412,39 @@
     ],
     "isElectronApp": false,
     "screenshot": "editor.construct.net.webp",
-    "screenshotSize": 8858,
+    "screenshotSize": 6714,
     "screenshotDark": "editor.construct.net-dark.webp",
-    "screenshotDarkSize": 4882,
+    "screenshotDarkSize": 4974,
     "meta": {
       "title": "Game Making Software - Construct 3",
       "description": "The best browser based game making software. Make games, no programming required. Learn how to make games with Construct 3, the free browser game building software.",
       "theme_color": "#3B4045",
       "open_graph": {
         "url": "https://editor.construct.net/",
-        "title": "Construct 3 r327.3 ★★★★★",
-        "description": "Launch Construct 3 r327.3. Make games with the world's easiest browser-based game creator. Try for free now and begin your game development journey.",
+        "title": "Construct 3 r336 ★★★★★",
+        "description": "Launch Construct 3 r336. Make games with the world's easiest browser-based game creator. Try for free now and begin your game development journey.",
         "images": [
           {
-            "url": "https://editor.construct.net/r327-3/media/og-image-promo.png"
+            "url": "https://editor.construct.net/r336/media/og-image-promo.png"
           }
         ]
       },
       "twitter_card": {
         "site": "@ConstructTeam",
         "card": "summary_large_image",
-        "description": "Launch Construct 3 r327.3. Make games with the world's easiest browser-based game creator. Try for free now and begin your game development journey.",
-        "title": "Construct 3 r327.3 ★★★★★",
+        "description": "Launch Construct 3 r336. Make games with the world's easiest browser-based game creator. Try for free now and begin your game development journey.",
+        "title": "Construct 3 r336 ★★★★★",
         "images": [
           {
-            "url": "https://editor.construct.net/r327-3/media/twitter-image.png",
-            "alt": "Construct 3 r327.3"
+            "url": "https://editor.construct.net/r336/media/twitter-image.png",
+            "alt": "Construct 3 r336"
           }
         ]
       },
-      "favicon": "https://editor.construct.net/r327-3/media/icon-512.png"
+      "favicon": "https://editor.construct.net/r336/media/icon-512.png"
     },
-    "title": "Construct 3 r327.3 ★★★★★",
-    "description": "Launch Construct 3 r327.3. Make games with the world's easiest browser-based game creator. Try for free now and begin your game development journey."
+    "title": "Construct 3 r336 ★★★★★",
+    "description": "Launch Construct 3 r336. Make games with the world's easiest browser-based game creator. Try for free now and begin your game development journey."
   },
   {
     "timestamp": "2022-04-27T18:33:23.000Z",
@@ -1326,9 +1458,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "make.firialabs.com.webp",
-    "screenshotSize": 4520,
+    "screenshotSize": 4484,
     "screenshotDark": "make.firialabs.com-dark.webp",
-    "screenshotDarkSize": 4520,
+    "screenshotDarkSize": 4484,
     "meta": {
       "theme_color": "#000000",
       "title": "CodeSpace - Firia Labs",
@@ -1349,9 +1481,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "observablehq.com.webp",
-    "screenshotSize": 18160,
+    "screenshotSize": 17958,
     "screenshotDark": "observablehq.com-dark.webp",
-    "screenshotDarkSize": 18160,
+    "screenshotDarkSize": 17958,
     "meta": {
       "title": "Collaborative data platform and canvas | Observable",
       "description": "Powered by Community, collaborate with your entire team from technical to non-technical users and get to data insights, faster. Bring your data to life.",
@@ -1395,9 +1527,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "qrsnapper.com.webp",
-    "screenshotSize": 920,
+    "screenshotSize": 918,
     "screenshotDark": "qrsnapper.com-dark.webp",
-    "screenshotDarkSize": 920,
+    "screenshotDarkSize": 918,
     "meta": {
       "title": "Capture QR Code",
       "description": "Instantly snap QR codes on mobile and desktop without installing an app.",
@@ -1447,9 +1579,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "shots.so.webp",
-    "screenshotSize": 20552,
+    "screenshotSize": 20372,
     "screenshotDark": "shots.so-dark.webp",
-    "screenshotDarkSize": 19648,
+    "screenshotDarkSize": 19880,
     "meta": {
       "title": "Shots - Create Amazing Mockups",
       "description": "Create Amazing Mockups",
@@ -1540,9 +1672,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "capcut.com!editor.webp",
-    "screenshotSize": 3014,
+    "screenshotSize": 2994,
     "screenshotDark": "capcut.com!editor-dark.webp",
-    "screenshotDarkSize": 3014,
+    "screenshotDarkSize": 2994,
     "meta": {
       "description": "CapCut makes video creation, upload & share easier with frame by frame track editor, cloud drive and cross platform collaboration features on PC & mobile.",
       "title": "CapCut | Video Editor | All-In-One Video Editing Software | CapCut",
@@ -1611,9 +1743,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "conifer-music.app.webp",
-    "screenshotSize": 4548,
+    "screenshotSize": 4576,
     "screenshotDark": "conifer-music.app-dark.webp",
-    "screenshotDarkSize": 3798,
+    "screenshotDarkSize": 3774,
     "meta": {
       "title": "conifer",
       "description": "Play all of your music with conifer, your cross-platform music player.",
@@ -1635,9 +1767,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "dev.to.webp",
-    "screenshotSize": 34984,
+    "screenshotSize": 24766,
     "screenshotDark": "dev.to-dark.webp",
-    "screenshotDarkSize": 34922,
+    "screenshotDarkSize": 24868,
     "meta": {
       "title": "DEV Community",
       "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
@@ -1689,9 +1821,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "duino.app.webp",
-    "screenshotSize": 15146,
+    "screenshotSize": 15522,
     "screenshotDark": "duino.app-dark.webp",
-    "screenshotDarkSize": 15146,
+    "screenshotDarkSize": 15522,
     "meta": {
       "title": "Duino App",
       "theme_color": "#37989d",
@@ -1712,9 +1844,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "loilo.github.io!diffr.webp",
-    "screenshotSize": 1996,
+    "screenshotSize": 1948,
     "screenshotDark": "loilo.github.io!diffr-dark.webp",
-    "screenshotDarkSize": 2568,
+    "screenshotDarkSize": 2066,
     "meta": {
       "title": "Diffr | The Online Text Diffing Tool",
       "description": "Create and share diffs with Diffr, the privacy focused online text diffing tool.",
@@ -1754,9 +1886,9 @@
     ],
     "isElectronApp": true,
     "screenshot": "tidepool.org!uploader.webp",
-    "screenshotSize": 17366,
+    "screenshotSize": 17488,
     "screenshotDark": "tidepool.org!uploader-dark.webp",
-    "screenshotDarkSize": 17366,
+    "screenshotDarkSize": 17488,
     "meta": {
       "theme_color": "#000000",
       "title": "Download our software | Tidepool",
@@ -1830,9 +1962,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.element.io!!welcome.webp",
-    "screenshotSize": 40052,
+    "screenshotSize": 39874,
     "screenshotDark": "app.element.io!!welcome-dark.webp",
-    "screenshotDarkSize": 526,
+    "screenshotDarkSize": 39874,
     "meta": {
       "title": "Element",
       "theme_color": "#ffffff",
@@ -1864,9 +1996,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "buddy.edgetx.org.webp",
-    "screenshotSize": 26832,
+    "screenshotSize": 19036,
     "screenshotDark": "buddy.edgetx.org-dark.webp",
-    "screenshotDarkSize": 26702,
+    "screenshotDarkSize": 19042,
     "meta": {
       "title": "EdgeTX Buddy",
       "theme_color": "#fff",
@@ -1895,9 +2027,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "edit.photo.webp",
-    "screenshotSize": 7238,
+    "screenshotSize": 7338,
     "screenshotDark": "edit.photo-dark.webp",
-    "screenshotDarkSize": 7528,
+    "screenshotDarkSize": 7654,
     "meta": {
       "author": "PQINA",
       "description": "No ads, no popups, no cookies, no account. The fastest way to edit photos online",
@@ -1948,9 +2080,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "edit.video.webp",
-    "screenshotSize": 6730,
+    "screenshotSize": 6686,
     "screenshotDark": "edit.video-dark.webp",
-    "screenshotDarkSize": 6858,
+    "screenshotDarkSize": 6824,
     "meta": {
       "author": "PQINA",
       "description": "No ads, no popups, no cookies, no account. A quick way to edit videos online",
@@ -2013,9 +2145,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "elk.zone.webp",
-    "screenshotSize": 12026,
+    "screenshotSize": 11762,
     "screenshotDark": "elk.zone-dark.webp",
-    "screenshotDarkSize": 12494,
+    "screenshotDarkSize": 12092,
     "meta": {
       "open_graph": {
         "title": "Elk",
@@ -2062,9 +2194,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "ember.ly.webp",
-    "screenshotSize": 16502,
+    "screenshotSize": 16690,
     "screenshotDark": "ember.ly-dark.webp",
-    "screenshotDarkSize": 16502,
+    "screenshotDarkSize": 16690,
     "meta": {
       "title": "Emberly - Your knowledge. Organized.",
       "description": "Emberly’s visual organization of bookmarks, notes, and files let you master information overload and learn better.",
@@ -2120,9 +2252,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "esc-configurator.com.webp",
-    "screenshotSize": 27866,
+    "screenshotSize": 28156,
     "screenshotDark": "esc-configurator.com-dark.webp",
-    "screenshotDarkSize": 27942,
+    "screenshotDarkSize": 28108,
     "meta": {
       "theme_color": "#000000",
       "title": "ESC Configurator - for Bluejay, BLHeli_S and AM32",
@@ -2154,9 +2286,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "esphome.github.io!esp-web-tools.webp",
-    "screenshotSize": 12216,
+    "screenshotSize": 12296,
     "screenshotDark": "esphome.github.io!esp-web-tools-dark.webp",
-    "screenshotDarkSize": 11546,
+    "screenshotDarkSize": 11696,
     "meta": {
       "title": "ESP Web Tools",
       "description": "Easily allow users to flash new firmware for their ESP-devices on the web.",
@@ -2227,9 +2359,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "excalidraw.com.webp",
-    "screenshotSize": 5152,
+    "screenshotSize": 5010,
     "screenshotDark": "excalidraw.com-dark.webp",
-    "screenshotDarkSize": 5152,
+    "screenshotDarkSize": 5010,
     "meta": {
       "title": "Excalidraw | Hand-drawn look & feel • Collaborative • Secure",
       "theme_color": "#121212",
@@ -2276,9 +2408,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "play.geforcenow.com.webp",
-    "screenshotSize": 18046,
+    "screenshotSize": 26450,
     "screenshotDark": "play.geforcenow.com-dark.webp",
-    "screenshotDarkSize": 24720,
+    "screenshotDarkSize": 26450,
     "meta": {
       "title": "GeForce NOW",
       "open_graph": {
@@ -2312,9 +2444,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "write.sonnet.io.webp",
-    "screenshotSize": 4100,
+    "screenshotSize": 4068,
     "screenshotDark": "write.sonnet.io-dark.webp",
-    "screenshotDarkSize": 4100,
+    "screenshotDarkSize": 4068,
     "meta": {
       "theme_color": "#333",
       "description": "Writing is Thinking",
@@ -2340,9 +2472,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "espruino.com!ide.webp",
-    "screenshotSize": 10778,
+    "screenshotSize": 10648,
     "screenshotDark": "espruino.com!ide-dark.webp",
-    "screenshotDarkSize": 10778,
+    "screenshotDarkSize": 10648,
     "meta": {
       "title": "Espruino Web IDE",
       "favicon": "https://www.espruino.com/ide/favicon.ico"
@@ -2378,9 +2510,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.diagrams.net.webp",
-    "screenshotSize": 6660,
+    "screenshotSize": 4154,
     "screenshotDark": "app.diagrams.net-dark.webp",
-    "screenshotDarkSize": 6660,
+    "screenshotDarkSize": 4154,
     "meta": {
       "title": "Flowchart Maker & Online Diagram Software",
       "theme_color": "#d89000",
@@ -2405,9 +2537,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "codepoints.net.webp",
-    "screenshotSize": 44182,
+    "screenshotSize": 43960,
     "screenshotDark": "codepoints.net-dark.webp",
-    "screenshotDarkSize": 43492,
+    "screenshotDarkSize": 43876,
     "meta": {
       "title": "Find all Unicode characters from Hieroglyphs to Dingbats – Codepoints",
       "description": "Codepoints is a site dedicated to Unicode and all things related to codepoints, characters, glyphs and internationalization.",
@@ -2429,9 +2561,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "dannymoerkerke.github.io!file-tree.webp",
-    "screenshotSize": 11536,
+    "screenshotSize": 11576,
     "screenshotDark": "dannymoerkerke.github.io!file-tree-dark.webp",
-    "screenshotDarkSize": 11536,
+    "screenshotDarkSize": 11576,
     "meta": {
       "title": "file-tree demo",
       "open_graph": {
@@ -2480,9 +2612,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "kryogenix.org!farmbound.webp",
-    "screenshotSize": 11870,
+    "screenshotSize": 11560,
     "screenshotDark": "kryogenix.org!farmbound-dark.webp",
-    "screenshotDarkSize": 11718,
+    "screenshotDarkSize": 11416,
     "meta": {
       "theme_color": "#255525",
       "title": "Farmbound - a diurnal game of farming",
@@ -2523,9 +2655,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "pixlr.com.webp",
-    "screenshotSize": 23914,
+    "screenshotSize": 23848,
     "screenshotDark": "pixlr.com-dark.webp",
-    "screenshotDarkSize": 23914,
+    "screenshotDarkSize": 23856,
     "meta": {
       "title": "Free Photo editor online image animation and design : Pixlr",
       "description": "Discover free and premium online photo editor and animation design tools! Effects, filters, overlays, simple to expert tools.Open almost any image format like PSD (Photoshop), PXD, Jpeg, PNG (Transparent), webP, SVG and many more. You'll find a Pixlr image editor just for you!",
@@ -2574,9 +2706,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "figma.com.webp",
-    "screenshotSize": 10206,
+    "screenshotSize": 10058,
     "screenshotDark": "figma.com-dark.webp",
-    "screenshotDarkSize": 10150,
+    "screenshotDarkSize": 10070,
     "meta": {
       "twitter_card": {
         "card": "summary_large_image",
@@ -2630,9 +2762,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "editor.gdevelop.io.webp",
-    "screenshotSize": 21844,
+    "screenshotSize": 21548,
     "screenshotDark": "editor.gdevelop.io-dark.webp",
-    "screenshotDarkSize": 21844,
+    "screenshotDarkSize": 21542,
     "meta": {
       "title": "GDevelop 5",
       "open_graph": {
@@ -2682,9 +2814,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "github.dev!github!dev.webp",
-    "screenshotSize": 1710,
+    "screenshotSize": 3556,
     "screenshotDark": "github.dev!github!dev-dark.webp",
-    "screenshotDarkSize": 526,
+    "screenshotDarkSize": 3362,
     "meta": {
       "favicon": "https://github.githubassets.com/favicon.ico"
     },
@@ -2751,9 +2883,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "grapheneos.org!install!webflashing-factory-images.webp",
-    "screenshotSize": 24916,
+    "screenshotSize": 25532,
     "screenshotDark": "grapheneos.org!install!webflashing-factory-images-dark.webp",
-    "screenshotDarkSize": 25270,
+    "screenshotDarkSize": 25496,
     "meta": {
       "title": "Web installer | Install | GrapheneOS",
       "description": "Web-based installer for GrapheneOS, a security and privacy focused mobile OS with Android app compatibility.",
@@ -2794,9 +2926,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "graphtoy.com.webp",
-    "screenshotSize": 25322,
+    "screenshotSize": 25214,
     "screenshotDark": "graphtoy.com-dark.webp",
-    "screenshotDarkSize": 25350,
+    "screenshotDarkSize": 25236,
     "meta": {
       "title": "Graphtoy",
       "description": "Graphtoy - easy graphing of functions.",
@@ -2840,9 +2972,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "kenchris.github.io!webnfc-groceries.webp",
-    "screenshotSize": 3090,
+    "screenshotSize": 3076,
     "screenshotDark": "kenchris.github.io!webnfc-groceries-dark.webp",
-    "screenshotDarkSize": 3090,
+    "screenshotDarkSize": 3076,
     "meta": {
       "title": "Groceries",
       "favicon": "https://kenchris.github.io/webnfc-groceries/images/favicon.ico"
@@ -2862,9 +2994,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "ustaxes.org!start.webp",
-    "screenshotSize": 12936,
+    "screenshotSize": 13102,
     "screenshotDark": "ustaxes.org!start-dark.webp",
-    "screenshotDarkSize": 12936,
+    "screenshotDarkSize": 13102,
     "meta": {
       "theme_color": "#000000",
       "description": "UsTaxes is an open source webapp for filing US federal income tax. All tax calculations are performed in the browser, so no personal information is stored on external servers!",
@@ -2886,9 +3018,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "web-gphoto2.rreverser.com.webp",
-    "screenshotSize": 2236,
+    "screenshotSize": 2300,
     "screenshotDark": "web-gphoto2.rreverser.com-dark.webp",
-    "screenshotDarkSize": 2236,
+    "screenshotDarkSize": 2300,
     "meta": {
       "title": "gphoto2 on the Web",
       "favicon": "data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"10 0 110 100\"><text y=\".9em\" font-size=\"90\">%F0%9F%93%B7</text></svg>"
@@ -2916,9 +3048,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "web.goodnotes.com.webp",
-    "screenshotSize": 3530,
+    "screenshotSize": 3980,
     "screenshotDark": "web.goodnotes.com-dark.webp",
-    "screenshotDarkSize": 3440,
+    "screenshotDarkSize": 3900,
     "meta": {
       "title": "GoodNotes",
       "description": "GoodNotes app",
@@ -2939,9 +3071,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "globs.design.webp",
-    "screenshotSize": 6758,
+    "screenshotSize": 6662,
     "screenshotDark": "globs.design-dark.webp",
-    "screenshotDarkSize": 716,
+    "screenshotDarkSize": 6656,
     "meta": {
       "title": "Globs Designer",
       "open_graph": {
@@ -2980,9 +3112,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "heritagein.info.webp",
-    "screenshotSize": 27738,
+    "screenshotSize": 27422,
     "screenshotDark": "heritagein.info-dark.webp",
-    "screenshotDarkSize": 27738,
+    "screenshotDarkSize": 27422,
     "meta": {
       "title": "Heritage_in…",
       "favicon": "https://heritagein.info/public/favicon.ico"
@@ -3002,9 +3134,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "hexed.it.webp",
-    "screenshotSize": 38826,
+    "screenshotSize": 39632,
     "screenshotDark": "hexed.it-dark.webp",
-    "screenshotDarkSize": 34286,
+    "screenshotDarkSize": 35686,
     "meta": {
       "title": "HexEd.it - Browser-based Online and Offline Hex Editing",
       "author": "Jens Duttke",
@@ -3060,9 +3192,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "hoppscotch.io.webp",
-    "screenshotSize": 6502,
+    "screenshotSize": 6438,
     "screenshotDark": "hoppscotch.io-dark.webp",
-    "screenshotDarkSize": 6224,
+    "screenshotDarkSize": 550,
     "meta": {
       "title": "Hoppscotch • Open source API development ecosystem • Hoppscotch",
       "keywords": [
@@ -3123,43 +3255,6 @@
     "description": "Helps you create requests faster, saving precious time on development."
   },
   {
-    "timestamp": "2022-05-04T07:51:50.000Z",
-    "appURL": "https://hoten.cc/zc/play/",
-    "sourceURL": "https://github.com/connorjclark/ZeldaClassic",
-    "usedAPIs": [
-      {
-        "name": "Add to Home Screen",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
-      },
-      {
-        "name": "Async Clipboard",
-        "url": "https://web.dev/async-clipboard/"
-      },
-      {
-        "name": "File System Access",
-        "url": "https://web.dev/file-system-access/"
-      },
-      {
-        "name": "Gamepad",
-        "url": "https://web.dev/gamepad/"
-      },
-      {
-        "name": "Persistent Storage",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
-      },
-      {
-        "name": "Service Worker",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "hoten.cc!zc!play.webp",
-    "screenshotDark": "hoten.cc!zc!play-dark.webp",
-    "meta": {},
-    "title": "hoten.cc",
-    "description": ""
-  },
-  {
     "timestamp": "2022-02-25T09:23:57.000Z",
     "appURL": "https://panel.hostmeapp.com",
     "sourceURL": null,
@@ -3191,9 +3286,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "panel.hostmeapp.com.webp",
-    "screenshotSize": 18568,
+    "screenshotSize": 17466,
     "screenshotDark": "panel.hostmeapp.com-dark.webp",
-    "screenshotDarkSize": 17546,
+    "screenshotDarkSize": 17466,
     "meta": {
       "title": "Hostme",
       "description": "Hostme is everything you need to successfully run your restaurant business!",
@@ -3235,9 +3330,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "pinafore.social.webp",
-    "screenshotSize": 8816,
+    "screenshotSize": 8592,
     "screenshotDark": "pinafore.social-dark.webp",
-    "screenshotDarkSize": 8076,
+    "screenshotDarkSize": 8012,
     "meta": {
       "theme_color": "#4169e1",
       "description": "An alternative web client for Mastodon, focused on speed and simplicity.",
@@ -3275,9 +3370,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "semaphore.social.webp",
-    "screenshotSize": 8804,
+    "screenshotSize": 8710,
     "screenshotDark": "semaphore.social-dark.webp",
-    "screenshotDarkSize": 8496,
+    "screenshotDarkSize": 8480,
     "meta": {
       "theme_color": "#4169e1",
       "description": "An alternative web client for Mastodon, focused on speed and simplicity.",
@@ -3331,9 +3426,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "hypertext.plus!editor.webp",
-    "screenshotSize": 2598,
+    "screenshotSize": 2578,
     "screenshotDark": "hypertext.plus!editor-dark.webp",
-    "screenshotDarkSize": 2232,
+    "screenshotDarkSize": 2294,
     "meta": {
       "title": "Hypertext",
       "description": "Hypertext HTML Document Editor",
@@ -3387,9 +3482,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "code.irobot.com.webp",
-    "screenshotSize": 712,
+    "screenshotSize": 540,
     "screenshotDark": "code.irobot.com-dark.webp",
-    "screenshotDarkSize": 516,
+    "screenshotDarkSize": 542,
     "meta": {
       "title": "iRobot Coding",
       "favicon": "https://code.irobot.com/assets/assets/images/favicon512.png"
@@ -3409,9 +3504,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "eos.rreverser.com.webp",
-    "screenshotSize": 12954,
+    "screenshotSize": 13066,
     "screenshotDark": "eos.rreverser.com-dark.webp",
-    "screenshotDarkSize": 12954,
+    "screenshotDarkSize": 13066,
     "meta": {
       "title": "Intervalometer",
       "favicon": "data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><text y=\".9em\" font-size=\"90\">%E2%8F%B2%EF%B8%8F</text></svg>"
@@ -3447,9 +3542,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "ilariafoodandhome.it.webp",
-    "screenshotSize": 16102,
+    "screenshotSize": 16496,
     "screenshotDark": "ilariafoodandhome.it-dark.webp",
-    "screenshotDarkSize": 16102,
+    "screenshotDarkSize": 16496,
     "meta": {
       "theme_color": "#f9f3eb",
       "title": "Ilaria Food & Home – Ricette e stile di vita sostenibile",
@@ -3490,9 +3585,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "install.wled.me.webp",
-    "screenshotSize": 14800,
+    "screenshotSize": 14640,
     "screenshotDark": "install.wled.me-dark.webp",
-    "screenshotDarkSize": 14800,
+    "screenshotDarkSize": 14640,
     "meta": {
       "theme_color": "#222222",
       "title": "Install WLED",
@@ -3513,9 +3608,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "tasmota.github.io!install.webp",
-    "screenshotSize": 6034,
+    "screenshotSize": 6202,
     "screenshotDark": "tasmota.github.io!install-dark.webp",
-    "screenshotDarkSize": 6034,
+    "screenshotDarkSize": 6202,
     "meta": {
       "title": "Install Tasmota",
       "favicon": "https://tasmota.github.io/install/favicon.ico"
@@ -3539,9 +3634,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "improv-wifi.com.webp",
-    "screenshotSize": 16246,
+    "screenshotSize": 16374,
     "screenshotDark": "improv-wifi.com-dark.webp",
-    "screenshotDarkSize": 16246,
+    "screenshotDarkSize": 16374,
     "meta": {
       "title": "Improv Wi-Fi: Open standard for setting up Wi-Fi via Bluetooth LE and Serial",
       "description": "Free and open standard with ready-made SDKs that offer a great user experience to configure Wi-Fi on devices.",
@@ -3608,9 +3703,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "instagram.com.webp",
-    "screenshotSize": 17846,
+    "screenshotSize": 18658,
     "screenshotDark": "instagram.com-dark.webp",
-    "screenshotDarkSize": 17552,
+    "screenshotDarkSize": 18150,
     "meta": {
       "theme_color": "#ffffff",
       "open_graph": {
@@ -3650,9 +3745,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "irccloud.com.webp",
-    "screenshotSize": 20330,
+    "screenshotSize": 20270,
     "screenshotDark": "irccloud.com-dark.webp",
-    "screenshotDarkSize": 20330,
+    "screenshotDarkSize": 20270,
     "meta": {
       "title": "IRCCloud",
       "description": "IRCCloud is a modern IRC client that keeps you connected, with none of the baggage. Stay synced and notified wherever you are with our web and mobile apps.",
@@ -3691,9 +3786,9 @@
     ],
     "isElectronApp": true,
     "screenshot": "marabesi.github.io!json-tool.webp",
-    "screenshotSize": 5546,
+    "screenshotSize": 5494,
     "screenshotDark": "marabesi.github.io!json-tool-dark.webp",
-    "screenshotDarkSize": 4192,
+    "screenshotDarkSize": 4142,
     "meta": {
       "theme_color": "#000000",
       "description": "Web site created using create-react-app",
@@ -3723,9 +3818,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "pwa.journalisticapp.com.webp",
-    "screenshotSize": 10442,
+    "screenshotSize": 10410,
     "screenshotDark": "pwa.journalisticapp.com-dark.webp",
-    "screenshotDarkSize": 9340,
+    "screenshotDarkSize": 9398,
     "meta": {
       "title": "Journalistic",
       "description": "A micro journaling app with minimalistic design, pristine writing experience, and powerful insights.",
@@ -3784,9 +3879,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "jsmusicdb.com.webp",
-    "screenshotSize": 7816,
+    "screenshotSize": 7716,
     "screenshotDark": "jsmusicdb.com-dark.webp",
-    "screenshotDarkSize": 7816,
+    "screenshotDarkSize": 7716,
     "meta": {
       "theme_color": "#0063B1",
       "title": "JSMusicDB",
@@ -3815,9 +3910,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "editor.kota-yata.com.webp",
-    "screenshotSize": 2420,
+    "screenshotSize": 2434,
     "screenshotDark": "editor.kota-yata.com-dark.webp",
-    "screenshotDarkSize": 2420,
+    "screenshotDarkSize": 2434,
     "meta": {
       "title": "Editor | kota-yata.com",
       "description": "WYSIWIG memo app with PDF preview",
@@ -3861,9 +3956,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "pwa.kiwix.org!www!index.html.webp",
-    "screenshotSize": 30172,
+    "screenshotSize": 30570,
     "screenshotDark": "pwa.kiwix.org!www!index.html-dark.webp",
-    "screenshotDarkSize": 30172,
+    "screenshotDarkSize": 30570,
     "meta": {
       "title": "Kiwix JS PWA",
       "description": "Offline Wikipedia reader",
@@ -3872,6 +3967,34 @@
     },
     "title": "Kiwix JS PWA",
     "description": "Offline Wikipedia reader"
+  },
+  {
+    "timestamp": "2023-04-10T15:35:34.000Z",
+    "appURL": "https://app.ampedstudio.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      },
+      {
+        "name": "Web MIDI",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "app.ampedstudio.com.webp",
+    "screenshotSize": 5406,
+    "screenshotDark": "app.ampedstudio.com-dark.webp",
+    "screenshotDarkSize": 5406,
+    "meta": {
+      "title": "Loading... - Amped Studio",
+      "description": "Amped studio",
+      "theme_color": "#1c1e21",
+      "favicon": "https://app.ampedstudio.com/favicon.ico"
+    },
+    "title": "Loading... - Amped Studio",
+    "description": "Amped studio"
   },
   {
     "timestamp": "2022-10-05T20:00:03.000Z",
@@ -3893,9 +4016,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.cosee.com.webp",
-    "screenshotSize": 4558,
+    "screenshotSize": 4728,
     "screenshotDark": "app.cosee.com-dark.webp",
-    "screenshotDarkSize": 4558,
+    "screenshotDarkSize": 4728,
     "meta": {
       "theme_color": "#ffffff",
       "title": "LogIn | Cosee",
@@ -3920,9 +4043,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "fuse.littlebits.com.webp",
-    "screenshotSize": 24554,
+    "screenshotSize": 24496,
     "screenshotDark": "fuse.littlebits.com-dark.webp",
-    "screenshotDarkSize": 24554,
+    "screenshotDarkSize": 24496,
     "meta": {
       "theme_color": "#000000",
       "title": "LittleBits Fuse",
@@ -3951,9 +4074,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "games.tigeroakes.com!last-finger-standing.webp",
-    "screenshotSize": 10336,
+    "screenshotSize": 10684,
     "screenshotDark": "games.tigeroakes.com!last-finger-standing-dark.webp",
-    "screenshotDarkSize": 10336,
+    "screenshotDarkSize": 10684,
     "meta": {
       "title": "Last Finger Standing",
       "description": "Need to pick someone to go first? To pay the bill? To buy milk? Just have everyone put a finger on the screen and wait. Last Finger Standing will make your choice automatically! A quick and easy app to randomly select someone from a group of people.",
@@ -3985,6 +4108,53 @@
     "description": "Need to pick someone to go first? To pay the bill? To buy milk? Just have everyone put a finger on the screen and wait. Last Finger Standing will make your choice automatically! A quick and easy app to randomly select someone from a group of people."
   },
   {
+    "timestamp": "2023-04-10T15:44:19.000Z",
+    "appURL": "https://learningsynths.ableton.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      },
+      {
+        "name": "Web MIDI",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "learningsynths.ableton.com.webp",
+    "screenshotSize": 9412,
+    "screenshotDark": "learningsynths.ableton.com-dark.webp",
+    "screenshotDarkSize": 7770,
+    "meta": {
+      "title": "Learning Synths",
+      "description": "Learn about synthesizers via Ableton’s interactive website. Play with a synth in your browser and learn to use the various parts of a synth to make your own sounds.",
+      "theme_color": "#ffffff",
+      "twitter_card": {
+        "card": "summary",
+        "creator": "@Ableton",
+        "images": [
+          {
+            "url": "https://learningsynths.ableton.com/meta/og-learningsynths-1200x630.jpg"
+          }
+        ]
+      },
+      "open_graph": {
+        "title": "Learning Synths",
+        "type": "website",
+        "images": [
+          {
+            "url": "https://learningsynths.ableton.com/meta/og-learningsynths-1200x630.jpg"
+          }
+        ],
+        "description": "Learn about synthesizers via Ableton’s interactive website. Play with a synth in your browser and learn to use the various parts of a synth to make your own sounds."
+      },
+      "favicon": "https://learningsynths.ableton.com/meta/favicon/favicon.ico"
+    },
+    "title": "Learning Synths",
+    "description": "Learn about synthesizers via Ableton’s interactive website. Play with a synth in your browser and learn to use the various parts of a synth to make your own sounds."
+  },
+  {
     "timestamp": "2022-04-25T21:25:04.000Z",
     "appURL": "https://leonidasesteban.com/",
     "sourceURL": null,
@@ -4000,9 +4170,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "leonidasesteban.com.webp",
-    "screenshotSize": 20862,
+    "screenshotSize": 20970,
     "screenshotDark": "leonidasesteban.com-dark.webp",
-    "screenshotDarkSize": 20896,
+    "screenshotDarkSize": 20950,
     "meta": {
       "title": "Leonidas Esteban, Google Developer Expert en Web Technologies",
       "description": "Te enseño el cómo y el porqué de cada línea de código, aprendamos a programar juntos.",
@@ -4066,9 +4236,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "linear.app.webp",
-    "screenshotSize": 11376,
+    "screenshotSize": 11492,
     "screenshotDark": "linear.app-dark.webp",
-    "screenshotDarkSize": 11376,
+    "screenshotDarkSize": 11492,
     "meta": {
       "title": "Linear – A better way to build products",
       "twitter_card": {
@@ -4122,9 +4292,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "linkcleaner.app.webp",
-    "screenshotSize": 18278,
+    "screenshotSize": 18396,
     "screenshotDark": "linkcleaner.app-dark.webp",
-    "screenshotDarkSize": 17282,
+    "screenshotDarkSize": 17430,
     "meta": {
       "title": "Link Cleaner",
       "description": "Link Cleaner is a web app that removes unnecessary junk from links in one click.",
@@ -4158,9 +4328,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "liveheats.com.webp",
-    "screenshotSize": 26390,
+    "screenshotSize": 22268,
     "screenshotDark": "liveheats.com-dark.webp",
-    "screenshotDarkSize": 38020,
+    "screenshotDarkSize": 41330,
     "meta": {
       "title": "LiveHeats | Live Scoring and Competition Management Platform for Sports",
       "description": "Helping organisers run sophisticated competitions with minimal effort. All-in-one platform for live scoring, heat draws, scheduling, rankings and registration.",
@@ -4212,17 +4382,28 @@
     ],
     "isElectronApp": false,
     "screenshot": "logiwebconnect.com.webp",
-    "screenshotSize": 13890,
+    "screenshotSize": 13794,
     "screenshotDark": "logiwebconnect.com-dark.webp",
-    "screenshotDarkSize": 13890,
+    "screenshotDarkSize": 13794,
     "meta": {
       "theme_color": "#000000",
-      "description": "Logi Web Connect",
+      "description": "Logi Web Connect gives you pairing flexibility to connect your Logi mice & keyboards through your Bolt Receiver. And is the perfect solution to pair your devices to computers without installing any software.",
+      "keywords": [
+        "pair logitech mouse",
+        "pair logitech keyboard",
+        "logi bolt pairing",
+        "unifying receiver pairing",
+        "unifying",
+        "bolt",
+        "connect logitech mouse",
+        "connect logitech keyboard"
+      ],
+      "author": "Logitech",
       "title": "Logi Web Connect",
       "favicon": "https://logiwebconnect.com/logo192.png"
     },
     "title": "Logi Web Connect",
-    "description": "Logi Web Connect"
+    "description": "Logi Web Connect gives you pairing flexibility to connect your Logi mice & keyboards through your Bolt Receiver. And is the perfect solution to pair your devices to computers without installing any software."
   },
   {
     "timestamp": "2022-05-03T10:28:50.000Z",
@@ -4244,9 +4425,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "lookscanned.io!scan.webp",
-    "screenshotSize": 16296,
+    "screenshotSize": 16766,
     "screenshotDark": "lookscanned.io!scan-dark.webp",
-    "screenshotDarkSize": 16664,
+    "screenshotDarkSize": 17288,
     "meta": {
       "title": "Look Scanned",
       "description": "Look Scanned is a pure frontend site that makes your PDFs look scanned! No need for printers and scanners anymore - everything you need to do is just a few clicks.",
@@ -4272,9 +4453,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "spike.legoeducation.com.webp",
-    "screenshotSize": 14100,
+    "screenshotSize": 14000,
     "screenshotDark": "spike.legoeducation.com-dark.webp",
-    "screenshotDarkSize": 14100,
+    "screenshotDarkSize": 14000,
     "meta": {
       "title": "LEGO Education SPIKE",
       "favicon": "https://spike.legoeducation.com/favicon.ico"
@@ -4318,9 +4499,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "thelogbook.app.webp",
-    "screenshotSize": 5402,
+    "screenshotSize": 5596,
     "screenshotDark": "thelogbook.app-dark.webp",
-    "screenshotDarkSize": 4816,
+    "screenshotDarkSize": 5036,
     "meta": {
       "title": "Logbook",
       "favicon": "https://thelogbook.app/assets/icons/favicon-32x32.png"
@@ -4340,9 +4521,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "toolbox.lynx-r.com.webp",
-    "screenshotSize": 24564,
+    "screenshotSize": 24546,
     "screenshotDark": "toolbox.lynx-r.com-dark.webp",
-    "screenshotDarkSize": 24564,
+    "screenshotDarkSize": 24546,
     "meta": {
       "description": "Lynx Toolbox is an online tool to help you manage your Lynx headset. You can use it to install apps, update your device, or perform various other actions.",
       "title": "Lynx Toolbox",
@@ -4371,9 +4552,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "duolingo.com.webp",
-    "screenshotSize": 16378,
+    "screenshotSize": 16558,
     "screenshotDark": "duolingo.com-dark.webp",
-    "screenshotDarkSize": 16378,
+    "screenshotDarkSize": 16558,
     "meta": {
       "title": "Duolingo",
       "twitter_card": {
@@ -4434,9 +4615,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "lab.flipper.net.webp",
-    "screenshotSize": 2918,
+    "screenshotSize": 2828,
     "screenshotDark": "lab.flipper.net-dark.webp",
-    "screenshotDarkSize": 2918,
+    "screenshotDarkSize": 2828,
     "meta": {
       "title": "My Flipper",
       "description": "Web platform for your Flipper",
@@ -4481,9 +4662,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "loop.microsoft.com.webp",
-    "screenshotSize": 20108,
+    "screenshotSize": 19908,
     "screenshotDark": "loop.microsoft.com-dark.webp",
-    "screenshotDarkSize": 20108,
+    "screenshotDarkSize": 19908,
     "meta": {
       "title": "Microsoft Loop",
       "open_graph": {
@@ -4547,9 +4728,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "maskable.app.webp",
-    "screenshotSize": 13994,
+    "screenshotSize": 13828,
     "screenshotDark": "maskable.app-dark.webp",
-    "screenshotDarkSize": 13598,
+    "screenshotDarkSize": 13458,
     "meta": {
       "title": "Maskable.app",
       "theme_color": "#FFD567",
@@ -4628,9 +4809,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "mconverter.eu.webp",
-    "screenshotSize": 10374,
+    "screenshotSize": 10260,
     "screenshotDark": "mconverter.eu-dark.webp",
-    "screenshotDarkSize": 10610,
+    "screenshotDarkSize": 10504,
     "meta": {
       "title": "MConverter: Easy to Use Online File Converter",
       "description": "Convert securely video, audio, image, e-book, office & archive files. Bulk convert large files up to 1 GB. Free and easy to use converter.",
@@ -4668,9 +4849,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "mdsilo.com!app!demo.webp",
-    "screenshotSize": 23330,
+    "screenshotSize": 23776,
     "screenshotDark": "mdsilo.com!app!demo-dark.webp",
-    "screenshotDarkSize": 23330,
+    "screenshotDarkSize": 23776,
     "meta": {
       "title": "mdSilo",
       "description": "mdSilo: Lightweight Personal Wiki on Desktop and Web",
@@ -4728,9 +4909,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "mishipay.shop.webp",
-    "screenshotSize": 7896,
+    "screenshotSize": 8166,
     "screenshotDark": "mishipay.shop-dark.webp",
-    "screenshotDarkSize": 7896,
+    "screenshotDarkSize": 8166,
     "meta": {
       "description": "MishiPay’s app allows shoppers to self-scan and pay for any item in the store and simply walk out with it, so there is absolutely no queueing whatsoever while patent-pending technology ensures security against theft.",
       "keywords": [
@@ -4774,9 +4955,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "momo.mometic.com.webp",
-    "screenshotSize": 4594,
+    "screenshotSize": 4568,
     "screenshotDark": "momo.mometic.com-dark.webp",
-    "screenshotDarkSize": 4594,
+    "screenshotDarkSize": 4568,
     "meta": {
       "title": "MOMO Pro",
       "theme_color": "#000000",
@@ -4785,6 +4966,42 @@
     },
     "title": "MOMO Pro",
     "description": "Impeccable timing and knowledge separate the stock trading elite. MOMO Stock Discovery App gives real-time stock market insight and alerts to time trades from desktop browser, iPhone, or Android."
+  },
+  {
+    "timestamp": "2023-04-10T15:43:30.000Z",
+    "appURL": "https://soundation.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      },
+      {
+        "name": "Web MIDI",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "soundation.com.webp",
+    "screenshotSize": 12602,
+    "screenshotDark": "soundation.com-dark.webp",
+    "screenshotDarkSize": 12558,
+    "meta": {
+      "title": "Soundation - Make music in an online DAW",
+      "description": "Produce music online in your browser. Make beats, record & edit audio, and collaborate. Use 20,000+ loops & samples, virtual instruments, and effects.",
+      "open_graph": {
+        "title": "Make music in an online DAW",
+        "description": "Produce music online. Make beats, record audio, and collaborate.",
+        "images": [
+          {
+            "url": "https://soundation-strapi-production.s3.amazonaws.com/soundation_gen_meta_ed63ad66fd.jpg"
+          }
+        ]
+      },
+      "favicon": "https://soundation.com/favicon-16x16.png"
+    },
+    "title": "Make music in an online DAW",
+    "description": "Produce music online. Make beats, record audio, and collaborate."
   },
   {
     "timestamp": "2023-03-14T08:06:51.000Z",
@@ -4834,9 +5051,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "wonderful-glacier-07b022d1e.2.azurestaticapps.net.webp",
-    "screenshotSize": 1784,
+    "screenshotSize": 1754,
     "screenshotDark": "wonderful-glacier-07b022d1e.2.azurestaticapps.net-dark.webp",
-    "screenshotDarkSize": 1806,
+    "screenshotDarkSize": 1760,
     "meta": {
       "title": "Mammoth",
       "description": "Discover a simpler way to socialize online with Mammoth, the Mastodon app that prioritizes ease-of-use and clean design. Experience the open-source, decentralized social network without the clutter. Join communities, share your thoughts, and connect with like-minded individuals all with just a few taps. Say goodbye to overwhelming feeds and complicated features, Mammoth simplifies the social media experience.",
@@ -4866,9 +5083,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "microsoft.com!en-us!makecode.webp",
-    "screenshotSize": 34314,
+    "screenshotSize": 34082,
     "screenshotDark": "microsoft.com!en-us!makecode-dark.webp",
-    "screenshotDarkSize": 34314,
+    "screenshotDarkSize": 34098,
     "meta": {
       "title": "Microsoft MakeCode",
       "twitter_card": {
@@ -4924,9 +5141,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "my.numworks.com.webp",
-    "screenshotSize": 29732,
+    "screenshotSize": 29898,
     "screenshotDark": "my.numworks.com-dark.webp",
-    "screenshotDarkSize": 29732,
+    "screenshotDarkSize": 29898,
     "meta": {
       "title": "NumWorks",
       "favicon": "https://cdn.numworks.com/b9601ae8.ico"
@@ -4974,9 +5191,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "narrow.one.webp",
-    "screenshotSize": 17110,
+    "screenshotSize": 17058,
     "screenshotDark": "narrow.one-dark.webp",
-    "screenshotDarkSize": 16786,
+    "screenshotDarkSize": 16738,
     "meta": {
       "description": "Capture the flag medieval style!",
       "keywords": [
@@ -5040,9 +5257,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "natto.dev.webp",
-    "screenshotSize": 9748,
+    "screenshotSize": 9742,
     "screenshotDark": "natto.dev-dark.webp",
-    "screenshotDarkSize": 9654,
+    "screenshotDarkSize": 9742,
     "meta": {
       "open_graph": {
         "title": "natto.dev - write JavaScript on a 2D canvas",
@@ -5079,9 +5296,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "nfctools.net.webp",
-    "screenshotSize": 6860,
+    "screenshotSize": 6874,
     "screenshotDark": "nfctools.net-dark.webp",
-    "screenshotDarkSize": 6860,
+    "screenshotDarkSize": 6874,
     "meta": {
       "title": "NFC Tools Online",
       "description": "Online tools to read and write the data on your NFC tags.",
@@ -5114,9 +5331,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "niftypass.app.webp",
-    "screenshotSize": 6930,
+    "screenshotSize": 6734,
     "screenshotDark": "niftypass.app-dark.webp",
-    "screenshotDarkSize": 6930,
+    "screenshotDarkSize": 6734,
     "meta": {
       "title": "NiftyPass",
       "favicon": "https://niftypass.app/favicon.ico"
@@ -5148,9 +5365,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "notepad.js.org.webp",
-    "screenshotSize": 14312,
+    "screenshotSize": 14222,
     "screenshotDark": "notepad.js.org-dark.webp",
-    "screenshotDarkSize": 14602,
+    "screenshotDarkSize": 14956,
     "meta": {
       "title": "Notepad - Offline capable",
       "theme_color": "#4d4d4d",
@@ -5220,9 +5437,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "netflix.com.webp",
-    "screenshotSize": 31854,
+    "screenshotSize": 33692,
     "screenshotDark": "netflix.com-dark.webp",
-    "screenshotDarkSize": 31854,
+    "screenshotDarkSize": 33692,
     "meta": {
       "title": "Netflix Spain - Watch TV Shows Online, Watch Movies Online",
       "keywords": [
@@ -5279,9 +5496,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "anaesthetics.app!bluetooth.webp",
-    "screenshotSize": 1406,
+    "screenshotSize": 1376,
     "screenshotDark": "anaesthetics.app!bluetooth-dark.webp",
-    "screenshotDarkSize": 1406,
+    "screenshotDarkSize": 1376,
     "meta": {
       "theme_color": "#000000",
       "title": "Oxygen Saturation Monitor",
@@ -5333,9 +5550,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "configure.zsa.io.webp",
-    "screenshotSize": 11054,
+    "screenshotSize": 11418,
     "screenshotDark": "configure.zsa.io-dark.webp",
-    "screenshotDarkSize": 11054,
+    "screenshotDarkSize": 11418,
     "meta": {
       "theme_color": "#d48f2e",
       "description": "A powerful, visual tool to configure your keyboard. Based on the open-source QMK firmware.",
@@ -5357,9 +5574,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "josephrocca.github.io!clip-image-sorter.webp",
-    "screenshotSize": 16746,
+    "screenshotSize": 13332,
     "screenshotDark": "josephrocca.github.io!clip-image-sorter-dark.webp",
-    "screenshotDarkSize": 16746,
+    "screenshotDarkSize": 13332,
     "meta": {
       "title": "OpenAI CLIP Image Search in JavaScript (Using ONNX Web Runtime)",
       "favicon": "https://josephrocca.github.io/favicon.ico"
@@ -5387,9 +5604,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "okso.app.webp",
-    "screenshotSize": 2298,
+    "screenshotSize": 2294,
     "screenshotDark": "okso.app-dark.webp",
-    "screenshotDarkSize": 2298,
+    "screenshotDarkSize": 2294,
     "meta": {
       "title": "Ok! So... Draw online",
       "description": "The drawing app to express, grasp, and organize your thoughts and ideas",
@@ -5425,6 +5642,56 @@
     "description": "The drawing app to express, grasp, and organize your thoughts and ideas"
   },
   {
+    "timestamp": "2023-04-10T15:46:46.000Z",
+    "appURL": "https://www.sessionwire.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "sessionwire.com.webp",
+    "screenshotSize": 16870,
+    "screenshotDark": "sessionwire.com-dark.webp",
+    "screenshotDarkSize": 16870,
+    "meta": {
+      "title": "Online Music Collaboration App | Sessionwire | Connecting Creators",
+      "description": "Create and Collaborate From Anywhere in the World Unleash Your Creativity: Sessionwire Studio The all-new Sessionwire Studio is a powerhouse creative communication suite for your production team featuring live video and studio quality HQ Audio Get Started Watch Video Connect your studio to the world Ditch ZoomGet a | Online Music Collaboration App | Sessionwire",
+      "open_graph": {
+        "url": "https://www.sessionwire.com/",
+        "title": "Online Music Collaboration App | Sessionwire | Connecting",
+        "description": "Create and Collaborate From Anywhere in the World Unleash Your Creativity: Sessionwire Studio The all-new Sessionwire Studio is a powerhouse creative communication suite for your production team",
+        "type": "website",
+        "images": [
+          {
+            "url": "https://www.sessionwire.com/wp-content/uploads/2023/02/hero.009a1218.webp",
+            "width": 500
+          }
+        ],
+        "site_name": "Online Music Collaboration App | Sessionwire",
+        "locale": "en_US"
+      },
+      "twitter_card": {
+        "url": "https://www.sessionwire.com/",
+        "title": "Online Music Collaboration App | Sessionwire | Connecting",
+        "description": "Create and Collaborate From Anywhere in the World Unleash Your Creativity: Sessionwire Studio The all-new Sessionwire Studio is a powerhouse creative communication suite for your production team featuring live video and studio quality HQ Audio Get Started Watch Video Connect your",
+        "images": [
+          {
+            "url": "https://www.sessionwire.com/wp-content/uploads/2023/02/hero.009a1218.webp"
+          }
+        ],
+        "card": "summary_large_image",
+        "creator": "@twitter",
+        "site": "@twitter"
+      },
+      "favicon": "https://www.sessionwire.com/wp-content/uploads/2021/02/cropped-Sessionwire-Studio-Icon-192x192.png"
+    },
+    "title": "Online Music Collaboration App | Sessionwire | Connecting",
+    "description": "Create and Collaborate From Anywhere in the World Unleash Your Creativity: Sessionwire Studio The all-new Sessionwire Studio is a powerhouse creative communication suite for your production team"
+  },
+  {
     "timestamp": "2022-04-25T16:56:40.000Z",
     "appURL": "https://app.thepocketlab.com/",
     "sourceURL": null,
@@ -5436,9 +5703,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.thepocketlab.com.webp",
-    "screenshotSize": 11730,
+    "screenshotSize": 11676,
     "screenshotDark": "app.thepocketlab.com-dark.webp",
-    "screenshotDarkSize": 11730,
+    "screenshotDarkSize": 11676,
     "meta": {
       "theme_color": "#e4751b",
       "title": "PocketLab",
@@ -5471,9 +5738,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "bitmidi.com.webp",
-    "screenshotSize": 22816,
+    "screenshotSize": 22888,
     "screenshotDark": "bitmidi.com-dark.webp",
-    "screenshotDarkSize": 22204,
+    "screenshotDarkSize": 22320,
     "meta": {
       "title": "Popular MIDIs — BitMidi",
       "description": "Listen to free MIDI songs, download the best MIDI files, and share the best MIDIs on the web.",
@@ -5525,9 +5792,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "boardgamearena.com.webp",
-    "screenshotSize": 23414,
+    "screenshotSize": 23460,
     "screenshotDark": "boardgamearena.com-dark.webp",
-    "screenshotDarkSize": 23414,
+    "screenshotDarkSize": 23460,
     "meta": {
       "description": "The world's #1 platform for playing board games online. Play hundreds of board games from your browser for free.",
       "open_graph": {
@@ -5570,9 +5837,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "developer.chrome.com!fugu-showcase.webp",
-    "screenshotSize": 17672,
+    "screenshotSize": 17962,
     "screenshotDark": "developer.chrome.com!fugu-showcase-dark.webp",
-    "screenshotDarkSize": 17672,
+    "screenshotDarkSize": 17962,
     "meta": {
       "title": "Project Fugu API Showcase - Chrome Developers",
       "open_graph": {
@@ -5625,9 +5892,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "edit.photostack.app.webp",
-    "screenshotSize": 11066,
+    "screenshotSize": 11214,
     "screenshotDark": "edit.photostack.app-dark.webp",
-    "screenshotDarkSize": 11066,
+    "screenshotDarkSize": 11214,
     "meta": {
       "title": "PhotoStack",
       "theme_color": "#222",
@@ -5704,9 +5971,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "haven.pages.dev.webp",
-    "screenshotSize": 6076,
+    "screenshotSize": 6112,
     "screenshotDark": "haven.pages.dev-dark.webp",
-    "screenshotDarkSize": 6076,
+    "screenshotDarkSize": 6112,
     "meta": {
       "open_graph": {
         "title": "PWA Haven",
@@ -5769,9 +6036,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "microsoftedge.github.io!Demos!pwamp.webp",
-    "screenshotSize": 14164,
+    "screenshotSize": 14198,
     "screenshotDark": "microsoftedge.github.io!Demos!pwamp-dark.webp",
-    "screenshotDarkSize": 14164,
+    "screenshotDarkSize": 14198,
     "meta": {
       "title": "pwamp",
       "theme_color": "#181c25",
@@ -5820,9 +6087,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "paintz.app.webp",
-    "screenshotSize": 12984,
+    "screenshotSize": 12944,
     "screenshotDark": "paintz.app-dark.webp",
-    "screenshotDarkSize": 10688,
+    "screenshotDarkSize": 10812,
     "meta": {
       "open_graph": {
         "url": "https://paintz.app/",
@@ -5878,9 +6145,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "pixa.pics.webp",
-    "screenshotSize": 21888,
+    "screenshotSize": 24986,
     "screenshotDark": "pixa.pics-dark.webp",
-    "screenshotDarkSize": 18662,
+    "screenshotDarkSize": 24306,
     "meta": {
       "title": "PIXA.PICS - Pixel-Art/NFTs LAB. Make potential possible yet (un)limited.",
       "description": "Apply effects into it? Yes? Let's draw with «PIXA.PICS» lovely minima of real-life pictures to enhance well privacy and for selling it greatly as NFTs too.",
@@ -5953,9 +6220,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "pokedex.org.webp",
-    "screenshotSize": 15408,
+    "screenshotSize": 15374,
     "screenshotDark": "pokedex.org-dark.webp",
-    "screenshotDarkSize": 15408,
+    "screenshotDarkSize": 15374,
     "meta": {
       "title": "Pokedex.org",
       "description": "A mini-encyclopedia of Pokémon species, types, evolutions, and moves.",
@@ -5981,9 +6248,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "postr.me.webp",
-    "screenshotSize": 12536,
+    "screenshotSize": 12348,
     "screenshotDark": "postr.me-dark.webp",
-    "screenshotDarkSize": 10228,
+    "screenshotDarkSize": 12480,
     "meta": {
       "open_graph": {
         "url": "http://postr.me/",
@@ -6032,9 +6299,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "ppg.report.webp",
-    "screenshotSize": 4716,
+    "screenshotSize": 4596,
     "screenshotDark": "ppg.report-dark.webp",
-    "screenshotDarkSize": 4684,
+    "screenshotDarkSize": 4768,
     "meta": {
       "description": "Weather report tailored for paramotor pilots. Combines NOAA rapid refresh Op40 analysis, nearby Terminal Aerodrome Forecasts, NWS hourly forecast for 2.5km grid areas and NWS active alerts.",
       "theme_color": "#001931",
@@ -6091,9 +6358,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "ui.perfetto.dev.webp",
-    "screenshotSize": 960,
+    "screenshotSize": 10624,
     "screenshotDark": "ui.perfetto.dev-dark.webp",
-    "screenshotDarkSize": 10812,
+    "screenshotDarkSize": 958,
     "meta": {
       "title": "Perfetto UI",
       "favicon": "data:image/png;base64,iVBORw0KGgo="
@@ -6180,9 +6447,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "photopea.com.webp",
-    "screenshotSize": 19888,
+    "screenshotSize": 20096,
     "screenshotDark": "photopea.com-dark.webp",
-    "screenshotDarkSize": 19888,
+    "screenshotDarkSize": 20096,
     "meta": {
       "theme_color": "#474747",
       "title": "Photopea | Online Photo Editor",
@@ -6232,9 +6499,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "pinterest.de.webp",
-    "screenshotSize": 19734,
+    "screenshotSize": 20232,
     "screenshotDark": "pinterest.de-dark.webp",
-    "screenshotDarkSize": 19688,
+    "screenshotDarkSize": 20062,
     "meta": {
       "open_graph": {
         "site_name": "Pinterest",
@@ -6285,9 +6552,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "xbox.com!en-US!play!games!fortnite!BT5P2X999VH2.webp",
-    "screenshotSize": 25352,
+    "screenshotSize": 24920,
     "screenshotDark": "xbox.com!en-US!play!games!fortnite!BT5P2X999VH2-dark.webp",
-    "screenshotDarkSize": 25352,
+    "screenshotDarkSize": 24920,
     "meta": {
       "title": "Play Fortnite | Xbox Cloud Gaming (Beta) on  Xbox.com",
       "description": "Play Fortnite with Xbox Cloud Gaming (Beta). Become MEGA in Fortnite Battle Royale Chapter 4 Season 2. Ride the grind rails of “MEGA City” and swerve on its streets on a sports bike. Go beyond the neon towers to the rest of the new biome: cause Havoc at \"Steamy Springs,\" drive a \"Nitro Drifter\" to the \"Drift Ridge\" car track, sharpen your \"Kinetic Blade\" skills at “Kenjutsu Crossing,” and more! Play both Battle Royale and Fortnite Creative for free or purchase access to Fortnite’s PvE Campaign mode, Save the World.  All in-game purchases are discretionary, including the Save the World campaign, cosmetic items (e.g. Outfits), V-Bucks and seasonal account progression products like the Battle Pass. Download now and jump into the action.",
@@ -6342,9 +6609,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "radio-house.app.webp",
-    "screenshotSize": 1632,
+    "screenshotSize": 1680,
     "screenshotDark": "radio-house.app-dark.webp",
-    "screenshotDarkSize": 1632,
+    "screenshotDarkSize": 1680,
     "meta": {
       "title": "Radio House",
       "theme_color": "#2c2c2c",
@@ -6365,9 +6632,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "readyplayer.me!avatar.webp",
-    "screenshotSize": 4762,
+    "screenshotSize": 4822,
     "screenshotDark": "readyplayer.me!avatar-dark.webp",
-    "screenshotDarkSize": 4762,
+    "screenshotDarkSize": 4822,
     "meta": {
       "favicon": "https://readyplayer.me/favicon.ico"
     },
@@ -6390,9 +6657,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "regex101.com.webp",
-    "screenshotSize": 16816,
+    "screenshotSize": 15724,
     "screenshotDark": "regex101.com-dark.webp",
-    "screenshotDarkSize": 14722,
+    "screenshotDarkSize": 15046,
     "meta": {
       "theme_color": "#3366a4",
       "keywords": [
@@ -6407,15 +6674,16 @@
         "javascript",
         "python",
         ".net",
-        "c#"
+        "c#",
+        "rust"
       ],
-      "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET.",
+      "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET, Rust.",
       "author": "Firas Dib",
       "twitter_card": {
         "card": "summary_large_image",
         "site": "@regex101",
         "title": "regex101: build, test, and debug regex",
-        "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET.",
+        "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET, Rust.",
         "creator": "@regex101",
         "images": [
           {
@@ -6432,7 +6700,7 @@
           }
         ],
         "title": "regex101: build, test, and debug regex",
-        "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET.",
+        "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET, Rust.",
         "url": "https://regex101.com/",
         "site_name": "regex101",
         "type": "website"
@@ -6441,7 +6709,7 @@
       "favicon": "https://regex101.com/static/assets/icon-192.png"
     },
     "title": "regex101: build, test, and debug regex",
-    "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET."
+    "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET, Rust."
   },
   {
     "timestamp": "2022-04-25T10:44:51.000Z",
@@ -6463,9 +6731,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "remap-keys.app.webp",
-    "screenshotSize": 18780,
+    "screenshotSize": 18860,
     "screenshotDark": "remap-keys.app-dark.webp",
-    "screenshotDarkSize": 18780,
+    "screenshotDarkSize": 18860,
     "meta": {
       "theme_color": "#000000",
       "open_graph": {
@@ -6505,9 +6773,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "roland50.studio.webp",
-    "screenshotSize": 1948,
+    "screenshotSize": 1900,
     "screenshotDark": "roland50.studio-dark.webp",
-    "screenshotDarkSize": 1948,
+    "screenshotDarkSize": 1900,
     "meta": {
       "title": "Roland50.studio",
       "description": "Emulate the sound of Roland's most famous and influential musical instruments from Yuri Suzuki and Roland.",
@@ -6551,9 +6819,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "lightningmaps.org.webp",
-    "screenshotSize": 29962,
+    "screenshotSize": 35290,
     "screenshotDark": "lightningmaps.org-dark.webp",
-    "screenshotDarkSize": 29946,
+    "screenshotDarkSize": 35548,
     "meta": {
       "title": "Real Time Lightning Map :: LightningMaps.org",
       "description": "See lightning strikes in real time across the planet. Free access to maps of former thunderstorms. By Blitzortung.org and contributors.",
@@ -6627,16 +6895,16 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.slack.com.webp",
-    "screenshotSize": 22438,
+    "screenshotSize": 21986,
     "screenshotDark": "app.slack.com-dark.webp",
-    "screenshotDarkSize": 22496,
+    "screenshotDarkSize": 22678,
     "meta": {
-      "title": "Slack is your digital HQ | Slack",
+      "title": "Slack is your productivity platform | Slack",
       "description": "Slack is a new way to communicate with your team. It’s faster, better organized, and more secure than email.",
       "open_graph": {
         "type": "website",
         "site_name": "Slack",
-        "title": "Slack is your digital HQ",
+        "title": "Slack is your productivity platform",
         "images": [
           {
             "url": "https://a.slack-edge.com/221d25b/marketing/img/homepage/e2e-prospects/unfurl/slack-e2e-homepage-unfurl.jpg"
@@ -6648,7 +6916,7 @@
       "twitter_card": {
         "site": "@slackhq",
         "card": "summary_large_image",
-        "title": "Slack is your digital HQ",
+        "title": "Slack is your productivity platform",
         "description": "Slack is a new way to communicate with your team. It’s faster, better organized, and more secure than email.",
         "images": [
           {
@@ -6659,7 +6927,7 @@
       "author": "Slack",
       "favicon": "https://a.slack-edge.com/5f35cf0/img/icons/favicon-32-ua.png"
     },
-    "title": "Slack is your digital HQ",
+    "title": "Slack is your productivity platform",
     "description": "Slack is a new way to communicate with your team. It’s faster, better organized, and more secure than email."
   },
   {
@@ -6682,9 +6950,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.storz-bickel.com.webp",
-    "screenshotSize": 2476,
+    "screenshotSize": 2474,
     "screenshotDark": "app.storz-bickel.com-dark.webp",
-    "screenshotDarkSize": 2476,
+    "screenshotDarkSize": 2474,
     "meta": {
       "title": "STORZ & BICKEL",
       "author": "STORZ & BICKEL",
@@ -6723,9 +6991,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "open.spotify.com.webp",
-    "screenshotSize": 24148,
+    "screenshotSize": 24462,
     "screenshotDark": "open.spotify.com-dark.webp",
-    "screenshotDarkSize": 24148,
+    "screenshotDarkSize": 24462,
     "meta": {
       "title": "Spotify - Web Player: Music for everyone",
       "open_graph": {
@@ -6773,9 +7041,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "play.spacelancers.com.webp",
-    "screenshotSize": 916,
+    "screenshotSize": 860,
     "screenshotDark": "play.spacelancers.com-dark.webp",
-    "screenshotDarkSize": 916,
+    "screenshotDarkSize": 860,
     "meta": {
       "title": "SpaceLancer",
       "favicon": "https://play.spacelancers.com/favicon.ico"
@@ -6823,9 +7091,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "scrapbook-pwa.web.app.webp",
-    "screenshotSize": 1754,
+    "screenshotSize": 1712,
     "screenshotDark": "scrapbook-pwa.web.app-dark.webp",
-    "screenshotDarkSize": 1754,
+    "screenshotDarkSize": 1712,
     "meta": {
       "theme_color": "#37474F",
       "title": "Scrapbook PWA",
@@ -6846,9 +7114,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "setu-upi-over-nfc.herokuapp.com!how-it-works.webp",
-    "screenshotSize": 3492,
+    "screenshotSize": 3514,
     "screenshotDark": "setu-upi-over-nfc.herokuapp.com!how-it-works-dark.webp",
-    "screenshotDarkSize": 3492,
+    "screenshotDarkSize": 3514,
     "meta": {},
     "title": "setu-upi-over-nfc.herokuapp.com",
     "description": ""
@@ -6893,9 +7161,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "sharedgametimer.com.webp",
-    "screenshotSize": 11502,
+    "screenshotSize": 11524,
     "screenshotDark": "sharedgametimer.com-dark.webp",
-    "screenshotDarkSize": 11502,
+    "screenshotDarkSize": 11524,
     "meta": {
       "title": "Shared Game Timer",
       "theme_color": "#271c19",
@@ -6957,9 +7225,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "snaeplayer.com.webp",
-    "screenshotSize": 3292,
+    "screenshotSize": 3294,
     "screenshotDark": "snaeplayer.com-dark.webp",
-    "screenshotDarkSize": 3140,
+    "screenshotDarkSize": 3152,
     "meta": {
       "title": "Snae player",
       "theme_color": "#2a2827",
@@ -7001,44 +7269,10 @@
     ],
     "isElectronApp": false,
     "screenshot": "snapdrop.net.webp",
-    "screenshotSize": 4664,
     "screenshotDark": "snapdrop.net-dark.webp",
-    "screenshotDarkSize": 5366,
-    "meta": {
-      "title": "Snapdrop",
-      "theme_color": "#3367d6",
-      "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
-      "keywords": [
-        "File",
-        "Transfer",
-        "Share",
-        "Peer2Peer"
-      ],
-      "author": "RobinLinus",
-      "open_graph": {
-        "title": "Snapdrop",
-        "type": "article",
-        "url": "https://snapdrop.net/",
-        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
-        "images": [
-          {
-            "url": "https://snapdrop.net/images/twitter-stream.jpg"
-          }
-        ]
-      },
-      "twitter_card": {
-        "card": "summary_large_image",
-        "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.",
-        "images": [
-          {
-            "url": "https://snapdrop.net/images/twitter-stream.jpg"
-          }
-        ]
-      },
-      "favicon": "https://snapdrop.net/images/favicon-96x96.png"
-    },
-    "title": "Snapdrop",
-    "description": "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup."
+    "meta": {},
+    "title": "snapdrop.net",
+    "description": ""
   },
   {
     "timestamp": "2022-06-23T11:08:31.000Z",
@@ -7068,9 +7302,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "snapper-gps.herokuapp.com.webp",
-    "screenshotSize": 22986,
+    "screenshotSize": 22714,
     "screenshotDark": "snapper-gps.herokuapp.com-dark.webp",
-    "screenshotDarkSize": 22986,
+    "screenshotDarkSize": 22714,
     "meta": {
       "title": "SnapperGPS - Home",
       "description": "Home page of SnapperGPS - A small, low-cost, low-power wildlife tracking system.",
@@ -7100,9 +7334,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "songwhip.com.webp",
-    "screenshotSize": 9182,
+    "screenshotSize": 9340,
     "screenshotDark": "songwhip.com-dark.webp",
-    "screenshotDarkSize": 9182,
+    "screenshotDarkSize": 9340,
     "meta": {
       "theme_color": "#000000",
       "title": "Songwhip - Free music links to all platforms",
@@ -7155,9 +7389,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "spatialfusion.io.webp",
-    "screenshotSize": 1994,
+    "screenshotSize": 1982,
     "screenshotDark": "spatialfusion.io-dark.webp",
-    "screenshotDarkSize": 1994,
+    "screenshotDarkSize": 1998,
     "meta": {
       "title": "Spatial Fusion - A Mixed Reality Experience for the Web",
       "description": "Spatial Fusion is Mixed Reality (MR) experience created as a WebXR technology showcase and created in collaboration between Meta, and PHORIA and LUSION.",
@@ -7209,9 +7443,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "sqlime.org.webp",
-    "screenshotSize": 4908,
+    "screenshotSize": 4964,
     "screenshotDark": "sqlime.org-dark.webp",
-    "screenshotDarkSize": 4924,
+    "screenshotDarkSize": 4956,
     "meta": {
       "title": "Sqlime - SQLite Playground",
       "open_graph": {
@@ -7263,9 +7497,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "sqliteviewer.app.webp",
-    "screenshotSize": 7250,
+    "screenshotSize": 7414,
     "screenshotDark": "sqliteviewer.app-dark.webp",
-    "screenshotDarkSize": 6580,
+    "screenshotDarkSize": 6708,
     "meta": {
       "theme_color": "rgb(28, 28, 30)",
       "description": "A free online SQLite Explorer, inspired by DB Browser for SQLite and Airtable. Use this web-based SQLite Tool to quickly and easily inspect sqlite files on the web.",
@@ -7299,9 +7533,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "squoosh.app.webp",
-    "screenshotSize": 20776,
+    "screenshotSize": 20722,
     "screenshotDark": "squoosh.app-dark.webp",
-    "screenshotDarkSize": 20776,
+    "screenshotDarkSize": 20722,
     "meta": {
       "title": "Squoosh",
       "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
@@ -7350,9 +7584,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "stackblitz.com.webp",
-    "screenshotSize": 11142,
+    "screenshotSize": 11230,
     "screenshotDark": "stackblitz.com-dark.webp",
-    "screenshotDarkSize": 11142,
+    "screenshotDarkSize": 11230,
     "meta": {
       "title": "StackBlitz | Instant Dev Environments | Click. Code. Done.",
       "open_graph": {
@@ -7393,9 +7627,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "stackedit.io.webp",
-    "screenshotSize": 4320,
+    "screenshotSize": 4272,
     "screenshotDark": "stackedit.io-dark.webp",
-    "screenshotDarkSize": 4320,
+    "screenshotDarkSize": 4272,
     "meta": {
       "title": "StackEdit – In-browser Markdown editor",
       "description": "Full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.",
@@ -7421,9 +7655,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "stadia.google.com!controller.webp",
-    "screenshotSize": 12062,
+    "screenshotSize": 11976,
     "screenshotDark": "stadia.google.com!controller-dark.webp",
-    "screenshotDarkSize": 12062,
+    "screenshotDarkSize": 11976,
     "meta": {
       "theme_color": "#000000",
       "title": "Stadia Bluetooth mode",
@@ -7477,9 +7711,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "stedit.app.webp",
-    "screenshotSize": 1412,
+    "screenshotSize": 1410,
     "screenshotDark": "stedit.app-dark.webp",
-    "screenshotDarkSize": 1312,
+    "screenshotDarkSize": 1410,
     "meta": {
       "title": "Smart Text Editor",
       "author": "Brandon Bennett",
@@ -7515,9 +7749,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "studio.samlabs.com.webp",
-    "screenshotSize": 19190,
+    "screenshotSize": 18954,
     "screenshotDark": "studio.samlabs.com-dark.webp",
-    "screenshotDarkSize": 3028,
+    "screenshotDarkSize": 3054,
     "meta": {
       "favicon": "https://studio.samlabs.com/favicon.ico"
     },
@@ -7564,9 +7798,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "svgco.de.webp",
-    "screenshotSize": 29198,
+    "screenshotSize": 27924,
     "screenshotDark": "svgco.de-dark.webp",
-    "screenshotDarkSize": 28922,
+    "screenshotDarkSize": 29568,
     "meta": {
       "description": "SVGcode is a Progressive Web App that lets you convert raster images like JPG, PNG, GIF, WebP, AVIF, etc. to vector graphics in SVG format.",
       "theme_color": "#131313",
@@ -7643,9 +7877,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "web.snapchat.com.webp",
-    "screenshotSize": 3572,
+    "screenshotSize": 3730,
     "screenshotDark": "web.snapchat.com-dark.webp",
-    "screenshotDarkSize": 3254,
+    "screenshotDarkSize": 3406,
     "meta": {
       "title": "Snapchat. Now on the web.",
       "description": "Try the new Snapchat for Web on your computer to chat, call friends, use Lenses, and more",
@@ -7694,9 +7928,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "senomix.com!timesheet.webp",
-    "screenshotSize": 5674,
+    "screenshotSize": 5728,
     "screenshotDark": "senomix.com!timesheet-dark.webp",
-    "screenshotDarkSize": 5668,
+    "screenshotDarkSize": 5698,
     "meta": {
       "description": "Senomix Time and Expense Tracking Software for Mac and Windows",
       "keywords": [
@@ -7729,9 +7963,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "soundslice.com.webp",
-    "screenshotSize": 22322,
+    "screenshotSize": 22364,
     "screenshotDark": "soundslice.com-dark.webp",
-    "screenshotDarkSize": 22390,
+    "screenshotDarkSize": 22392,
     "meta": {
       "title": "Soundslice | Create living sheet music",
       "description": "Learn music better with our living sheet music.",
@@ -7750,6 +7984,46 @@
     "description": "Learn music better with our living sheet music."
   },
   {
+    "timestamp": "2023-04-10T15:34:50.000Z",
+    "appURL": "https://www.soundtrap.com/",
+    "sourceURL": null,
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      },
+      {
+        "name": "Web MIDI",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "soundtrap.com.webp",
+    "screenshotSize": 23164,
+    "screenshotDark": "soundtrap.com-dark.webp",
+    "screenshotDarkSize": 23164,
+    "meta": {
+      "title": "Soundtrap: crear música online",
+      "description": "Estás de suerte: te ofrecemos gratis todo lo que necesitas para crear música, desde la grabación y la edición de audio, pasando por bucles y AutoTune y hasta la creación de ritmos. Todo se hace online y de manera colaborativa: regístrate ya para conseguir tu cuenta gratuita.",
+      "theme_color": "#3e1165",
+      "open_graph": {
+        "title": "Soundtrap: crear música online",
+        "description": "Estás de suerte: te ofrecemos gratis todo lo que necesitas para crear música, desde la grabación y la edición de audio, pasando por bucles y AutoTune y hasta la creación de ritmos. Todo se hace online y de manera colaborativa: regístrate ya para conseguir tu cuenta gratuita.",
+        "images": [
+          {
+            "url": "https://static.soundtrap.com/public/images/og-image.jpg"
+          }
+        ],
+        "type": "website",
+        "url": "https://www.soundtrap.com/",
+        "site_name": "Soundtrap"
+      },
+      "favicon": "https://www.soundtrap.com/public/images/soundtrap-icon.svg"
+    },
+    "title": "Soundtrap: crear música online",
+    "description": "Estás de suerte: te ofrecemos gratis todo lo que necesitas para crear música, desde la grabación y la edición de audio, pasando por bucles y AutoTune y hasta la creación de ritmos. Todo se hace online y de manera colaborativa: regístrate ya para conseguir tu cuenta gratuita."
+  },
+  {
     "timestamp": "2022-04-27T18:35:41.000Z",
     "appURL": "https://www.stemplayer.com/",
     "sourceURL": null,
@@ -7761,11 +8035,11 @@
     ],
     "isElectronApp": false,
     "screenshot": "stemplayer.com.webp",
-    "screenshotSize": 642,
+    "screenshotSize": 540,
     "screenshotDark": "stemplayer.com-dark.webp",
-    "screenshotDarkSize": 640,
+    "screenshotDarkSize": 540,
     "meta": {
-      "theme_color": "#C8BCB2",
+      "theme_color": "#006632",
       "description": "Summon a cinema anywhere with STEM PROJECTOR",
       "open_graph": {
         "type": "website",
@@ -7811,9 +8085,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.sketchup.com!app.webp",
-    "screenshotSize": 10750,
+    "screenshotSize": 10780,
     "screenshotDark": "app.sketchup.com!app-dark.webp",
-    "screenshotDarkSize": 10738,
+    "screenshotDarkSize": 10796,
     "meta": {
       "title": "Trimble Identity",
       "favicon": "data:image/vnd.microsoft.icon;base64,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"
@@ -7833,9 +8107,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "apps.tibbo.com.webp",
-    "screenshotSize": 27980,
+    "screenshotSize": 28054,
     "screenshotDark": "apps.tibbo.com-dark.webp",
-    "screenshotDarkSize": 27980,
+    "screenshotDarkSize": 28054,
     "meta": {
       "title": "Tibbo Web Apps",
       "favicon": "https://apps.tibbo.com/static/images/favicon.png"
@@ -7891,9 +8165,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "diek.us!pwinter.webp",
-    "screenshotSize": 6156,
+    "screenshotSize": 6420,
     "screenshotDark": "diek.us!pwinter-dark.webp",
-    "screenshotDarkSize": 5982,
+    "screenshotDarkSize": 6648,
     "meta": {
       "theme_color": "#3D3D3D",
       "title": "The PWinter",
@@ -7918,9 +8192,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "h5.topwargame.com!h5game!index.html.webp",
-    "screenshotSize": 4664,
+    "screenshotSize": 4692,
     "screenshotDark": "h5.topwargame.com!h5game!index.html-dark.webp",
-    "screenshotDarkSize": 4628,
+    "screenshotDarkSize": 4682,
     "meta": {
       "title": "Top War | Official Web Game",
       "description": "In Top War, modern tanks are merged out of basic gunman, everything can be merged here.No more upgrade waiting times, merge two together and the upgrade will finish instantly.",
@@ -7964,9 +8238,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "lichess.org.webp",
-    "screenshotSize": 23042,
+    "screenshotSize": 23178,
     "screenshotDark": "lichess.org-dark.webp",
-    "screenshotDarkSize": 22128,
+    "screenshotDarkSize": 21970,
     "meta": {
       "theme_color": "#2e2a24",
       "title": "lichess.org • Free Online Chess",
@@ -7979,7 +8253,7 @@
         "site_name": "lichess.org",
         "images": [
           {
-            "url": "https://lichess1.org/assets/_0W8abe/logo/lichess-tile-wide.png"
+            "url": "https://lichess1.org/assets/_YiXGKP/logo/lichess-tile-wide.png"
           }
         ]
       },
@@ -7989,12 +8263,12 @@
         "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents.",
         "images": [
           {
-            "url": "https://lichess1.org/assets/_0W8abe/logo/lichess-tile.png"
+            "url": "https://lichess1.org/assets/_YiXGKP/logo/lichess-tile.png"
           }
         ],
         "site": "@lichess"
       },
-      "favicon": "https://lichess1.org/assets/_0W8abe/logo/lichess-favicon-32.png"
+      "favicon": "https://lichess1.org/assets/_YiXGKP/logo/lichess-favicon-32.png"
     },
     "title": "The best free, adless Chess server",
     "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents."
@@ -8035,9 +8309,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "tgstorage.com.webp",
-    "screenshotSize": 10382,
+    "screenshotSize": 10374,
     "screenshotDark": "tgstorage.com-dark.webp",
-    "screenshotDarkSize": 9924,
+    "screenshotDarkSize": 9872,
     "meta": {
       "title": "TgStorage",
       "open_graph": {
@@ -8082,9 +8356,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "thesession.org.webp",
-    "screenshotSize": 17146,
+    "screenshotSize": 17100,
     "screenshotDark": "thesession.org-dark.webp",
-    "screenshotDarkSize": 16674,
+    "screenshotDarkSize": 16440,
     "meta": {
       "title": "Traditional Irish music on The Session",
       "theme_color": "#660000",
@@ -8162,9 +8436,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "tinder.com.webp",
-    "screenshotSize": 38932,
+    "screenshotSize": 39060,
     "screenshotDark": "tinder.com-dark.webp",
-    "screenshotDarkSize": 38932,
+    "screenshotDarkSize": 38758,
     "meta": {
       "title": "Tinder | Dating, Make Friends & Meet New People",
       "description": "With 55 billion matches to date, Tinder® is the world’s most popular dating app, making it the place to meet new people.",
@@ -8228,9 +8502,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "toot.cafe.webp",
-    "screenshotSize": 12382,
+    "screenshotSize": 12556,
     "screenshotDark": "toot.cafe-dark.webp",
-    "screenshotDarkSize": 12382,
+    "screenshotDarkSize": 12556,
     "meta": {
       "theme_color": "#191b22",
       "title": "Toot Café",
@@ -8277,9 +8551,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "trovo.live.webp",
-    "screenshotSize": 33050,
+    "screenshotSize": 30984,
     "screenshotDark": "trovo.live-dark.webp",
-    "screenshotDarkSize": 32002,
+    "screenshotDarkSize": 29736,
     "meta": {
       "title": "Trovo",
       "open_graph": {
@@ -8335,9 +8609,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "twitter.com.webp",
-    "screenshotSize": 6146,
+    "screenshotSize": 6168,
     "screenshotDark": "twitter.com-dark.webp",
-    "screenshotDarkSize": 6146,
+    "screenshotDarkSize": 6168,
     "meta": {
       "open_graph": {
         "site_name": "Twitter",
@@ -8370,9 +8644,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "tylify.app.webp",
-    "screenshotSize": 18618,
+    "screenshotSize": 17060,
     "screenshotDark": "tylify.app-dark.webp",
-    "screenshotDarkSize": 16458,
+    "screenshotDarkSize": 15422,
     "meta": {
       "title": "Tylify: Create seamless patterns in seconds",
       "description": "Web-based pattern-making application. All image formats supported (SVG, PNG, JPG, etc.)",
@@ -8428,16 +8702,16 @@
     ],
     "isElectronApp": false,
     "screenshot": "web.telegram.org!z.webp",
-    "screenshotSize": 3928,
+    "screenshotSize": 7680,
     "screenshotDark": "web.telegram.org!z-dark.webp",
-    "screenshotDarkSize": 10430,
+    "screenshotDarkSize": 10800,
     "meta": {
       "title": "Telegram",
       "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
       "theme_color": "#ffffff",
       "open_graph": {
         "type": "website",
-        "url": "https://web.telegram.org/z/",
+        "url": "https://web.telegram.org/a/",
         "title": "Telegram",
         "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
         "images": [
@@ -8448,7 +8722,7 @@
       },
       "twitter_card": {
         "card": "summary_large_image",
-        "url": "https://web.telegram.org/z/",
+        "url": "https://web.telegram.org/a/",
         "title": "Telegram",
         "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
         "images": [
@@ -8490,9 +8764,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "terra.com.br.webp",
-    "screenshotSize": 38062,
+    "screenshotSize": 29654,
     "screenshotDark": "terra.com.br-dark.webp",
-    "screenshotDarkSize": 34050,
+    "screenshotDarkSize": 29452,
     "meta": {
       "title": "Terra - Notícias, esportes, coberturas ao vivo, diversão e estilo de vida",
       "description": "Veja no Terra as últimas notícias e as melhores coberturas ao vivo do Brasil e do Mundo, Esportes, Diversão, Vida e Estilo e assista os melhores vídeos no TerraTV.",
@@ -8541,9 +8815,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "tiktok.com.webp",
-    "screenshotSize": 18508,
+    "screenshotSize": 18942,
     "screenshotDark": "tiktok.com-dark.webp",
-    "screenshotDarkSize": 26554,
+    "screenshotDarkSize": 17970,
     "meta": {
       "title": "TikTok - Make Your Day",
       "open_graph": {
@@ -8598,42 +8872,41 @@
     ],
     "isElectronApp": false,
     "screenshot": "tldraw.com.webp",
-    "screenshotSize": 3360,
+    "screenshotSize": 3662,
     "screenshotDark": "tldraw.com-dark.webp",
-    "screenshotDarkSize": 3586,
+    "screenshotDarkSize": 3662,
     "meta": {
-      "description": "A tiny little drawing app.",
-      "theme_color": "#fafafa",
+      "description": "A free and instant collaborative diagramming tool.",
+      "theme_color": "#FFFFFF",
       "twitter_card": {
-        "url": "https://tldraw.com/",
+        "card": "summary",
+        "url": "https://www.tldraw.com/",
         "title": "tldraw",
-        "description": "A tiny little drawing app.",
-        "card": "summary_large_image",
-        "creator": "@tldraw",
-        "site": "@tldraw",
+        "description": "A free and instant collaborative diagramming tool.",
         "images": [
           {
-            "url": "https://tldraw.com/social-image.png"
+            "url": "https://www.tldraw.com/social-twitter.png"
           }
-        ]
+        ],
+        "creator": "@tldraw"
       },
       "open_graph": {
         "type": "website",
         "title": "tldraw",
-        "description": "A tiny little drawing app.",
+        "description": "A free and instant collaborative diagramming tool.",
         "site_name": "tldraw",
-        "url": "https://tldraw.com/",
+        "url": "https://www.tldraw.com/",
         "images": [
           {
-            "url": "https://tldraw.com/social-image.png"
+            "url": "https://www.tldraw.com/social-og.png"
           }
         ]
       },
       "title": "tldraw",
-      "favicon": "https://www.tldraw.com/favicon.ico"
+      "favicon": "https://www.tldraw.com/favicon.svg"
     },
     "title": "tldraw",
-    "description": "A tiny little drawing app."
+    "description": "A free and instant collaborative diagramming tool."
   },
   {
     "timestamp": "2022-06-29T16:03:55.000Z",
@@ -8671,9 +8944,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "topdecked.com.webp",
-    "screenshotSize": 16452,
+    "screenshotSize": 16382,
     "screenshotDark": "topdecked.com-dark.webp",
-    "screenshotDarkSize": 16452,
+    "screenshotDarkSize": 16382,
     "meta": {
       "title": "TopDecked Unified",
       "description": "The essential Magic App for brewers, collectors, traders, competitors, and fans.",
@@ -8717,9 +8990,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "uspeaking.netlify.app.webp",
-    "screenshotSize": 3838,
+    "screenshotSize": 3914,
     "screenshotDark": "uspeaking.netlify.app-dark.webp",
-    "screenshotDarkSize": 3606,
+    "screenshotDarkSize": 4010,
     "meta": {
       "theme_color": "#e74c3c",
       "title": "USpeaking",
@@ -8744,9 +9017,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "app.vysor.io.webp",
-    "screenshotSize": 15140,
+    "screenshotSize": 15134,
     "screenshotDark": "app.vysor.io-dark.webp",
-    "screenshotDarkSize": 15140,
+    "screenshotDarkSize": 15134,
     "meta": {
       "title": "Vysor",
       "theme_color": "#3949AB",
@@ -8775,9 +9048,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "codev5.vex.com.webp",
-    "screenshotSize": 2840,
+    "screenshotSize": 3006,
     "screenshotDark": "codev5.vex.com-dark.webp",
-    "screenshotDarkSize": 2862,
+    "screenshotDarkSize": 2996,
     "meta": {
       "title": "VEXcode V5",
       "favicon": "https://codev5.vex.com/static/img/icons/vexfavicon.ico"
@@ -8797,9 +9070,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "usevia.app.webp",
-    "screenshotSize": 4510,
+    "screenshotSize": 4542,
     "screenshotDark": "usevia.app-dark.webp",
-    "screenshotDarkSize": 4196,
+    "screenshotDarkSize": 4430,
     "meta": {
       "theme_color": "#dadada",
       "description": "Your keyboard's best friend",
@@ -8846,9 +9119,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "vimeo.com.webp",
-    "screenshotSize": 14194,
+    "screenshotSize": 13394,
     "screenshotDark": "vimeo.com-dark.webp",
-    "screenshotDarkSize": 13460,
+    "screenshotDarkSize": 13394,
     "meta": {
       "title": "Vimeo – Video Experience Platform",
       "description": "Vimeo is the world's most innovative video experience platform. We enable anyone to create high-quality video experiences to connect better and bring ideas to life.",
@@ -8910,9 +9183,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "vodon-player.vercel.app.webp",
-    "screenshotSize": 2660,
+    "screenshotSize": 2670,
     "screenshotDark": "vodon-player.vercel.app-dark.webp",
-    "screenshotDarkSize": 2660,
+    "screenshotDarkSize": 2670,
     "meta": {
       "title": "Vodon Player",
       "favicon": "https://vodon-player.vercel.app/favicon.ico"
@@ -8936,9 +9209,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "vscode.dev.webp",
-    "screenshotSize": 14122,
+    "screenshotSize": 14098,
     "screenshotDark": "vscode.dev-dark.webp",
-    "screenshotDarkSize": 9716,
+    "screenshotDarkSize": 14098,
     "meta": {
       "twitter_card": {
         "card": "summary_large_image",
@@ -8970,9 +9243,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "vimonlineeditor.com.webp",
-    "screenshotSize": 20844,
+    "screenshotSize": 20412,
     "screenshotDark": "vimonlineeditor.com-dark.webp",
-    "screenshotDarkSize": 20496,
+    "screenshotDarkSize": 20236,
     "meta": {
       "title": "Vim Online Editor - Vim Editor In Browser",
       "favicon": "https://www.vimonlineeditor.com/favicon.ico"
@@ -8992,9 +9265,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "fpv.wtf!!about.webp",
-    "screenshotSize": 14976,
+    "screenshotSize": 15096,
     "screenshotDark": "fpv.wtf!!about-dark.webp",
-    "screenshotDarkSize": 14976,
+    "screenshotDarkSize": 15096,
     "meta": {
       "theme_color": "#000000",
       "description": "Root and configure your DJI HD FPV goggles and air-units via web interface.",
@@ -9020,15 +9293,38 @@
     ],
     "isElectronApp": false,
     "screenshot": "microsoftedge.github.io!Demos!wami.webp",
-    "screenshotSize": 5094,
+    "screenshotSize": 4992,
     "screenshotDark": "microsoftedge.github.io!Demos!wami-dark.webp",
-    "screenshotDarkSize": 5094,
+    "screenshotDarkSize": 4992,
     "meta": {
       "title": "wami",
       "favicon": "https://microsoftedge.github.io/Demos/wami/favicon-96.png"
     },
     "title": "wami",
     "description": ""
+  },
+  {
+    "timestamp": "2023-04-10T15:50:55.000Z",
+    "appURL": "https://wavacity.com/",
+    "sourceURL": "https://github.com/ahilss/wavacity",
+    "usedAPIs": [
+      {
+        "name": "Web Audio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "wavacity.com.webp",
+    "screenshotSize": 29094,
+    "screenshotDark": "wavacity.com-dark.webp",
+    "screenshotDarkSize": 29094,
+    "meta": {
+      "title": "Wavacity Audio Editor",
+      "description": "Wavacity - free audio editor for the Web and Chromebooks",
+      "favicon": "https://wavacity.com/favicon.ico"
+    },
+    "title": "Wavacity Audio Editor",
+    "description": "Wavacity - free audio editor for the Web and Chromebooks"
   },
   {
     "timestamp": "2022-09-09T08:08:52.000Z",
@@ -9042,9 +9338,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "web-serial-app.netlify.app.webp",
-    "screenshotSize": 25990,
+    "screenshotSize": 26450,
     "screenshotDark": "web-serial-app.netlify.app-dark.webp",
-    "screenshotDarkSize": 25986,
+    "screenshotDarkSize": 26454,
     "meta": {
       "theme_color": "#ffffff",
       "description": "Connect to any USB or Bluetooth Serial Device from your browser using the Web Serial API Controller",
@@ -9100,9 +9396,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "whatpwacando.today.webp",
-    "screenshotSize": 22524,
+    "screenshotSize": 22490,
     "screenshotDark": "whatpwacando.today-dark.webp",
-    "screenshotDarkSize": 19688,
+    "screenshotDarkSize": 19452,
     "meta": {
       "title": "What PWA Can Do Today",
       "open_graph": {
@@ -9152,9 +9448,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "wootility.io.webp",
-    "screenshotSize": 18558,
+    "screenshotSize": 18438,
     "screenshotDark": "wootility.io-dark.webp",
-    "screenshotDarkSize": 18562,
+    "screenshotDarkSize": 18438,
     "meta": {
       "title": "Wootility Web",
       "description": "Instantly edit your Wooting keyboard profiles and colors from the browser.",
@@ -9211,9 +9507,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "wormhole.app.webp",
-    "screenshotSize": 12668,
+    "screenshotSize": 12402,
     "screenshotDark": "wormhole.app-dark.webp",
-    "screenshotDarkSize": 12668,
+    "screenshotDarkSize": 12402,
     "meta": {
       "title": "Wormhole - Simple, private file sharing",
       "description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires.",
@@ -9280,9 +9576,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "canva.com.webp",
-    "screenshotSize": 6698,
+    "screenshotSize": 6590,
     "screenshotDark": "canva.com-dark.webp",
-    "screenshotDarkSize": 6248,
+    "screenshotDarkSize": 6534,
     "meta": {},
     "title": "www.canva.com",
     "description": ""
@@ -9315,9 +9611,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "contactsdirect.com.webp",
-    "screenshotSize": 2912,
+    "screenshotSize": 3090,
     "screenshotDark": "contactsdirect.com-dark.webp",
-    "screenshotDarkSize": 2894,
+    "screenshotDarkSize": 3098,
     "meta": {},
     "title": "www.contactsdirect.com",
     "description": ""
@@ -9342,16 +9638,44 @@
     ],
     "isElectronApp": false,
     "screenshot": "webgamer.io.webp",
-    "screenshotSize": 48340,
+    "screenshotSize": 43278,
     "screenshotDark": "webgamer.io-dark.webp",
-    "screenshotDarkSize": 48340,
+    "screenshotDarkSize": 43278,
     "meta": {
       "theme_color": "#151515",
-      "title": "WebGamer.io | Next-Gen Web Games",
+      "title": "WebGamer 🎮 Play Free Online Games",
+      "description": "Play free online games instantly in your browser. WebGamer is a portal of next-gen web games you can play now without installing anything!",
+      "open_graph": {
+        "title": "WebGamer 🎮 Play Free Online Games",
+        "description": "Play free online games instantly in your browser. WebGamer is a portal of next-gen web games you can play now without installing anything!",
+        "url": "https://webgamer.io/",
+        "site_name": "WebGamer",
+        "images": [
+          {
+            "url": "https://webgamer.io/main-social-1200-630.85p.webp",
+            "width": 1200,
+            "height": 630
+          }
+        ],
+        "type": "website"
+      },
+      "twitter_card": {
+        "card": "summary_large_image",
+        "site": "@webgamerio",
+        "creator": "@webgamerio",
+        "creator_id": "1612442461993062403",
+        "title": "WebGamer 🎮 Play Free Online Games",
+        "description": "Play free online games instantly in your browser. WebGamer is a portal of next-gen web games you can play now without installing anything!",
+        "images": [
+          {
+            "url": "https://webgamer.io/main-social-1200-630.85p.webp"
+          }
+        ]
+      },
       "favicon": "https://www.webgamer.io/icon.svg"
     },
-    "title": "WebGamer.io | Next-Gen Web Games",
-    "description": ""
+    "title": "WebGamer 🎮 Play Free Online Games",
+    "description": "Play free online games instantly in your browser. WebGamer is a portal of next-gen web games you can play now without installing anything!"
   },
   {
     "timestamp": "2022-04-14T18:24:15.000Z",
@@ -9365,9 +9689,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "case.xchart.com.webp",
-    "screenshotSize": 14922,
+    "screenshotSize": 14748,
     "screenshotDark": "case.xchart.com-dark.webp",
-    "screenshotDarkSize": 14916,
+    "screenshotDarkSize": 14772,
     "meta": {
       "theme_color": "#0A3552",
       "description": "Automatic anesthesia charting. Focus on your patient — not your paperwork.",
@@ -9401,9 +9725,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "yt-playlist-notifier.web.app.webp",
-    "screenshotSize": 2938,
+    "screenshotSize": 2904,
     "screenshotDark": "yt-playlist-notifier.web.app-dark.webp",
-    "screenshotDarkSize": 2900,
+    "screenshotDarkSize": 2868,
     "meta": {
       "theme_color": "#ced4da",
       "twitter_card": {
@@ -9453,9 +9777,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "ytaud.io.webp",
-    "screenshotSize": 2406,
+    "screenshotSize": 2388,
     "screenshotDark": "ytaud.io-dark.webp",
-    "screenshotDarkSize": 2158,
+    "screenshotDarkSize": 2110,
     "meta": {
       "title": "YouTube Audio Player",
       "description": "An awesome audio player for YouTube videos",
@@ -9464,6 +9788,49 @@
     },
     "title": "YouTube Audio Player",
     "description": "An awesome audio player for YouTube videos"
+  },
+  {
+    "timestamp": "2022-05-04T07:51:50.000Z",
+    "appURL": "https://hoten.cc/zc/play/",
+    "sourceURL": "https://github.com/connorjclark/ZeldaClassic",
+    "usedAPIs": [
+      {
+        "name": "Add to Home Screen",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent"
+      },
+      {
+        "name": "Async Clipboard",
+        "url": "https://web.dev/async-clipboard/"
+      },
+      {
+        "name": "File System Access",
+        "url": "https://web.dev/file-system-access/"
+      },
+      {
+        "name": "Gamepad",
+        "url": "https://web.dev/gamepad/"
+      },
+      {
+        "name": "Persistent Storage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/persist"
+      },
+      {
+        "name": "Service Worker",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      }
+    ],
+    "isElectronApp": false,
+    "screenshot": "hoten.cc!zc!play.webp",
+    "screenshotSize": 3672,
+    "screenshotDark": "hoten.cc!zc!play-dark.webp",
+    "screenshotDarkSize": 3672,
+    "meta": {
+      "title": "Zelda Classic",
+      "description": "Play one of hundreds of Zelda Classic quests, or create your own quest! Zelda Classic is a custom game engine where you can make your own quest",
+      "favicon": "https://hoten.cc/zc/favicon.ico"
+    },
+    "title": "Zelda Classic",
+    "description": "Play one of hundreds of Zelda Classic quests, or create your own quest! Zelda Classic is a custom game engine where you can make your own quest"
   },
   {
     "timestamp": "2022-02-24T05:11:50.000Z",
@@ -9497,9 +9864,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp",
-    "screenshotSize": 47214,
+    "screenshotSize": 47248,
     "screenshotDark": "yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd-dark.webp",
-    "screenshotDarkSize": 47214,
+    "screenshotDarkSize": 47248,
     "meta": {
       "open_graph": {
         "title": "みんなのネバーランド - 約束のネバーランド公式コミュニティ -",
@@ -9560,9 +9927,9 @@
     ],
     "isElectronApp": false,
     "screenshot": "docs.qq.com!desktop.webp",
-    "screenshotSize": 9790,
+    "screenshotSize": 9704,
     "screenshotDark": "docs.qq.com!desktop-dark.webp",
-    "screenshotDarkSize": 9768,
+    "screenshotDarkSize": 9820,
     "meta": {
       "title": "腾讯文档",
       "description": "腾讯文档",

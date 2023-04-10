@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-2726913808451461';
-  const MEDIA_CACHE = 'media-2726913808451461';
+  const APP_SHELL_CACHE = 'app-shell-179422078406563';
+  const MEDIA_CACHE = 'media-179422078406563';
 
   const APP_SHELL_FILES = [
     './',
@@ -26,6 +26,8 @@
     'activerecall.com!login.html-dark.webp',
     'anaesthetics.app!bluetooth.webp',
     'anaesthetics.app!bluetooth-dark.webp',
+    'app.ampedstudio.com.webp',
+    'app.ampedstudio.com-dark.webp',
     'app.cosee.com.webp',
     'app.cosee.com-dark.webp',
     'app.diagrams.net.webp',
@@ -66,6 +68,8 @@
     'case.xchart.com-dark.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi-dark.webp',
+    'cleanfeed.net.webp',
+    'cleanfeed.net-dark.webp',
     'cleanfeed.net!studio.webp',
     'cleanfeed.net!studio-dark.webp',
     'code.irobot.com.webp',
@@ -166,6 +170,10 @@
     'kryogenix.org!farmbound-dark.webp',
     'lab.flipper.net.webp',
     'lab.flipper.net-dark.webp',
+    'learningmusic.ableton.com.webp',
+    'learningmusic.ableton.com-dark.webp',
+    'learningsynths.ableton.com.webp',
+    'learningsynths.ableton.com-dark.webp',
     'leonidasesteban.com.webp',
     'leonidasesteban.com-dark.webp',
     'lichess.org.webp',
@@ -280,6 +288,8 @@
     'snapper-gps.herokuapp.com-dark.webp',
     'songwhip.com.webp',
     'songwhip.com-dark.webp',
+    'soundation.com.webp',
+    'soundation.com-dark.webp',
     'spatialfusion.io.webp',
     'spatialfusion.io-dark.webp',
     'spike.legoeducation.com.webp',
@@ -344,6 +354,8 @@
     'vodon-player.vercel.app-dark.webp',
     'vscode.dev.webp',
     'vscode.dev-dark.webp',
+    'wavacity.com.webp',
+    'wavacity.com-dark.webp',
     'web-gphoto2.rreverser.com.webp',
     'web-gphoto2.rreverser.com-dark.webp',
     'web-serial-app.netlify.app.webp',
@@ -370,6 +382,8 @@
     'write.sonnet.io-dark.webp',
     'airconsole.com.webp',
     'airconsole.com-dark.webp',
+    'bandlab.com.webp',
+    'bandlab.com-dark.webp',
     'canva.com.webp',
     'canva.com-dark.webp',
     'capcut.com!editor.webp',
@@ -410,8 +424,12 @@
     'pinterest.de-dark.webp',
     'senomix.com!timesheet.webp',
     'senomix.com!timesheet-dark.webp',
+    'sessionwire.com.webp',
+    'sessionwire.com-dark.webp',
     'soundslice.com.webp',
     'soundslice.com-dark.webp',
+    'soundtrap.com.webp',
+    'soundtrap.com-dark.webp',
     'stemplayer.com.webp',
     'stemplayer.com-dark.webp',
     'terra.com.br.webp',
