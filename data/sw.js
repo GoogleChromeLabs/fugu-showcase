@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7859557210054693';
-  const MEDIA_CACHE = 'media-7859557210054693';
+  const APP_SHELL_CACHE = 'app-shell-20965070745443581';
+  const MEDIA_CACHE = 'media-20965070745443581';
 
   const APP_SHELL_FILES = [
     './',
@@ -248,6 +248,8 @@
     'play.geforcenow.com-dark.webp',
     'play.spacelancers.com.webp',
     'play.spacelancers.com-dark.webp',
+    'player.winamp.com.webp',
+    'player.winamp.com-dark.webp',
     'podcast.adobe.com.webp',
     'podcast.adobe.com-dark.webp',
     'pokedex.org.webp',
