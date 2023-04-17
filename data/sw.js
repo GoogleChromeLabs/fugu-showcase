@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-20965070745443581';
-  const MEDIA_CACHE = 'media-20965070745443581';
+  const APP_SHELL_CACHE = 'app-shell-7806932589641298';
+  const MEDIA_CACHE = 'media-7806932589641298';
 
   const APP_SHELL_FILES = [
     './',
@@ -54,6 +54,8 @@
     'bangle.io-dark.webp',
     'bitmidi.com.webp',
     'bitmidi.com-dark.webp',
+    'bluetooth.rocks.webp',
+    'bluetooth.rocks-dark.webp',
     'boardgamearena.com.webp',
     'boardgamearena.com-dark.webp',
     'boxy-svg.com!app.webp',
@@ -94,6 +96,8 @@
     'developer.chrome.com!fugu-showcase-dark.webp',
     'diek.us!pwinter.webp',
     'diek.us!pwinter-dark.webp',
+    'dj.app.webp',
+    'dj.app-dark.webp',
     'dj.beatport.com!home.webp',
     'dj.beatport.com!home-dark.webp',
     'docs.craft.do.webp',
