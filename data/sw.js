@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7806932589641298';
-  const MEDIA_CACHE = 'media-7806932589641298';
+  const APP_SHELL_CACHE = 'app-shell-8067391351159063';
+  const MEDIA_CACHE = 'media-8067391351159063';
 
   const APP_SHELL_FILES = [
     './',
@@ -104,6 +104,8 @@
     'docs.craft.do-dark.webp',
     'docs.qq.com!desktop.webp',
     'docs.qq.com!desktop-dark.webp',
+    'dotbigbang.com.webp',
+    'dotbigbang.com-dark.webp',
     'duino.app.webp',
     'duino.app-dark.webp',
     'edit.photo.webp',
@@ -118,6 +120,8 @@
     'editor.construct.net-dark.webp',
     'editor.gdevelop.io.webp',
     'editor.gdevelop.io-dark.webp',
+    'editor.godotengine.org!releases!latest.webp',
+    'editor.godotengine.org!releases!latest-dark.webp',
     'editor.kota-yata.com.webp',
     'editor.kota-yata.com-dark.webp',
     'elk.zone.webp',
