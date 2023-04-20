@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8067391351159063';
-  const MEDIA_CACHE = 'media-8067391351159063';
+  const APP_SHELL_CACHE = 'app-shell-9171926234529759';
+  const MEDIA_CACHE = 'media-9171926234529759';
 
   const APP_SHELL_FILES = [
     './',
@@ -286,6 +286,8 @@
     'scrapbook-pwa.web.app-dark.webp',
     'semaphore.social.webp',
     'semaphore.social-dark.webp',
+    'sepia-framework.github.io!app!index.html.webp',
+    'sepia-framework.github.io!app!index.html-dark.webp',
     'setu-upi-over-nfc.herokuapp.com!how-it-works.webp',
     'setu-upi-over-nfc.herokuapp.com!how-it-works-dark.webp',
     'sharedgametimer.com.webp',
