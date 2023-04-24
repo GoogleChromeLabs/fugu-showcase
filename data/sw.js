@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9171926234529759';
-  const MEDIA_CACHE = 'media-9171926234529759';
+  const APP_SHELL_CACHE = 'app-shell-9165602651557911';
+  const MEDIA_CACHE = 'media-9165602651557911';
 
   const APP_SHELL_FILES = [
     './',
@@ -320,6 +320,8 @@
     'stackedit.io-dark.webp',
     'stadia.google.com!controller.webp',
     'stadia.google.com!controller-dark.webp',
+    'staging.bsky.app.webp',
+    'staging.bsky.app-dark.webp',
     'stedit.app.webp',
     'stedit.app-dark.webp',
     'studio.samlabs.com.webp',
