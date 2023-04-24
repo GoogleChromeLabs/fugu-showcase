@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9165602651557911';
-  const MEDIA_CACHE = 'media-9165602651557911';
+  const APP_SHELL_CACHE = 'app-shell-9951314456653102';
+  const MEDIA_CACHE = 'media-9951314456653102';
 
   const APP_SHELL_FILES = [
     './',
@@ -138,6 +138,8 @@
     'excalidraw.com-dark.webp',
     'flash.android.com.webp',
     'flash.android.com-dark.webp',
+    'floor796.com!editor!l0.webp',
+    'floor796.com!editor!l0-dark.webp',
     'fpv.wtf!!about.webp',
     'fpv.wtf!!about-dark.webp',
     'fuse.littlebits.com.webp',
