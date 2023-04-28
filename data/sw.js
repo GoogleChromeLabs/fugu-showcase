@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7848651982150663';
-  const MEDIA_CACHE = 'media-7848651982150663';
+  const APP_SHELL_CACHE = 'app-shell-3409307849952625';
+  const MEDIA_CACHE = 'media-3409307849952625';
 
   const APP_SHELL_FILES = [
     './',
@@ -176,6 +176,8 @@
     'josephrocca.github.io!clip-image-sorter-dark.webp',
     'kenchris.github.io!webnfc-groceries.webp',
     'kenchris.github.io!webnfc-groceries-dark.webp',
+    'komunalno.netlify.app.webp',
+    'komunalno.netlify.app-dark.webp',
     'kryogenix.org!farmbound.webp',
     'kryogenix.org!farmbound-dark.webp',
     'lab.flipper.net.webp',
