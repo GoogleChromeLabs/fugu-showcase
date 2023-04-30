@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-3409307849952625';
-  const MEDIA_CACHE = 'media-3409307849952625';
+  const APP_SHELL_CACHE = 'app-shell-05144889220910809';
+  const MEDIA_CACHE = 'media-05144889220910809';
 
   const APP_SHELL_FILES = [
     './',
@@ -394,6 +394,8 @@
     'web.snapchat.com-dark.webp',
     'web.telegram.org!z.webp',
     'web.telegram.org!z-dark.webp',
+    'webscan.goncalomb.com.webp',
+    'webscan.goncalomb.com-dark.webp',
     'whatpwacando.today.webp',
     'whatpwacando.today-dark.webp',
     'wonderful-glacier-07b022d1e.2.azurestaticapps.net.webp',
