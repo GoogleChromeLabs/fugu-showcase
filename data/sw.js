@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-05144889220910809';
-  const MEDIA_CACHE = 'media-05144889220910809';
+  const APP_SHELL_CACHE = 'app-shell-9749473992352449';
+  const MEDIA_CACHE = 'media-9749473992352449';
 
   const APP_SHELL_FILES = [
     './',
@@ -370,6 +370,8 @@
     'uspeaking.netlify.app-dark.webp',
     'ustaxes.org!start.webp',
     'ustaxes.org!start-dark.webp',
+    'velocity.radon.games.webp',
+    'velocity.radon.games-dark.webp',
     'vimeo.com.webp',
     'vimeo.com-dark.webp',
     'vodon-player.vercel.app.webp',
