@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4157863671653317';
-  const MEDIA_CACHE = 'media-4157863671653317';
+  const APP_SHELL_CACHE = 'app-shell-05742631990653457';
+  const MEDIA_CACHE = 'media-05742631990653457';
 
   const APP_SHELL_FILES = [
     './',
@@ -122,6 +122,8 @@
     'editor.gdevelop.io-dark.webp',
     'editor.godotengine.org!releases!latest.webp',
     'editor.godotengine.org!releases!latest-dark.webp',
+    'editor.graphite.rs.webp',
+    'editor.graphite.rs-dark.webp',
     'editor.kota-yata.com.webp',
     'editor.kota-yata.com-dark.webp',
     'elk.zone.webp',
