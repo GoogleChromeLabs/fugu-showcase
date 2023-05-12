@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-020875766520725758';
-  const MEDIA_CACHE = 'media-020875766520725758';
+  const APP_SHELL_CACHE = 'app-shell-460618712885726';
+  const MEDIA_CACHE = 'media-460618712885726';
 
   const APP_SHELL_FILES = [
     './',
@@ -282,6 +282,8 @@
     'qrsnapper.com-dark.webp',
     'radio-house.app.webp',
     'radio-house.app-dark.webp',
+    'readonly.link!editor.webp',
+    'readonly.link!editor-dark.webp',
     'readyplayer.me!avatar.webp',
     'readyplayer.me!avatar-dark.webp',
     'regex101.com.webp',
