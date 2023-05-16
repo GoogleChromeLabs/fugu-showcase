@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-460618712885726';
-  const MEDIA_CACHE = 'media-460618712885726';
+  const APP_SHELL_CACHE = 'app-shell-9722971247258465';
+  const MEDIA_CACHE = 'media-9722971247258465';
 
   const APP_SHELL_FILES = [
     './',
@@ -100,6 +100,8 @@
     'dj.app-dark.webp',
     'dj.beatport.com!home.webp',
     'dj.beatport.com!home-dark.webp',
+    'dnd-tokenizer-41471e.netlify.app.webp',
+    'dnd-tokenizer-41471e.netlify.app-dark.webp',
     'docs.craft.do.webp',
     'docs.craft.do-dark.webp',
     'docs.qq.com!desktop.webp',
