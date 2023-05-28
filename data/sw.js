@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9722971247258465';
-  const MEDIA_CACHE = 'media-9722971247258465';
+  const APP_SHELL_CACHE = 'app-shell-07074190788342416';
+  const MEDIA_CACHE = 'media-07074190788342416';
 
   const APP_SHELL_FILES = [
     './',
@@ -260,6 +260,8 @@
     'pixa.pics-dark.webp',
     'pixlr.com.webp',
     'pixlr.com-dark.webp',
+    'plainandeasy.com.webp',
+    'plainandeasy.com-dark.webp',
     'play-video-app.netlify.app.webp',
     'play-video-app.netlify.app-dark.webp',
     'play.geforcenow.com.webp',
