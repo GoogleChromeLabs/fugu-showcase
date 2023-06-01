@@ -120,7 +120,7 @@ const createScreenshots = async (data, overrideType = null) => {
                   console.log(`✅ Successfully created \`${filename}\`.`),
                 );
               })
-              .catch((err) => console.error('❌', err.name, err.message));
+              .catch((err) => console.error('❌', url, err.name, err.message));
           }
           if (!SCREENSHOT_OPTIONS.darkMode) {
             data[i].screenshotSize = buffer.byteLength;
@@ -131,7 +131,7 @@ const createScreenshots = async (data, overrideType = null) => {
             console.log(`✅ Successfully created \`${filename}\`.`),
           );
         })
-        .catch((err) => console.error('❌', err.name, err.message));
+        .catch((err) => console.error('❌', url, err.name, err.message));
     };
   });
   await limit(tasks, 5);
