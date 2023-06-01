@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-07074190788342416';
-  const MEDIA_CACHE = 'media-07074190788342416';
+  const APP_SHELL_CACHE = 'app-shell-31226237080211505';
+  const MEDIA_CACHE = 'media-31226237080211505';
 
   const APP_SHELL_FILES = [
     './',
@@ -252,6 +252,8 @@
     'paintz.app-dark.webp',
     'panel.hostmeapp.com.webp',
     'panel.hostmeapp.com-dark.webp',
+    'petertyliu.github.io!toaster.webp',
+    'petertyliu.github.io!toaster-dark.webp',
     'photoshop.adobe.com.webp',
     'photoshop.adobe.com-dark.webp',
     'pinafore.social.webp',
