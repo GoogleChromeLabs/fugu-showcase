@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7380727295238327';
-  const MEDIA_CACHE = 'media-7380727295238327';
+  const APP_SHELL_CACHE = 'app-shell-9034069943626526';
+  const MEDIA_CACHE = 'media-9034069943626526';
 
   const APP_SHELL_FILES = [
     './',
@@ -432,6 +432,8 @@
     'conifer-music.app-dark.webp',
     'contactsdirect.com.webp',
     'contactsdirect.com-dark.webp',
+    'crazygames.com.webp',
+    'crazygames.com-dark.webp',
     'descript.com.webp',
     'descript.com-dark.webp',
     'duolingo.com.webp',
