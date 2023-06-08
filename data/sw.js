@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5345141873570478';
-  const MEDIA_CACHE = 'media-5345141873570478';
+  const APP_SHELL_CACHE = 'app-shell-8702404127348027';
+  const MEDIA_CACHE = 'media-8702404127348027';
 
   const APP_SHELL_FILES = [
     './',
@@ -394,6 +394,8 @@
     'vodon-player.vercel.app-dark.webp',
     'vscode.dev.webp',
     'vscode.dev-dark.webp',
+    'vslite.dev.webp',
+    'vslite.dev-dark.webp',
     'wasi.rreverser.com.webp',
     'wasi.rreverser.com-dark.webp',
     'wavacity.com.webp',
