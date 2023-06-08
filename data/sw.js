@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9034069943626526';
-  const MEDIA_CACHE = 'media-9034069943626526';
+  const APP_SHELL_CACHE = 'app-shell-5345141873570478';
+  const MEDIA_CACHE = 'media-5345141873570478';
 
   const APP_SHELL_FILES = [
     './',
@@ -34,6 +34,8 @@
     'app.diagrams.net-dark.webp',
     'app.element.io!!welcome.webp',
     'app.element.io!!welcome-dark.webp',
+    'app.runwayml.com.webp',
+    'app.runwayml.com-dark.webp',
     'app.sketchup.com!app.webp',
     'app.sketchup.com!app-dark.webp',
     'app.slack.com.webp',
@@ -210,6 +212,8 @@
     'lookscanned.io!scan-dark.webp',
     'loop.microsoft.com.webp',
     'loop.microsoft.com-dark.webp',
+    'luna.amazon.com.webp',
+    'luna.amazon.com-dark.webp',
     'make.firialabs.com.webp',
     'make.firialabs.com-dark.webp',
     'marabesi.github.io!json-tool.webp',
