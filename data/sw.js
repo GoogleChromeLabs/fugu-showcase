@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-3861050310704306';
-  const MEDIA_CACHE = 'media-3861050310704306';
+  const APP_SHELL_CACHE = 'app-shell-3574416209742941';
+  const MEDIA_CACHE = 'media-3574416209742941';
 
   const APP_SHELL_FILES = [
     './',
@@ -26,6 +26,8 @@
     'activerecall.com!login.html-dark.webp',
     'anaesthetics.app!bluetooth.webp',
     'anaesthetics.app!bluetooth-dark.webp',
+    'animator.expressive.app.webp',
+    'animator.expressive.app-dark.webp',
     'app.ampedstudio.com.webp',
     'app.ampedstudio.com-dark.webp',
     'app.cosee.com.webp',
@@ -68,6 +70,8 @@
     'buddy.edgetx.org-dark.webp',
     'bundle.js.org.webp',
     'bundle.js.org-dark.webp',
+    'canvas.expressive.app.webp',
+    'canvas.expressive.app-dark.webp',
     'case.xchart.com.webp',
     'case.xchart.com-dark.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp',
