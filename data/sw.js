@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8702404127348027';
-  const MEDIA_CACHE = 'media-8702404127348027';
+  const APP_SHELL_CACHE = 'app-shell-3861050310704306';
+  const MEDIA_CACHE = 'media-3861050310704306';
 
   const APP_SHELL_FILES = [
     './',
@@ -280,6 +280,8 @@
     'podcast.adobe.com-dark.webp',
     'pokedex.org.webp',
     'pokedex.org-dark.webp',
+    'postr.me.webp',
+    'postr.me-dark.webp',
     'postr.me.webp',
     'postr.me-dark.webp',
     'ppg.report.webp',
