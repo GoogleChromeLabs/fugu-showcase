@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-35310872990781084';
-  const MEDIA_CACHE = 'media-35310872990781084';
+  const APP_SHELL_CACHE = 'app-shell-8689747311028873';
+  const MEDIA_CACHE = 'media-8689747311028873';
 
   const APP_SHELL_FILES = [
     './',
@@ -222,6 +222,8 @@
     'make.firialabs.com-dark.webp',
     'marabesi.github.io!json-tool.webp',
     'marabesi.github.io!json-tool-dark.webp',
+    'markwhen.com.webp',
+    'markwhen.com-dark.webp',
     'maskable.app.webp',
     'maskable.app-dark.webp',
     'mconverter.eu.webp',
