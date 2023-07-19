@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8689747311028873';
-  const MEDIA_CACHE = 'media-8689747311028873';
+  const APP_SHELL_CACHE = 'app-shell-017892573102919807';
+  const MEDIA_CACHE = 'media-017892573102919807';
 
   const APP_SHELL_FILES = [
     './',
@@ -74,6 +74,8 @@
     'canvas.expressive.app-dark.webp',
     'case.xchart.com.webp',
     'case.xchart.com-dark.webp',
+    'chiptune.app.webp',
+    'chiptune.app-dark.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi-dark.webp',
     'cleanfeed.net.webp',
@@ -490,6 +492,8 @@
     'soundslice.com-dark.webp',
     'soundtrap.com.webp',
     'soundtrap.com-dark.webp',
+    'speakflow.com.webp',
+    'speakflow.com-dark.webp',
     'stemplayer.com.webp',
     'stemplayer.com-dark.webp',
     'terra.com.br.webp',

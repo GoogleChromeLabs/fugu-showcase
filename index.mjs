@@ -256,8 +256,8 @@ const createHTMLandJSON = async (data) => {
             return `
             <article id="${anchor}" class="${classes.join(' ')}">
               <h2><a target="_blank" rel="noopener" href="${item.appURL}">${
-              item.title
-            }</a></h2>
+                item.title
+              }</a></h2>
               <figure>
                 <a target="_blank" rel="noopener" href="${item.appURL}">
                   <picture>
@@ -283,10 +283,10 @@ const createHTMLandJSON = async (data) => {
               <span class="launch"><a target="_blank" rel="noopener" href="${
                 item.appURL
               }">Launch app</a>${
-              item.isElectronApp
-                ? ' (<span class="electron">Electron.js</span>)'
-                : ''
-            }</span>
+                item.isElectronApp
+                  ? ' (<span class="electron">Electron.js</span>)'
+                  : ''
+              }</span>
               ${
                 item.sourceURL
                   ? `<span class="source"><a target="_blank" rel="noopener" href="${item.sourceURL}">Source code</a></span>`
