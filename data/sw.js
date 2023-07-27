@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-017892573102919807';
-  const MEDIA_CACHE = 'media-017892573102919807';
+  const APP_SHELL_CACHE = 'app-shell-08952206398243745';
+  const MEDIA_CACHE = 'media-08952206398243745';
 
   const APP_SHELL_FILES = [
     './',
@@ -416,6 +416,8 @@
     'web-gphoto2.rreverser.com-dark.webp',
     'web-serial-app.netlify.app.webp',
     'web-serial-app.netlify.app-dark.webp',
+    'web.autocad.com.webp',
+    'web.autocad.com-dark.webp',
     'web.blockbench.net.webp',
     'web.blockbench.net-dark.webp',
     'web.brewflasher.com.webp',
