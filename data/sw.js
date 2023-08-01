@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-08952206398243745';
-  const MEDIA_CACHE = 'media-08952206398243745';
+  const APP_SHELL_CACHE = 'app-shell-35444426392509265';
+  const MEDIA_CACHE = 'media-35444426392509265';
 
   const APP_SHELL_FILES = [
     './',
@@ -448,6 +448,8 @@
     'canva.com-dark.webp',
     'capcut.com!editor.webp',
     'capcut.com!editor-dark.webp',
+    'cityhop.cafe.webp',
+    'cityhop.cafe-dark.webp',
     'conifer-music.app.webp',
     'conifer-music.app-dark.webp',
     'contactsdirect.com.webp',
