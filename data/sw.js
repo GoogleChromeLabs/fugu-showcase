@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9454305864697494';
-  const MEDIA_CACHE = 'media-9454305864697494';
+  const APP_SHELL_CACHE = 'app-shell-18003708776409977';
+  const MEDIA_CACHE = 'media-18003708776409977';
 
   const APP_SHELL_FILES = [
     './',
@@ -486,6 +486,8 @@
     'microsoft.com!en-us!makecode-dark.webp',
     'netflix.com.webp',
     'netflix.com-dark.webp',
+    'notion.so.webp',
+    'notion.so-dark.webp',
     'photopea.com.webp',
     'photopea.com-dark.webp',
     'pinterest.de.webp',
