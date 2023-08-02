@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-35444426392509265';
-  const MEDIA_CACHE = 'media-35444426392509265';
+  const APP_SHELL_CACHE = 'app-shell-9454305864697494';
+  const MEDIA_CACHE = 'media-9454305864697494';
 
   const APP_SHELL_FILES = [
     './',
@@ -56,6 +56,8 @@
     'avg-colour.netlify.app-dark.webp',
     'bangle.io.webp',
     'bangle.io-dark.webp',
+    'birdfood.gq.webp',
+    'birdfood.gq-dark.webp',
     'bitmidi.com.webp',
     'bitmidi.com-dark.webp',
     'bluetooth.rocks.webp',
