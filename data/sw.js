@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-18003708776409977';
-  const MEDIA_CACHE = 'media-18003708776409977';
+  const APP_SHELL_CACHE = 'app-shell-1935284373949897';
+  const MEDIA_CACHE = 'media-1935284373949897';
 
   const APP_SHELL_FILES = [
     './',
@@ -244,6 +244,8 @@
     'mishipay.shop-dark.webp',
     'momo.mometic.com.webp',
     'momo.mometic.com-dark.webp',
+    'muted.io!piano.webp',
+    'muted.io!piano-dark.webp',
     'my.numworks.com.webp',
     'my.numworks.com-dark.webp',
     'narrow.one.webp',
@@ -254,6 +256,8 @@
     'nfctools.net-dark.webp',
     'niftypass.app.webp',
     'niftypass.app-dark.webp',
+    'noctura.tech.webp',
+    'noctura.tech-dark.webp',
     'notepad.js.org.webp',
     'notepad.js.org-dark.webp',
     'observablehq.com.webp',
