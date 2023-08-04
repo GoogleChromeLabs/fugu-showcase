@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-1935284373949897';
-  const MEDIA_CACHE = 'media-1935284373949897';
+  const APP_SHELL_CACHE = 'app-shell-023542950104383564';
+  const MEDIA_CACHE = 'media-023542950104383564';
 
   const APP_SHELL_FILES = [
     './',
@@ -50,6 +50,8 @@
     'app.vysor.io-dark.webp',
     'apps.tibbo.com.webp',
     'apps.tibbo.com-dark.webp',
+    'artclass.site.webp',
+    'artclass.site-dark.webp',
     'audiomass.co.webp',
     'audiomass.co-dark.webp',
     'avg-colour.netlify.app.webp',
