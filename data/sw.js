@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4140800777563034';
-  const MEDIA_CACHE = 'media-4140800777563034';
+  const APP_SHELL_CACHE = 'app-shell-5472300073905041';
+  const MEDIA_CACHE = 'media-5472300073905041';
 
   const APP_SHELL_FILES = [
     './',
@@ -116,6 +116,8 @@
     'docs.craft.do-dark.webp',
     'docs.qq.com!desktop.webp',
     'docs.qq.com!desktop-dark.webp',
+    'dotbigbang.com.webp',
+    'dotbigbang.com-dark.webp',
     'dotbigbang.com.webp',
     'dotbigbang.com-dark.webp',
     'duino.app.webp',
