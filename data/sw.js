@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-023542950104383564';
-  const MEDIA_CACHE = 'media-023542950104383564';
+  const APP_SHELL_CACHE = 'app-shell-4140800777563034';
+  const MEDIA_CACHE = 'media-4140800777563034';
 
   const APP_SHELL_FILES = [
     './',
@@ -82,8 +82,6 @@
     'chiptune.app-dark.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi-dark.webp',
-    'cleanfeed.net.webp',
-    'cleanfeed.net-dark.webp',
     'cleanfeed.net!studio.webp',
     'cleanfeed.net!studio-dark.webp',
     'code.irobot.com.webp',
