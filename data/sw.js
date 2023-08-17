@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5472300073905041';
-  const MEDIA_CACHE = 'media-5472300073905041';
+  const APP_SHELL_CACHE = 'app-shell-6872189420104302';
+  const MEDIA_CACHE = 'media-6872189420104302';
 
   const APP_SHELL_FILES = [
     './',
@@ -122,6 +122,8 @@
     'dotbigbang.com-dark.webp',
     'duino.app.webp',
     'duino.app-dark.webp',
+    'dustinbrett.com.webp',
+    'dustinbrett.com-dark.webp',
     'edit.photo.webp',
     'edit.photo-dark.webp',
     'edit.photostack.app.webp',
@@ -190,6 +192,8 @@
     'install.wled.me-dark.webp',
     'josephrocca.github.io!clip-image-sorter.webp',
     'josephrocca.github.io!clip-image-sorter-dark.webp',
+    'kaleidoscope24.com.webp',
+    'kaleidoscope24.com-dark.webp',
     'kenchris.github.io!webnfc-groceries.webp',
     'kenchris.github.io!webnfc-groceries-dark.webp',
     'komunalno.netlify.app.webp',
