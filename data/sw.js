@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6872189420104302';
-  const MEDIA_CACHE = 'media-6872189420104302';
+  const APP_SHELL_CACHE = 'app-shell-8812642793586294';
+  const MEDIA_CACHE = 'media-8812642793586294';
 
   const APP_SHELL_FILES = [
     './',
@@ -48,6 +48,10 @@
     'app.thepocketlab.com-dark.webp',
     'app.vysor.io.webp',
     'app.vysor.io-dark.webp',
+    'apps.microsoft.com!store!detail!conifer-music!9NBHTD9DMH30.webp',
+    'apps.microsoft.com!store!detail!conifer-music!9NBHTD9DMH30-dark.webp',
+    'apps.microsoft.com!store!detail!mammoth!9NRFT6SLGBMK.webp',
+    'apps.microsoft.com!store!detail!mammoth!9NRFT6SLGBMK-dark.webp',
     'apps.tibbo.com.webp',
     'apps.tibbo.com-dark.webp',
     'artclass.site.webp',
@@ -332,8 +336,6 @@
     'semaphore.social-dark.webp',
     'sepia-framework.github.io!app!index.html.webp',
     'sepia-framework.github.io!app!index.html-dark.webp',
-    'setu-upi-over-nfc.herokuapp.com!how-it-works.webp',
-    'setu-upi-over-nfc.herokuapp.com!how-it-works-dark.webp',
     'sharedgametimer.com.webp',
     'sharedgametimer.com-dark.webp',
     'shots.so.webp',
@@ -444,8 +446,6 @@
     'webscan.goncalomb.com-dark.webp',
     'whatpwacando.today.webp',
     'whatpwacando.today-dark.webp',
-    'wonderful-glacier-07b022d1e.2.azurestaticapps.net.webp',
-    'wonderful-glacier-07b022d1e.2.azurestaticapps.net-dark.webp',
     'wootility.io.webp',
     'wootility.io-dark.webp',
     'wormhole.app.webp',
@@ -462,8 +462,6 @@
     'capcut.com!editor-dark.webp',
     'cityhop.cafe.webp',
     'cityhop.cafe-dark.webp',
-    'conifer-music.app.webp',
-    'conifer-music.app-dark.webp',
     'contactsdirect.com.webp',
     'contactsdirect.com-dark.webp',
     'crazygames.com.webp',
