@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8812642793586294';
-  const MEDIA_CACHE = 'media-8812642793586294';
+  const APP_SHELL_CACHE = 'app-shell-2153250101306321';
+  const MEDIA_CACHE = 'media-2153250101306321';
 
   const APP_SHELL_FILES = [
     './',
@@ -330,6 +330,8 @@
     'remap-keys.app-dark.webp',
     'roland50.studio.webp',
     'roland50.studio-dark.webp',
+    'rubynetwork.tech.webp',
+    'rubynetwork.tech-dark.webp',
     'scrapbook-pwa.web.app.webp',
     'scrapbook-pwa.web.app-dark.webp',
     'semaphore.social.webp',
