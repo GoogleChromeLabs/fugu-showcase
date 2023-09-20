@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-2153250101306321';
-  const MEDIA_CACHE = 'media-2153250101306321';
+  const APP_SHELL_CACHE = 'app-shell-6606726653749373';
+  const MEDIA_CACHE = 'media-6606726653749373';
 
   const APP_SHELL_FILES = [
     './',
@@ -246,6 +246,8 @@
     'md.nico.dev-dark.webp',
     'mdsilo.com!app!demo.webp',
     'mdsilo.com!app!demo-dark.webp',
+    'mgerhardy.github.io!vengi-voxedit-html5!vengi-voxedit.html.webp',
+    'mgerhardy.github.io!vengi-voxedit-html5!vengi-voxedit.html-dark.webp',
     'microsoftedge.github.io!Demos!pwamp.webp',
     'microsoftedge.github.io!Demos!pwamp-dark.webp',
     'microsoftedge.github.io!Demos!wami.webp',
