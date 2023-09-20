@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6606726653749373';
-  const MEDIA_CACHE = 'media-6606726653749373';
+  const APP_SHELL_CACHE = 'app-shell-3330949125046625';
+  const MEDIA_CACHE = 'media-3330949125046625';
 
   const APP_SHELL_FILES = [
     './',
@@ -190,6 +190,8 @@
     'hoppscotch.io-dark.webp',
     'hoten.cc!zc!play.webp',
     'hoten.cc!zc!play-dark.webp',
+    'hub.vroid.com!en.webp',
+    'hub.vroid.com!en-dark.webp',
     'ilariafoodandhome.it.webp',
     'ilariafoodandhome.it-dark.webp',
     'install.wled.me.webp',
@@ -344,6 +346,8 @@
     'sharedgametimer.com-dark.webp',
     'shots.so.webp',
     'shots.so-dark.webp',
+    'sketch.pixiv.net!draw.webp',
+    'sketch.pixiv.net!draw-dark.webp',
     'snaeplayer.com.webp',
     'snaeplayer.com-dark.webp',
     'snapdrop.net.webp',
