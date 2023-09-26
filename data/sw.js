@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8026836601833225';
-  const MEDIA_CACHE = 'media-8026836601833225';
+  const APP_SHELL_CACHE = 'app-shell-976976415766869';
+  const MEDIA_CACHE = 'media-976976415766869';
 
   const APP_SHELL_FILES = [
     './',
@@ -176,6 +176,8 @@
     'gltf.report-dark.webp',
     'grapheneos.org!install!webflashing-factory-images.webp',
     'grapheneos.org!install!webflashing-factory-images-dark.webp',
+    'graphicalanalysis.app.webp',
+    'graphicalanalysis.app-dark.webp',
     'graphtoy.com.webp',
     'graphtoy.com-dark.webp',
     'h5.topwargame.com!h5game!index.html.webp',
