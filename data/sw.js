@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-17489386749266855';
-  const MEDIA_CACHE = 'media-17489386749266855';
+  const APP_SHELL_CACHE = 'app-shell-7468835327417951';
+  const MEDIA_CACHE = 'media-7468835327417951';
 
   const APP_SHELL_FILES = [
     './',
@@ -210,6 +210,8 @@
     'kryogenix.org!farmbound-dark.webp',
     'lab.flipper.net.webp',
     'lab.flipper.net-dark.webp',
+    'ldijkman.github.io!Ace_Seventh_Heaven!Seventh_Heaven.html.webp',
+    'ldijkman.github.io!Ace_Seventh_Heaven!Seventh_Heaven.html-dark.webp',
     'learningmusic.ableton.com.webp',
     'learningmusic.ableton.com-dark.webp',
     'learningsynths.ableton.com.webp',
