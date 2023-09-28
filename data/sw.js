@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7468835327417951';
-  const MEDIA_CACHE = 'media-7468835327417951';
+  const APP_SHELL_CACHE = 'app-shell-5604749715869402';
+  const MEDIA_CACHE = 'media-5604749715869402';
 
   const APP_SHELL_FILES = [
     './',
@@ -330,6 +330,8 @@
     'radio-house.app-dark.webp',
     'radio.garden.webp',
     'radio.garden-dark.webp',
+    'raverie-us.github.io!raverie-engine.webp',
+    'raverie-us.github.io!raverie-engine-dark.webp',
     'readonly.link!editor.webp',
     'readonly.link!editor-dark.webp',
     'readyplayer.me!avatar.webp',
@@ -428,6 +430,8 @@
     'ustaxes.org!start-dark.webp',
     'velocity.radon.games.webp',
     'velocity.radon.games-dark.webp',
+    'vger.app!posts!lemmy.world!all.webp',
+    'vger.app!posts!lemmy.world!all-dark.webp',
     'vimeo.com.webp',
     'vimeo.com-dark.webp',
     'vodon-player.vercel.app.webp',
