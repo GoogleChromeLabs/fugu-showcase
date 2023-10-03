@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5604749715869402';
-  const MEDIA_CACHE = 'media-5604749715869402';
+  const APP_SHELL_CACHE = 'app-shell-4036202080412665';
+  const MEDIA_CACHE = 'media-4036202080412665';
 
   const APP_SHELL_FILES = [
     './',
@@ -392,6 +392,8 @@
     'svgco.de-dark.webp',
     'tasmota.github.io!install.webp',
     'tasmota.github.io!install-dark.webp',
+    'teenage.engineering!apps!drum-utility.webp',
+    'teenage.engineering!apps!drum-utility-dark.webp',
     'tgstorage.com.webp',
     'tgstorage.com-dark.webp',
     'thelogbook.app.webp',
@@ -518,6 +520,8 @@
     'photopea.com-dark.webp',
     'pinterest.de.webp',
     'pinterest.de-dark.webp',
+    'recordergo.app.webp',
+    'recordergo.app-dark.webp',
     'senomix.com!timesheet.webp',
     'senomix.com!timesheet-dark.webp',
     'sessionwire.com.webp',
