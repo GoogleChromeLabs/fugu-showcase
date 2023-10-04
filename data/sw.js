@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4036202080412665';
-  const MEDIA_CACHE = 'media-4036202080412665';
+  const APP_SHELL_CACHE = 'app-shell-742549945760169';
+  const MEDIA_CACHE = 'media-742549945760169';
 
   const APP_SHELL_FILES = [
     './',
@@ -550,6 +550,8 @@
     'webgamer.io-dark.webp',
     'xbox.com!en-US!play!games!fortnite!BT5P2X999VH2.webp',
     'xbox.com!en-US!play!games!fortnite!BT5P2X999VH2-dark.webp',
+    'xmodem.isthe.link.webp',
+    'xmodem.isthe.link-dark.webp',
     'yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd.webp',
     'yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd-dark.webp',
     'yt-playlist-notifier.web.app.webp',
