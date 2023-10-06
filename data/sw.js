@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-742549945760169';
-  const MEDIA_CACHE = 'media-742549945760169';
+  const APP_SHELL_CACHE = 'app-shell-2991924879507746';
+  const MEDIA_CACHE = 'media-2991924879507746';
 
   const APP_SHELL_FILES = [
     './',
@@ -266,6 +266,8 @@
     'muted.io!piano-dark.webp',
     'my.numworks.com.webp',
     'my.numworks.com-dark.webp',
+    'mypixelbuds.google.com.webp',
+    'mypixelbuds.google.com-dark.webp',
     'narrow.one.webp',
     'narrow.one-dark.webp',
     'natto.dev.webp',
@@ -534,6 +536,8 @@
     'speakflow.com-dark.webp',
     'stemplayer.com.webp',
     'stemplayer.com-dark.webp',
+    'target.com!room-planner!home.webp',
+    'target.com!room-planner!home-dark.webp',
     'terra.com.br.webp',
     'terra.com.br-dark.webp',
     'tiktok.com.webp',
