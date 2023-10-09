@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-2991924879507746';
-  const MEDIA_CACHE = 'media-2991924879507746';
+  const APP_SHELL_CACHE = 'app-shell-15045710315255256';
+  const MEDIA_CACHE = 'media-15045710315255256';
 
   const APP_SHELL_FILES = [
     './',
@@ -66,6 +66,8 @@
     'birdfood.gq-dark.webp',
     'bitmidi.com.webp',
     'bitmidi.com-dark.webp',
+    'blob.city.webp',
+    'blob.city-dark.webp',
     'bluetooth.rocks.webp',
     'bluetooth.rocks-dark.webp',
     'boardgamearena.com.webp',
