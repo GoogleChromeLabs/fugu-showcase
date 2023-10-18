@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-17415510391225197';
-  const MEDIA_CACHE = 'media-17415510391225197';
+  const APP_SHELL_CACHE = 'app-shell-8224895458289749';
+  const MEDIA_CACHE = 'media-8224895458289749';
 
   const APP_SHELL_FILES = [
     './',
@@ -176,6 +176,8 @@
     'github.dev!github!dev-dark.webp',
     'gltf.report.webp',
     'gltf.report-dark.webp',
+    'goldwave.com!editor.webp',
+    'goldwave.com!editor-dark.webp',
     'grapheneos.org!install!webflashing-factory-images.webp',
     'grapheneos.org!install!webflashing-factory-images-dark.webp',
     'graphicalanalysis.app.webp',
@@ -548,6 +550,8 @@
     'tldraw.com-dark.webp',
     'topdecked.com.webp',
     'topdecked.com-dark.webp',
+    'vectorpea.com.webp',
+    'vectorpea.com-dark.webp',
     'vimonlineeditor.com.webp',
     'vimonlineeditor.com-dark.webp',
     'wealthposition.com.webp',
