@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8224895458289749';
-  const MEDIA_CACHE = 'media-8224895458289749';
+  const APP_SHELL_CACHE = 'app-shell-5557069799526548';
+  const MEDIA_CACHE = 'media-5557069799526548';
 
   const APP_SHELL_FILES = [
     './',
@@ -122,8 +122,6 @@
     'docs.craft.do-dark.webp',
     'docs.qq.com!desktop.webp',
     'docs.qq.com!desktop-dark.webp',
-    'dotbigbang.com.webp',
-    'dotbigbang.com-dark.webp',
     'dotbigbang.com.webp',
     'dotbigbang.com-dark.webp',
     'duino.app.webp',
@@ -320,8 +318,6 @@
     'point.seongland.com-dark.webp',
     'pokedex.org.webp',
     'pokedex.org-dark.webp',
-    'postr.me.webp',
-    'postr.me-dark.webp',
     'postr.me.webp',
     'postr.me-dark.webp',
     'ppg.report.webp',
