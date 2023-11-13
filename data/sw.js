@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5557069799526548';
-  const MEDIA_CACHE = 'media-5557069799526548';
+  const APP_SHELL_CACHE = 'app-shell-14643198181785144';
+  const MEDIA_CACHE = 'media-14643198181785144';
 
   const APP_SHELL_FILES = [
     './',
@@ -248,6 +248,8 @@
     'markwhen.com-dark.webp',
     'maskable.app.webp',
     'maskable.app-dark.webp',
+    'mathigon.org!polypad.webp',
+    'mathigon.org!polypad-dark.webp',
     'mconverter.eu.webp',
     'mconverter.eu-dark.webp',
     'md.nico.dev.webp',
@@ -318,6 +320,8 @@
     'point.seongland.com-dark.webp',
     'pokedex.org.webp',
     'pokedex.org-dark.webp',
+    'pokemon-as-a-service.web.app.webp',
+    'pokemon-as-a-service.web.app-dark.webp',
     'postr.me.webp',
     'postr.me-dark.webp',
     'ppg.report.webp',

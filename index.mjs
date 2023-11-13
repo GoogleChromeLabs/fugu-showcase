@@ -41,6 +41,9 @@ const SCREENSHOT_OPTIONS = {
   overwrite: true,
   delay: 2,
   type: 'webp',
+  launchOptions: {
+    headless: 'new',
+  },
 };
 
 const CANONICAL_URL = 'https://googlechromelabs.github.io/fugu-showcase/data/';
