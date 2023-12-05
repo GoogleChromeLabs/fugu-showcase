@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-14643198181785144';
-  const MEDIA_CACHE = 'media-14643198181785144';
+  const APP_SHELL_CACHE = 'app-shell-6846880262221173';
+  const MEDIA_CACHE = 'media-6846880262221173';
 
   const APP_SHELL_FILES = [
     './',
@@ -242,6 +242,10 @@
     'luna.amazon.com-dark.webp',
     'make.firialabs.com.webp',
     'make.firialabs.com-dark.webp',
+    'mandadin-4.web.app.webp',
+    'mandadin-4.web.app-dark.webp',
+    'manifoldcad.org.webp',
+    'manifoldcad.org-dark.webp',
     'marabesi.github.io!json-tool.webp',
     'marabesi.github.io!json-tool-dark.webp',
     'markwhen.com.webp',
@@ -462,6 +466,8 @@
     'web.blockbench.net-dark.webp',
     'web.brewflasher.com.webp',
     'web.brewflasher.com-dark.webp',
+    'web.descript.com.webp',
+    'web.descript.com-dark.webp',
     'web.goodnotes.com.webp',
     'web.goodnotes.com-dark.webp',
     'web.snapchat.com.webp',
