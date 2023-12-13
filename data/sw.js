@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6846880262221173';
-  const MEDIA_CACHE = 'media-6846880262221173';
+  const APP_SHELL_CACHE = 'app-shell-23595528716892988';
+  const MEDIA_CACHE = 'media-23595528716892988';
 
   const APP_SHELL_FILES = [
     './',
@@ -430,6 +430,8 @@
     'twitter.com-dark.webp',
     'tylify.app.webp',
     'tylify.app-dark.webp',
+    'typst.app.webp',
+    'typst.app-dark.webp',
     'ui.perfetto.dev.webp',
     'ui.perfetto.dev-dark.webp',
     'unsplash.com.webp',
