@@ -12,8 +12,8 @@
     "capture-website": "^4.0.0",
     "filenamify-url": "^3.1.0",
     "node-fetch": "^3.3.2",
-    "prettier": "^3.1.1",
-    "sharp": "^0.33.0",
+    "prettier": "^3.2.4",
+    "sharp": "^0.33.2",
     "shx": "^0.3.4",
     "unfurl.js": "^6.3.2"
   },

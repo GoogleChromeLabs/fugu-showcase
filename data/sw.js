@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-23595528716892988';
-  const MEDIA_CACHE = 'media-23595528716892988';
+  const APP_SHELL_CACHE = 'app-shell-366593120162805';
+  const MEDIA_CACHE = 'media-366593120162805';
 
   const APP_SHELL_FILES = [
     './',
@@ -300,6 +300,8 @@
     'panel.hostmeapp.com-dark.webp',
     'petertyliu.github.io!toaster.webp',
     'petertyliu.github.io!toaster-dark.webp',
+    'photopwa.com.webp',
+    'photopwa.com-dark.webp',
     'photoshop.adobe.com.webp',
     'photoshop.adobe.com-dark.webp',
     'pinafore.social.webp',
@@ -326,6 +328,8 @@
     'pokedex.org-dark.webp',
     'pokemon-as-a-service.web.app.webp',
     'pokemon-as-a-service.web.app-dark.webp',
+    'poketune.vercel.app.webp',
+    'poketune.vercel.app-dark.webp',
     'postr.me.webp',
     'postr.me-dark.webp',
     'ppg.report.webp',
@@ -516,6 +520,8 @@
     'hypertext.plus!editor-dark.webp',
     'improv-wifi.com.webp',
     'improv-wifi.com-dark.webp',
+    'indianradio.in.webp',
+    'indianradio.in-dark.webp',
     'instagram.com.webp',
     'instagram.com-dark.webp',
     'irccloud.com.webp',
