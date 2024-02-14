@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-366593120162805';
-  const MEDIA_CACHE = 'media-366593120162805';
+  const APP_SHELL_CACHE = 'app-shell-8705125298976388';
+  const MEDIA_CACHE = 'media-8705125298976388';
 
   const APP_SHELL_FILES = [
     './',
@@ -158,6 +158,8 @@
     'esphome.github.io!esp-web-tools-dark.webp',
     'excalidraw.com.webp',
     'excalidraw.com-dark.webp',
+    'file.kiwi.webp',
+    'file.kiwi-dark.webp',
     'flash.android.com.webp',
     'flash.android.com-dark.webp',
     'floor796.com!editor!l0.webp',
@@ -380,6 +382,8 @@
     'songwhip.com-dark.webp',
     'soundation.com.webp',
     'soundation.com-dark.webp',
+    'souvenir.cam.webp',
+    'souvenir.cam-dark.webp',
     'spatialfusion.io.webp',
     'spatialfusion.io-dark.webp',
     'spike.legoeducation.com.webp',
@@ -536,6 +540,10 @@
     'netflix.com-dark.webp',
     'notion.so.webp',
     'notion.so-dark.webp',
+    'pathuku.com!games!pathuku!play.webp',
+    'pathuku.com!games!pathuku!play-dark.webp',
+    'pathuku.com!hostileshapes.webp',
+    'pathuku.com!hostileshapes-dark.webp',
     'photopea.com.webp',
     'photopea.com-dark.webp',
     'pinterest.de.webp',
