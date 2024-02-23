@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8705125298976388';
-  const MEDIA_CACHE = 'media-8705125298976388';
+  const APP_SHELL_CACHE = 'app-shell-8797286276170437';
+  const MEDIA_CACHE = 'media-8797286276170437';
 
   const APP_SHELL_FILES = [
     './',
@@ -30,6 +30,8 @@
     'animator.expressive.app-dark.webp',
     'app.ampedstudio.com.webp',
     'app.ampedstudio.com-dark.webp',
+    'app.color.io.webp',
+    'app.color.io-dark.webp',
     'app.cosee.com.webp',
     'app.cosee.com-dark.webp',
     'app.diagrams.net.webp',
@@ -76,6 +78,8 @@
     'boxy-svg.com!app-dark.webp',
     'bpmtech.no.webp',
     'bpmtech.no-dark.webp',
+    'briefform.de.webp',
+    'briefform.de-dark.webp',
     'buddy.edgetx.org.webp',
     'buddy.edgetx.org-dark.webp',
     'bundle.js.org.webp',
