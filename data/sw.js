@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5327116882097362';
-  const MEDIA_CACHE = 'media-5327116882097362';
+  const APP_SHELL_CACHE = 'app-shell-825764645275783';
+  const MEDIA_CACHE = 'media-825764645275783';
 
   const APP_SHELL_FILES = [
     './',
@@ -64,8 +64,6 @@
     'avg-colour.netlify.app-dark.webp',
     'bangle.io.webp',
     'bangle.io-dark.webp',
-    'birdfood.gq.webp',
-    'birdfood.gq-dark.webp',
     'bitmidi.com.webp',
     'bitmidi.com-dark.webp',
     'blob.city.webp',
@@ -288,8 +286,6 @@
     'natto.dev-dark.webp',
     'nfctools.net.webp',
     'nfctools.net-dark.webp',
-    'niftypass.app.webp',
-    'niftypass.app-dark.webp',
     'noctura.tech.webp',
     'noctura.tech-dark.webp',
     'notepad.js.org.webp',
@@ -366,8 +362,8 @@
     'remap-keys.app-dark.webp',
     'roland50.studio.webp',
     'roland50.studio-dark.webp',
-    'rubynetwork.tech.webp',
-    'rubynetwork.tech-dark.webp',
+    'ruby.rubynetwork.co.webp',
+    'ruby.rubynetwork.co-dark.webp',
     'scrapbook-pwa.web.app.webp',
     'scrapbook-pwa.web.app-dark.webp',
     'semaphore.social.webp',
