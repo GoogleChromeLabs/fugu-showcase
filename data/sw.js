@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4493181286997274';
-  const MEDIA_CACHE = 'media-4493181286997274';
+  const APP_SHELL_CACHE = 'app-shell-5327116882097362';
+  const MEDIA_CACHE = 'media-5327116882097362';
 
   const APP_SHELL_FILES = [
     './',
@@ -358,6 +358,8 @@
     'readonly.link!editor-dark.webp',
     'readyplayer.me!avatar.webp',
     'readyplayer.me!avatar-dark.webp',
+    'recipemate.app.webp',
+    'recipemate.app-dark.webp',
     'regex101.com.webp',
     'regex101.com-dark.webp',
     'remap-keys.app.webp',

@@ -13,7 +13,7 @@
     "filenamify-url": "^3.1.0",
     "node-fetch": "^3.3.2",
     "prettier": "^3.2.5",
-    "sharp": "^0.33.2",
+    "sharp": "^0.33.3",
     "shx": "^0.3.4",
     "unfurl.js": "^6.4.0"
   },
