@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-5097140137504421';
-  const MEDIA_CACHE = 'media-5097140137504421';
+  const APP_SHELL_CACHE = 'app-shell-41070974320920706';
+  const MEDIA_CACHE = 'media-41070974320920706';
 
   const APP_SHELL_FILES = [
     './',
@@ -38,6 +38,8 @@
     'app.diagrams.net-dark.webp',
     'app.element.io!!welcome.webp',
     'app.element.io!!welcome-dark.webp',
+    'app.photoroom.com.webp',
+    'app.photoroom.com-dark.webp',
     'app.runwayml.com.webp',
     'app.runwayml.com-dark.webp',
     'app.sketchup.com!app.webp',
@@ -410,10 +412,14 @@
     'staging.bsky.app-dark.webp',
     'stedit.app.webp',
     'stedit.app-dark.webp',
+    'strummachine.com!app.webp',
+    'strummachine.com!app-dark.webp',
     'studio.samlabs.com.webp',
     'studio.samlabs.com-dark.webp',
     'svgco.de.webp',
     'svgco.de-dark.webp',
+    'symbol.wtf.webp',
+    'symbol.wtf-dark.webp',
     'tasmota.github.io!install.webp',
     'tasmota.github.io!install-dark.webp',
     'teenage.engineering!apps!drum-utility.webp',
