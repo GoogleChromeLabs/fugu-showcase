@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-2102345660212548';
-  const MEDIA_CACHE = 'media-2102345660212548';
+  const APP_SHELL_CACHE = 'app-shell-8063700136036827';
+  const MEDIA_CACHE = 'media-8063700136036827';
 
   const APP_SHELL_FILES = [
     './',
@@ -562,8 +562,6 @@
     'photopea.com-dark.webp',
     'pinterest.de.webp',
     'pinterest.de-dark.webp',
-    'recordergo.app.webp',
-    'recordergo.app-dark.webp',
     'senomix.com!timesheet.webp',
     'senomix.com!timesheet-dark.webp',
     'sessionwire.com.webp',
