@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-41070974320920706';
-  const MEDIA_CACHE = 'media-41070974320920706';
+  const APP_SHELL_CACHE = 'app-shell-2102345660212548';
+  const MEDIA_CACHE = 'media-2102345660212548';
 
   const APP_SHELL_FILES = [
     './',
@@ -308,6 +308,8 @@
     'photopwa.com-dark.webp',
     'photoshop.adobe.com.webp',
     'photoshop.adobe.com-dark.webp',
+    'pikimov.com!app.webp',
+    'pikimov.com!app-dark.webp',
     'pinafore.social.webp',
     'pinafore.social-dark.webp',
     'pixa.pics.webp',
