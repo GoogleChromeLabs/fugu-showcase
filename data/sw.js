@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8063700136036827';
-  const MEDIA_CACHE = 'media-8063700136036827';
+  const APP_SHELL_CACHE = 'app-shell-27858528116457215';
+  const MEDIA_CACHE = 'media-27858528116457215';
 
   const APP_SHELL_FILES = [
     './',
@@ -548,6 +548,8 @@
     'jsmusicdb.com-dark.webp',
     'lightningmaps.org.webp',
     'lightningmaps.org-dark.webp',
+    'meta.com!help!quest!software_update.webp',
+    'meta.com!help!quest!software_update-dark.webp',
     'microsoft.com!en-us!makecode.webp',
     'microsoft.com!en-us!makecode-dark.webp',
     'netflix.com.webp',
