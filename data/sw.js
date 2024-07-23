@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-27858528116457215';
-  const MEDIA_CACHE = 'media-27858528116457215';
+  const APP_SHELL_CACHE = 'app-shell-9502934603360196';
+  const MEDIA_CACHE = 'media-9502934603360196';
 
   const APP_SHELL_FILES = [
     './',
@@ -318,8 +318,6 @@
     'pixlr.com-dark.webp',
     'plainandeasy.com.webp',
     'plainandeasy.com-dark.webp',
-    'plainandeasy.com.webp',
-    'plainandeasy.com-dark.webp',
     'play-video-app.netlify.app.webp',
     'play-video-app.netlify.app-dark.webp',
     'play.geforcenow.com.webp',
@@ -346,6 +344,8 @@
     'pwa.journalisticapp.com-dark.webp',
     'pwa.kiwix.org!www!index.html.webp',
     'pwa.kiwix.org!www!index.html-dark.webp',
+    'pwatungsten.app.webp',
+    'pwatungsten.app-dark.webp',
     'qrsnapper.com.webp',
     'qrsnapper.com-dark.webp',
     'radio-house.app.webp',
