@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9502934603360196';
-  const MEDIA_CACHE = 'media-9502934603360196';
+  const APP_SHELL_CACHE = 'app-shell-7570050132269579';
+  const MEDIA_CACHE = 'media-7570050132269579';
 
   const APP_SHELL_FILES = [
     './',
@@ -340,6 +340,8 @@
     'postr.me-dark.webp',
     'ppg.report.webp',
     'ppg.report-dark.webp',
+    'puter.com.webp',
+    'puter.com-dark.webp',
     'pwa.journalisticapp.com.webp',
     'pwa.journalisticapp.com-dark.webp',
     'pwa.kiwix.org!www!index.html.webp',
