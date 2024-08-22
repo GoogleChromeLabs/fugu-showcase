@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-7570050132269579';
-  const MEDIA_CACHE = 'media-7570050132269579';
+  const APP_SHELL_CACHE = 'app-shell-059853197760479704';
+  const MEDIA_CACHE = 'media-059853197760479704';
 
   const APP_SHELL_FILES = [
     './',
@@ -38,6 +38,8 @@
     'app.diagrams.net-dark.webp',
     'app.element.io!!welcome.webp',
     'app.element.io!!welcome-dark.webp',
+    'app.getwavecake.com!dashboard!demo.webp',
+    'app.getwavecake.com!dashboard!demo-dark.webp',
     'app.photoroom.com.webp',
     'app.photoroom.com-dark.webp',
     'app.runwayml.com.webp',
