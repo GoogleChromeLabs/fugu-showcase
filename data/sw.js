@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6462915087414567';
-  const MEDIA_CACHE = 'media-6462915087414567';
+  const APP_SHELL_CACHE = 'app-shell-6896563594549141';
+  const MEDIA_CACHE = 'media-6896563594549141';
 
   const APP_SHELL_FILES = [
     './',
@@ -520,6 +520,8 @@
     'canva.com-dark.webp',
     'capcut.com!editor.webp',
     'capcut.com!editor-dark.webp',
+    'capitalone.com!tech!software-engineering!web-nfc-for-authentication-android.webp',
+    'capitalone.com!tech!software-engineering!web-nfc-for-authentication-android-dark.webp',
     'cityhop.cafe.webp',
     'cityhop.cafe-dark.webp',
     'contactsdirect.com.webp',
