@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6896563594549141';
-  const MEDIA_CACHE = 'media-6896563594549141';
+  const APP_SHELL_CACHE = 'app-shell-1050498314855206';
+  const MEDIA_CACHE = 'media-1050498314855206';
 
   const APP_SHELL_FILES = [
     './',
@@ -94,6 +94,8 @@
     'chiptune.app-dark.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi-dark.webp',
+    'chromewebstore.google.com!detail!codespinai-chat!mipjjdhkhdfggajnociccilimkhophpa.webp',
+    'chromewebstore.google.com!detail!codespinai-chat!mipjjdhkhdfggajnociccilimkhophpa-dark.webp',
     'cleanfeed.net!studio.webp',
     'cleanfeed.net!studio-dark.webp',
     'code.irobot.com.webp',
@@ -296,6 +298,8 @@
     'notepad.js.org-dark.webp',
     'observablehq.com.webp',
     'observablehq.com-dark.webp',
+    'odoo.github.io!o-spreadsheet.webp',
+    'odoo.github.io!o-spreadsheet-dark.webp',
     'okso.app.webp',
     'okso.app-dark.webp',
     'open.spotify.com.webp',
