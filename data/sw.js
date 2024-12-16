@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-1050498314855206';
-  const MEDIA_CACHE = 'media-1050498314855206';
+  const APP_SHELL_CACHE = 'app-shell-997189880488025';
+  const MEDIA_CACHE = 'media-997189880488025';
 
   const APP_SHELL_FILES = [
     './',
@@ -176,6 +176,8 @@
     'fpv.wtf!!about-dark.webp',
     'fuse.littlebits.com.webp',
     'fuse.littlebits.com-dark.webp',
+    'fw.mat1jaczyyy.com!firmware.webp',
+    'fw.mat1jaczyyy.com!firmware-dark.webp',
     'games.tigeroakes.com!last-finger-standing.webp',
     'games.tigeroakes.com!last-finger-standing-dark.webp',
     'georapbox.github.io!barcode-scanner.webp',

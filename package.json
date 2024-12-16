@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@minify-html/js": "^0.8.1",
-    "capture-website": "^4.1.0",
+    "capture-website": "^4.2.0",
     "filenamify-url": "^3.1.0",
     "node-fetch": "^3.3.2",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.2",
     "sharp": "^0.33.5",
     "shx": "^0.3.4",
     "unfurl.js": "^6.4.0"
