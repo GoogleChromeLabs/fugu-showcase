@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-997189880488025';
-  const MEDIA_CACHE = 'media-997189880488025';
+  const APP_SHELL_CACHE = 'app-shell-07094890838168033';
+  const MEDIA_CACHE = 'media-07094890838168033';
 
   const APP_SHELL_FILES = [
     './',
@@ -260,6 +260,8 @@
     'manifoldcad.org-dark.webp',
     'marabesi.github.io!json-tool.webp',
     'marabesi.github.io!json-tool-dark.webp',
+    'maratona.app.webp',
+    'maratona.app-dark.webp',
     'markwhen.com.webp',
     'markwhen.com-dark.webp',
     'maskable.app.webp',
