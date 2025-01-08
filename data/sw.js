@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-07094890838168033';
-  const MEDIA_CACHE = 'media-07094890838168033';
+  const APP_SHELL_CACHE = 'app-shell-6233500602558337';
+  const MEDIA_CACHE = 'media-6233500602558337';
 
   const APP_SHELL_FILES = [
     './',
@@ -566,6 +566,8 @@
     'meta.com!help!quest!software_update-dark.webp',
     'microsoft.com!en-us!makecode.webp',
     'microsoft.com!en-us!makecode-dark.webp',
+    'nanocell-csv.com.webp',
+    'nanocell-csv.com-dark.webp',
     'netflix.com.webp',
     'netflix.com-dark.webp',
     'notion.so.webp',
