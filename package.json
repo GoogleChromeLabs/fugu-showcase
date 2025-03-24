@@ -12,9 +12,9 @@
     "capture-website": "^4.2.0",
     "filenamify-url": "^3.1.0",
     "node-fetch": "^3.3.2",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.3",
     "sharp": "^0.33.5",
-    "shx": "^0.3.4",
+    "shx": "^0.4.0",
     "unfurl.js": "^6.4.0"
   },
   "devDependencies": {

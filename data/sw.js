@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-6233500602558337';
-  const MEDIA_CACHE = 'media-6233500602558337';
+  const APP_SHELL_CACHE = 'app-shell-8265706006978673';
+  const MEDIA_CACHE = 'media-8265706006978673';
 
   const APP_SHELL_FILES = [
     './',
@@ -390,6 +390,8 @@
     'sharedgametimer.com-dark.webp',
     'shots.so.webp',
     'shots.so-dark.webp',
+    'sketch-bridge.com.webp',
+    'sketch-bridge.com-dark.webp',
     'sketch.pixiv.net!draw.webp',
     'sketch.pixiv.net!draw-dark.webp',
     'slidesynth.com.webp',
