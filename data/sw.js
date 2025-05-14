@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-8265706006978673';
-  const MEDIA_CACHE = 'media-8265706006978673';
+  const APP_SHELL_CACHE = 'app-shell-9907523508447387';
+  const MEDIA_CACHE = 'media-9907523508447387';
 
   const APP_SHELL_FILES = [
     './',
@@ -538,6 +538,8 @@
     'contactsdirect.com-dark.webp',
     'crazygames.com.webp',
     'crazygames.com-dark.webp',
+    'crazygames.com.webp',
+    'crazygames.com-dark.webp',
     'descript.com.webp',
     'descript.com-dark.webp',
     'duolingo.com.webp',
@@ -564,6 +566,8 @@
     'jsmusicdb.com-dark.webp',
     'lightningmaps.org.webp',
     'lightningmaps.org-dark.webp',
+    'lozyue.top!miuplayer-box!index.html.webp',
+    'lozyue.top!miuplayer-box!index.html-dark.webp',
     'meta.com!help!quest!software_update.webp',
     'meta.com!help!quest!software_update-dark.webp',
     'microsoft.com!en-us!makecode.webp',
@@ -586,6 +590,8 @@
     'senomix.com!timesheet-dark.webp',
     'sessionwire.com.webp',
     'sessionwire.com-dark.webp',
+    'smile.one.webp',
+    'smile.one-dark.webp',
     'soundslice.com.webp',
     'soundslice.com-dark.webp',
     'soundtrap.com.webp',
