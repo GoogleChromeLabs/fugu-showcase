@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-9907523508447387';
-  const MEDIA_CACHE = 'media-9907523508447387';
+  const APP_SHELL_CACHE = 'app-shell-31741049767485674';
+  const MEDIA_CACHE = 'media-31741049767485674';
 
   const APP_SHELL_FILES = [
     './',
@@ -100,8 +100,8 @@
     'cleanfeed.net!studio-dark.webp',
     'code.irobot.com.webp',
     'code.irobot.com-dark.webp',
-    'code.makewonder.com!cue.webp',
-    'code.makewonder.com!cue-dark.webp',
+    'code.makewonder.com!cue!.webp',
+    'code.makewonder.com!cue!-dark.webp',
     'codeit.codes.webp',
     'codeit.codes-dark.webp',
     'codepoints.net.webp',
@@ -250,6 +250,8 @@
     'lookscanned.io!scan-dark.webp',
     'loop.microsoft.com.webp',
     'loop.microsoft.com-dark.webp',
+    'loyuri.top!miuplayer-box!index.webp',
+    'loyuri.top!miuplayer-box!index-dark.webp',
     'luna.amazon.com.webp',
     'luna.amazon.com-dark.webp',
     'make.firialabs.com.webp',
@@ -456,6 +458,8 @@
     'tinder.com-dark.webp',
     'toolbox.lynx-r.com.webp',
     'toolbox.lynx-r.com-dark.webp',
+    'toools.cloud!files-and-folders.webp',
+    'toools.cloud!files-and-folders-dark.webp',
     'toot.cafe.webp',
     'toot.cafe-dark.webp',
     'traintimes.org.uk.webp',
@@ -566,8 +570,6 @@
     'jsmusicdb.com-dark.webp',
     'lightningmaps.org.webp',
     'lightningmaps.org-dark.webp',
-    'lozyue.top!miuplayer-box!index.html.webp',
-    'lozyue.top!miuplayer-box!index.html-dark.webp',
     'meta.com!help!quest!software_update.webp',
     'meta.com!help!quest!software_update-dark.webp',
     'microsoft.com!en-us!makecode.webp',
@@ -610,6 +612,8 @@
     'tldraw.com-dark.webp',
     'topdecked.com.webp',
     'topdecked.com-dark.webp',
+    'unitmeasure.xyz!vatcalculator.html.webp',
+    'unitmeasure.xyz!vatcalculator.html-dark.webp',
     'vectorpea.com.webp',
     'vectorpea.com-dark.webp',
     'vimonlineeditor.com.webp',
@@ -627,7 +631,9 @@
     'yt-playlist-notifier.web.app.webp',
     'yt-playlist-notifier.web.app-dark.webp',
     'ytaud.io.webp',
-    'ytaud.io-dark.webp'
+    'ytaud.io-dark.webp',
+    'zxmushroom63.github.io!synthetic-audio.webp',
+    'zxmushroom63.github.io!synthetic-audio-dark.webp'
   ];
 
   const ALL_CACHES = [APP_SHELL_CACHE, MEDIA_CACHE];
