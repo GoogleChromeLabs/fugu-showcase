@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-31741049767485674';
-  const MEDIA_CACHE = 'media-31741049767485674';
+  const APP_SHELL_CACHE = 'app-shell-1830124539198259';
+  const MEDIA_CACHE = 'media-1830124539198259';
 
   const APP_SHELL_FILES = [
     './',
@@ -20,7 +20,9 @@
     './manifest.webmanifest',
   ];
 
-  const MEDIA_FILES = [    '1tuner.com.webp',
+  const MEDIA_FILES = [    'free.upscaler.video.webp',
+    'free.upscaler.video-dark.webp',
+    '1tuner.com.webp',
     '1tuner.com-dark.webp',
     'activerecall.com!login.html.webp',
     'activerecall.com!login.html-dark.webp',
@@ -30,14 +32,14 @@
     'animator.expressive.app-dark.webp',
     'app.ampedstudio.com.webp',
     'app.ampedstudio.com-dark.webp',
-    'app.color.io.webp',
-    'app.color.io-dark.webp',
     'app.cosee.com.webp',
     'app.cosee.com-dark.webp',
     'app.diagrams.net.webp',
     'app.diagrams.net-dark.webp',
     'app.element.io!!welcome.webp',
     'app.element.io!!welcome-dark.webp',
+    'app.examduler.ingstudios.dev.webp',
+    'app.examduler.ingstudios.dev-dark.webp',
     'app.getwavecake.com!dashboard!demo.webp',
     'app.getwavecake.com!dashboard!demo-dark.webp',
     'app.photoroom.com.webp',
@@ -60,8 +62,6 @@
     'apps.microsoft.com!store!detail!mammoth!9NRFT6SLGBMK-dark.webp',
     'apps.tibbo.com.webp',
     'apps.tibbo.com-dark.webp',
-    'artclass.site.webp',
-    'artclass.site-dark.webp',
     'audiomass.co.webp',
     'audiomass.co-dark.webp',
     'avg-colour.netlify.app.webp',
@@ -92,6 +92,8 @@
     'case.xchart.com-dark.webp',
     'chiptune.app.webp',
     'chiptune.app-dark.webp',
+    'chrome-ai-app.vercel.app.webp',
+    'chrome-ai-app.vercel.app-dark.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi.webp',
     'chrome.google.com!webstore!detail!croskeys-by-crosexperts!akiaafoeijpibmbbfaebhkhccepbdgfi-dark.webp',
     'chromewebstore.google.com!detail!codespinai-chat!mipjjdhkhdfggajnociccilimkhophpa.webp',
@@ -298,8 +300,6 @@
     'natto.dev-dark.webp',
     'nfctools.net.webp',
     'nfctools.net-dark.webp',
-    'noctura.tech.webp',
-    'noctura.tech-dark.webp',
     'notepad.js.org.webp',
     'notepad.js.org-dark.webp',
     'observablehq.com.webp',
@@ -346,8 +346,6 @@
     'pokedex.org-dark.webp',
     'pokemon-as-a-service.web.app.webp',
     'pokemon-as-a-service.web.app-dark.webp',
-    'poketune.vercel.app.webp',
-    'poketune.vercel.app-dark.webp',
     'postr.me.webp',
     'postr.me-dark.webp',
     'ppg.report.webp',
@@ -370,8 +368,6 @@
     'raverie-us.github.io!raverie-engine-dark.webp',
     'readonly.link!editor.webp',
     'readonly.link!editor-dark.webp',
-    'readyplayer.me!avatar.webp',
-    'readyplayer.me!avatar-dark.webp',
     'recipemate.app.webp',
     'recipemate.app-dark.webp',
     'regex101.com.webp',
@@ -384,8 +380,8 @@
     'ruby.rubynetwork.co-dark.webp',
     'scrapbook-pwa.web.app.webp',
     'scrapbook-pwa.web.app-dark.webp',
-    'semaphore.social.webp',
-    'semaphore.social-dark.webp',
+    'semaphore-social.vercel.app.webp',
+    'semaphore-social.vercel.app-dark.webp',
     'sepia-framework.github.io!app!index.html.webp',
     'sepia-framework.github.io!app!index.html-dark.webp',
     'sharedgametimer.com.webp',
@@ -556,12 +552,8 @@
     'fotor.com!photo-editor-app!editor!basic-dark.webp',
     'globs.design.webp',
     'globs.design-dark.webp',
-    'hypertext.plus!editor.webp',
-    'hypertext.plus!editor-dark.webp',
     'improv-wifi.com.webp',
     'improv-wifi.com-dark.webp',
-    'indianradio.in.webp',
-    'indianradio.in-dark.webp',
     'instagram.com.webp',
     'instagram.com-dark.webp',
     'irccloud.com.webp',
@@ -630,8 +622,6 @@
     'yakuneba-community.com!welcome!YwAnWZXanuD7QckXWJwd-dark.webp',
     'yt-playlist-notifier.web.app.webp',
     'yt-playlist-notifier.web.app-dark.webp',
-    'ytaud.io.webp',
-    'ytaud.io-dark.webp',
     'zxmushroom63.github.io!synthetic-audio.webp',
     'zxmushroom63.github.io!synthetic-audio-dark.webp'
   ];
