@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-4841206581117149';
-  const MEDIA_CACHE = 'media-4841206581117149';
+  const APP_SHELL_CACHE = 'app-shell-3648217860503866';
+  const MEDIA_CACHE = 'media-3648217860503866';
 
   const APP_SHELL_FILES = [
     './',
@@ -26,8 +26,6 @@
     '1tuner.com-dark.webp',
     'activerecall.com!login.html.webp',
     'activerecall.com!login.html-dark.webp',
-    'aistudio-preprod.corp.google.com.webp',
-    'aistudio-preprod.corp.google.com-dark.webp',
     'anaesthetics.app!bluetooth.webp',
     'anaesthetics.app!bluetooth-dark.webp',
     'animator.expressive.app.webp',
