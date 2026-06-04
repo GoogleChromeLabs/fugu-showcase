@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-592783699405058';
-  const MEDIA_CACHE = 'media-592783699405058';
+  const APP_SHELL_CACHE = 'app-shell-4841206581117149';
+  const MEDIA_CACHE = 'media-4841206581117149';
 
   const APP_SHELL_FILES = [
     './',
@@ -26,12 +26,16 @@
     '1tuner.com-dark.webp',
     'activerecall.com!login.html.webp',
     'activerecall.com!login.html-dark.webp',
+    'aistudio-preprod.corp.google.com.webp',
+    'aistudio-preprod.corp.google.com-dark.webp',
     'anaesthetics.app!bluetooth.webp',
     'anaesthetics.app!bluetooth-dark.webp',
     'animator.expressive.app.webp',
     'animator.expressive.app-dark.webp',
     'app.ampedstudio.com.webp',
     'app.ampedstudio.com-dark.webp',
+    'app.betaflight.com.webp',
+    'app.betaflight.com-dark.webp',
     'app.cosee.com.webp',
     'app.cosee.com-dark.webp',
     'app.diagrams.net.webp',
@@ -62,6 +66,8 @@
     'apps.microsoft.com!store!detail!mammoth!9NRFT6SLGBMK-dark.webp',
     'apps.tibbo.com.webp',
     'apps.tibbo.com-dark.webp',
+    'apps.usw2.pure.cloud!crm!webrtc.html.webp',
+    'apps.usw2.pure.cloud!crm!webrtc.html-dark.webp',
     'audiomass.co.webp',
     'audiomass.co-dark.webp',
     'avg-colour.netlify.app.webp',
@@ -76,6 +82,8 @@
     'bluetooth.rocks-dark.webp',
     'boardgamearena.com.webp',
     'boardgamearena.com-dark.webp',
+    'bora-waves.com.webp',
+    'bora-waves.com-dark.webp',
     'boxy-svg.com!app.webp',
     'boxy-svg.com!app-dark.webp',
     'bpmtech.no.webp',
@@ -134,6 +142,8 @@
     'docs.qq.com!desktop-dark.webp',
     'dotbigbang.com.webp',
     'dotbigbang.com-dark.webp',
+    'dualshock-tools.github.io.webp',
+    'dualshock-tools.github.io-dark.webp',
     'duino.app.webp',
     'duino.app-dark.webp',
     'dustinbrett.com.webp',
@@ -194,6 +204,8 @@
     'grapheneos.org!install!webflashing-factory-images-dark.webp',
     'graphicalanalysis.app.webp',
     'graphicalanalysis.app-dark.webp',
+    'graphicalanalysis.app.webp',
+    'graphicalanalysis.app-dark.webp',
     'graphtoy.com.webp',
     'graphtoy.com-dark.webp',
     'h5.topwargame.com!h5game!index.html.webp',
@@ -204,6 +216,8 @@
     'heritagein.info-dark.webp',
     'hexed.it.webp',
     'hexed.it-dark.webp',
+    'hinotes.hidock.com.webp',
+    'hinotes.hidock.com-dark.webp',
     'hoppscotch.io.webp',
     'hoppscotch.io-dark.webp',
     'hoten.cc!zc!play.webp',
@@ -378,6 +392,8 @@
     'roland50.studio-dark.webp',
     'ruby.rubynetwork.co.webp',
     'ruby.rubynetwork.co-dark.webp',
+    'sayodevice.com.webp',
+    'sayodevice.com-dark.webp',
     'scrapbook-pwa.web.app.webp',
     'scrapbook-pwa.web.app-dark.webp',
     'semaphore-social.vercel.app.webp',
