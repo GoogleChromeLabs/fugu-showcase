@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-3648217860503866';
-  const MEDIA_CACHE = 'media-3648217860503866';
+  const APP_SHELL_CACHE = 'app-shell-11204505961791478';
+  const MEDIA_CACHE = 'media-11204505961791478';
 
   const APP_SHELL_FILES = [
     './',
@@ -26,6 +26,8 @@
     '1tuner.com-dark.webp',
     'activerecall.com!login.html.webp',
     'activerecall.com!login.html-dark.webp',
+    'ai-solutions.cv.webp',
+    'ai-solutions.cv-dark.webp',
     'anaesthetics.app!bluetooth.webp',
     'anaesthetics.app!bluetooth-dark.webp',
     'animator.expressive.app.webp',
@@ -202,8 +204,6 @@
     'grapheneos.org!install!webflashing-factory-images-dark.webp',
     'graphicalanalysis.app.webp',
     'graphicalanalysis.app-dark.webp',
-    'graphicalanalysis.app.webp',
-    'graphicalanalysis.app-dark.webp',
     'graphtoy.com.webp',
     'graphtoy.com-dark.webp',
     'h5.topwargame.com!h5game!index.html.webp',
@@ -244,6 +244,8 @@
     'learningmusic.ableton.com-dark.webp',
     'learningsynths.ableton.com.webp',
     'learningsynths.ableton.com-dark.webp',
+    'lensup.ai!cam-scanner.webp',
+    'lensup.ai!cam-scanner-dark.webp',
     'leonidasesteban.com.webp',
     'leonidasesteban.com-dark.webp',
     'lichess.org.webp',
@@ -296,6 +298,8 @@
     'microsoftedge.github.io!Demos!pwamp-dark.webp',
     'microsoftedge.github.io!Demos!wami.webp',
     'microsoftedge.github.io!Demos!wami-dark.webp',
+    'miracue.app.webp',
+    'miracue.app-dark.webp',
     'mishipay.shop.webp',
     'mishipay.shop-dark.webp',
     'momo.mometic.com.webp',
@@ -376,6 +380,8 @@
     'radio-house.app-dark.webp',
     'radio.garden.webp',
     'radio.garden-dark.webp',
+    'randomtyms.github.io.webp',
+    'randomtyms.github.io-dark.webp',
     'raverie-us.github.io!raverie-engine.webp',
     'raverie-us.github.io!raverie-engine-dark.webp',
     'readonly.link!editor.webp',
@@ -552,10 +558,10 @@
     'contactsdirect.com-dark.webp',
     'crazygames.com.webp',
     'crazygames.com-dark.webp',
-    'crazygames.com.webp',
-    'crazygames.com-dark.webp',
     'descript.com.webp',
     'descript.com-dark.webp',
+    'droidfiletransfer.com.webp',
+    'droidfiletransfer.com-dark.webp',
     'duolingo.com.webp',
     'duolingo.com-dark.webp',
     'espruino.com!ide.webp',
@@ -564,6 +570,8 @@
     'figma.com-dark.webp',
     'fotor.com!photo-editor-app!editor!basic.webp',
     'fotor.com!photo-editor-app!editor!basic-dark.webp',
+    'framecompose.com.webp',
+    'framecompose.com-dark.webp',
     'globs.design.webp',
     'globs.design-dark.webp',
     'improv-wifi.com.webp',

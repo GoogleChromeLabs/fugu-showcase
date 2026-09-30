@@ -1,16 +1,17 @@
 # Project Fugu API Showcase
 
 The
-[Project Fugu API Showcase](https://googlechromelabs.github.io/fugu-showcase/data/) is
-a collection of apps that make use of APIs that were conceived in the context of
-Project Fugu.
+[Project Fugu API Showcase](https://googlechromelabs.github.io/fugu-showcase/data/)
+is a collection of apps that make use of APIs that were conceived in the context
+of Project Fugu.
 
 ## Data flow
 
 1. Community members submit their apps to the showcase via this
    [anonymous form](https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform)
    (Project Fugu team members can
-   [edit form](https://docs.google.com/forms/d/1jepNYg6P7zt1AyP9tOgqSY5MHCmBZcik7zzOhwtbUxc/edit)). (**Update: ** The form was closed due to excessive spamming.)
+   [edit form](https://docs.google.com/forms/d/1jepNYg6P7zt1AyP9tOgqSY5MHCmBZcik7zzOhwtbUxc/edit)).
+   (**Update: ** The form was closed due to excessive spamming.)
 1. Form responses land in this world-readable
    [spreadsheet](https://docs.google.com/spreadsheets/d/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/edit?usp=sharing).
    The form is moderated by members of Chrome's Project Fugu team.
