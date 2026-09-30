@@ -10,7 +10,7 @@ Project Fugu.
 1. Community members submit their apps to the showcase via this
    [anonymous form](https://docs.google.com/forms/d/e/1FAIpQLScNd1rClbmFWh6FcMmjUNrwg9RLz8Jk4BkHz_-EOpmkVd_-9g/viewform)
    (Project Fugu team members can
-   [edit form](https://docs.google.com/forms/d/1jepNYg6P7zt1AyP9tOgqSY5MHCmBZcik7zzOhwtbUxc/edit)).
+   [edit form](https://docs.google.com/forms/d/1jepNYg6P7zt1AyP9tOgqSY5MHCmBZcik7zzOhwtbUxc/edit)). (**Update: ** The form was closed due to excessive spamming.)
 1. Form responses land in this world-readable
    [spreadsheet](https://docs.google.com/spreadsheets/d/1S_Apr0HavFCO7H9hKcRjIUrgoT7MFRg4uBm7aWSoaYo/edit?usp=sharing).
    The form is moderated by members of Chrome's Project Fugu team.
@@ -20,8 +20,6 @@ Project Fugu.
    output data in the [`data/`](./data) folder. Screenshots and app metadata are
    dynamically generated based on the live apps.
 1. The whole repository is published to GitHub Pages.
-1. The file [`data/index.html`](./data/index.html) is embedded as an iframe on
-   [`GoogleChrome/developer.chrome.com/site/en/blog/fugu-showcase/index.md`](https://github.com/GoogleChrome/developer.chrome.com//blob/main/site/en/blog/fugu-showcase/index.md).
 
 ## Contributing
 
