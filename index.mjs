@@ -47,7 +47,8 @@ const SCREENSHOT_OPTIONS = {
 };
 
 const CANONICAL_URL = 'https://googlechromelabs.github.io/fugu-showcase/data/';
-const EMBED_URL = 'https://developer.chrome.com/blog/fugu-showcase/';
+const EMBED_URL =
+  'https://developer.chrome.com/docs/capabilities/fugu-showcase';
 
 // Make sure file names don't include `#`.
 const fileNamifyURL = (url) => {

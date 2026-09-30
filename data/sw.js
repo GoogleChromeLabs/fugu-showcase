@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-11204505961791478';
-  const MEDIA_CACHE = 'media-11204505961791478';
+  const APP_SHELL_CACHE = 'app-shell-770792911422251';
+  const MEDIA_CACHE = 'media-770792911422251';
 
   const APP_SHELL_FILES = [
     './',
@@ -36,8 +36,6 @@
     'app.ampedstudio.com-dark.webp',
     'app.betaflight.com.webp',
     'app.betaflight.com-dark.webp',
-    'app.cosee.com.webp',
-    'app.cosee.com-dark.webp',
     'app.diagrams.net.webp',
     'app.diagrams.net-dark.webp',
     'app.element.io!!welcome.webp',
@@ -76,8 +74,6 @@
     'bangle.io-dark.webp',
     'bitmidi.com.webp',
     'bitmidi.com-dark.webp',
-    'blob.city.webp',
-    'blob.city-dark.webp',
     'bluetooth.rocks.webp',
     'bluetooth.rocks-dark.webp',
     'boardgamearena.com.webp',
@@ -162,8 +158,8 @@
     'editor.gdevelop.io-dark.webp',
     'editor.godotengine.org!releases!latest.webp',
     'editor.godotengine.org!releases!latest-dark.webp',
-    'editor.graphite.rs.webp',
-    'editor.graphite.rs-dark.webp',
+    'editor.graphite.art.webp',
+    'editor.graphite.art-dark.webp',
     'editor.kota-yata.com.webp',
     'editor.kota-yata.com-dark.webp',
     'elk.zone.webp',
@@ -386,8 +382,6 @@
     'raverie-us.github.io!raverie-engine-dark.webp',
     'readonly.link!editor.webp',
     'readonly.link!editor-dark.webp',
-    'recipemate.app.webp',
-    'recipemate.app-dark.webp',
     'regex101.com.webp',
     'regex101.com-dark.webp',
     'remap-keys.app.webp',
