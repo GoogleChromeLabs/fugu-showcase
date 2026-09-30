@@ -1,11 +1,9 @@
 # Project Fugu API Showcase
 
 The
-[Project Fugu API Showcase](https://developer.chrome.com/blog/fugu-showcase/) is
+[Project Fugu API Showcase](https://googlechromelabs.github.io/fugu-showcase/data/) is
 a collection of apps that make use of APIs that were conceived in the context of
 Project Fugu.
-
-![Project Fugu API Showcase](https://user-images.githubusercontent.com/145676/166227856-49ec9d9f-ff68-4c68-9c15-a01b192483f5.png)
 
 ## Data flow
 
