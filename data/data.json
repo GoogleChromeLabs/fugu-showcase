@@ -11088,29 +11088,6 @@
     "description": "Full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites."
   },
   {
-    "timestamp": "2023-01-18T08:34:00.000Z",
-    "appURL": "https://stadia.google.com/controller/",
-    "sourceURL": null,
-    "usedAPIs": [
-      {
-        "name": "WebHID",
-        "url": "https://web.dev/hid/"
-      },
-      {
-        "name": "WebUSB",
-        "url": "https://web.dev/usb/"
-      }
-    ],
-    "isElectronApp": false,
-    "screenshot": "stadia.google.com!controller.webp",
-    "screenshotSize": 4568,
-    "screenshotDark": "stadia.google.com!controller-dark.webp",
-    "screenshotDarkSize": 4568,
-    "meta": {},
-    "title": "stadia.google.com",
-    "description": ""
-  },
-  {
     "timestamp": "2022-04-26T03:33:16.000Z",
     "appURL": "https://stedit.app/",
     "sourceURL": "https://github.com/Offroaders123/Smart-Text-Editor",
