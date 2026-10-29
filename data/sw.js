@@ -11,8 +11,8 @@
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
-  const APP_SHELL_CACHE = 'app-shell-21970432548696295';
-  const MEDIA_CACHE = 'media-21970432548696295';
+  const APP_SHELL_CACHE = 'app-shell-07405022479309031';
+  const MEDIA_CACHE = 'media-07405022479309031';
 
   const APP_SHELL_FILES = [
     './',
@@ -158,8 +158,6 @@
     'editor.gdevelop.io-dark.webp',
     'editor.godotengine.org!releases!latest.webp',
     'editor.godotengine.org!releases!latest-dark.webp',
-    'editor.graphite.art.webp',
-    'editor.graphite.art-dark.webp',
     'editor.kota-yata.com.webp',
     'editor.kota-yata.com-dark.webp',
     'elk.zone.webp',
@@ -196,6 +194,8 @@
     'gltf.report-dark.webp',
     'goldwave.com!editor.webp',
     'goldwave.com!editor-dark.webp',
+    'googlechrome.github.io!samples!scrapbook-pwa.webp',
+    'googlechrome.github.io!samples!scrapbook-pwa-dark.webp',
     'grapheneos.org!install!webflashing-factory-images.webp',
     'grapheneos.org!install!webflashing-factory-images-dark.webp',
     'graphicalanalysis.app.webp',
@@ -380,8 +380,6 @@
     'randomtyms.github.io-dark.webp',
     'raverie-us.github.io!raverie-engine.webp',
     'raverie-us.github.io!raverie-engine-dark.webp',
-    'readonly.link!editor.webp',
-    'readonly.link!editor-dark.webp',
     'regex101.com.webp',
     'regex101.com-dark.webp',
     'remap-keys.app.webp',
@@ -392,8 +390,6 @@
     'ruby.rubynetwork.co-dark.webp',
     'sayodevice.com.webp',
     'sayodevice.com-dark.webp',
-    'scrapbook-pwa.web.app.webp',
-    'scrapbook-pwa.web.app-dark.webp',
     'semaphore-social.vercel.app.webp',
     'semaphore-social.vercel.app-dark.webp',
     'sepia-framework.github.io!app!index.html.webp',
@@ -448,8 +444,6 @@
     'symbol.wtf-dark.webp',
     'tasmota.github.io!install.webp',
     'tasmota.github.io!install-dark.webp',
-    'teenage.engineering!apps!drum-utility.webp',
-    'teenage.engineering!apps!drum-utility-dark.webp',
     'tgstorage.com.webp',
     'tgstorage.com-dark.webp',
     'thelogbook.app.webp',
@@ -472,8 +466,6 @@
     'toot.cafe-dark.webp',
     'traintimes.org.uk.webp',
     'traintimes.org.uk-dark.webp',
-    'trovo.live.webp',
-    'trovo.live-dark.webp',
     'twitter.com.webp',
     'twitter.com-dark.webp',
     'tylify.app.webp',
