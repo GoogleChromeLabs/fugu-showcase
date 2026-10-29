@@ -13,7 +13,7 @@
 
 import path from 'path';
 import fetch from 'node-fetch';
-import { writeFile } from 'fs/promises';
+import { rm, writeFile } from 'fs/promises';
 import captureWebsite from 'capture-website';
 import filenamifyUrl from 'filenamify-url';
 import sharp from 'sharp';
@@ -53,6 +53,30 @@ const EMBED_URL =
 // Make sure file names don't include `#`.
 const fileNamifyURL = (url) => {
   return filenamifyUrl(url).replace(/#/g, '');
+};
+
+// Some pages make `captureWebsite.buffer()` hang forever, so give up on them
+// after `CAPTURE_TIMEOUT` and kill the browser that is stuck on them.
+const CAPTURE_TIMEOUT = 2 * 60 * 1000;
+
+const captureWithTimeout = (url, options) => {
+  let browser;
+  let timer;
+  const timeout = new Promise((_, reject) => {
+    timer = setTimeout(() => {
+      browser?.process()?.kill();
+      reject(new Error(`Timed out after ${CAPTURE_TIMEOUT / 1000} seconds.`));
+    }, CAPTURE_TIMEOUT);
+  });
+  return Promise.race([
+    captureWebsite.buffer(url, {
+      ...options,
+      beforeScreenshot: (page, b) => {
+        browser = b;
+      },
+    }),
+    timeout,
+  ]).finally(() => clearTimeout(timer));
 };
 
 const createRawData = async () => {
@@ -101,8 +125,11 @@ const createScreenshots = async (data, overrideType = null) => {
       if (SKIP_SCREENSHOTS) {
         return;
       }
-      return captureWebsite
-        .buffer(url, SCREENSHOT_OPTIONS)
+      const fail = (err) => {
+        console.error('❌', url, err.name, err.message);
+        data[i % length].screenshotFailed = true;
+      };
+      return captureWithTimeout(url, SCREENSHOT_OPTIONS)
         .then((buffer) => {
           if (!overrideType) {
             return sharp(buffer)
@@ -124,7 +151,7 @@ const createScreenshots = async (data, overrideType = null) => {
                   console.log(`✅ Successfully created \`${filename}\`.`),
                 );
               })
-              .catch((err) => console.error('❌', url, err.name, err.message));
+              .catch(fail);
           }
           if (!SCREENSHOT_OPTIONS.darkMode) {
             data[i].screenshotSize = buffer.byteLength;
@@ -135,7 +162,7 @@ const createScreenshots = async (data, overrideType = null) => {
             console.log(`✅ Successfully created \`${filename}\`.`),
           );
         })
-        .catch((err) => console.error('❌', url, err.name, err.message));
+        .catch(fail);
     };
   });
   await limit(tasks, 5);
@@ -656,9 +683,29 @@ const createWebManifest = async () => {
     ],
     'png',
   );
+  // Leave out apps with a failed light or dark screenshot, and delete the
+  // screenshot that did get created, so the page shows no broken images.
+  const failed = data.filter((item) => item.screenshotFailed);
+  await Promise.all(
+    failed.map((item) => {
+      console.log(`🗑️ Removing \`${item.appURL}\` from the showcase.`);
+      return Promise.all(
+        [item.screenshot, item.screenshotDark].map((filename) =>
+          rm(path.resolve('data', filename), { force: true }),
+        ),
+      );
+    }),
+  );
+  const apps = data.filter((item) => !item.screenshotFailed);
   await Promise.all([
-    createHTMLandJSON(data),
-    createServiceWorker(data),
+    createHTMLandJSON(apps),
+    createServiceWorker(apps),
     createWebManifest(),
   ]);
+  if (failed.length) {
+    console.log(
+      `\n❌ ${failed.length} entries left out because a screenshot failed:\n` +
+        failed.map((item) => `   ${item.appURL}`).join('\n'),
+    );
+  }
 })();
